@@ -1,0 +1,135 @@
+Entre vel. model header file: 
+Entre com a posicao da fonte (zs,xs) : 
+Entre com a posicao do geofone (zs,xs) : 
+Entre freq. pico do pulso fonte: 
+Entre tempo total de modelagem: 
+Entre arquivo de saida (.su): 
+Entre vel. model header file: homog.hdr
+Entre com a posicao da fonte (zs,xs) :   250.000000 4500.000000
+Entre com a posicao do geofone (zs,xs) :  1250.000000 8500.000000
+Entre freq. pico do pulso fonte:    15.000000
+Entre tempo total de modelagem:     3.500000
+Entre arquivo de saida (.su): afd_movie.su
+ alpha =    30.701134573253942     
+ # of time steps  =         4375
+ time interval dt =    8.0000000000000004E-004
+writing snapshot # 00010
+writing snapshot # 00020
+writing snapshot # 00030
+writing snapshot # 00040
+writing snapshot # 00050
+writing snapshot # 00060
+writing snapshot # 00070
+writing snapshot # 00080
+writing snapshot # 00090
+writing snapshot # 00100
+ fd_time =    15.330387274931127     
+ swap_time =    4.7041396464919671E-004
+Entre vel. model header file: 
+Entre com a posicao da fonte (zs,xs) : 
+Entre com a posicao do geofone (zs,xs) : 
+Entre freq. pico do pulso fonte: 
+Entre tempo total de modelagem: 
+Entre arquivo de saida (.su): 
+Entre vel. model header file: homog.hdr
+Entre com a posicao da fonte (zs,xs) :   250.000000 4500.000000
+Entre com a posicao do geofone (zs,xs) :  1250.000000 8500.000000
+Entre freq. pico do pulso fonte:    15.000000
+Entre tempo total de modelagem:     3.500000
+Entre arquivo de saida (.su): afd_movie.su
+ alpha =    30.701134573253942     
+ # of time steps  =         4375
+ time interval dt =    8.0000000000000004E-004
+writing snapshot # 00010
+writing snapshot # 00020
+writing snapshot # 00030
+writing snapshot # 00040
+writing snapshot # 00050
+writing snapshot # 00060
+writing snapshot # 00070
+writing snapshot # 00080
+writing snapshot # 00090
+writing snapshot # 00100
+ fd_time =    17.255742043285863     
+ swap_time =    4.8711504496168345E-004
+Entre vel. model header file: 
+Entre com a posicao da fonte (zs,xs) : 
+Entre com a posicao do geofone (zs,xs) : 
+Entre freq. pico do pulso fonte: 
+Entre tempo total de modelagem: 
+Entre arquivo de saida (.su): 
+Entre vel. model header file: homog.hdr
+Entre com a posicao da fonte (zs,xs) :   250.000000 4500.000000
+Entre com a posicao do geofone (zs,xs) :  1250.000000 8500.000000
+Entre freq. pico do pulso fonte:    15.000000
+Entre tempo total de modelagem:     3.500000
+Entre arquivo de saida (.su): afd_movie.su
+ alpha =    30.701134573253942     
+ # of time steps  =         4375
+ time interval dt =    8.0000000000000004E-004
+writing snapshot # 00010
+writing snapshot # 00020
+writing snapshot # 00030
+writing snapshot # 00040
+writing snapshot # 00050
+writing snapshot # 00060
+writing snapshot # 00070
+writing snapshot # 00080
+writing snapshot # 00090
+writing snapshot # 00100
+ fd_time =    18.898553778824862     
+ swap_time =    6.4515400299569592E-004
+Entre vel. model header file: 
+Entre com a posicao da fonte (zs,xs) : 
+Entre com a posicao do geofone (zs,xs) : 
+Entre freq. pico do pulso fonte: 
+Entre tempo total de modelagem: 
+Entre arquivo de saida (.su): 
+Entre vel. model header file: homog.hdr
+Entre com a posicao da fonte (zs,xs) :   250.000000 4500.000000
+Entre com a posicao do geofone (zs,xs) :  1250.000000 8500.000000
+Entre freq. pico do pulso fonte:    15.000000
+Entre tempo total de modelagem:     3.500000
+Entre arquivo de saida (.su): afd_movie.su
+ alpha =    30.701134573253942     
+ # of time steps  =         4375
+ time interval dt =    8.0000000000000004E-004
+writing snapshot # 00010
+writing snapshot # 00020
+writing snapshot # 00030
+writing snapshot # 00040
+writing snapshot # 00050
+writing snapshot # 00060
+writing snapshot # 00070
+writing snapshot # 00080
+writing snapshot # 00090
+writing snapshot # 00100
+ fd_time =    17.708318599419727     
+ swap_time =    6.3107132154982537E-004
+Entre vel. model header file: 
+Entre com a posicao da fonte (zs,xs) : 
+Entre com a posicao do geofone (zs,xs) : 
+Entre freq. pico do pulso fonte: 
+Entre tempo total de modelagem: 
+Entre arquivo de saida (.su): 
+Entre vel. model header file: homog.hdr
+Entre com a posicao da fonte (zs,xs) :   250.000000 4500.000000
+Entre com a posicao do geofone (zs,xs) :  1250.000000 8500.000000
+Entre freq. pico do pulso fonte:    15.000000
+Entre tempo total de modelagem:     3.500000
+Entre arquivo de saida (.su): afd_movie.su
+ alpha =    30.701134573253942     
+ # of time steps  =         4375
+ time interval dt =    8.0000000000000004E-004
+writing snapshot # 00010
+writing snapshot # 00020
+writing snapshot # 00030
+writing snapshot # 00040
+writing snapshot # 00050
+writing snapshot # 00060
+writing snapshot # 00070
+writing snapshot # 00080
+writing snapshot # 00090
+writing snapshot # 00100
+ fd_time =    16.679953384875262     
+ swap_time =    4.9370881606591865E-004

@@ -1,0 +1,7 @@
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Motivation}{3}{0}{1}
+\beamer@sectionintoc {2}{Theory}{5}{0}{2}
+\beamer@sectionintoc {3}{Implementation}{7}{0}{3}
+\beamer@subsectionintoc {3}{1}{Fast-sweeping method}{7}{0}{3}
+\beamer@sectionintoc {4}{Exemples}{13}{0}{4}
+\beamer@subsectionintoc {4}{1}{Gradient calculation}{13}{0}{4}

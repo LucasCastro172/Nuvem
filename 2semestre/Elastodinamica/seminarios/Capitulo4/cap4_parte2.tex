@@ -1,0 +1,276 @@
+\documentclass{beamer}
+
+\mode<presentation> {
+\usetheme{Madrid}
+%\usecolortheme{whale}
+}
+\RequirePackage{epsfig}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs}
+\usepackage{amsmath}% A
+\usepackage{bm}
+\usepackage{xcolor}
+\usepackage{subfigure}
+\usepackage{gensymb}
+\usepackage{tikz}
+\usepackage[document]{ragged2e}
+\usetikzlibrary{shapes,backgrounds}
+\graphicspath{{figures/}}
+\usepackage{amsmath,amssymb}
+
+\newcommand{\nvec}{\vc{n}}
+\newcommand{\xvec}{\vc{x}}
+\newcommand{\evec}{\vc{e}}
+\newcommand{\vvec}{\vc{v}}
+\newcommand{\mvec}{\vc{m}}
+\newcommand{\uvec}{\vc{u}}
+\newcommand{\fvec}{\vc{f}}
+\newcommand{\zvec}{\vc{0}}
+\newcommand{\Psivec}{\vc{ \Psi}}
+\newcommand{\xivec}{\boldmath \xi}
+
+
+
+% Define block styles
+\tikzstyle{block} = [rectangle, draw, fill=white, 
+text width=6em, text centered, rounded corners, node distance=2cm, minimum height=2em]
+\tikzstyle{line} = [draw, -latex]
+\tikzstyle{cloud} = [draw, ellipse,fill=white, node distance=2cm,
+minimum height=2em]
+
+
+\title[Seminário]{Ondas elásticas em um meio homogêneo, isotrópico e ilimitado} % The short title appears at the bottom of every slide, the full title is only on the title page
+\input{macro.tex}
+
+\author{} % Your name
+\institute[UFPA] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
+{
+	Professor: Jessé Costa\\
+Universidade Federal do Pará \\ % Your institution for the title page
+\medskip
+ % Your email address
+}
+\date{\today} % Date
+
+\setbeamercovered{transparent}
+
+\AtBeginSection[]{
+\begin{frame}
+\frametitle{Sumário}
+ \tableofcontents[currentsection]
+\end{frame}
+}
+
+
+
+\begin{document}
+ \begin{frame}
+\begin{figure}[htb]
+\centering
+\includegraphics[width= 2cm, height= 2.5cm]{logo.jpg}
+\end{figure}
+
+\titlepage
+\end{frame}
+
+
+
+%%%%%%%%%%%%%%%%Lucas%%%%%%%%%%%%%%%%%%
+\section{Propriedades do \textit{far-field}}
+
+\begin{frame}
+	\frametitle{\textbf{Solu\c{c}\~ao para a fun\c{c}\~ao de Green em um meio homog\^eneo, isotr\'opico e ilimitado}}
+	
+	\begin{flushleft}
+		\textbf{Solu\c{c}\~ao de Stokes (1849)}: tomando $X_{0}(t)$ como uma for\c{c}a pontual atuando na dire\c{c}\~ao $x_j$ na origem e usando os co-senos 
+		directores,
+	\end{flushleft}
+	\begin{eqnarray*}
+		\label{ten1}
+		u_i(\xvec,t) &=& X_{0}(t) * G_{ij}(\xvec,t;\xivec,0)\, \\
+		&=&\frac{1}{4\pi\rho} \textcolor{red}{\left(3\gamma_i\gamma_j -\delta_{ij} \right) \frac{1}{r^3}  \int_{ \frac{r }{\alpha}}^{ \frac{r}{\beta}} \tau X_{0}\left( t -\tau \right)  d\tau }\, \\      
+		&+&\frac{1}{4\pi\alpha^2\rho} \textcolor{blue}{\gamma_i\gamma_j\, \frac{1}{r}  X_{0}\left(t - \frac{r}{\alpha} \right) }\, \\
+		&-&\frac{1}{4\pi\beta^2\rho} \textcolor{green}{\left(\gamma_i\gamma_j -\delta_{ij} \right)  \frac{1}{r}  X_{0}\left(t - \frac{r}{\beta} \right) }\, .
+	\end{eqnarray*}
+	\begin{flushleft}
+		\textcolor{red}{Near-field de modo P e S} \hspace{0.5cm}
+		\textcolor{blue}{Far-field de onda P}\hspace{0.5cm}
+		\textcolor{green}{Far-field de onda S}
+	\end{flushleft}
+\end{frame}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%555
+
+%%%%%%%%%%Onda P
+\begin{frame}{Propriedades do \textit{far-field} para onda $P$}
+	Deslocamento $\vc{u}^P$ é dado por
+	$$u_i^P(\vc{x},t)= \frac{1}{4\pi \rho \alpha ^2}\gamma_i\gamma_j\frac{1}{r}X_0\left(t-\frac{r}{\alpha}\right)$$
+\begin{enumerate}
+	\justifying
+\item Atenua com $r^{-1}$; 
+\item Forma da onda;
+\item Propaga com a velocidade $\alpha$($\alpha^2 = (\lambda +2\mu)/\rho$);
+\item Forma da onda de deslocamento;
+\item Direção de deslocamento $\vc{u}^P$ em $\vc{x}$ é paralela a direção $\vc{\gamma}$ da fonte.
+\end{enumerate}
+\end{frame}
+%%%%%%%%%%Onda S
+\begin{frame}{Propriedades do \textit{far-field} para onda $S$}
+	Deslocamento $\vc{u}^S$ é dado por
+	$$u_i^S(\vc{x},t)= \frac{1}{4\pi \rho \beta ^2}(\delta_{ij}-\gamma_i\gamma_j)\frac{1}{r}X_0\left(t-\frac{r}{\beta}\right)$$
+\begin{enumerate}
+	\justifying
+\item Atenua com $r^{-1}$; 
+\item Propaga com a velocidade $\beta$;
+\item Forma da onda de deslocamento;
+\item Direção de deslocamento $\vc{u}^S$ em $\vc{x}$ é perpendicular a direção $\vc{\gamma}$ da fonte.	
+\end{enumerate}
+	
+\end{frame}
+%%%%%%%%%Figura radiação
+\begin{frame}{Padrões de radiação de $\vc{u}^P$ e $\vc{u}^S$}
+		\begin{figure}[htb]
+		\centering
+		\includegraphics[width= 10cm, height= 8cm]{radiacao}
+	\end{figure}
+\end{frame}
+
+\section{Propriedades dos termos do \textit{near-field}}
+%%%%%%%%%%%%%%%%Amanda%%%%%%%%%%%%%%%%%
+\begin{frame}
+	
+	\frametitle {Propriedades dos termos do Near-Field}
+	
+	\pause
+	\begin{itemize}
+		\item Definimos o campo de deslocamento próximo $u^{N}$ por:
+	\end{itemize}
+	
+	\begin{equation}
+	u_{i}^{N}(x,t)= \frac{1}{4\pi\rho}(3\gamma_{i}\gamma_{j}-\delta_{ij})\frac{1}{r^{3}} \int_{r/\alpha}^{r/\beta} \tau X_{0}(t-\tau) \,d\tau\ .
+	\end{equation}
+	
+	\pause
+	
+	\begin{itemize}
+		\item Polarizaçao da onda
+	\end{itemize}
+	\begin{center}
+		\begin{equation}
+		\dfrac{\partial^{2}}{\partial x_{i}x{j}}\frac{1}{r}=\frac{2}{r^{3}}\gamma_{i}\gamma_{j}-\frac{1}{r^{2}}\dfrac{\partial}{x_{i}}\left(\frac{x_{j}-\xi_{j}}{r} \right)= \frac{(3\gamma_{i}\gamma_{j}-\delta_{ij})}{r^{3}}
+		\end{equation}
+		
+	\end{center}
+	
+	\begin{itemize}
+		
+		\pause
+		\item Representação da combinação de onda-P e onda- S
+		
+		
+		\begin{equation}
+		(3\gamma_{i}\gamma_{j}-\delta_{ij})=\textcolor{cyan}{2\gamma_{i}\gamma_{j}}+ \textcolor{red}{(\gamma_{i}\gamma_{j}-\delta_{ij})}
+		\end{equation}
+		
+	\end{itemize}
+	
+	\begin{itemize}
+		
+		\pause
+		\item 
+		\begin{figure}
+			\includegraphics[scale=1.25]{fig1.png}
+		\end{figure}
+	\end{itemize}
+	
+	
+	
+	
+\end{frame}
+
+\begin{frame}
+	\begin{itemize}
+		\item componente longitudinal
+		
+		\begin{equation}
+		u^{N}.\gamma= \gamma _{j}\frac{1}{2\pi\rho r^{3}}\int_{r/\alpha}^{r/\beta} \tau X_{0}(t-\tau) \,d\tau\ .
+		\end{equation}
+		
+		\item componente transversal
+		\begin{equation}
+		u^{N}.\gamma^{'}= -\gamma^{'} _{j}\frac{1}{4\pi\rho r^{3}}\int_{r/\alpha}^{r/\beta} \tau X_{0}(t-\tau) \,d\tau\ .
+		\end{equation}
+	\end{itemize}
+	
+	
+\end{frame}
+
+\begin{frame}
+	\frametitle {Near-Field (Campos próximos)}
+	\begin{itemize}
+		\item Para o deslocamento Near-Field, não é possível identificar as propriedades simples como nos campos distantes; 
+		\item Podemos identificar o tempo de transito e a duração do deslocamento em um receptor fixo;
+		\item A duração do movimento do campo de deslocamento Near Field é igual a diferença entre os tempos de transitos das ondas P e S mais o termo T.
+	\end{itemize}
+\end{frame}
+
+
+\section{Caso para o tensor de momento}
+
+\begin{frame}{Caso para o tensor de momento}
+	\small
+	\begin{eqnarray}
+	M_{pq} \ast G_{np,q} &=&\textcolor{red}{\left(\frac{15\gamma_n\gamma_p\gamma_q-3\gamma_n\delta_{pq}-3\gamma_p\delta_{nq}-3\gamma_{q}\delta_{np}}{4\pi\rho}\right)\frac{1}{r^4}\int_{r/\alpha}^{r/\beta} \tau M_{pq}(t-\tau) d\tau} \nonumber \\
+	&&+ \textcolor{orange}{\left(\frac{6\gamma_n\gamma_p\gamma_q-\gamma_n\delta_{pq}-\gamma_p\delta_{nq}-\gamma_{q}\delta_{np}}{4\pi\rho\alpha^2}\right)\frac{1}{r^2}M_{pq}\left(t-\frac{r}{\alpha}\right)} \nonumber \\
+	&&-
+	\textcolor{orange}{\left(\frac{6\gamma_n\gamma_p\gamma_q-\gamma_n\delta_{pq}-\gamma_p\delta_{nq}-\gamma_{q}\delta_{np}}{4\pi\rho\beta^2}\right)\frac{1}{r^2}M_{pq}\left(t-\frac{r}{\beta}\right)} \nonumber \\
+	&&+\textcolor{blue}{ \frac{\gamma_n \gamma_p \gamma_q}{4\pi\alpha^3}\frac{1}{r}\dot{M}_{pq}\left(t-\frac{r}{\alpha}\right)}- \textcolor{green}{\left(\frac{\gamma_n\gamma_p-\delta_{np}}{4\pi\beta^3}\right)\gamma_{q}\frac{1}{r}\dot{M}_{pq}\left(t-\frac{r}{\beta}\right)} \nonumber
+	\end{eqnarray}
+	\begin{flushleft}
+		\textcolor{red}{Near-field de modo P e S} \hspace{0.5cm}
+		\textcolor{blue}{Far-field de onda P}\hspace{0.5cm}
+		\textcolor{green}{Far-field de onda S}
+	\end{flushleft}
+	\begin{center}
+		\textcolor{orange}{Termos intermediários}
+	\end{center}
+\end{frame}
+
+\begin{frame}{Para fonte isotrópica}
+	$$M_{pq} = x(t) \delta_{pq} $$
+\begin{eqnarray}
+M_{pq} \ast G_{np,q} &=&\left(\frac{15\gamma_n\gamma_p\gamma_p-15\gamma_n}{4\pi\rho}\right)\frac{1}{r^4}\int_{r/\alpha}^{r/\beta} \tau x(t-\tau) d\tau \nonumber \\
+&&+\left(\frac{6\gamma_n\gamma_p\gamma_p-5\gamma_n}{4\pi\rho\alpha^2}\right)\frac{1}{r^2}x\left(t-\frac{r}{\alpha}\right)  \nonumber \\
+&&-\left(\frac{6\gamma_n\gamma_p\gamma_p-5\gamma_n}{4\pi\rho\beta^2}\right)\frac{1}{r^2}x\left(t-\frac{r}{\beta}\right)
+ \nonumber \\
+&&+\frac{\gamma_n\gamma_p\gamma_p}{4\pi\alpha^3}\frac{1}{r}\dot{x}\left(t-\frac{r}{\alpha}\right)-\frac{\gamma_n\gamma_p\gamma_p-\gamma_n}{4\pi\beta^3}\frac{1}{r}\dot{x}\left(t-\frac{r}{\beta}\right)  \nonumber
+\end{eqnarray}
+	
+\end{frame}
+
+\begin{frame}{Para \textit{Double Couple}}
+	\small
+	$$M_{pq} = x(t) (M_{13}+M_{31}) $$
+\begin{eqnarray}
+M_{pq} \ast G_{np,q} &=&[(15\gamma_n\gamma_1\gamma_3-3\gamma_1\delta_{n3}-3\gamma_3\delta_{n1})+(15\gamma_n\gamma_3\gamma_1-3\gamma_3\delta_{n1}-3\gamma_1\delta_{n3})] \nonumber \\
+&&\frac{1}{r^4}\int_{r/\alpha}^{r/\beta} \tau x(t-\tau) d\tau \nonumber\\
+&&-[(6\gamma_n\gamma_1\gamma_3-\gamma_1\delta_{n3}-\gamma_3\delta_{n1})+(6\gamma_n\gamma_3\gamma_1-\gamma_3\delta_{n1}-\gamma_1\delta_{n3})]  \nonumber \\
+&& \frac{1}{4\pi\rho}\frac{1}{\alpha ^2r^2}x\left(t-\frac{r}{\alpha}\right) \nonumber \\
+&&+[(6\gamma_n\gamma_1\gamma_3-\gamma_1\delta_{n3}-\gamma_3\delta_{n1})+(6\gamma_n\gamma_3\gamma_1-\gamma_3\delta_{n1}-\gamma_1\delta_{n3})]  \nonumber \\
+&& \frac{1}{4\pi\rho}\frac{1}{\beta ^2r^2}x\left(t-\frac{r}{\beta}\right) \nonumber \\
+&&+(\gamma_n\gamma_1\gamma_3+\gamma_n\gamma_3\gamma_1)\frac{1}{4\pi\alpha^3}\frac{1}{r}\dot{x}\left(t-\frac{r}{\alpha}\right) \nonumber \\
+&&-[(\gamma_n\gamma_1-\delta_{n1})\gamma_3+(\gamma_n\gamma_3-\delta_{n3})\gamma_1]\frac{1}{4\pi\beta^3}\frac{1}{r}\dot{x}\left(t-\frac{r}{\beta}\right) \nonumber
+\end{eqnarray}
+
+\end{frame}
+
+\begin{frame}
+	\begin{center}
+		\textbf{{\large Obrigado pela atenção!}}
+	\end{center}
+	
+\end{frame}
+
+
+
+\end{document}

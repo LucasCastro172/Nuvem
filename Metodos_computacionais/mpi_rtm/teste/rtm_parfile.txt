@@ -1,0 +1,10 @@
+# rtm velocity model
+marm_vel_smooth_10m.hdr
+# Ricker pulse peak frequency 
+12
+# input data SU file 
+marmousi_rtm.su
+# output rtm image SU file 
+marm_rtm.su 
+# begin shot, end shot, step 
+1,240,1

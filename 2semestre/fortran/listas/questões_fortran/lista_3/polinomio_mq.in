@@ -1,0 +1,5 @@
+2               ! grau do polinomio.
+20              ! numero de pontos.
+-1.d0 0.d0 1.d0 ! coeficientes
+-2.d0 3.d0      ! intervalo 
+0.25d0           ! amplitude do ruido

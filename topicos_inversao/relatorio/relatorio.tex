@@ -1,0 +1,200 @@
+\documentclass[12pt]{article}
+
+\usepackage[brazilian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amssymb}
+\usepackage{setspace}
+\usepackage{lineno}
+\usepackage{abntex2cite}
+\input{macro.tex}
+%\includegraphics{Figuras/}
+\RequirePackage{amsmath}
+\RequirePackage{graphicx}
+\RequirePackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=2cm]{geometry}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% documento %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\thispagestyle{empty}
+
+ \begin{figure}[!t]
+ 
+  \begin{center}
+   \includegraphics[scale=0.8]{Logo_UFPA.jpg}
+  \end{center}
+
+ \end{figure}
+
+ \begin{center}
+  \large{UNIVERSIDADE FEDERAL DO PARÁ} \\ {INSTITUTO DE GEOCIÊNCIAS} \\ {PROGRAMA DE PÓS-GRADUAÇÃO EM GEOFÍSICA} \\
+  \vspace{2cm}
+  \large{PROFESSOR: JESSÉ CARVALHO COSTA} \\
+  \vspace{2cm}
+  \large{RELATÓRIO 2: DISCIPLINA TÓPICOS DE INVERSÃO} \\
+  \vspace{2cm}
+  \large {\bf {TÍTULO: MÉTODOS DE OTIMIZAÇÃO}} \\
+  \vspace{2cm}
+  \large {ALUNOS: FELIPE  LOUZEIRO, LUCAS DE CASTRO COSTA, MURILLO NASCIMENTO E THYERRE AUGUSTO CARDOSO SAMPAIO} \\
+  \vfill 
+  \large Belém \\ 2022
+ \end{center}
+
+ 
+ \newpage
+ \tableofcontents{}
+ 
+ \newpage
+ \setcounter{page}{1}
+
+\section{OBJETIVOS}
+ 
+ 
+\ \ \ \ \ O objetivo deste relatório é mostrar a eficácia dos métodos de otimização de primeira e segunda ordem, apresentando testes e alterações notáveis. Será analisado quantas iterações serão necessárias para cada método.
+ 
+ 
+ 
+\section{METODOLOGIA}
+\ \ \ \ \ Para a análise dos algoritmos de otimização, foram divididos testes analisando funções e linha de busca para cada método \cite{kochenderfer2019algorithms}. Para os experimentos, serão utilizados três tipos de linhas de busca.
+\subsection{LINHAS DE BUSCA}
+Supondo que escolhemos uma direção de descida \textit{d}, é necessário escolher
+o fator de passo $\alpha$ para obter nosso próximo ponto de projeto. Uma abordagem é usar a pesquisa de linha,
+que seleciona o fator de passo que minimiza a função unidimensional:
+\begin{equation}
+\text{minimize}_{\alpha} f(\vc{x} - \alpha \vc{d}).
+\end{equation}
+
+ A linha de busca é usada para a minimizar uma função a partir de uma direção de descida. Podemos aplicar o busca de linha da nossa escolha. Para informar o que se busca, podemos usar a derivada do objetivo de busca de linha, que é simplesmente o derivada direcional ao longo de $d$ em $\vc{x} - \alpha \vc{d}$.
+
+Para aproximar melhor e ter menos iterações, são utilizadas condições aplicadas nas linhas de busca. Uma dessas é a de diminuição suficiente, representada por:
+\begin{equation}
+f(\vc{x}^{(k+1)}) \leq f(\vc{x}^{(k)}) + \beta\alpha \nabla_{\vc{d}^{(k)}}f(\vc{x}^{(k)}),
+\end{equation}
+sendo $\beta \in [0,1]$, nos nossos testes será utilizado $\beta  = 1 \times 10^{-4}$. Esta condição também é conhecida como condição de Armijo. 
+
+Outra condição que foi utilizada será a de forte curvatura, representada por:
+\begin{equation}
+|\nabla_{\vc{d}^{(k)}}f(\vc{x}^{(k+1)})| \leq  - \sigma \nabla_{\vc{d}^{(k)}}f(\vc{x}^{(k)})
+\end{equation}
+no qual $\sigma$ controla quão superficial deve ser a próxima derivada direcional.
+
+Juntando as duas condições ditas, formam as condições fortes de Wolfe, sendo a de Armijo a primeira, enquanto a de forte curvatura a segunda.
+
+Nos nossos testes, serão utilizadas duas linhas de busca: a primeira sem considerar condições, a busca simples, e a segunda  utilizando as condições fortes de \textit{Wolfe}.
+ 
+
+
+
+\subsection{FUNÇÕES}
+Para os testes dos métodos de otimização, serão utilizadas funções com o intuito de analisar a quantidade de iterações necessárias. Uma das funções utilizadas foi:
+\begin{equation}
+f(\vc{x}) = 3(x_1)^2 + 24(x_2)^2 \label{eq1}
+\end{equation}
+
+Outra das funções que será usada é a de \textit{Rosenbrock} para 6 componentes, como apresentada abaixo:
+\begin{eqnarray}
+f(\vc{x}) &=& b(x_2 - x_1^2)^2+ (a - x_1)^2 + b(x_3 - x_2^2)^2 + (a-x_2)^2 
++ b(x_4 - x_3^2)^2+ (a - x_3)^2 \nonumber\\
+&&+ b(x_5 - x_1^4)^2+ (a - x_4)^2 + b(x_6 - x_1^5)^2+ (a - x_5)^2, \label{eq2}
+\end{eqnarray}
+sendo $a$ e $b$ parâmetros da função definidos como $1$ e $5$, respectivamente.
+ 
+ \section{MÉTODOS DE OTIMIZAÇÃO}
+ Nesta seção, serão avaliados quantas iterações foram necessárias e em cada linha de busca, para saber quais são mais eficazes nas funções apresentadas. Esses testes serão feitos a partir das Equações \ref{eq1} e \ref{eq2}, para facilitar, serão chamadas de primeira e segunda função, respectivamente. Nas duas funções, foram feitos testes com duas linhas de busca: a simples e a com as condições fortes de Wolf. 
+\subsection{MÉTODOS DE PRIMEIRA ORDEM}
+\subsubsection{\textit{STEEPEST DESCENT}}
+Neste método, foi utilizado o máximo de 5000 iterações. Para a primeira função, os resultados são apresentados nas Figuras \ref{fig:steep1f} e \ref{fig:steep2f}. Para a busca com linha simples foram necessárias 966 iterações para chegar próximo do resultado, enquanto que para as condições fortes de Wolf foram 1068 iterações.
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=10cm]{Figuras/Steepest_descent_linef2}
+		\caption{Método de otimização \textit{steepest descent} para a primeira função. Utilizada a linha de busca simples. Nesta função de duas dimensões, o ponto
+			inicial é [1.8, 1.8] e o ponto mínimo [0, 0]. Esse padrão será adotado para todos os casos da primeira função.} 
+	\label{fig:steep1f}
+\end{figure} 
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=10cm]{Figuras/Steepest_descent_wolff2}
+		\caption{Método de otimização \textit{steepest descent} para a primeira função. Utilizada a linha de busca com as condições fortes de Wolf.} 
+	\label{fig:steep2f}
+\end{figure} 
+
+Para a segunda função, os resultados gráficos são apresentados nas Figuras \ref{fig:steep1} e \ref{fig:steep3}. Para a linha de busca simples, foram necessárias 2042 iterações, enquanto para as condições fortes de Wolf foram feitas 1144 para atingir próximo do mínimo. 
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=10cm]{Figuras/Steepest_descent_linef1}
+	\caption{Método de otimização \textit{steepest descent} para a segunda função. Utilizada a linha de busca simples. Neste corte de função de seis	dimensões, o ponto inicial $[-1.7, -1.7, -1.7, -1.7, -1.7, -1.7]$ e o ponto mínimo $[1.0, 1.0, 1.0, 1.0, 1.0, 1.0]$. Este padrão será mantido para todos os casos da segunda função.} 
+	\label{fig:steep1}
+\end{figure} 
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=10cm]{Figuras/Steepest_descent_strongf1}
+	\caption{Método de otimização \textit{steepest descent} para a segunda função. Utilizada a linha de busca com as condições fortes de Wolf.}
+	\label{fig:steep3}
+\end{figure}
+
+
+\subsubsection{\textit{CONJUGATE GRADIENT DESCENT}}
+Neste método, foram repetidas o máximo de 5000 iterações do caso anterior. Nas Figuras \ref{fig:conj1f} e \ref{fig:conj2f} estão representadas o método aplicado para a primeira função. Para a busca de linha simples, foram utilizadas 2459 iterações, enquanto que para o de condições de Wolf foram 152.
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=10cm]{Figuras/Conjugate_gradient_linef2}
+	\caption{Método de otimização \textit{conjugate gradient descent} para a primeira função. Utilizada a linha de busca simples.}
+	\label{fig:conj1f}
+\end{figure} 
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=10cm]{Figuras/Conjugate_gradient_wolff2}
+	\caption{Método de otimização \textit{conjugate gradient descent} para a primeira função. Utilizada a linha de busca com as condições fortes de Wolf.}
+	\label{fig:conj2f}
+\end{figure} 
+
+Para a segunda função, o de busca de linha simples foram necessárias 2783 iterações, enquanto para as condições fortes de Wolf foram 105.
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=10cm]{Figuras/Conjugate_gradient_linef1}
+	\caption{Método de otimização \textit{conjugate gradient descent} para a segunda função. Utilizada a linha de busca simples.}
+	\label{fig:conj1}
+\end{figure} 
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=10cm]{Figuras/Conjugate_gradient_strongf1}
+	\caption{Método de otimização \textit{conjugate gradient descent} para a primeira função. Utilizada a linha de busca com as condições fortes de Wolf.} 
+	\label{fig:conj3}
+\end{figure} 
+\subsection{MÉTODO DE SEGUNDA ORDEM}
+\subsubsection{MÉTODO DE NEWTON} 
+Para este método, foi colocado o máximo de 1000 iterações para avaliar as funções. Na primeira função, foram necessárias a mesma quantidade de iterações da busca simples e da condição forte de Wolf para chegar no resultado esperado, 2 iterações.
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=10cm]{Figuras/Newton_linef2}
+	\caption{Método de otimização de Newton para a primeira função. Utilizada a linha de busca simples.} 
+	\label{fig:new1}
+\end{figure} 
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=10cm]{Figuras/Newton_wolff2}
+	\caption{Método de otimização de Newton para a primeira função. Utilizada a linha de busca com condições fortes de Wolf.} 
+	\label{fig:new3}
+\end{figure} 
+Diferente do caso anterior, as iterações variaram dependendo da busca de linha. Para a simples foram necessárias 14 iterações, enquanto para as condições fortes de Wolf foram 15.
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=10cm]{Figuras/Newton_linef1}
+	\caption{Método de otimização de Newton para a segunda função. Utilizada a linha de busca simples.} 
+	\label{fig:new1f}
+\end{figure} 
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=10cm]{Figuras/Newton_strongf1}
+		\caption{Método de otimização de Newton para a segunda função. Utilizada a linha de busca com condições fortes de Wolf.} 
+	\label{fig:new3f}
+\end{figure} 
+ \section{REFERÊNCIAS BIBLIOGRÁFICAS}
+ \bibliography{relatorio}
+ 
+ 
+ 
+
+ \end{document}

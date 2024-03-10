@@ -1,0 +1,19 @@
+\chapter{DISCUSSÕES E CONCLUSÕES}
+\label{cap6}
+
+\cite{Trorey(1970)} desenvolveu um método para analisar a difração devido a um plano refletor limitado por bordas, considerando a resposta ao impulso, e uma fonte qualquer submentendo a resposta ao impulso a uma convolução. 
+O modelo geológico propõe que a resposta reflectiva-difracional se estenda a uma subsuperfície elástico-acústica arbitrária com baixa refletividade e velocidade variável, onde esta condição é muito mais complicada, no entanto os modelos simples são plausíveis e útei para aplicação no desenvolvimento tecnológico. 
+
+Considerando o caso de um único refletor plano encurtado, a fase da difração sofre uma inversão de $180^{\circ}$ em ambos os lados da borda refletiva, e que a resposta total nesta borda é metade da amplitude da parte refletida.
+
+Qualquer refletor em subsuperfície, além de um plano infinito com coeficiente de reflexão constante, produz difrações, e o significado das difrações se tornam maior quanto mais a superfície se afastar de ser um plano infinito.
+
+As difrações não são produzidas a partir de uma borda de difração, mas o refletor inteiro, não apenas a borda, produz a difração. 
+Isto faz com que a amplitude da difração de uma única borda decaia mais rapidamente do que seria predita pela simples divergência esférica.
+
+Se observou na implementação que o método é simples para aplicação, e que se pode modelar rapidamente uma seção sísmica com muitos detalhes estruturais, como falhas, sinclinais, anticlinais, horsts, grabens, desde que se discretize bem a estrutura no domínio geológico (espaço).
+
+Outra observação muito importante foi sobre a geração de artefatos nas seções modeladas pelo encurvamento da frente de onda ao redor da borda da estrutura, o que caracteriza as difrações. 
+Observou-se também a presença relativamente forte de artefatos nas seções processadas, artefatos curvos sub-horizontais abaixo das seções sísmicas que parecem simular estruturas refletoras fracas, mas com textura de refletividade.
+
+Como outros futuros trabalhos que podemos considerar a serem desenvolvidos é a modelagem de seções sísmicas complexas baseadas em interpretações geológicas importantes na exploração de petróleo, com a finalidade de se melhor explicar esta interpretação de forma fisicamente (sismicamente) plausível e consistente, que é um dos objetivos da geofísica.

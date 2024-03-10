@@ -1,0 +1,464 @@
+\documentclass{beamer}
+
+\mode<presentation> {
+\usetheme{Madrid}
+%\usecolortheme{whale}
+}
+\RequirePackage{epsfig}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs}
+\usepackage{amsmath}% A
+\usepackage{bm}
+\usepackage{xcolor}
+\usepackage{subfigure}
+\usepackage{gensymb}
+\usepackage{tikz}
+\usepackage[document]{ragged2e}
+\usetikzlibrary{shapes,backgrounds}
+\graphicspath{{figures/}}
+
+
+\newcommand{\nvec}{\mathbf{n}}
+\newcommand{\xvec}{\mathbf{x}}
+\newcommand{\vvec}{\mathbf{v}}
+\newcommand{\mvec}{\mathbf{m}}
+\newcommand{\uvec}{\mathbf{u}}
+\newcommand{\fvec}{\mathbf{f}}
+\newcommand{\zvec}{\mathbf{0}}
+\newcommand{\xivec}{\boldmath \xi}
+
+% Define block styles
+\tikzstyle{block} = [rectangle, draw, fill=white, 
+text width=6em, text centered, rounded corners, node distance=2cm, minimum height=2em]
+\tikzstyle{line} = [draw, -latex]
+\tikzstyle{cloud} = [draw, ellipse,fill=white, node distance=2cm,
+minimum height=2em]
+
+
+\title[Seminário]{Um exemplo simples de deslizamento em uma falha interna} % The short title appears at the bottom of every slide, the full title is only on the title page
+\input{macro.tex}
+
+\author{} % Your name
+\institute[UFPA] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
+{
+	Professor: Jessé Costa\\
+Universidade Federal do Pará \\ % Your institution for the title page
+\medskip
+ % Your email address
+}
+\date{\today} % Date
+
+\setbeamercovered{transparent}
+
+\AtBeginSection[]{
+\begin{frame}
+\frametitle{Sumário}
+ \tableofcontents[currentsection]
+\end{frame}
+}
+
+
+
+\begin{document}
+ \begin{frame}
+\begin{figure}[htb]
+\centering
+\includegraphics[width= 2cm, height= 2.5cm]{logo.jpg}
+\end{figure}
+
+\titlepage
+\end{frame}
+
+\begin{frame}{Um exemplo simples de deslizamento em uma falha interna}
+		\justifying
+\only<1>{Considere uma falha $\Sigma$ com vetor normal unit\'ario $\nu_{j}$ e tome $\xivec_{1}$, $\xivec_{2}$ e $\xivec_{3}$ como eixos coordenados na falha. 
+Pressuponha que a falha $\Sigma$ est\'a situado no plano $\xivec_{3}=0$, de modo que as componentes do vetor normal $\nu_{1}$ e $\nu_{2}$ sejam nulos, $\nu_{1}= \nu_{2} =0$, pode-se alterar a equação abaixo
+\begin{eqnarray}
+\label{feq4}
+f^{u}_{p}(\xvec',t) = -\int_{\Sigma}d\Sigma(\xivec) \, \left[u_{i}(\xivec,t) \right] \nu_j c_{ijpq}(\xivec) \frac{\partial}{\partial x'_{q}} \delta(\xvec' - \xivec) \, . \nonumber
+\end{eqnarray} } 
+\only<2>{Para o seguinte formato
+\begin{eqnarray}
+\label{feq8}
+f^{u}_{p}(\xvec',t) = -\int_{\Sigma}d\xivec_{1}d\xivec_{2} \, \left[u_{1}(\xivec,t) \right] \nu_3 c_{13pq}(\xivec) \frac{\partial}{\partial x'_{q}} \delta(\xvec' - \xivec) \, . \nonumber
+\end{eqnarray} 
+Para um meio el\'astico isotr\'opico o tensor $c_{13pq}(\xivec)$ pode ser escrito da seguinte forma:
+\begin{eqnarray*}
+	\label{isotrop}
+	c_{13pq} &=&  \lambda\delta_{13}\delta_{pq} + \mu(\delta_{1p}\delta_{3q} + \delta_{1q}\delta_{3p} )\, 
+\end{eqnarray*}}
+\end{frame}
+
+\begin{frame}{Um exemplo simples de deslizamento em uma falha interna}
+		\justifying
+\visible<1->{Os \'unicos termos diferentes de zero da soma $\sum_{q}c_{13pq}$ s\~ao 
+quando os \'indices $p=1$ e $q=3$, pela defini\c{c}\~ao da fun\c{c}\~ao delta e que devido a sim\'etria de $c_{13pq}=c_{13qp}$,
+\begin{eqnarray*}
+	\label{isotrop}
+	c_{1313}(\xivec) &=&  \lambda\delta_{13}\delta_{13} + \mu(\delta_{11}\delta_{33} + \delta_{13}\delta_{31} ) \,\, = \,\, \mu(\xivec) \,\, = \,\, c_{1331}(\xivec) .
+\end{eqnarray*}}
+\only<2>{Desta forma, a equa\c{c}\~ao 
+\begin{eqnarray}
+\label{feq8}
+f^{u}_{p}(\xvec',t) = -\int_{\Sigma}d\xivec_{1}d\xivec_{2} \, \left[u_{1}(\xivec,t) \right] \nu_3 c_{13pq}(\xivec) \frac{\partial}{\partial x'_{q}} \delta(\xvec' - \xivec) \, . \nonumber
+\end{eqnarray} }
+\only<3>{Para um meio isotr\'opico, mas ainda n\~ao homog\^eneo, \'e 
+\begin{eqnarray}
+\label{feq9_1}
+f^{u}_{1}(\xvec',t) &=& -\int_{\Sigma}d\xivec_{1}d\xivec_{2} \,  \mu(\xivec)\left[u_{1}(\xivec,t) \right] \delta(x'_1 - \xivec_{1}) \delta(x'_2 - \xivec_{2}) \frac{\partial}{\partial x'_{3}} \delta(x_3') \, , \nonumber\\
+f^{u}_{2}(\xvec',t) &=& 0\, ,\nonumber\\
+\label{feq9_2}
+f^{u}_{3}(\xvec',t) &=& -\int_{\Sigma}d\xivec_{1}d\xivec_{2} \, \mu(\xivec)\left[u_{1}(\xivec,t) \right] \frac{\partial}{\partial x'_{1}} \delta(x_1' - \xivec_1) \delta(x'_2 - \xivec_{2}) \delta(x'_3)\, . \nonumber
+\label{feq9_3}
+\end{eqnarray}
+}
+
+\end{frame}
+
+
+\begin{frame}{Um exemplo simples de deslizamento em uma falha interna}
+		\justifying
+A partir deste momento, serão avaliadas as equações abaixo  para determinar dois modelos de fontes 
+s\'ismicas produzidos pelo deslizamento de uma falha interna em uma \'unica dire\c{c}\~ao:
+sistema de bin\'ario \'unico e sistema de for\c{c}as \'unicas, respectivamente.
+\begin{eqnarray}
+\label{feq9_1}
+f^{u}_{1}(\xvec',t) &=& -\int_{\Sigma}d\xivec_{1}d\xivec_{2} \,  \mu(\xivec)\left[u_{1}(\xivec,t) \right] \delta(x'_1 - \xivec_{1}) \delta(x'_2 - \xivec_{2}) \frac{\partial}{\partial x'_{3}} \delta(x_3') \, , \nonumber\\
+f^{u}_{3}(\xvec',t) &=& -\int_{\Sigma}d\xivec_{1}d\xivec_{2} \, \mu(\xivec)\left[u_{1}(\xivec,t) \right] \frac{\partial}{\partial x'_{1}} \delta(x_1' - \xivec_1) \delta(x'_2 - \xivec_{2}) \delta(x'_3)\, . \nonumber
+\label{feq9_3}
+\end{eqnarray}
+\end{frame}
+
+\begin{frame}{Sistema de bin\'arios \'unicos}
+		\justifying
+\visible<1->{Considerando que a for\c{c}a $f^{u}_{1}(\xvec',t)$ esteja atuando na dire\c{c}\~ao $\pm x'_{1}$ com o bra\c{c}o ao longo da dire\c{c}\~ao $x'_{2}$ e o momento angular ao longo da dire\c{c}\~ao $x'_{3}$ 
+e distribu\'idas sobre a falha $\Sigma$. }
+\only<1>{\\Assim, a equa\c{c}\~ao
+\begin{eqnarray}
+\label{feq9_1}
+f^{u}_{1}(\xvec',t) &=& -\int_{\Sigma}d\xivec_{1}d\xivec_{2} \,  \mu(\xivec)\left[u_{1}(\xivec,t) \right] \delta(x'_1 - \xivec_{1}) \delta(x'_2 - \xivec_{2}) \frac{\partial}{\partial x'_{3}} \delta(x_3') \, , \nonumber
+\end{eqnarray}
+}
+\visible<2->{\\Fica desta forma \begin{eqnarray*}
+		f^{u}_{1}(\xvec',t) &=& - \left\{  \int_{\Sigma}d\xivec_{1}d\xivec_{2} \, \mu(\xivec)\left[u_{1}(\xivec,t) \right]  \delta(x'_1 - \xivec_{1}) \delta(x'_2 - \xivec_{2}) \right\} \frac{\partial}{\partial x'_{3}} \delta(x_3') \, ,
+\end{eqnarray*}}
+\only<3>{Utilizando a propriedade de filtragem da fun\c{c}\~ao delta de Kronecker
+\begin{eqnarray*}
+	\label{feq11}
+	\int_{\Sigma}d\xivec_{1}d\xivec_{2} \, \mu(\xivec)\left[u_{1}(\xivec,t) \right] \delta(x'_1 - \xivec_{1}) \delta(x'_2 - \xivec_{2}) =  \mu(\xvec')\left[u_{1}(\xvec',t) \right] \, ,
+\end{eqnarray*}}
+\visible<4>{Reduz equa\c{c}\~ao acima para, agora com coordenadas fora da regi\~ao de falha,
+	\begin{eqnarray}
+	\label{feq10}
+	f^{u}_{1}(\xvec',t) &=& - \mu(\xvec')\left[u_{1}(\xvec',t) \right] \frac{\partial}{\partial x'_{3}} \delta(x_3') \, \nonumber .     
+	\end{eqnarray}}
+
+\end{frame}
+
+\begin{frame}{Sistema de bin\'arios \'unicos}
+		\justifying
+O momento total sobre o eixo $x'_2$ \'e,  
+usando equa\c{c}\~ao 
+\begin{eqnarray}
+\label{feq6}
+\int_{\Omega}d\Omega(\xvec') \, (\xvec' - \xvec'_{0}) \wedge f^{u}_{p}(\xvec',t) = \zvec \, , \nonumber
+\end{eqnarray} 
+Tem-se 
+\small{\begin{eqnarray*}
+	\int_{\Omega}d\Omega\, \epsilon_{231} x'_{3} f^{u}_{1}(\xvec',t) \\ =  -\int_{x'_{1}}dx'_{1}\int_{x'_{2}}dx'_{2}\int_{x'_{3}}dx'_{3} \, x'_{3}\mu(x'_{1},x'_{2},x'_{3}) \left[ u_{1}(x'_{1},x'_{2},x'_{2},t)\right] \frac{\partial }{\partial x'_{3}} \delta(x'_3)  \,& ,\\
+	= -\int_{x'_{1}}dx'_{1}\int_{x'_{2}}dx'_{2} \left\{ \int_{x'_{3}}dx'_{3} \, x'_{3} \frac{\partial }{\partial x'_{3}} \delta(x'_3)  \right\} \mu(x'_{1},x'_{2},x'_{3}) \left[ u_{1}(x'_{1},x'_{2},x'_{3},t)\right] &  \, ,
+\end{eqnarray*} }
+\end{frame}
+
+\begin{frame}{Sistema de bin\'arios \'unicos}
+		\justifying
+Fazendo a integração por parte no termo entre colchetes, 
+	\begin{eqnarray*}
+		\int_{x'_{3}}dx'_{3} \, x'_{3} \frac{\partial }{\partial x'_{3}} \delta(x'_3)  &=& x'_{3}\delta(x'_{3}) - \int_{x'_3} dx'_3\,\delta(x'_3) \, ,
+	\end{eqnarray*} 
+ Isso significa que estamos no plano de falha $\Sigma$, ent\~ao as coordenadas 
+$x'_1$ e $x'_2$ s\~ao agora $\xivec_1$ e $\xivec_2$, respectivamente, que leva \`a
+\begin{eqnarray*}
+	\int_{\Omega}d\Omega\, \epsilon_{231} x'_{3} f^{u}_{1}(\xvec',t) &=& \int_{\xivec_1}d\xivec_1 \int_{\xivec_2}d\xivec_2 \,  \mu(\xivec_{1},\xivec_{2},0) \left[ u_{1}(\xivec_{1},\xivec_{2},0,t)\right] \, ,\\
+	&=& \int_{\Sigma}d\Sigma \, \mu(\xivec) \left[ u_{1}(\xivec,t)\right]   \, ,    
+\end{eqnarray*}
+\end{frame}
+
+\begin{frame}{Sistema de binários únicos}
+		\justifying
+Multiplicando o resultado acima pela \'area da falha, que definimos como $A = \int_{\Sigma} d\Sigma$ e  
+assumido que a regi\~ao de falha \'e homog\^enea, ou seja, $\mu$ \'e uma constante, ent\~ao obtemos 
+\begin{eqnarray} 
+\label{momtotal1}
+\int_{\Omega}d\Omega\, x'_{3} f^{u}_{1}(\xvec',t) &=&  \mu  \left\{ \frac{ \int_{\Sigma}d\Sigma \,  \left[ u_{1}(\xivec,t)\right]}{A} \right\} A  \,\,  = \,\, \mu \bar{u}(t) A \, ,  \nonumber
+\end{eqnarray} 
+onde $\bar{u}(t)$ \'e definido como a m\'edia do deslizamento na falha,
+\begin{eqnarray*}  
+	\bar{u}(t) &=& \frac{ \int_{\Sigma}d\Sigma \,  \left[ u_{1}(\xivec,t)\right]}{A} \, .
+\end{eqnarray*}  
+\end{frame}
+
+\begin{frame}{Sistemas de forças únicas}
+		\justifying
+\only<1>{A partir da equação
+\begin{eqnarray}
+f^{u}_{3}(\xvec',t) &=& -\int_{\Sigma}d\xivec_{1}d\xivec_{2} \, \mu(\xivec)\left[u_{1}(\xivec,t) \right] \frac{\partial}{\partial x'_{1}} \delta(x_1' - \xivec_1) \delta(x'_2 - \xivec_{2}) \delta(x'_3)\, . \nonumber
+\label{feq9_3}
+\end{eqnarray}
+representando um sistema de forças únicas.}
+\visible<2->{Reescrevendo:
+\begin{eqnarray*}  
+	\label{feq11}
+	f^{u}_{3}(\xvec',t) &=& -  \frac{\partial}{\partial x'_{1}} \left\{ \int_{\Sigma}d\xivec_{1}d\xivec_{2} \, \mu(\xivec)\left[u_{1}(\xivec,t) \right] \delta(x_1' - \xivec_1) \delta(x'_2 - \xivec_{2}) \right\} \delta(x'_3)\, .    
+\end{eqnarray*}}
+\only<3>{Utilizando a propriedade de filtragem da fun\c{c}\~ao delta de Kronecker, 
+	\begin{eqnarray*}
+		\label{feq11}
+		\int_{\Sigma}d\xivec_{1}d\xivec_{2} \, \mu(\xivec)\left[u_{1}(\xivec,t) \right] \delta(x'_1 - \xivec_{1}) \delta(x'_2 - \xivec_{2}) =  \mu(\xvec')\left[u_{1}(\xvec',t) \right] \, ,
+\end{eqnarray*}}
+\visible<4->{Reduzindo-a para
+\begin{eqnarray*}
+	f^{u}_{3}(\xvec',t) &=&  -\frac{\partial }{\partial x'_{1}} \left\{ \mu(\xvec') \left[ u_{1}(\xvec',t)\right]\right\} \delta(x'_3)  \, .
+\end{eqnarray*}}
+
+\end{frame}
+
+\begin{frame}{Sistemas de forças únicas}
+		\justifying
+	\only<1>{Para obter o momento total vamos substituir o resultado anterior na equação
+	\begin{eqnarray}
+	\label{feq6}
+	\int_{\Omega}d\Omega(\xvec') \, (\xvec' - \xvec'_{0}) \wedge f^{u}_{p}(\xvec',t) = \zvec \, , \nonumber
+	\end{eqnarray}  }
+\visible<2->{Tem-se
+\begin{eqnarray*}
+	\int_{\Omega}d\Omega\, \epsilon_{213} x'_{1} f^{u}_{1}(\xvec',t)\\ =  \int_{x'_{1}}dx'_{1}\int_{x'_{2}}dx'_{2}\int_{x'_{3}}dx'_{3} \, x'_{1}  \frac{\partial }{\partial x'_{1}} \left\{ \mu(x'_{1},x'_{2},x'_{3}) \left[ u_{1}(x'_{1},x'_{2},x'_{2},t)\right] \right\} \delta(x'_3)  \, ,\\
+	= \int_{x'_{1}}dx'_{1}\int_{x'_{2}}dx'_{2} \left\{ \int_{x'_{3}}dx'_{3} \, \delta(x'_3)  \right\} x'_{1} \frac{\partial }{\partial x'_{1}} \left\{ \mu(x'_{1},x'_{2},x'_{3}) \left[ u_{1}(x'_{1},x'_{2},x'_{3},t)\right] \right\} \, ,
+\end{eqnarray*} 
+}
+\end{frame}
+
+\begin{frame}{Sistemas de forças únicas}
+	\small
+		\justifying
+\visible<1->{Onde a integral entre cochetes \'e igual a $1$ quando $x'_3 = 0$ o que novamente nos leva ao plano de falha $\Sigma$, ou seja,
+\begin{eqnarray*}
+	\int_{\Omega}d\Omega\, \epsilon_{213} x'_{1} f^{u}_{1}(\xvec',t) &=& 
+	\int_{\xivec_{2}} d\xivec_{2} \left\{ \int_{\xivec_{1}} d\xivec_{1} \xivec_{1} \frac{\partial }{\partial \xivec_{1}} \left\{ \mu(\xivec_{1},\xivec_{2},0) \left[ u_{1}(\xivec_{1},\xivec_{2},0,t)\right] \right\}  \right\}  \, 
+\end{eqnarray*}	}
+\visible<2->{Utilizando a integração por partes
+\begin{eqnarray*}
+	\int_{\xivec_{1}} d\xivec_{1} \xivec_{1} \frac{\partial }{\partial \xivec_{1}} \left\{ \mu(\xivec_{1},\xivec_{2},0) \left[ u_{1}(\xivec_{1},\xivec_{2},0,t)\right] \right\} &=& \xivec_{1} \mu(\xivec_{1},\xivec_{2},0) \left[ u_{1}(\xivec_{1},\xivec_{2},0,t)\right] \\ 
+	&-& \int_{\xivec_{1}} d\xivec_{1} \mu(\xivec_{1},\xivec_{2},0) \left[ u_{1}(\xivec_{1},\xivec_{2},0,t)\right]  \, ,
+\end{eqnarray*}
+}
+
+\end{frame}
+
+\begin{frame}{Sistemas de forças únicas}
+		\justifying
+Usando uma superf\'icie de falha $\Sigma$ definida para ter $\left[ u_{1}(\xivec_{1},\xivec_{2},0,t)\right] = 0$ em torno de seu per\'imetro, obtemos
+\begin{eqnarray*}
+	\int_{\Omega}d\Omega\, \epsilon_{213} x'_{1} f^{u}_{1}(\xvec',t) &=& -\int_{\xivec_1}d\xivec_1 \int_{\xivec_2}d\xivec_2 \,  \mu(\xivec_{1},\xivec_{2},0) \left[ u_{1}(\xivec_{1},\xivec_{2},0,t)\right] \, ,\\
+	&=& - \int_{\Sigma}d\Sigma \, \mu(\xivec) \left[ u_{1}(\xivec,t)\right]   \, ,    
+\end{eqnarray*}	
+multiplicando o resultado acima pela \'area da falha $A = \int_{\Sigma} d\Sigma$ 
+e tomamos $\mu$ constante, ent\~ao
+\begin{eqnarray} 
+\label{momtotal2}
+\int_{\Omega}d\Omega\, x'_{3} f^{u}_{1}(\xvec',t) &=&  -\mu  \left\{ \frac{ \int_{\Sigma}d\Sigma \,  \left[ u_{1}(\xivec,t)\right]}{A} \right\} A  \,\,  = \,\, -\mu \bar{u}(t) A \, ,  \nonumber
+\end{eqnarray} 
+onde $\bar{u}(t)$ \'e a m\'edia do deslizamento na falha,
+\begin{eqnarray*}  
+	\bar{u}(t) &=& \frac{ \int_{\Sigma}d\Sigma \,  \left[ u_{1}(\xivec,t)\right]}{A} \, .
+\end{eqnarray*} 
+\end{frame}
+
+\begin{frame}{Sistemas binários duplos}
+		\justifying
+No entanto, não há uma relação um para um entre as forças equivalentes e o deslizamento de
+uma dada falha. Mostraremos isso  obtendo:
+\begin{itemize}
+	\item Uma densidade de bin\'ario duplo;
+	\item uma densidade de bin\'ario \'unico ou for\c{c}a \'unica, assim recorre-se ao teorema da representa\c{c}\~ao
+	\begin{eqnarray*}
+		\label{feq11}
+		\int_{\Sigma}d\xivec_{1}d\xivec_{2} \, \mu(\xivec)\left[u_{1}(\xivec,t) \right] \delta(x'_1 - \xivec_{1}) \delta(x'_2 - \xivec_{2}) =  \mu(\xvec')\left[u_{1}(\xvec',t) \right] \, , \nonumber
+	\end{eqnarray*}
+para descrever a falha, $\xivec_3=0$, com deslizamento na dire\c{c}\~ao $\xivec_1$, 
+\small{\begin{eqnarray*}
+	u_{n}(\xvec,t) = \int_{-\infty }^{+\infty}d\tau\int_{\Sigma}d\Sigma(\xivec) 
+	\, \left[ u_{1}(\xivec,\tau)\right] \nu_{3}c_{13pq}(\xivec) \frac{\partial}{\partial \xi_q} G_{np}(\xvec,t-\tau;\xivec,0) \,& \nonumber \\
+	 =    \int_{-\infty }^{+\infty}d\tau\int_{\Sigma}d\Sigma(\xivec)  
+	\, \left[ u_{1}(\xivec,\tau)\right] \nu_{3} \left\{ \sum_{p=1}^{3} \sum_{q=1}^{3}  c_{13pq}(\xivec) \frac{\partial}{\partial \xi_q} G_{np}(\xvec,t-\tau;\xivec,0) \right\}  \, , &
+\end{eqnarray*}}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Sistemas binários duplos}
+	\small
+	Avaliando a soma em $p$ 
+	\begin{eqnarray*}
+		\sum_{p=1}^{3} \sum_{q=1}^{3} c_{13pq}(\xivec) \frac{\partial G_{np} }{\partial \xi_q}  = \sum_{q=1}^{3}\left\{ c_{131q}(\xivec) \frac{\partial  G_{n1}}{\partial \xi_q} +  c_{132q}(\xivec) \frac{\partial G_{n2}}{\partial \xi_q}  + c_{133q}(\xivec) \frac{\partial G_{n3}}{\partial \xi_q}  \right\} \, ,
+	\end{eqnarray*}
+Ap\'os usar a sim\'etria $c_{1313} = c_{1331} = \mu$, encontramos
+\begin{eqnarray}
+\label{feq12}
+u_{n}(\xvec,t) &=& \int_{-\infty }^{+\infty}d\tau\int_{\Sigma}d\Sigma(\xivec) 
+\, \left[ u_{1}(\xivec,\tau)\right] \nu_{3} \mu(\xivec) \frac{\partial }{\partial \xi_3}G_{n1}(\xvec,t-\tau;\xivec,0) \, \nonumber\\
+&+&\int_{-\infty }^{+\infty}d\tau\int_{\Sigma}d\Sigma(\xivec) 
+\, \left[ u_{1}(\xivec,\tau)\right] \nu_{3} \mu(\xivec) \frac{\partial}{\partial \xi_1}G_{n3}(\xvec,t-\tau;\xivec,0)  \, ,  \nonumber            
+\end{eqnarray}
+	
+\end{frame}
+\begin{frame}{Sistemas binários duplos}
+		\justifying
+A primeira derivada da equação anterior \'e o limite 
+	da aproxima\c{c}\~ao de ponto central de primeira ordem da expans\~ao da s\'erie de Taylor de pontos vizinhos 
+	ao plano de falha, $\pm\varepsilon\hat{\xivec_3}$,
+	\begin{eqnarray*}   
+		\frac{\partial G_{n1}}{\partial \xi_3}  =  \lim_{\varepsilon \rightarrow 0} \, \frac{G_{n1}(\xvec,t-\tau;\xivec + \varepsilon \hat{\xivec_3},0) - G_{n1}(\xvec,t-\tau;\xivec - \varepsilon \hat{\xivec_3} ,0) }{2\varepsilon} \, ,            
+	\end{eqnarray*}
+A segundo derivada 
+ \'e tamb\'em o limite 
+da aproxima\c{c}\~ao de ponto central de primeira ordem da expans\~ao da s\'erie de Taylor de pontos vizinhos 
+ao plano de falha, $\pm\varepsilon\hat{\xivec_1}$,
+\begin{eqnarray*}   
+	\frac{\partial G_{n3}}{\partial \xi_1}  =  \lim_{\varepsilon \rightarrow 0} \, \frac{G_{n3}(\xvec,t-\tau;\xivec + \varepsilon \hat{\xivec_1},0) - G_{n3}(\xvec,t-\tau;\xivec - \varepsilon \hat{\xivec_1} ,0) }{2\varepsilon} \, ,            
+\end{eqnarray*}
+\end{frame}
+
+\begin{frame}{Sistemas binários duplos}
+		\justifying
+	Estes dois últimos resultados que encontramos
+	representam separadamente a distribuição de dois sistemas de binários únicos em oposição ao
+	resultado que encontramos a partir das equações
+	\begin{eqnarray}
+	\label{feq9_1}
+	f^{u}_{1}(\xvec',t) &=& -\int_{\Sigma}d\xivec_{1}d\xivec_{2} \,  \mu(\xivec)\left[u_{1}(\xivec,t) \right] \delta(x'_1 - \xivec_{1}) \delta(x'_2 - \xivec_{2}) \frac{\partial}{\partial x'_{3}} \delta(x_3') \, , \nonumber\\
+	f^{u}_{2}(\xvec',t) &=& 0\, ,\nonumber\\
+	\label{feq9_2}
+	f^{u}_{3}(\xvec',t) &=& -\int_{\Sigma}d\xivec_{1}d\xivec_{2} \, \mu(\xivec)\left[u_{1}(\xivec,t) \right] \frac{\partial}{\partial x'_{1}} \delta(x_1' - \xivec_1) \delta(x'_2 - \xivec_{2}) \delta(x'_3)\, . \nonumber
+	\label{feq9_3}
+	\end{eqnarray}
+	onde se obteve uma distribuição de
+	binário único mais uma distribuição de força única.
+	\only<1>{Integrando por partes $\partial G_{n1}/\partial \xi_{3}$ ou $\partial G_{n3}/\partial \xi_{1}$ de
+	\begin{eqnarray}
+	\label{feq12}
+	u_{n}(\xvec,t) &=& \int_{-\infty }^{+\infty}d\tau\int_{\Sigma}d\Sigma(\xivec) 
+	\, \left[ u_{1}(\xivec,\tau)\right] \nu_{3} \mu(\xivec) \frac{\partial }{\partial \xi_3}G_{n1}(\xvec,t-\tau;\xivec,0) \, \nonumber\\
+	&+&\int_{-\infty }^{+\infty}d\tau\int_{\Sigma}d\Sigma(\xivec) 
+	\, \left[ u_{1}(\xivec,\tau)\right] \nu_{3} \mu(\xivec) \frac{\partial}{\partial \xi_1}G_{n3}(\xvec,t-\tau;\xivec,0)  \, ,  \nonumber            
+	\end{eqnarray}}
+\visible<2->{\\Tem-se
+\begin{eqnarray*}
+	\int_{\Sigma}d\Sigma(\xivec)\, \frac{\partial G_{n3} }{\partial \xi_1} &=&  
+	\, \left[ u_{1}(\xivec,\tau)\right] G_{n3}   -  \int_{\Sigma}d\Sigma(\xivec)\, \left[ \frac{\partial u_{1}(\xivec,\tau) }{\partial \xi_1} \right]G_{n3}  \, ,              
+\end{eqnarray*}}
+\end{frame}
+
+\begin{frame}{Sistemas binários duplos}
+		\justifying
+Definindo novamente que no per\'imetro/bordas da falha $\Sigma$ o campo $\left[ u_{1}(\xivec,t)\right] = 0$, ent\~ao temos
+\begin{eqnarray}
+\label{feq13}
+u_{n}(\xvec,t) &=& \int_{-\infty }^{+\infty}d\tau\int_{\Sigma}d\Sigma(\xivec) 
+\, \mu(\xivec) \left[ u_{1}(\xivec,\tau)\right]\frac{\partial }{\partial \xi_3} G_{n1}(\xvec,t-\tau;\xivec,0)   \, \nonumber \\
+&- & \int_{-\infty }^{+\infty}d\tau\int_{\Sigma}d\Sigma(\xivec) 
+\, \mu(\xivec) \left[ \frac{\partial u_{1}(\xivec,\tau) }{\partial \xi_1} \right]G_{n3}(\xvec,t-\tau;\xivec,0)\, , \nonumber
+\end{eqnarray}
+\end{frame}
+
+\begin{frame}{Sistemas de binários como fontes pontuais}
+	\justifying
+Considere agora que falha $\Sigma$ esteja localizada a uma grande dist\^ancia em rela\c{c}\~ao a 
+posi\c{c}\~ao de observa\c{c}\~ao $\xvec$, de modo que as \'unicas ondas observadas s\~ao aquelas 
+com comprimentos de onda muito maiores do que as dimens\~oes lineares da falha.
+\begin{eqnarray*}
+	\left[ u_{1}(\xi_1,\xi_2,t)\right] &=&  \bar{u}A\delta(\xi_1) \delta(\xi_2) H(t)\, ,
+\end{eqnarray*}
+\only<1>{substituindo-a nas componentes $f^{u}_{1}(\xvec',t)$ e $f^{u}_{3}(\xvec',t)$ das equa\c{c}\~oes
+\begin{eqnarray}
+\label{feq9_1}
+f^{u}_{1}(\xvec',t) &=& -\int_{\Sigma}d\xivec_{1}d\xivec_{2} \, \mu(\xivec)\left[u_{1}(\xivec,t) \right] \delta(x'_1 - \xivec_{1}) \delta(x'_2 - \xivec_{2}) \frac{\partial}{\partial x'_{3}} \delta(x_3') \,\nonumber , \\
+f^{u}_{2}(\xvec',t) &=& 0\, \nonumber,\\
+\label{feq9_2}
+f^{u}_{3}(\xvec',t) &=& -\int_{\Sigma}d\xivec_{1}d\xivec_{2} \, \mu(\xivec)\left[u_{1}(\xivec,t) \right] \frac{\partial}{\partial x'_{1}} \delta(x_1' - \xivec_1) \delta(x'_2 - \xivec_{2}) \delta(x'_3)\, .\nonumber
+\label{feq9_3}
+\end{eqnarray}}
+\visible<2->{Tem-se 
+\begin{eqnarray}
+\label{feq14_1}
+f^{u}_{1}(\xvec',t) &=& -M_{0}\delta(x'_1) \delta(x'_2) \frac{\partial}{\partial x'_{3}} \delta(x_3') H(t) \,\nonumber , \\
+f^{u}_{2}(\xvec',t) &=& 0\, \nonumber,\\
+\label{feq14_2}
+f^{u}_{3}(\xvec',t) &=& -M_{0} \frac{\partial}{\partial x'_{1}} \delta(x_1') \delta(x'_2) \delta(x'_3) H(t)\,\nonumber ,
+\label{feq14_3}
+\end{eqnarray}
+onde $M_{0}$ \'e definido como o momento s\'ismico,
+\begin{eqnarray}
+\label{feq15}
+M_{0} = \mu \bar{u} A\,\nonumber ,
+\end{eqnarray}
+}
+
+	
+	
+	
+\end{frame}
+
+\begin{frame}
+	\begin{figure}[htb]
+		\centering
+		\includegraphics[width= 8cm, height= 8cm]{superficie}
+	\end{figure}
+\end{frame}
+
+\begin{frame}
+	\begin{equation}
+	\begin{matrix}
+	f_1(\vc{\eta},\tau) &=& -M_0\delta(\eta_1)\delta(\eta_2)\frac{\partial}{\partial \eta_3}\delta(\eta_3)H(\tau) \nonumber \\
+	f_2(\vc{\eta},\tau)& =& 0 \nonumber \\
+	f_3(\vc{\eta},\tau) &=& -M_0\frac{\partial}{\partial \eta_1}\delta(\eta_1)\delta(\eta_2)\delta(\eta_3)H(\tau)
+	\end{matrix}
+	\end{equation}
+	$$M_0 =  \mu \bar{u}A = \mu \times \text{deslizamento médio} \times \text{área de falha} $$
+	$$\text{log} M_0 = 1.5 M_w + 16.1 $$
+\end{frame}
+
+
+
+\begin{frame}
+	\begin{figure}[htb]
+		\centering
+		\includegraphics[width= 8cm, height= 8cm]{diagramas}
+	\end{figure}
+\end{frame}
+
+\begin{frame}
+	\begin{figure}[htb]
+		\centering
+		\includegraphics[width= 8cm, height= 8cm]{distribuicao}
+	\end{figure}
+\end{frame}
+
+\begin{frame}
+	\begin{figure}[htb]
+		\centering
+		\includegraphics[width= 8cm, height= 8cm]{terceira}
+	\end{figure}
+\end{frame}
+
+\begin{frame}
+	\begin{figure}[htb]
+		\centering
+		\includegraphics[width= 8cm, height= 8cm]{forca}
+	\end{figure}
+\end{frame}
+
+
+
+\end{document}

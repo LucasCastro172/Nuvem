@@ -1,0 +1,68 @@
+\appendix
+% \addcontentsline{doc}{chapter}{Ap\^endices}
+\label{apendice}
+
+\chapter{SHELL SCRIPT MODELAGEM TRIMODEL}
+\label{apendice_A}
+
+Este shell script foi escrito para utilizar a subrotina \textit{trimodel} do pacote \textit{Seismic Unix} (SU). 
+
+
+
+\lstinputlisting[language=bash,breaklines=true]{codes/model.sh}
+
+\chapter{SHELL SCRIPT AQUISIÇÃO TRISEIS}
+\label{apendice_B}
+
+Este shell script foi escrito para utilizar a subrotina \textit{triseis} do pacote \textit{Seismic Unix} (SU). 
+O script gera a seção (binário) para o processamento.
+
+\lstinputlisting[language=bash,breaklines=true]{codes/aqsreal.sh}
+
+\chapter{SHELL SCRIPT CDP}
+\label{apendice_C}
+
+Este shell script foi escrito para fazer o \textit{plot} das imagens dos \textit{shots} para verificar se aquisição está correta.
+
+\lstinputlisting[language=bash,breaklines=true]{codes/cdp.sh}
+
+\chapter{SHELL SCRIPT RUIDO DE GAUSS}
+\label{apendice_D}
+
+Este shell script foi escrito para adicionar um ruído do tipo Gauss a seção sísmica.
+
+\lstinputlisting[language=bash,breaklines=true]{codes/cdp.sh}
+
+\chapter{SHELL SCRIPT ANÁLISE DE VELOCIDADE}
+\label{apendice_E}
+
+O objetivo deste programa é de fazer análise de velocidades. 
+
+\lstinputlisting[language=bash,breaklines=true]{codes/velan.sh}
+
+\chapter{SHELL SCRIPT CORREÇÃO NMO}
+\label{apendice_F}
+
+O objetivo deste shell script é de fazer a correção NMO nos dados CMP. 
+
+\lstinputlisting[language=bash,breaklines=true]{codes/velan.sh}
+
+\chapter{SHELL SCRIPT EMPILHAMENTO}
+\label{apendice_G}
+
+O objetivo deste shell script é de fazer o empilhamento dos dados. 
+
+\lstinputlisting[language=bash,breaklines=true]{codes/stack.sh}
+
+\chapter{SHELL SCRIPT MIGRAÇÃO NO TEMPO}
+\label{apendice_H}
+
+O objetivo deste shell script é de fazer a migração temporal dos dados empilhados. 
+
+\lstinputlisting[language=bash,breaklines=true]{codes/migration.sh}
+
+
+
+
+
+

@@ -1,0 +1,197 @@
+\documentclass{beamer}
+
+\mode<presentation> {
+\usetheme{Madrid}
+%\usecolortheme{whale}
+}
+\RequirePackage{epsfig}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs}
+\usepackage{amsmath}% A
+\usepackage{bm}
+\usepackage{xcolor}
+\usepackage{subfigure}
+\usepackage{gensymb}
+\usepackage{tikz}
+\usepackage[document]{ragged2e}
+\usetikzlibrary{shapes,backgrounds}
+\graphicspath{{figures/}}
+\usepackage{amsmath,amssymb}
+
+\newcommand{\nvec}{\vc{n}}
+\newcommand{\xvec}{\vc{x}}
+\newcommand{\evec}{\vc{e}}
+\newcommand{\vvec}{\vc{v}}
+\newcommand{\mvec}{\vc{m}}
+\newcommand{\uvec}{\vc{u}}
+\newcommand{\fvec}{\vc{f}}
+\newcommand{\zvec}{\vc{0}}
+\newcommand{\Psivec}{\vc{ \Psi}}
+\newcommand{\xivec}{\boldmath \xi}
+\newcommand{\ub}{\bar{u}}
+\newcommand{\g}{\gamma}
+\newcommand\myeq{\stackrel{\mathclap{\normalfont\mbox{def}}}{=}}
+
+
+
+% Define block styles
+\tikzstyle{block} = [rectangle, draw, fill=white, 
+text width=6em, text centered, rounded corners, node distance=2cm, minimum height=2em]
+\tikzstyle{line} = [draw, -latex]
+\tikzstyle{cloud} = [draw, ellipse,fill=white, node distance=2cm,
+minimum height=2em]
+
+
+\title[Seminário]{Mecanismo Focal de Exibição} % The short title appears at the bottom of every slide, the full title is only on the title page
+\input{macro.tex}
+
+\author{} % Your name
+\institute[UFPA] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
+{
+	Professor: Jessé Costa\\
+Universidade Federal do Pará \\ % Your institution for the title page
+\medskip
+ % Your email address
+}
+\date{\today} % Date
+
+\setbeamercovered{transparent}
+
+\AtBeginSection[]{
+\begin{frame}
+\frametitle{Sumário}
+ \tableofcontents[currentsection]
+\end{frame}
+}
+
+
+\begin{document}
+ \begin{frame}
+\begin{figure}[htb]
+\centering
+\includegraphics[width= 2cm, height= 2.5cm]{logo.jpg}
+\end{figure}
+
+\titlepage
+\end{frame}
+
+\begin{frame}{Introdução}
+	\begin{itemize}
+		\item Tensor de momento;
+		\item Três fontes(Isotrópica,DC, CLVD);
+		\item Exemplo;
+		\item Quantificação.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Decompondo tensor de momento}
+	\justifying
+	\begin{equation}
+    \begin{bmatrix}
+    M_1 \\
+    M_2 \\
+    M_3
+    \end{bmatrix} = M^{(V)}\begin{bmatrix}
+    1 \\
+    1 \\
+    1
+    \end{bmatrix} +
+    \begin{bmatrix}
+    M_1' \\
+    M_2 '\\
+    M_3'
+    \end{bmatrix}
+    \nonumber
+	\end{equation} 
+	com $M^{(V)}= (M_1 + M_2 + M_3)/3$
+	\begin{itemize}
+	\item Tensor de momento;
+	\item Fonte isotrópica;
+	\item Parte restante;
+	\item Razão para parte DC $1:-1:0$;
+	\item Razão para parte CLVD $1:-1/2:-1/2$.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Três tipos de fonte}
+	\begin{figure}[htb]
+		\centering
+		\includegraphics[width= 10cm, height= 8cm]{fig21}
+	\end{figure}
+\end{frame}
+
+%\begin{frame}{$\phi = 0$}
+%	\begin{figure}[htb]
+%		\centering
+%		\includegraphics[width= 10cm, height= 8cm]{fig22}
+%	\end{figure}
+%\end{frame}
+
+\begin{frame}{Alguns métodos de decomposição}
+	\begin{figure}[htb]
+		\centering
+		\includegraphics[width= 10cm, height= 8cm]{fig31}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Tabela com dados do terremoto}
+	\begin{figure}[htb]
+		\centering
+		\includegraphics[width= 8cm, height= 8cm]{kanamori}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Alguns métodos de decomposição}
+	\begin{figure}[htb]
+		\centering
+		\includegraphics[width= 10cm, height= 8cm]{fig322}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Decompondo a parte restante(DC e CLVD)}
+	\justifying
+	\begin{equation}
+	\begin{bmatrix}
+	M_1' \\
+	M_2' \\
+	M_3'
+	\end{bmatrix} = M^{(DC)}\begin{bmatrix}
+	0 \\
+	-1 \\
+	1
+	\end{bmatrix} + M^{(CLVD)}
+	\begin{bmatrix}
+	-\frac{1}{2} \\
+	-\frac{1}{2}\\
+	1
+	\end{bmatrix},
+	\nonumber
+	\end{equation} 
+	com $M^{(DC)} = M_1'-M_2'$ e $M^{(CLVD)} = -2M_1'$.\\
+	A quantidade:
+	\begin{equation}
+      \varepsilon \ \ \myeq \ \ \frac{-M_1'}{|M_3'|}  \equiv \frac{1}{2}\frac{M^{(CLVD)}}{|M^{(DC)}+M^{(CLVD)}|}                  \nonumber
+	\end{equation}
+\end{frame}
+
+%\begin{frame}{"Plot do tipo de fonte"}
+%	\begin{figure}[htb]
+%		\centering
+%		\includegraphics[width= 10cm, height= 8cm]{fig4b}
+%	\end{figure}
+%\end{frame}
+%
+%\begin{frame}{Formas de quantificação}
+%\begin{equation}
+%-2\varepsilon \ \ \myeq \ \-2 \frac{M_1'}{|M_3'|}  \equiv -\frac{M^{(CLVD)}}{|M^{(DC)}+M^{(CLVD)}|}                  \nonumber
+%\end{equation}
+%\\
+%\begin{equation}
+%k \ \ \myeq \ \ \frac{M^{(V)}}{|M^{(V)}| +  |M_3'|} \nonumber
+%\end{equation}
+%
+%\end{frame}
+
+\end{document}

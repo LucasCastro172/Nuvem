@@ -1,0 +1,229 @@
+\chapter{MIGRAÇÃO POR DIFRAÇÃO}
+\label{cap5}
+
+A finalidade da migração é mover os eventos de reflexão registrados para a posição real na seção sísmica, de modo que a análise visual tenha uma correspondência direta com a estrutura do subsolo geológico.  
+Esta operação pode ser realizada no domínio do tempo (domínio sísmico), ou do espaço denominada de profundidade (domínio geológico).
+Devido a esta proposta fundamental, migração é também denominada de imageamento. 
+
+A migração pós-empilhamento no tempo é um processo de imageamento de seções sísmicas empilhadas, e  objetivo é de focalizar a energia das difrações e reposicionando os refletores para a posição correta, o que resulta em aumentar a continuidade e a resolução lateral dos refletores. 
+
+A migração em tempo leva em consideração o modelo ``refletor em explosão'', o que admite variações laterais suaves em subsuperfície.  
+
+A migração das seções afastamento-nulo foi realizada com o método denominado de Migração Kirchhoff, onde  utilizamos o programa $sumigtk$ do pacote CWP/SU \cite{STOCKWELL(2005)}.
+
+\section{MIGRAÇÃO KIRCHHOFF NO TEMPO}
+
+A migração Kirchhoff parte da solução da equação de onda na forma escalar dada por
+\begin{equation}
+\nabla^2 P(\mathbf{r},t)-\frac{1}{v^2}\frac{\partial^2 P(\mathbf{r},t)}{\partial t^2}=-4\pi q(\mathbf{r},t),
+\label{eq:mig_kirchhoff_1}
+\end{equation}
+onde $P(\mathbf{r},t)$ é o campo de onda (amplitude), $v$ a velocidade constante do meio, $-4\pi q(\mathbf{r},t)$ representa a fonte, e $\mathbf{r}=\mathbf{r}(x, y, z)$ representa o ponto de observação.
+
+A solução completa para a equação (\ref{eq:mig_kirchhoff_1}), para um volume sísmico $V_0$ delimitado por uma superfície $S_0$, é expressa pelo teorema de Green \citep{Schneider(1978)}, o que é dada por
+\begin{equation}
+P(\mathbf{r},t)=\frac{1}{4\pi}\int_{t_{0}}dt_0\int_{s_{0}} dS_0 \left[G\frac{\partial}{\partial n}P(\mathbf{r_0},t_0)-P(\mathbf{r_0},t_0)\frac{\partial}{\partial n}G\right],
+\label{eq:mig_kirchhoff_2}
+\end{equation}
+
+onde $\mathbf{n}= n\hat{\mathbf{n}}$ é o vetor normal à superfície $S_0$, que inclui a superfície de aquisição $A_0$ e a superfície de forma semi-esférica $A'$ que é extrapolada para o infinito de forma que sua contribuição seja desprezível (ver Figura \ref{fig:migracao_kir1}).
+
+Desta forma, os valores na fronteira se reduzem a uma integral na superfície de aquisição, e à função auxiliar de Green, $G(\mathbf{r},t|\mathbf{r_0},t_0)$, que consiste da resposta do meio a uma fonte pontual em $\mathbf{r_0}$. 
+Neste caso a obtenção da função de Green utiliza o método das imagens, que para uma supefície plana localiza a imagem no ponto $\mathbf{r'_0}$, e para um semi-espaço ela é dada por 
+
+\begin{equation}
+G(\mathbf{r},t|\mathbf{r_0},t_0)=\frac{\delta(t-t_{0}-\frac{R}{v})}{R}-\frac{\delta(t-t_{0}-\frac{R'}{v})}{R'},
+\label{eq:mig_kirchhoff_3}
+\end{equation}
+onde
+
+
+
+
+\begin{equation}
+R=[(x-x_0)^2+(y-y_0)^2+(z-z_0)^2]^{\frac{1}{2}},
+\label{eq:mig_kirchhoff_4}
+\end{equation}
+\begin{equation}
+R'=[(x-x_0)^2+(y-y_0)^2+(z-z_0)^2]^{\frac{1}{2}}.
+\label{eq:mig_kirchhoff_5}
+\end{equation}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[totalheight=9.0cm]{figuras/cap5/migracao_kir1.pdf}
+\caption{Meio escalar (3D) com volume $V_0$ delimitado pela fronteira $S_0 = A_0 + A'$, com um ponto fonte em $\vec{r_0}$, sua imagem em $\vec{r_0}'$ e um ponto de observação em $\vec{r}'$.}
+\label{fig:migracao_kir1}
+\end{figure}
+
+Na prática, o campo $P(\vec{r_0},t_0)$ é medido na fronteira $S_0 = A_0 + A'$, onde a função de Green se anula ($G = 0$) como uma forma de eliminar a componente $\frac{\partial P(\vec{r_0},t_0)}{\partial n}$. Desta maneira, a equação (\ref{eq:mig_kirchhoff_2}) é simplificada na forma:
+
+\begin{equation}
+P(\vec{r},t)=\frac{1}{2\pi}\int_{t_0}dt_0\int_{A_0}dA_0\left\{P(\vec{r_0},t_0)\frac{\partial}{\partial z_0}\left[\frac{\delta (t-t_0-\frac{R}{v})}{R} \right]\right\},
+\label{eq:mig_kirchhoff_6}
+\end{equation}
+
+é chamada de integral de Kirchhoff. Substituindo $\frac{\partial}{\partial z_0}$ por $\frac{\partial}{\partial z}$ e solucionando a parte temporal da equação \ref{eq:mig_kirchhoff_6}, se resulta:
+
+\begin{equation}
+P(\vec{r},t)=-\frac{1}{\pi}\frac{\partial}{\partial z}\int_{A_0}dA_0\frac{P(\vec{r_0},t-\frac{R}{v})}{R}
+\label{eq:mig_kirchhoff_7}
+\end{equation}
+
+Esta representação mostra claramente que a equação \ref{eq:mig_kirchhoff_1} é solução da equação da onda em virtude da forma $\frac{f(t-\frac{R}{v})}{R}$ do integrando.
+
+Uma maneira de representar uma seção sísmica empilhada é através do experimento físico denominado Refletor-em-Explosão, onde os receptores são localizados numa superfície de aquisição e as fontes ao longo das interfaces refletoras onde são acionadas simultaneamente no instante de tempo $t=0$, o campo produzido se propaga até a superfície de aquisição segundo o Princípio de Huygens (ver Figura \ref{fig:refletor-em-explosao}).
+Com este modelo, as equações ao longo desta seção devem ter suas velocidades alteradas pela multiplicação do fator $1/2$, e o resultado é a velocidade de migração (ver Figura \ref{fig:refletor-em-explosao2}).
+
+Dada uma seção empilhada pode-se continuar o dado registrado $P(x,y,z=0,t)$ para profundidades maiores, o que é representado pela equação:
+
+\begin{equation}
+P(x,y,z,t)=-\frac{1}{2\pi}\frac{\partial}{\partial z}\int_{A_0}dA_0\frac{P(x,y,z=0,t)+\frac{R}{v})}{R}
+\label{eq:mig_kirchhoff_8}
+\end{equation}
+
+\begin{figure}[H]
+\centering
+\includegraphics[totalheight=9.0cm]{figuras/cap5/refletor-em-explosao.pdf}
+\caption{Representação do modelo (2D) refletor-em-explosão. As fontes estão localizadas nas interfaces refletoras, e são acionadas simultaneamente. O campo produzido se propaga de acordo com o Princípio de Huygens até a superfície de aquisição $z=0$. Fonte: Modificado de \cite{Schneider(1978)}}
+\label{fig:refletor-em-explosao}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[totalheight=6.0cm]{figuras/cap5/refletor-em-explosao2.pdf}
+\caption{Modelo afastamento-nulo (esquerda) e do \textit{refletor-em-explosão} (direita). Na primeira figura o campo de onda parte da superfície no instante $t=0$, reflete em D e retorna a superfície onde é registrado no tempo t. Na segunda figura se tem outra forma de representar o afastamento-nulo, onde o campo de onda parte de um ponto da subsuperfície em $t=0$ e é registrado na superfície no tempo $2t$. A velocidade do campo de onda no modelo afastamento-nulo (esquerda) é a metade da velocidade do campo de onda no modelo do \textit{refletor-em-explosão} (direita). Fonte Modificado de \cite{Schneider(1978)}}
+\label{fig:refletor-em-explosao2}
+\end{figure}
+
+Se o objetivo é mapear-se valores proporcionais às refletividades, deve-se então calcular a equação \ref{eq:mig_kirchhoff_8} para os pontos em subsuperfície no tempo $t=0$ de acionamento das fontes, fixando $t=0$ e calculando a integral para toda área de interesse $(x,y,z)$, ou seja:
+
+\begin{equation}
+P(x,y,z,t=0)=-\frac{1}{2\pi}\frac{\partial}{\partial z}\int_{x_0}\int_{y_0}dx_0 dy_0\frac{P(x,y,z=0,\frac{R}{v})}{R}
+\label{eq:mig_kirchhoff_9}
+\end{equation}
+
+
+Este processo é denominado migração pós-empilhamento baseado na integral de Kirchhoff, ou simplesmente migração Kirchhoff.
+A equação \ref{eq:mig_kirchhoff_9} é a seção migrada conhecida como condição de imagem que mapea o campo no domínio $(x,y,z,t)$ para o domínio $(x,y,z)$, e que também pode ser mapeado para o domínio $(x,y,z,t=\frac{z}{v})$ correspondente à subsuperfície.
+A figura \ref{fig:mapeamento_mig} exibe a relação entre o dado de entrada e o de saída no processo de mapeamento. A entrada é um traço empilhado registrado no plano $z=0$ e a saída é um traço em alguma posição ($x,y$) plotado em função de $z$ e do tempo $t=\frac{z}{v}$. 
+Como os refletores se movem em direção para baixo através de sucessivas posições mapea-se então um ponto em cada uma destas etapas e calcula-se para o determinado ponto a integral para o tempo $t=0$.
+Exemplificando, o receptor $r_1$ em $z_1$ mapea um valor nulo pra $t=0$ devido o receptor não estar no ponto de reflexão, da mesma forma o valor é anulado para o receptor $r_2$ em $z_2$. O valor numérico desta integral não será nulo quando o receptor estiver muito próximo ou em cima do refletor, como ocorre em $z_3$, quando isto ocorre um valor não-nulo é relacionado a este determinado ponto na subsuperfície, este mapeamento é a última etapa do processo da migração Kirchhoff, é assim produzirá uma imagem migrada.
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[totalheight=9.0cm]{figuras/cap5/mapeamento_mig.pdf}
+\caption{A relação entre o dado de entrada $P(x,y,z=0,t)$ e o dado de saída $P(x,y,z,t=0)$. O mapeamento do campo de onda sísmico $(x,y,z,t)$ para $(x,y,z,t=\frac{z}{v})$ Fonte Modificado de \cite{Schneider(1978)}}
+\label{fig:mapeamento_mig}
+\end{figure}
+
+Sendo assim, segundo o modelo do \textit{refletor-em-explosão} e a migração, a equação \ref{eq:mig_kirchhoff_9} é entendida como o processo que permite conhecer o valor do campo no tempo $t=0$ a partir de seus valores registrados pelos receptores no tempo $t$. Ou também, um processo de continuação do campo de onda $P(\vec{r_0},t_0)$, conhecido na fronteira $A_0$, para $P(\vec{r},t=0)$ em um ponto na subsuperfície.
+
+\begin{landscape}
+\newpage
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.55]{figuras/cap5/modelo1_migrado.eps}
+\caption{Seção migrada em tempo da seção afastamento-nulo figura \ref{fig:figura18}.}
+\label{fig:modelo1_migrado}
+\end{figure}
+\end{landscape}
+
+\begin{landscape}
+\newpage
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.84]{figuras/cap5/linha66_migrada_1.eps}
+\caption{Migração do linha 66 da Bacia do Jequitinhonha da figura \ref{fig:linha_66_2km}.}
+\label{fig:linha66_migrada_1}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.84]{figuras/cap5/linha66_migrada_2.eps}
+\caption{Migração do linha 66 da Bacia do Jequitinhonha da figura \ref{fig:linha_66_1km}.}
+\label{fig:linha66_migrada_2}
+\end{figure}
+\end{landscape}
+
+
+\section{MIGRAÇÃO POR DESLOCAMENTO DE FASE}
+
+A migração por deslocamento de fase (\textit{Phase-Shift}), introduzida por \cite{Gazdag(1978)} é um metodo de migraçao baseado na equação da onda e, necessita da alteração do domínio espaço-tempo da seção afastamento-nulo para o domínio da frequência-número de onda, onde se aplica mudanças de fase aos dados no domínio de Fourier.
+
+A equação de onda escalar 2-D, que descreve a propagação de um campo de onda compressional $P(x,z,t)$ em um meio com densidade de material constante e velocidade de onda $v(x,z)$ é dado por:
+
+\begin{equation}
+\left(\frac{\partial^2}{\partial x^2}+\frac{\partial^2}{\partial z^2}-\frac{1}{v}\frac{\partial^2}{\partial t^2} \right)P(x,z,t)=0
+\label{eq:pshift1}
+\end{equation}
+
+onde $x$ é o eixo espacial horizontal, $z$ é o eixo de profundidade (positivo para baixo) e $t$ é o tempo. O campo de onda pode ser transformado de domínio atravez da transformada de Fourier definida desta forma sobre o eixo $x$:
+
+\begin{equation}
+P(k_x,z,\omega)=\int\int P(x,z,t)exp{(ik_{x}x-i\omega t)}dxdt,
+\label{eq:pshift2}
+\end{equation}
+e inversamente como,
+
+\begin{equation}
+P(x,z,t)=\int\int P(k_x,z,\omega)exp{(-ik_{x}x+i\omega t)}dk_{x}d\omega,
+\label{eq:pshift3}
+\end{equation}
+
+Quando aplica-se \ref{eq:pshift1} em \ref{eq:pshift3}:
+
+\begin{equation}
+\frac{\partial x^2}{\partial z^2} P(k_x,z,\omega)+\left(\frac{\omega}{v^2}-k_{x}^2\right)P(k_x,z,\omega)=0
+\label{eq:pshift4}
+\end{equation}
+
+A equação (\ref{eq:pshift4}) tem duas soluções, uma para o campo de onda ascendente e outra para o campo de onda descendente. A solução do campo de onda ascendente é dado por:
+
+\begin{equation}
+P(k_x,z,\omega)=P(k_x,z=0,\omega)exp\left[-i\sqrt{\frac{\omega^2}{v^2}-k_{x}^2 z}\right],
+\label{eq:pshift5}
+\end{equation}
+
+por definição $k_z$, 
+
+\begin{equation}
+k_z=\frac{\omega}{v}\sqrt{1-\left(\frac{vk_x}{\omega}\right)^2},
+\label{eq:pshift6}
+\end{equation}
+
+Utilzando a expressão\footnote{A equação (\ref{eq:pshift6}) é frequentemente chamada de relação de dispersão da equação de onda escalar unidirecional.} \ref{eq:pshift6} a equaçao \ref{eq:pshift5} tem uma forma simples matemáticamente expressa por:
+
+\begin{equation}
+P(k_x,z,\omega)=P(k_x,z=0,\omega)exp(-ik_{z}z)
+\label{eq:pshift7}
+\end{equation}
+
+O primeiro passo desta migração é aplicar uma transformada de Fourier para converter o campo de onda da seção do domínio do tempo para o domínio da frequência temporal, então aplicamos mais uma transformada de Fourier para cada nova posição convertendo o campo de onda da seção do domínio do espaço para o domínio do número de onda, então aplicamos um deslocamento reverso no tempo por meio do operador deslocamento de fase (\textit{phase-shift}), sempre calculando o campo de onda para cada velocidade associadas as camadas, fazemos isso até que $t=0$ (condição de imagem), instante no qual conseguimos desenhar o refletor.
+Por fim, aplicamos duas transformadas de Fourier inversas para converter o domínio do número de onda para o domínio do espaço, e o domínio da frequência temporal para o tempo, temos então a seção migrada.
+
+\begin{figure}[H]
+\centering
+\includegraphics[totalheight=13.5cm]{figuras/cap5/fluxograma_phase_shift.eps}
+\caption{Fluxograma da migração deslocamento de fase. Fonte: Modificado de \cite{Yilmaz(2000)}.}
+\label{fig:fluxograma_phase_shift}
+\end{figure}
+
+Para migrar as seçoes das figuras \ref{fig:linha_66_2km} e \ref{fig:linha_66_1km} foi utilizada a função $sugazmig$ do pacote Seismic Unix, conforme o shell-script no apêndice \ref{apendice_B}.
+
+\begin{landscape}
+\newpage
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.84]{figuras/cap5/model1_2km_linha66_mig_phase_shift.eps}
+\caption{Migração por deslocamento de fase da linha 66 da Bacia do Jequitinhonha figura \ref{fig:linha_66_2km}.}
+\label{fig:model1_2km_linha66_mig_phase_shift}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.84]{figuras/cap5/model2_1km_linha66_mig_phase_shift.eps}
+\caption{Migração por deslocamento de fase da linha 66 da Bacia do Jequitinhonha figura \ref{fig:linha_66_1km}.}
+\label{fig:model2_1km_linha66_mig_phase_shift}
+\end{figure}
+\end{landscape}

@@ -1,0 +1,12 @@
+\babel@toc {brazilian}{}
+\contentsline {section}{\numberline {1}OBJETIVOS}{1}%
+\contentsline {section}{\numberline {2}METODOLOGIA}{1}%
+\contentsline {subsection}{\numberline {2.1}LINHAS DE BUSCA}{1}%
+\contentsline {subsection}{\numberline {2.2}FUNÇÕES}{1}%
+\contentsline {section}{\numberline {3}MÉTODOS DE OTIMIZAÇÃO}{2}%
+\contentsline {subsection}{\numberline {3.1}MÉTODOS DE PRIMEIRA ORDEM}{2}%
+\contentsline {subsubsection}{\numberline {3.1.1}\textit {STEEPEST DESCENT}}{2}%
+\contentsline {subsubsection}{\numberline {3.1.2}\textit {CONJUGATE GRADIENT DESCENT}}{3}%
+\contentsline {subsection}{\numberline {3.2}MÉTODO DE SEGUNDA ORDEM}{3}%
+\contentsline {subsubsection}{\numberline {3.2.1}MÉTODO DE NEWTON}{3}%
+\contentsline {section}{\numberline {4}REFERÊNCIAS BIBLIOGRÁFICAS}{4}%

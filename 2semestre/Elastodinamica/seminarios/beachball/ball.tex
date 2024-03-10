@@ -1,0 +1,145 @@
+\documentclass{beamer}
+
+\mode<presentation> {
+\usetheme{Madrid}
+%\usecolortheme{whale}
+}
+\RequirePackage{epsfig}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs}
+\usepackage{amsmath}% A
+\usepackage{bm}
+\usepackage{xcolor}
+\usepackage{subfigure}
+\usepackage{gensymb}
+\usepackage{tikz}
+\usepackage[document]{ragged2e}
+\usetikzlibrary{shapes,backgrounds}
+\graphicspath{{figures/}}
+\usepackage{amsmath,amssymb}
+
+\newcommand{\nvec}{\vc{n}}
+\newcommand{\xvec}{\vc{x}}
+\newcommand{\evec}{\vc{e}}
+\newcommand{\vvec}{\vc{v}}
+\newcommand{\mvec}{\vc{m}}
+\newcommand{\uvec}{\vc{u}}
+\newcommand{\fvec}{\vc{f}}
+\newcommand{\zvec}{\vc{0}}
+\newcommand{\Psivec}{\vc{ \Psi}}
+\newcommand{\xivec}{\boldmath \xi}
+\newcommand{\ub}{\bar{u}}
+\newcommand{\g}{\gamma}
+\newcommand\myeq{\stackrel{\mathclap{\normalfont\mbox{def}}}{=}}
+
+
+
+% Define block styles
+\tikzstyle{block} = [rectangle, draw, fill=white, 
+text width=6em, text centered, rounded corners, node distance=2cm, minimum height=2em]
+\tikzstyle{line} = [draw, -latex]
+\tikzstyle{cloud} = [draw, ellipse,fill=white, node distance=2cm,
+minimum height=2em]
+
+
+\title[Seminário]{Mecanismo Focal: \textit{ Beachballs}} % The short title appears at the bottom of every slide, the full title is only on the title page
+%\input{macro.tex}
+
+\author{} % Your name
+\institute[UFPA] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
+{
+	Professor: Jessé Costa\\
+Universidade Federal do Pará \\ % Your institution for the title page
+\medskip
+ % Your email address
+}
+\date{\today} % Date
+
+\setbeamercovered{transparent}
+
+\AtBeginSection[]{
+\begin{frame}
+\frametitle{Sumário}
+ \tableofcontents[currentsection]
+\end{frame}
+}
+
+
+\begin{document}
+ \begin{frame}
+\begin{figure}[htb]
+\centering
+\includegraphics[width= 2cm, height= 2.5cm]{logo.jpg}
+\end{figure}
+
+\titlepage
+\end{frame}
+
+\begin{frame}{Problema proposto}
+	\begin{figure}[htb]
+		\centering
+		\includegraphics[width= 10cm, height= 8cm]{problema_geral}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{O que é uma \textit{Beachball}?}
+	\justifying
+	\begin{itemize}
+		\item Mecanismo focal;
+		\item \textit{Beachball};
+		\item Representação de falhas;
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Construção do \textit{Beachball}}
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale=0.45]{sobre_falha}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Construção do \textit{Beachball}}
+	\begin{figure}[htb]
+	\centering
+	\includegraphics[scale=0.65]{beachball}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Falha normal}
+		\begin{figure}[htb]
+		\centering
+		\includegraphics[scale=0.9]{normal}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Falha inversa}
+	\begin{figure}[htb]
+		\centering
+		\includegraphics[scale=0.9]{inversa}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Falha de componente transcorrente}
+	\begin{figure}[htb]
+		\centering
+		\includegraphics[scale=0.9]{transcorrente}
+	\end{figure}
+\end{frame}
+
+%\begin{frame}{Tipos de falha}
+%	\begin{figure}[htb]
+%		\centering
+%		\includegraphics[scale=0.34]{tensor}
+%	\end{figure}
+%\end{frame}
+
+\begin{frame}{Problema proposto}
+	\begin{figure}[htb]
+		\centering
+		\includegraphics[width= 10cm, height= 8cm]{problema_geral}
+	\end{figure}
+\end{frame}
+
+\end{document}

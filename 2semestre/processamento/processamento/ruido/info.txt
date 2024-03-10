@@ -1,0 +1,4800 @@
+ tracf=1	  fldr=1	    sx=2000	    gx=525	offset=-1475	   cdp=1	
+
+ tracf=2	  fldr=1	    sx=2000	    gx=575	offset=-1425	   cdp=2	
+
+ tracf=1	  fldr=2	    sx=2050	    gx=575	offset=-1475	   cdp=3	
+
+ tracf=3	  fldr=1	    sx=2000	    gx=625	offset=-1375	   cdp=3	
+
+ tracf=2	  fldr=2	    sx=2050	    gx=625	offset=-1425	   cdp=4	
+
+ tracf=4	  fldr=1	    sx=2000	    gx=675	offset=-1325	   cdp=4	
+
+ tracf=1	  fldr=3	    sx=2100	    gx=625	offset=-1475	   cdp=5	
+
+ tracf=3	  fldr=2	    sx=2050	    gx=675	offset=-1375	   cdp=5	
+
+ tracf=5	  fldr=1	    sx=2000	    gx=725	offset=-1275	   cdp=5	
+
+ tracf=2	  fldr=3	    sx=2100	    gx=675	offset=-1425	   cdp=6	
+
+ tracf=4	  fldr=2	    sx=2050	    gx=725	offset=-1325	   cdp=6	
+
+ tracf=6	  fldr=1	    sx=2000	    gx=775	offset=-1225	   cdp=6	
+
+ tracf=1	  fldr=4	    sx=2150	    gx=675	offset=-1475	   cdp=7	
+
+ tracf=3	  fldr=3	    sx=2100	    gx=725	offset=-1375	   cdp=7	
+
+ tracf=5	  fldr=2	    sx=2050	    gx=775	offset=-1275	   cdp=7	
+
+ tracf=7	  fldr=1	    sx=2000	    gx=825	offset=-1175	   cdp=7	
+
+ tracf=2	  fldr=4	    sx=2150	    gx=725	offset=-1425	   cdp=8	
+
+ tracf=4	  fldr=3	    sx=2100	    gx=775	offset=-1325	   cdp=8	
+
+ tracf=6	  fldr=2	    sx=2050	    gx=825	offset=-1225	   cdp=8	
+
+ tracf=8	  fldr=1	    sx=2000	    gx=875	offset=-1125	   cdp=8	
+
+ tracf=1	  fldr=5	    sx=2200	    gx=725	offset=-1475	   cdp=9	
+
+ tracf=3	  fldr=4	    sx=2150	    gx=775	offset=-1375	   cdp=9	
+
+ tracf=5	  fldr=3	    sx=2100	    gx=825	offset=-1275	   cdp=9	
+
+ tracf=7	  fldr=2	    sx=2050	    gx=875	offset=-1175	   cdp=9	
+
+ tracf=9	  fldr=1	    sx=2000	    gx=925	offset=-1075	   cdp=9	
+
+ tracf=2	  fldr=5	    sx=2200	    gx=775	offset=-1425	   cdp=10	
+
+ tracf=4	  fldr=4	    sx=2150	    gx=825	offset=-1325	   cdp=10	
+
+ tracf=6	  fldr=3	    sx=2100	    gx=875	offset=-1225	   cdp=10	
+
+ tracf=8	  fldr=2	    sx=2050	    gx=925	offset=-1125	   cdp=10	
+
+ tracf=10	  fldr=1	    sx=2000	    gx=975	offset=-1025	   cdp=10	
+
+ tracf=1	  fldr=6	    sx=2250	    gx=775	offset=-1475	   cdp=11	
+
+ tracf=3	  fldr=5	    sx=2200	    gx=825	offset=-1375	   cdp=11	
+
+ tracf=5	  fldr=4	    sx=2150	    gx=875	offset=-1275	   cdp=11	
+
+ tracf=7	  fldr=3	    sx=2100	    gx=925	offset=-1175	   cdp=11	
+
+ tracf=9	  fldr=2	    sx=2050	    gx=975	offset=-1075	   cdp=11	
+
+ tracf=11	  fldr=1	    sx=2000	    gx=1025	offset=-975	   cdp=11	
+
+ tracf=2	  fldr=6	    sx=2250	    gx=825	offset=-1425	   cdp=12	
+
+ tracf=4	  fldr=5	    sx=2200	    gx=875	offset=-1325	   cdp=12	
+
+ tracf=6	  fldr=4	    sx=2150	    gx=925	offset=-1225	   cdp=12	
+
+ tracf=8	  fldr=3	    sx=2100	    gx=975	offset=-1125	   cdp=12	
+
+ tracf=10	  fldr=2	    sx=2050	    gx=1025	offset=-1025	   cdp=12	
+
+ tracf=12	  fldr=1	    sx=2000	    gx=1075	offset=-925	   cdp=12	
+
+ tracf=1	  fldr=7	    sx=2300	    gx=825	offset=-1475	   cdp=13	
+
+ tracf=3	  fldr=6	    sx=2250	    gx=875	offset=-1375	   cdp=13	
+
+ tracf=5	  fldr=5	    sx=2200	    gx=925	offset=-1275	   cdp=13	
+
+ tracf=7	  fldr=4	    sx=2150	    gx=975	offset=-1175	   cdp=13	
+
+ tracf=9	  fldr=3	    sx=2100	    gx=1025	offset=-1075	   cdp=13	
+
+ tracf=11	  fldr=2	    sx=2050	    gx=1075	offset=-975	   cdp=13	
+
+ tracf=13	  fldr=1	    sx=2000	    gx=1125	offset=-875	   cdp=13	
+
+ tracf=2	  fldr=7	    sx=2300	    gx=875	offset=-1425	   cdp=14	
+
+ tracf=4	  fldr=6	    sx=2250	    gx=925	offset=-1325	   cdp=14	
+
+ tracf=6	  fldr=5	    sx=2200	    gx=975	offset=-1225	   cdp=14	
+
+ tracf=8	  fldr=4	    sx=2150	    gx=1025	offset=-1125	   cdp=14	
+
+ tracf=10	  fldr=3	    sx=2100	    gx=1075	offset=-1025	   cdp=14	
+
+ tracf=12	  fldr=2	    sx=2050	    gx=1125	offset=-925	   cdp=14	
+
+ tracf=14	  fldr=1	    sx=2000	    gx=1175	offset=-825	   cdp=14	
+
+ tracf=1	  fldr=8	    sx=2350	    gx=875	offset=-1475	   cdp=15	
+
+ tracf=3	  fldr=7	    sx=2300	    gx=925	offset=-1375	   cdp=15	
+
+ tracf=5	  fldr=6	    sx=2250	    gx=975	offset=-1275	   cdp=15	
+
+ tracf=7	  fldr=5	    sx=2200	    gx=1025	offset=-1175	   cdp=15	
+
+ tracf=9	  fldr=4	    sx=2150	    gx=1075	offset=-1075	   cdp=15	
+
+ tracf=11	  fldr=3	    sx=2100	    gx=1125	offset=-975	   cdp=15	
+
+ tracf=13	  fldr=2	    sx=2050	    gx=1175	offset=-875	   cdp=15	
+
+ tracf=15	  fldr=1	    sx=2000	    gx=1225	offset=-775	   cdp=15	
+
+ tracf=2	  fldr=8	    sx=2350	    gx=925	offset=-1425	   cdp=16	
+
+ tracf=4	  fldr=7	    sx=2300	    gx=975	offset=-1325	   cdp=16	
+
+ tracf=6	  fldr=6	    sx=2250	    gx=1025	offset=-1225	   cdp=16	
+
+ tracf=8	  fldr=5	    sx=2200	    gx=1075	offset=-1125	   cdp=16	
+
+ tracf=10	  fldr=4	    sx=2150	    gx=1125	offset=-1025	   cdp=16	
+
+ tracf=12	  fldr=3	    sx=2100	    gx=1175	offset=-925	   cdp=16	
+
+ tracf=14	  fldr=2	    sx=2050	    gx=1225	offset=-825	   cdp=16	
+
+ tracf=16	  fldr=1	    sx=2000	    gx=1275	offset=-725	   cdp=16	
+
+ tracf=1	  fldr=9	    sx=2400	    gx=925	offset=-1475	   cdp=17	
+
+ tracf=3	  fldr=8	    sx=2350	    gx=975	offset=-1375	   cdp=17	
+
+ tracf=5	  fldr=7	    sx=2300	    gx=1025	offset=-1275	   cdp=17	
+
+ tracf=7	  fldr=6	    sx=2250	    gx=1075	offset=-1175	   cdp=17	
+
+ tracf=9	  fldr=5	    sx=2200	    gx=1125	offset=-1075	   cdp=17	
+
+ tracf=11	  fldr=4	    sx=2150	    gx=1175	offset=-975	   cdp=17	
+
+ tracf=13	  fldr=3	    sx=2100	    gx=1225	offset=-875	   cdp=17	
+
+ tracf=15	  fldr=2	    sx=2050	    gx=1275	offset=-775	   cdp=17	
+
+ tracf=17	  fldr=1	    sx=2000	    gx=1325	offset=-675	   cdp=17	
+
+ tracf=2	  fldr=9	    sx=2400	    gx=975	offset=-1425	   cdp=18	
+
+ tracf=4	  fldr=8	    sx=2350	    gx=1025	offset=-1325	   cdp=18	
+
+ tracf=6	  fldr=7	    sx=2300	    gx=1075	offset=-1225	   cdp=18	
+
+ tracf=8	  fldr=6	    sx=2250	    gx=1125	offset=-1125	   cdp=18	
+
+ tracf=10	  fldr=5	    sx=2200	    gx=1175	offset=-1025	   cdp=18	
+
+ tracf=12	  fldr=4	    sx=2150	    gx=1225	offset=-925	   cdp=18	
+
+ tracf=14	  fldr=3	    sx=2100	    gx=1275	offset=-825	   cdp=18	
+
+ tracf=16	  fldr=2	    sx=2050	    gx=1325	offset=-725	   cdp=18	
+
+ tracf=18	  fldr=1	    sx=2000	    gx=1375	offset=-625	   cdp=18	
+
+ tracf=1	  fldr=10	    sx=2450	    gx=975	offset=-1475	   cdp=19	
+
+ tracf=3	  fldr=9	    sx=2400	    gx=1025	offset=-1375	   cdp=19	
+
+ tracf=5	  fldr=8	    sx=2350	    gx=1075	offset=-1275	   cdp=19	
+
+ tracf=7	  fldr=7	    sx=2300	    gx=1125	offset=-1175	   cdp=19	
+
+ tracf=9	  fldr=6	    sx=2250	    gx=1175	offset=-1075	   cdp=19	
+
+ tracf=11	  fldr=5	    sx=2200	    gx=1225	offset=-975	   cdp=19	
+
+ tracf=13	  fldr=4	    sx=2150	    gx=1275	offset=-875	   cdp=19	
+
+ tracf=15	  fldr=3	    sx=2100	    gx=1325	offset=-775	   cdp=19	
+
+ tracf=17	  fldr=2	    sx=2050	    gx=1375	offset=-675	   cdp=19	
+
+ tracf=19	  fldr=1	    sx=2000	    gx=1425	offset=-575	   cdp=19	
+
+ tracf=2	  fldr=10	    sx=2450	    gx=1025	offset=-1425	   cdp=20	
+
+ tracf=4	  fldr=9	    sx=2400	    gx=1075	offset=-1325	   cdp=20	
+
+ tracf=6	  fldr=8	    sx=2350	    gx=1125	offset=-1225	   cdp=20	
+
+ tracf=8	  fldr=7	    sx=2300	    gx=1175	offset=-1125	   cdp=20	
+
+ tracf=10	  fldr=6	    sx=2250	    gx=1225	offset=-1025	   cdp=20	
+
+ tracf=12	  fldr=5	    sx=2200	    gx=1275	offset=-925	   cdp=20	
+
+ tracf=14	  fldr=4	    sx=2150	    gx=1325	offset=-825	   cdp=20	
+
+ tracf=16	  fldr=3	    sx=2100	    gx=1375	offset=-725	   cdp=20	
+
+ tracf=18	  fldr=2	    sx=2050	    gx=1425	offset=-625	   cdp=20	
+
+ tracf=20	  fldr=1	    sx=2000	    gx=1475	offset=-525	   cdp=20	
+
+ tracf=1	  fldr=11	    sx=2500	    gx=1025	offset=-1475	   cdp=21	
+
+ tracf=3	  fldr=10	    sx=2450	    gx=1075	offset=-1375	   cdp=21	
+
+ tracf=5	  fldr=9	    sx=2400	    gx=1125	offset=-1275	   cdp=21	
+
+ tracf=7	  fldr=8	    sx=2350	    gx=1175	offset=-1175	   cdp=21	
+
+ tracf=9	  fldr=7	    sx=2300	    gx=1225	offset=-1075	   cdp=21	
+
+ tracf=11	  fldr=6	    sx=2250	    gx=1275	offset=-975	   cdp=21	
+
+ tracf=13	  fldr=5	    sx=2200	    gx=1325	offset=-875	   cdp=21	
+
+ tracf=15	  fldr=4	    sx=2150	    gx=1375	offset=-775	   cdp=21	
+
+ tracf=17	  fldr=3	    sx=2100	    gx=1425	offset=-675	   cdp=21	
+
+ tracf=19	  fldr=2	    sx=2050	    gx=1475	offset=-575	   cdp=21	
+
+ tracf=21	  fldr=1	    sx=2000	    gx=1525	offset=-475	   cdp=21	
+
+ tracf=2	  fldr=11	    sx=2500	    gx=1075	offset=-1425	   cdp=22	
+
+ tracf=4	  fldr=10	    sx=2450	    gx=1125	offset=-1325	   cdp=22	
+
+ tracf=6	  fldr=9	    sx=2400	    gx=1175	offset=-1225	   cdp=22	
+
+ tracf=8	  fldr=8	    sx=2350	    gx=1225	offset=-1125	   cdp=22	
+
+ tracf=10	  fldr=7	    sx=2300	    gx=1275	offset=-1025	   cdp=22	
+
+ tracf=12	  fldr=6	    sx=2250	    gx=1325	offset=-925	   cdp=22	
+
+ tracf=14	  fldr=5	    sx=2200	    gx=1375	offset=-825	   cdp=22	
+
+ tracf=16	  fldr=4	    sx=2150	    gx=1425	offset=-725	   cdp=22	
+
+ tracf=18	  fldr=3	    sx=2100	    gx=1475	offset=-625	   cdp=22	
+
+ tracf=20	  fldr=2	    sx=2050	    gx=1525	offset=-525	   cdp=22	
+
+ tracf=22	  fldr=1	    sx=2000	    gx=1575	offset=-425	   cdp=22	
+
+ tracf=1	  fldr=12	    sx=2550	    gx=1075	offset=-1475	   cdp=23	
+
+ tracf=3	  fldr=11	    sx=2500	    gx=1125	offset=-1375	   cdp=23	
+
+ tracf=5	  fldr=10	    sx=2450	    gx=1175	offset=-1275	   cdp=23	
+
+ tracf=7	  fldr=9	    sx=2400	    gx=1225	offset=-1175	   cdp=23	
+
+ tracf=9	  fldr=8	    sx=2350	    gx=1275	offset=-1075	   cdp=23	
+
+ tracf=11	  fldr=7	    sx=2300	    gx=1325	offset=-975	   cdp=23	
+
+ tracf=13	  fldr=6	    sx=2250	    gx=1375	offset=-875	   cdp=23	
+
+ tracf=15	  fldr=5	    sx=2200	    gx=1425	offset=-775	   cdp=23	
+
+ tracf=17	  fldr=4	    sx=2150	    gx=1475	offset=-675	   cdp=23	
+
+ tracf=19	  fldr=3	    sx=2100	    gx=1525	offset=-575	   cdp=23	
+
+ tracf=21	  fldr=2	    sx=2050	    gx=1575	offset=-475	   cdp=23	
+
+ tracf=23	  fldr=1	    sx=2000	    gx=1625	offset=-375	   cdp=23	
+
+ tracf=2	  fldr=12	    sx=2550	    gx=1125	offset=-1425	   cdp=24	
+
+ tracf=4	  fldr=11	    sx=2500	    gx=1175	offset=-1325	   cdp=24	
+
+ tracf=6	  fldr=10	    sx=2450	    gx=1225	offset=-1225	   cdp=24	
+
+ tracf=8	  fldr=9	    sx=2400	    gx=1275	offset=-1125	   cdp=24	
+
+ tracf=10	  fldr=8	    sx=2350	    gx=1325	offset=-1025	   cdp=24	
+
+ tracf=12	  fldr=7	    sx=2300	    gx=1375	offset=-925	   cdp=24	
+
+ tracf=14	  fldr=6	    sx=2250	    gx=1425	offset=-825	   cdp=24	
+
+ tracf=16	  fldr=5	    sx=2200	    gx=1475	offset=-725	   cdp=24	
+
+ tracf=18	  fldr=4	    sx=2150	    gx=1525	offset=-625	   cdp=24	
+
+ tracf=20	  fldr=3	    sx=2100	    gx=1575	offset=-525	   cdp=24	
+
+ tracf=22	  fldr=2	    sx=2050	    gx=1625	offset=-425	   cdp=24	
+
+ tracf=24	  fldr=1	    sx=2000	    gx=1675	offset=-325	   cdp=24	
+
+ tracf=1	  fldr=13	    sx=2600	    gx=1125	offset=-1475	   cdp=25	
+
+ tracf=3	  fldr=12	    sx=2550	    gx=1175	offset=-1375	   cdp=25	
+
+ tracf=5	  fldr=11	    sx=2500	    gx=1225	offset=-1275	   cdp=25	
+
+ tracf=7	  fldr=10	    sx=2450	    gx=1275	offset=-1175	   cdp=25	
+
+ tracf=9	  fldr=9	    sx=2400	    gx=1325	offset=-1075	   cdp=25	
+
+ tracf=11	  fldr=8	    sx=2350	    gx=1375	offset=-975	   cdp=25	
+
+ tracf=13	  fldr=7	    sx=2300	    gx=1425	offset=-875	   cdp=25	
+
+ tracf=15	  fldr=6	    sx=2250	    gx=1475	offset=-775	   cdp=25	
+
+ tracf=17	  fldr=5	    sx=2200	    gx=1525	offset=-675	   cdp=25	
+
+ tracf=19	  fldr=4	    sx=2150	    gx=1575	offset=-575	   cdp=25	
+
+ tracf=21	  fldr=3	    sx=2100	    gx=1625	offset=-475	   cdp=25	
+
+ tracf=23	  fldr=2	    sx=2050	    gx=1675	offset=-375	   cdp=25	
+
+ tracf=25	  fldr=1	    sx=2000	    gx=1725	offset=-275	   cdp=25	
+
+ tracf=2	  fldr=13	    sx=2600	    gx=1175	offset=-1425	   cdp=26	
+
+ tracf=4	  fldr=12	    sx=2550	    gx=1225	offset=-1325	   cdp=26	
+
+ tracf=6	  fldr=11	    sx=2500	    gx=1275	offset=-1225	   cdp=26	
+
+ tracf=8	  fldr=10	    sx=2450	    gx=1325	offset=-1125	   cdp=26	
+
+ tracf=10	  fldr=9	    sx=2400	    gx=1375	offset=-1025	   cdp=26	
+
+ tracf=12	  fldr=8	    sx=2350	    gx=1425	offset=-925	   cdp=26	
+
+ tracf=14	  fldr=7	    sx=2300	    gx=1475	offset=-825	   cdp=26	
+
+ tracf=16	  fldr=6	    sx=2250	    gx=1525	offset=-725	   cdp=26	
+
+ tracf=18	  fldr=5	    sx=2200	    gx=1575	offset=-625	   cdp=26	
+
+ tracf=20	  fldr=4	    sx=2150	    gx=1625	offset=-525	   cdp=26	
+
+ tracf=22	  fldr=3	    sx=2100	    gx=1675	offset=-425	   cdp=26	
+
+ tracf=24	  fldr=2	    sx=2050	    gx=1725	offset=-325	   cdp=26	
+
+ tracf=26	  fldr=1	    sx=2000	    gx=1775	offset=-225	   cdp=26	
+
+ tracf=1	  fldr=14	    sx=2650	    gx=1175	offset=-1475	   cdp=27	
+
+ tracf=3	  fldr=13	    sx=2600	    gx=1225	offset=-1375	   cdp=27	
+
+ tracf=5	  fldr=12	    sx=2550	    gx=1275	offset=-1275	   cdp=27	
+
+ tracf=7	  fldr=11	    sx=2500	    gx=1325	offset=-1175	   cdp=27	
+
+ tracf=9	  fldr=10	    sx=2450	    gx=1375	offset=-1075	   cdp=27	
+
+ tracf=11	  fldr=9	    sx=2400	    gx=1425	offset=-975	   cdp=27	
+
+ tracf=13	  fldr=8	    sx=2350	    gx=1475	offset=-875	   cdp=27	
+
+ tracf=15	  fldr=7	    sx=2300	    gx=1525	offset=-775	   cdp=27	
+
+ tracf=17	  fldr=6	    sx=2250	    gx=1575	offset=-675	   cdp=27	
+
+ tracf=19	  fldr=5	    sx=2200	    gx=1625	offset=-575	   cdp=27	
+
+ tracf=21	  fldr=4	    sx=2150	    gx=1675	offset=-475	   cdp=27	
+
+ tracf=23	  fldr=3	    sx=2100	    gx=1725	offset=-375	   cdp=27	
+
+ tracf=25	  fldr=2	    sx=2050	    gx=1775	offset=-275	   cdp=27	
+
+ tracf=27	  fldr=1	    sx=2000	    gx=1825	offset=-175	   cdp=27	
+
+ tracf=2	  fldr=14	    sx=2650	    gx=1225	offset=-1425	   cdp=28	
+
+ tracf=4	  fldr=13	    sx=2600	    gx=1275	offset=-1325	   cdp=28	
+
+ tracf=6	  fldr=12	    sx=2550	    gx=1325	offset=-1225	   cdp=28	
+
+ tracf=8	  fldr=11	    sx=2500	    gx=1375	offset=-1125	   cdp=28	
+
+ tracf=10	  fldr=10	    sx=2450	    gx=1425	offset=-1025	   cdp=28	
+
+ tracf=12	  fldr=9	    sx=2400	    gx=1475	offset=-925	   cdp=28	
+
+ tracf=14	  fldr=8	    sx=2350	    gx=1525	offset=-825	   cdp=28	
+
+ tracf=16	  fldr=7	    sx=2300	    gx=1575	offset=-725	   cdp=28	
+
+ tracf=18	  fldr=6	    sx=2250	    gx=1625	offset=-625	   cdp=28	
+
+ tracf=20	  fldr=5	    sx=2200	    gx=1675	offset=-525	   cdp=28	
+
+ tracf=22	  fldr=4	    sx=2150	    gx=1725	offset=-425	   cdp=28	
+
+ tracf=24	  fldr=3	    sx=2100	    gx=1775	offset=-325	   cdp=28	
+
+ tracf=26	  fldr=2	    sx=2050	    gx=1825	offset=-225	   cdp=28	
+
+ tracf=28	  fldr=1	    sx=2000	    gx=1875	offset=-125	   cdp=28	
+
+ tracf=1	  fldr=15	    sx=2700	    gx=1225	offset=-1475	   cdp=29	
+
+ tracf=3	  fldr=14	    sx=2650	    gx=1275	offset=-1375	   cdp=29	
+
+ tracf=5	  fldr=13	    sx=2600	    gx=1325	offset=-1275	   cdp=29	
+
+ tracf=7	  fldr=12	    sx=2550	    gx=1375	offset=-1175	   cdp=29	
+
+ tracf=9	  fldr=11	    sx=2500	    gx=1425	offset=-1075	   cdp=29	
+
+ tracf=11	  fldr=10	    sx=2450	    gx=1475	offset=-975	   cdp=29	
+
+ tracf=13	  fldr=9	    sx=2400	    gx=1525	offset=-875	   cdp=29	
+
+ tracf=15	  fldr=8	    sx=2350	    gx=1575	offset=-775	   cdp=29	
+
+ tracf=17	  fldr=7	    sx=2300	    gx=1625	offset=-675	   cdp=29	
+
+ tracf=19	  fldr=6	    sx=2250	    gx=1675	offset=-575	   cdp=29	
+
+ tracf=21	  fldr=5	    sx=2200	    gx=1725	offset=-475	   cdp=29	
+
+ tracf=23	  fldr=4	    sx=2150	    gx=1775	offset=-375	   cdp=29	
+
+ tracf=25	  fldr=3	    sx=2100	    gx=1825	offset=-275	   cdp=29	
+
+ tracf=27	  fldr=2	    sx=2050	    gx=1875	offset=-175	   cdp=29	
+
+ tracf=29	  fldr=1	    sx=2000	    gx=1925	offset=-75	   cdp=29	
+
+ tracf=2	  fldr=15	    sx=2700	    gx=1275	offset=-1425	   cdp=30	
+
+ tracf=4	  fldr=14	    sx=2650	    gx=1325	offset=-1325	   cdp=30	
+
+ tracf=6	  fldr=13	    sx=2600	    gx=1375	offset=-1225	   cdp=30	
+
+ tracf=8	  fldr=12	    sx=2550	    gx=1425	offset=-1125	   cdp=30	
+
+ tracf=10	  fldr=11	    sx=2500	    gx=1475	offset=-1025	   cdp=30	
+
+ tracf=12	  fldr=10	    sx=2450	    gx=1525	offset=-925	   cdp=30	
+
+ tracf=14	  fldr=9	    sx=2400	    gx=1575	offset=-825	   cdp=30	
+
+ tracf=16	  fldr=8	    sx=2350	    gx=1625	offset=-725	   cdp=30	
+
+ tracf=18	  fldr=7	    sx=2300	    gx=1675	offset=-625	   cdp=30	
+
+ tracf=20	  fldr=6	    sx=2250	    gx=1725	offset=-525	   cdp=30	
+
+ tracf=22	  fldr=5	    sx=2200	    gx=1775	offset=-425	   cdp=30	
+
+ tracf=24	  fldr=4	    sx=2150	    gx=1825	offset=-325	   cdp=30	
+
+ tracf=26	  fldr=3	    sx=2100	    gx=1875	offset=-225	   cdp=30	
+
+ tracf=28	  fldr=2	    sx=2050	    gx=1925	offset=-125	   cdp=30	
+
+ tracf=30	  fldr=1	    sx=2000	    gx=1975	offset=-25	   cdp=30	
+
+ tracf=1	  fldr=16	    sx=2750	    gx=1275	offset=-1475	   cdp=31	
+
+ tracf=3	  fldr=15	    sx=2700	    gx=1325	offset=-1375	   cdp=31	
+
+ tracf=5	  fldr=14	    sx=2650	    gx=1375	offset=-1275	   cdp=31	
+
+ tracf=7	  fldr=13	    sx=2600	    gx=1425	offset=-1175	   cdp=31	
+
+ tracf=9	  fldr=12	    sx=2550	    gx=1475	offset=-1075	   cdp=31	
+
+ tracf=11	  fldr=11	    sx=2500	    gx=1525	offset=-975	   cdp=31	
+
+ tracf=13	  fldr=10	    sx=2450	    gx=1575	offset=-875	   cdp=31	
+
+ tracf=15	  fldr=9	    sx=2400	    gx=1625	offset=-775	   cdp=31	
+
+ tracf=17	  fldr=8	    sx=2350	    gx=1675	offset=-675	   cdp=31	
+
+ tracf=19	  fldr=7	    sx=2300	    gx=1725	offset=-575	   cdp=31	
+
+ tracf=21	  fldr=6	    sx=2250	    gx=1775	offset=-475	   cdp=31	
+
+ tracf=23	  fldr=5	    sx=2200	    gx=1825	offset=-375	   cdp=31	
+
+ tracf=25	  fldr=4	    sx=2150	    gx=1875	offset=-275	   cdp=31	
+
+ tracf=27	  fldr=3	    sx=2100	    gx=1925	offset=-175	   cdp=31	
+
+ tracf=29	  fldr=2	    sx=2050	    gx=1975	offset=-75	   cdp=31	
+
+ tracf=31	  fldr=1	    sx=2000	    gx=2025	offset=25	   cdp=31	
+
+ tracf=2	  fldr=16	    sx=2750	    gx=1325	offset=-1425	   cdp=32	
+
+ tracf=4	  fldr=15	    sx=2700	    gx=1375	offset=-1325	   cdp=32	
+
+ tracf=6	  fldr=14	    sx=2650	    gx=1425	offset=-1225	   cdp=32	
+
+ tracf=8	  fldr=13	    sx=2600	    gx=1475	offset=-1125	   cdp=32	
+
+ tracf=10	  fldr=12	    sx=2550	    gx=1525	offset=-1025	   cdp=32	
+
+ tracf=12	  fldr=11	    sx=2500	    gx=1575	offset=-925	   cdp=32	
+
+ tracf=14	  fldr=10	    sx=2450	    gx=1625	offset=-825	   cdp=32	
+
+ tracf=16	  fldr=9	    sx=2400	    gx=1675	offset=-725	   cdp=32	
+
+ tracf=18	  fldr=8	    sx=2350	    gx=1725	offset=-625	   cdp=32	
+
+ tracf=20	  fldr=7	    sx=2300	    gx=1775	offset=-525	   cdp=32	
+
+ tracf=22	  fldr=6	    sx=2250	    gx=1825	offset=-425	   cdp=32	
+
+ tracf=24	  fldr=5	    sx=2200	    gx=1875	offset=-325	   cdp=32	
+
+ tracf=26	  fldr=4	    sx=2150	    gx=1925	offset=-225	   cdp=32	
+
+ tracf=28	  fldr=3	    sx=2100	    gx=1975	offset=-125	   cdp=32	
+
+ tracf=30	  fldr=2	    sx=2050	    gx=2025	offset=-25	   cdp=32	
+
+ tracf=32	  fldr=1	    sx=2000	    gx=2075	offset=75	   cdp=32	
+
+ tracf=1	  fldr=17	    sx=2800	    gx=1325	offset=-1475	   cdp=33	
+
+ tracf=3	  fldr=16	    sx=2750	    gx=1375	offset=-1375	   cdp=33	
+
+ tracf=5	  fldr=15	    sx=2700	    gx=1425	offset=-1275	   cdp=33	
+
+ tracf=7	  fldr=14	    sx=2650	    gx=1475	offset=-1175	   cdp=33	
+
+ tracf=9	  fldr=13	    sx=2600	    gx=1525	offset=-1075	   cdp=33	
+
+ tracf=11	  fldr=12	    sx=2550	    gx=1575	offset=-975	   cdp=33	
+
+ tracf=13	  fldr=11	    sx=2500	    gx=1625	offset=-875	   cdp=33	
+
+ tracf=15	  fldr=10	    sx=2450	    gx=1675	offset=-775	   cdp=33	
+
+ tracf=17	  fldr=9	    sx=2400	    gx=1725	offset=-675	   cdp=33	
+
+ tracf=19	  fldr=8	    sx=2350	    gx=1775	offset=-575	   cdp=33	
+
+ tracf=21	  fldr=7	    sx=2300	    gx=1825	offset=-475	   cdp=33	
+
+ tracf=23	  fldr=6	    sx=2250	    gx=1875	offset=-375	   cdp=33	
+
+ tracf=25	  fldr=5	    sx=2200	    gx=1925	offset=-275	   cdp=33	
+
+ tracf=27	  fldr=4	    sx=2150	    gx=1975	offset=-175	   cdp=33	
+
+ tracf=29	  fldr=3	    sx=2100	    gx=2025	offset=-75	   cdp=33	
+
+ tracf=31	  fldr=2	    sx=2050	    gx=2075	offset=25	   cdp=33	
+
+ tracf=33	  fldr=1	    sx=2000	    gx=2125	offset=125	   cdp=33	
+
+ tracf=2	  fldr=17	    sx=2800	    gx=1375	offset=-1425	   cdp=34	
+
+ tracf=4	  fldr=16	    sx=2750	    gx=1425	offset=-1325	   cdp=34	
+
+ tracf=6	  fldr=15	    sx=2700	    gx=1475	offset=-1225	   cdp=34	
+
+ tracf=8	  fldr=14	    sx=2650	    gx=1525	offset=-1125	   cdp=34	
+
+ tracf=10	  fldr=13	    sx=2600	    gx=1575	offset=-1025	   cdp=34	
+
+ tracf=12	  fldr=12	    sx=2550	    gx=1625	offset=-925	   cdp=34	
+
+ tracf=14	  fldr=11	    sx=2500	    gx=1675	offset=-825	   cdp=34	
+
+ tracf=16	  fldr=10	    sx=2450	    gx=1725	offset=-725	   cdp=34	
+
+ tracf=18	  fldr=9	    sx=2400	    gx=1775	offset=-625	   cdp=34	
+
+ tracf=20	  fldr=8	    sx=2350	    gx=1825	offset=-525	   cdp=34	
+
+ tracf=22	  fldr=7	    sx=2300	    gx=1875	offset=-425	   cdp=34	
+
+ tracf=24	  fldr=6	    sx=2250	    gx=1925	offset=-325	   cdp=34	
+
+ tracf=26	  fldr=5	    sx=2200	    gx=1975	offset=-225	   cdp=34	
+
+ tracf=28	  fldr=4	    sx=2150	    gx=2025	offset=-125	   cdp=34	
+
+ tracf=30	  fldr=3	    sx=2100	    gx=2075	offset=-25	   cdp=34	
+
+ tracf=32	  fldr=2	    sx=2050	    gx=2125	offset=75	   cdp=34	
+
+ tracf=34	  fldr=1	    sx=2000	    gx=2175	offset=175	   cdp=34	
+
+ tracf=1	  fldr=18	    sx=2850	    gx=1375	offset=-1475	   cdp=35	
+
+ tracf=3	  fldr=17	    sx=2800	    gx=1425	offset=-1375	   cdp=35	
+
+ tracf=5	  fldr=16	    sx=2750	    gx=1475	offset=-1275	   cdp=35	
+
+ tracf=7	  fldr=15	    sx=2700	    gx=1525	offset=-1175	   cdp=35	
+
+ tracf=9	  fldr=14	    sx=2650	    gx=1575	offset=-1075	   cdp=35	
+
+ tracf=11	  fldr=13	    sx=2600	    gx=1625	offset=-975	   cdp=35	
+
+ tracf=13	  fldr=12	    sx=2550	    gx=1675	offset=-875	   cdp=35	
+
+ tracf=15	  fldr=11	    sx=2500	    gx=1725	offset=-775	   cdp=35	
+
+ tracf=17	  fldr=10	    sx=2450	    gx=1775	offset=-675	   cdp=35	
+
+ tracf=19	  fldr=9	    sx=2400	    gx=1825	offset=-575	   cdp=35	
+
+ tracf=21	  fldr=8	    sx=2350	    gx=1875	offset=-475	   cdp=35	
+
+ tracf=23	  fldr=7	    sx=2300	    gx=1925	offset=-375	   cdp=35	
+
+ tracf=25	  fldr=6	    sx=2250	    gx=1975	offset=-275	   cdp=35	
+
+ tracf=27	  fldr=5	    sx=2200	    gx=2025	offset=-175	   cdp=35	
+
+ tracf=29	  fldr=4	    sx=2150	    gx=2075	offset=-75	   cdp=35	
+
+ tracf=31	  fldr=3	    sx=2100	    gx=2125	offset=25	   cdp=35	
+
+ tracf=33	  fldr=2	    sx=2050	    gx=2175	offset=125	   cdp=35	
+
+ tracf=35	  fldr=1	    sx=2000	    gx=2225	offset=225	   cdp=35	
+
+ tracf=2	  fldr=18	    sx=2850	    gx=1425	offset=-1425	   cdp=36	
+
+ tracf=4	  fldr=17	    sx=2800	    gx=1475	offset=-1325	   cdp=36	
+
+ tracf=6	  fldr=16	    sx=2750	    gx=1525	offset=-1225	   cdp=36	
+
+ tracf=8	  fldr=15	    sx=2700	    gx=1575	offset=-1125	   cdp=36	
+
+ tracf=10	  fldr=14	    sx=2650	    gx=1625	offset=-1025	   cdp=36	
+
+ tracf=12	  fldr=13	    sx=2600	    gx=1675	offset=-925	   cdp=36	
+
+ tracf=14	  fldr=12	    sx=2550	    gx=1725	offset=-825	   cdp=36	
+
+ tracf=16	  fldr=11	    sx=2500	    gx=1775	offset=-725	   cdp=36	
+
+ tracf=18	  fldr=10	    sx=2450	    gx=1825	offset=-625	   cdp=36	
+
+ tracf=20	  fldr=9	    sx=2400	    gx=1875	offset=-525	   cdp=36	
+
+ tracf=22	  fldr=8	    sx=2350	    gx=1925	offset=-425	   cdp=36	
+
+ tracf=24	  fldr=7	    sx=2300	    gx=1975	offset=-325	   cdp=36	
+
+ tracf=26	  fldr=6	    sx=2250	    gx=2025	offset=-225	   cdp=36	
+
+ tracf=28	  fldr=5	    sx=2200	    gx=2075	offset=-125	   cdp=36	
+
+ tracf=30	  fldr=4	    sx=2150	    gx=2125	offset=-25	   cdp=36	
+
+ tracf=32	  fldr=3	    sx=2100	    gx=2175	offset=75	   cdp=36	
+
+ tracf=34	  fldr=2	    sx=2050	    gx=2225	offset=175	   cdp=36	
+
+ tracf=36	  fldr=1	    sx=2000	    gx=2275	offset=275	   cdp=36	
+
+ tracf=1	  fldr=19	    sx=2900	    gx=1425	offset=-1475	   cdp=37	
+
+ tracf=3	  fldr=18	    sx=2850	    gx=1475	offset=-1375	   cdp=37	
+
+ tracf=5	  fldr=17	    sx=2800	    gx=1525	offset=-1275	   cdp=37	
+
+ tracf=7	  fldr=16	    sx=2750	    gx=1575	offset=-1175	   cdp=37	
+
+ tracf=9	  fldr=15	    sx=2700	    gx=1625	offset=-1075	   cdp=37	
+
+ tracf=11	  fldr=14	    sx=2650	    gx=1675	offset=-975	   cdp=37	
+
+ tracf=13	  fldr=13	    sx=2600	    gx=1725	offset=-875	   cdp=37	
+
+ tracf=15	  fldr=12	    sx=2550	    gx=1775	offset=-775	   cdp=37	
+
+ tracf=17	  fldr=11	    sx=2500	    gx=1825	offset=-675	   cdp=37	
+
+ tracf=19	  fldr=10	    sx=2450	    gx=1875	offset=-575	   cdp=37	
+
+ tracf=21	  fldr=9	    sx=2400	    gx=1925	offset=-475	   cdp=37	
+
+ tracf=23	  fldr=8	    sx=2350	    gx=1975	offset=-375	   cdp=37	
+
+ tracf=25	  fldr=7	    sx=2300	    gx=2025	offset=-275	   cdp=37	
+
+ tracf=27	  fldr=6	    sx=2250	    gx=2075	offset=-175	   cdp=37	
+
+ tracf=29	  fldr=5	    sx=2200	    gx=2125	offset=-75	   cdp=37	
+
+ tracf=31	  fldr=4	    sx=2150	    gx=2175	offset=25	   cdp=37	
+
+ tracf=33	  fldr=3	    sx=2100	    gx=2225	offset=125	   cdp=37	
+
+ tracf=35	  fldr=2	    sx=2050	    gx=2275	offset=225	   cdp=37	
+
+ tracf=37	  fldr=1	    sx=2000	    gx=2325	offset=325	   cdp=37	
+
+ tracf=2	  fldr=19	    sx=2900	    gx=1475	offset=-1425	   cdp=38	
+
+ tracf=4	  fldr=18	    sx=2850	    gx=1525	offset=-1325	   cdp=38	
+
+ tracf=6	  fldr=17	    sx=2800	    gx=1575	offset=-1225	   cdp=38	
+
+ tracf=8	  fldr=16	    sx=2750	    gx=1625	offset=-1125	   cdp=38	
+
+ tracf=10	  fldr=15	    sx=2700	    gx=1675	offset=-1025	   cdp=38	
+
+ tracf=12	  fldr=14	    sx=2650	    gx=1725	offset=-925	   cdp=38	
+
+ tracf=14	  fldr=13	    sx=2600	    gx=1775	offset=-825	   cdp=38	
+
+ tracf=16	  fldr=12	    sx=2550	    gx=1825	offset=-725	   cdp=38	
+
+ tracf=18	  fldr=11	    sx=2500	    gx=1875	offset=-625	   cdp=38	
+
+ tracf=20	  fldr=10	    sx=2450	    gx=1925	offset=-525	   cdp=38	
+
+ tracf=22	  fldr=9	    sx=2400	    gx=1975	offset=-425	   cdp=38	
+
+ tracf=24	  fldr=8	    sx=2350	    gx=2025	offset=-325	   cdp=38	
+
+ tracf=26	  fldr=7	    sx=2300	    gx=2075	offset=-225	   cdp=38	
+
+ tracf=28	  fldr=6	    sx=2250	    gx=2125	offset=-125	   cdp=38	
+
+ tracf=30	  fldr=5	    sx=2200	    gx=2175	offset=-25	   cdp=38	
+
+ tracf=32	  fldr=4	    sx=2150	    gx=2225	offset=75	   cdp=38	
+
+ tracf=34	  fldr=3	    sx=2100	    gx=2275	offset=175	   cdp=38	
+
+ tracf=36	  fldr=2	    sx=2050	    gx=2325	offset=275	   cdp=38	
+
+ tracf=38	  fldr=1	    sx=2000	    gx=2375	offset=375	   cdp=38	
+
+ tracf=1	  fldr=20	    sx=2950	    gx=1475	offset=-1475	   cdp=39	
+
+ tracf=3	  fldr=19	    sx=2900	    gx=1525	offset=-1375	   cdp=39	
+
+ tracf=5	  fldr=18	    sx=2850	    gx=1575	offset=-1275	   cdp=39	
+
+ tracf=7	  fldr=17	    sx=2800	    gx=1625	offset=-1175	   cdp=39	
+
+ tracf=9	  fldr=16	    sx=2750	    gx=1675	offset=-1075	   cdp=39	
+
+ tracf=11	  fldr=15	    sx=2700	    gx=1725	offset=-975	   cdp=39	
+
+ tracf=13	  fldr=14	    sx=2650	    gx=1775	offset=-875	   cdp=39	
+
+ tracf=15	  fldr=13	    sx=2600	    gx=1825	offset=-775	   cdp=39	
+
+ tracf=17	  fldr=12	    sx=2550	    gx=1875	offset=-675	   cdp=39	
+
+ tracf=19	  fldr=11	    sx=2500	    gx=1925	offset=-575	   cdp=39	
+
+ tracf=21	  fldr=10	    sx=2450	    gx=1975	offset=-475	   cdp=39	
+
+ tracf=23	  fldr=9	    sx=2400	    gx=2025	offset=-375	   cdp=39	
+
+ tracf=25	  fldr=8	    sx=2350	    gx=2075	offset=-275	   cdp=39	
+
+ tracf=27	  fldr=7	    sx=2300	    gx=2125	offset=-175	   cdp=39	
+
+ tracf=29	  fldr=6	    sx=2250	    gx=2175	offset=-75	   cdp=39	
+
+ tracf=31	  fldr=5	    sx=2200	    gx=2225	offset=25	   cdp=39	
+
+ tracf=33	  fldr=4	    sx=2150	    gx=2275	offset=125	   cdp=39	
+
+ tracf=35	  fldr=3	    sx=2100	    gx=2325	offset=225	   cdp=39	
+
+ tracf=37	  fldr=2	    sx=2050	    gx=2375	offset=325	   cdp=39	
+
+ tracf=39	  fldr=1	    sx=2000	    gx=2425	offset=425	   cdp=39	
+
+ tracf=2	  fldr=20	    sx=2950	    gx=1525	offset=-1425	   cdp=40	
+
+ tracf=4	  fldr=19	    sx=2900	    gx=1575	offset=-1325	   cdp=40	
+
+ tracf=6	  fldr=18	    sx=2850	    gx=1625	offset=-1225	   cdp=40	
+
+ tracf=8	  fldr=17	    sx=2800	    gx=1675	offset=-1125	   cdp=40	
+
+ tracf=10	  fldr=16	    sx=2750	    gx=1725	offset=-1025	   cdp=40	
+
+ tracf=12	  fldr=15	    sx=2700	    gx=1775	offset=-925	   cdp=40	
+
+ tracf=14	  fldr=14	    sx=2650	    gx=1825	offset=-825	   cdp=40	
+
+ tracf=16	  fldr=13	    sx=2600	    gx=1875	offset=-725	   cdp=40	
+
+ tracf=18	  fldr=12	    sx=2550	    gx=1925	offset=-625	   cdp=40	
+
+ tracf=20	  fldr=11	    sx=2500	    gx=1975	offset=-525	   cdp=40	
+
+ tracf=22	  fldr=10	    sx=2450	    gx=2025	offset=-425	   cdp=40	
+
+ tracf=24	  fldr=9	    sx=2400	    gx=2075	offset=-325	   cdp=40	
+
+ tracf=26	  fldr=8	    sx=2350	    gx=2125	offset=-225	   cdp=40	
+
+ tracf=28	  fldr=7	    sx=2300	    gx=2175	offset=-125	   cdp=40	
+
+ tracf=30	  fldr=6	    sx=2250	    gx=2225	offset=-25	   cdp=40	
+
+ tracf=32	  fldr=5	    sx=2200	    gx=2275	offset=75	   cdp=40	
+
+ tracf=34	  fldr=4	    sx=2150	    gx=2325	offset=175	   cdp=40	
+
+ tracf=36	  fldr=3	    sx=2100	    gx=2375	offset=275	   cdp=40	
+
+ tracf=38	  fldr=2	    sx=2050	    gx=2425	offset=375	   cdp=40	
+
+ tracf=40	  fldr=1	    sx=2000	    gx=2475	offset=475	   cdp=40	
+
+ tracf=1	  fldr=21	    sx=3000	    gx=1525	offset=-1475	   cdp=41	
+
+ tracf=3	  fldr=20	    sx=2950	    gx=1575	offset=-1375	   cdp=41	
+
+ tracf=5	  fldr=19	    sx=2900	    gx=1625	offset=-1275	   cdp=41	
+
+ tracf=7	  fldr=18	    sx=2850	    gx=1675	offset=-1175	   cdp=41	
+
+ tracf=9	  fldr=17	    sx=2800	    gx=1725	offset=-1075	   cdp=41	
+
+ tracf=11	  fldr=16	    sx=2750	    gx=1775	offset=-975	   cdp=41	
+
+ tracf=13	  fldr=15	    sx=2700	    gx=1825	offset=-875	   cdp=41	
+
+ tracf=15	  fldr=14	    sx=2650	    gx=1875	offset=-775	   cdp=41	
+
+ tracf=17	  fldr=13	    sx=2600	    gx=1925	offset=-675	   cdp=41	
+
+ tracf=19	  fldr=12	    sx=2550	    gx=1975	offset=-575	   cdp=41	
+
+ tracf=21	  fldr=11	    sx=2500	    gx=2025	offset=-475	   cdp=41	
+
+ tracf=23	  fldr=10	    sx=2450	    gx=2075	offset=-375	   cdp=41	
+
+ tracf=25	  fldr=9	    sx=2400	    gx=2125	offset=-275	   cdp=41	
+
+ tracf=27	  fldr=8	    sx=2350	    gx=2175	offset=-175	   cdp=41	
+
+ tracf=29	  fldr=7	    sx=2300	    gx=2225	offset=-75	   cdp=41	
+
+ tracf=31	  fldr=6	    sx=2250	    gx=2275	offset=25	   cdp=41	
+
+ tracf=33	  fldr=5	    sx=2200	    gx=2325	offset=125	   cdp=41	
+
+ tracf=35	  fldr=4	    sx=2150	    gx=2375	offset=225	   cdp=41	
+
+ tracf=37	  fldr=3	    sx=2100	    gx=2425	offset=325	   cdp=41	
+
+ tracf=39	  fldr=2	    sx=2050	    gx=2475	offset=425	   cdp=41	
+
+ tracf=41	  fldr=1	    sx=2000	    gx=2525	offset=525	   cdp=41	
+
+ tracf=2	  fldr=21	    sx=3000	    gx=1575	offset=-1425	   cdp=42	
+
+ tracf=4	  fldr=20	    sx=2950	    gx=1625	offset=-1325	   cdp=42	
+
+ tracf=6	  fldr=19	    sx=2900	    gx=1675	offset=-1225	   cdp=42	
+
+ tracf=8	  fldr=18	    sx=2850	    gx=1725	offset=-1125	   cdp=42	
+
+ tracf=10	  fldr=17	    sx=2800	    gx=1775	offset=-1025	   cdp=42	
+
+ tracf=12	  fldr=16	    sx=2750	    gx=1825	offset=-925	   cdp=42	
+
+ tracf=14	  fldr=15	    sx=2700	    gx=1875	offset=-825	   cdp=42	
+
+ tracf=16	  fldr=14	    sx=2650	    gx=1925	offset=-725	   cdp=42	
+
+ tracf=18	  fldr=13	    sx=2600	    gx=1975	offset=-625	   cdp=42	
+
+ tracf=20	  fldr=12	    sx=2550	    gx=2025	offset=-525	   cdp=42	
+
+ tracf=22	  fldr=11	    sx=2500	    gx=2075	offset=-425	   cdp=42	
+
+ tracf=24	  fldr=10	    sx=2450	    gx=2125	offset=-325	   cdp=42	
+
+ tracf=26	  fldr=9	    sx=2400	    gx=2175	offset=-225	   cdp=42	
+
+ tracf=28	  fldr=8	    sx=2350	    gx=2225	offset=-125	   cdp=42	
+
+ tracf=30	  fldr=7	    sx=2300	    gx=2275	offset=-25	   cdp=42	
+
+ tracf=32	  fldr=6	    sx=2250	    gx=2325	offset=75	   cdp=42	
+
+ tracf=34	  fldr=5	    sx=2200	    gx=2375	offset=175	   cdp=42	
+
+ tracf=36	  fldr=4	    sx=2150	    gx=2425	offset=275	   cdp=42	
+
+ tracf=38	  fldr=3	    sx=2100	    gx=2475	offset=375	   cdp=42	
+
+ tracf=40	  fldr=2	    sx=2050	    gx=2525	offset=475	   cdp=42	
+
+ tracf=42	  fldr=1	    sx=2000	    gx=2575	offset=575	   cdp=42	
+
+ tracf=1	  fldr=22	    sx=3050	    gx=1575	offset=-1475	   cdp=43	
+
+ tracf=3	  fldr=21	    sx=3000	    gx=1625	offset=-1375	   cdp=43	
+
+ tracf=5	  fldr=20	    sx=2950	    gx=1675	offset=-1275	   cdp=43	
+
+ tracf=7	  fldr=19	    sx=2900	    gx=1725	offset=-1175	   cdp=43	
+
+ tracf=9	  fldr=18	    sx=2850	    gx=1775	offset=-1075	   cdp=43	
+
+ tracf=11	  fldr=17	    sx=2800	    gx=1825	offset=-975	   cdp=43	
+
+ tracf=13	  fldr=16	    sx=2750	    gx=1875	offset=-875	   cdp=43	
+
+ tracf=15	  fldr=15	    sx=2700	    gx=1925	offset=-775	   cdp=43	
+
+ tracf=17	  fldr=14	    sx=2650	    gx=1975	offset=-675	   cdp=43	
+
+ tracf=19	  fldr=13	    sx=2600	    gx=2025	offset=-575	   cdp=43	
+
+ tracf=21	  fldr=12	    sx=2550	    gx=2075	offset=-475	   cdp=43	
+
+ tracf=23	  fldr=11	    sx=2500	    gx=2125	offset=-375	   cdp=43	
+
+ tracf=25	  fldr=10	    sx=2450	    gx=2175	offset=-275	   cdp=43	
+
+ tracf=27	  fldr=9	    sx=2400	    gx=2225	offset=-175	   cdp=43	
+
+ tracf=29	  fldr=8	    sx=2350	    gx=2275	offset=-75	   cdp=43	
+
+ tracf=31	  fldr=7	    sx=2300	    gx=2325	offset=25	   cdp=43	
+
+ tracf=33	  fldr=6	    sx=2250	    gx=2375	offset=125	   cdp=43	
+
+ tracf=35	  fldr=5	    sx=2200	    gx=2425	offset=225	   cdp=43	
+
+ tracf=37	  fldr=4	    sx=2150	    gx=2475	offset=325	   cdp=43	
+
+ tracf=39	  fldr=3	    sx=2100	    gx=2525	offset=425	   cdp=43	
+
+ tracf=41	  fldr=2	    sx=2050	    gx=2575	offset=525	   cdp=43	
+
+ tracf=43	  fldr=1	    sx=2000	    gx=2625	offset=625	   cdp=43	
+
+ tracf=2	  fldr=22	    sx=3050	    gx=1625	offset=-1425	   cdp=44	
+
+ tracf=4	  fldr=21	    sx=3000	    gx=1675	offset=-1325	   cdp=44	
+
+ tracf=6	  fldr=20	    sx=2950	    gx=1725	offset=-1225	   cdp=44	
+
+ tracf=8	  fldr=19	    sx=2900	    gx=1775	offset=-1125	   cdp=44	
+
+ tracf=10	  fldr=18	    sx=2850	    gx=1825	offset=-1025	   cdp=44	
+
+ tracf=12	  fldr=17	    sx=2800	    gx=1875	offset=-925	   cdp=44	
+
+ tracf=14	  fldr=16	    sx=2750	    gx=1925	offset=-825	   cdp=44	
+
+ tracf=16	  fldr=15	    sx=2700	    gx=1975	offset=-725	   cdp=44	
+
+ tracf=18	  fldr=14	    sx=2650	    gx=2025	offset=-625	   cdp=44	
+
+ tracf=20	  fldr=13	    sx=2600	    gx=2075	offset=-525	   cdp=44	
+
+ tracf=22	  fldr=12	    sx=2550	    gx=2125	offset=-425	   cdp=44	
+
+ tracf=24	  fldr=11	    sx=2500	    gx=2175	offset=-325	   cdp=44	
+
+ tracf=26	  fldr=10	    sx=2450	    gx=2225	offset=-225	   cdp=44	
+
+ tracf=28	  fldr=9	    sx=2400	    gx=2275	offset=-125	   cdp=44	
+
+ tracf=30	  fldr=8	    sx=2350	    gx=2325	offset=-25	   cdp=44	
+
+ tracf=32	  fldr=7	    sx=2300	    gx=2375	offset=75	   cdp=44	
+
+ tracf=34	  fldr=6	    sx=2250	    gx=2425	offset=175	   cdp=44	
+
+ tracf=36	  fldr=5	    sx=2200	    gx=2475	offset=275	   cdp=44	
+
+ tracf=38	  fldr=4	    sx=2150	    gx=2525	offset=375	   cdp=44	
+
+ tracf=40	  fldr=3	    sx=2100	    gx=2575	offset=475	   cdp=44	
+
+ tracf=42	  fldr=2	    sx=2050	    gx=2625	offset=575	   cdp=44	
+
+ tracf=44	  fldr=1	    sx=2000	    gx=2675	offset=675	   cdp=44	
+
+ tracf=1	  fldr=23	    sx=3100	    gx=1625	offset=-1475	   cdp=45	
+
+ tracf=3	  fldr=22	    sx=3050	    gx=1675	offset=-1375	   cdp=45	
+
+ tracf=5	  fldr=21	    sx=3000	    gx=1725	offset=-1275	   cdp=45	
+
+ tracf=7	  fldr=20	    sx=2950	    gx=1775	offset=-1175	   cdp=45	
+
+ tracf=9	  fldr=19	    sx=2900	    gx=1825	offset=-1075	   cdp=45	
+
+ tracf=11	  fldr=18	    sx=2850	    gx=1875	offset=-975	   cdp=45	
+
+ tracf=13	  fldr=17	    sx=2800	    gx=1925	offset=-875	   cdp=45	
+
+ tracf=15	  fldr=16	    sx=2750	    gx=1975	offset=-775	   cdp=45	
+
+ tracf=17	  fldr=15	    sx=2700	    gx=2025	offset=-675	   cdp=45	
+
+ tracf=19	  fldr=14	    sx=2650	    gx=2075	offset=-575	   cdp=45	
+
+ tracf=21	  fldr=13	    sx=2600	    gx=2125	offset=-475	   cdp=45	
+
+ tracf=23	  fldr=12	    sx=2550	    gx=2175	offset=-375	   cdp=45	
+
+ tracf=25	  fldr=11	    sx=2500	    gx=2225	offset=-275	   cdp=45	
+
+ tracf=27	  fldr=10	    sx=2450	    gx=2275	offset=-175	   cdp=45	
+
+ tracf=29	  fldr=9	    sx=2400	    gx=2325	offset=-75	   cdp=45	
+
+ tracf=31	  fldr=8	    sx=2350	    gx=2375	offset=25	   cdp=45	
+
+ tracf=33	  fldr=7	    sx=2300	    gx=2425	offset=125	   cdp=45	
+
+ tracf=35	  fldr=6	    sx=2250	    gx=2475	offset=225	   cdp=45	
+
+ tracf=37	  fldr=5	    sx=2200	    gx=2525	offset=325	   cdp=45	
+
+ tracf=39	  fldr=4	    sx=2150	    gx=2575	offset=425	   cdp=45	
+
+ tracf=41	  fldr=3	    sx=2100	    gx=2625	offset=525	   cdp=45	
+
+ tracf=43	  fldr=2	    sx=2050	    gx=2675	offset=625	   cdp=45	
+
+ tracf=45	  fldr=1	    sx=2000	    gx=2725	offset=725	   cdp=45	
+
+ tracf=2	  fldr=23	    sx=3100	    gx=1675	offset=-1425	   cdp=46	
+
+ tracf=4	  fldr=22	    sx=3050	    gx=1725	offset=-1325	   cdp=46	
+
+ tracf=6	  fldr=21	    sx=3000	    gx=1775	offset=-1225	   cdp=46	
+
+ tracf=8	  fldr=20	    sx=2950	    gx=1825	offset=-1125	   cdp=46	
+
+ tracf=10	  fldr=19	    sx=2900	    gx=1875	offset=-1025	   cdp=46	
+
+ tracf=12	  fldr=18	    sx=2850	    gx=1925	offset=-925	   cdp=46	
+
+ tracf=14	  fldr=17	    sx=2800	    gx=1975	offset=-825	   cdp=46	
+
+ tracf=16	  fldr=16	    sx=2750	    gx=2025	offset=-725	   cdp=46	
+
+ tracf=18	  fldr=15	    sx=2700	    gx=2075	offset=-625	   cdp=46	
+
+ tracf=20	  fldr=14	    sx=2650	    gx=2125	offset=-525	   cdp=46	
+
+ tracf=22	  fldr=13	    sx=2600	    gx=2175	offset=-425	   cdp=46	
+
+ tracf=24	  fldr=12	    sx=2550	    gx=2225	offset=-325	   cdp=46	
+
+ tracf=26	  fldr=11	    sx=2500	    gx=2275	offset=-225	   cdp=46	
+
+ tracf=28	  fldr=10	    sx=2450	    gx=2325	offset=-125	   cdp=46	
+
+ tracf=30	  fldr=9	    sx=2400	    gx=2375	offset=-25	   cdp=46	
+
+ tracf=32	  fldr=8	    sx=2350	    gx=2425	offset=75	   cdp=46	
+
+ tracf=34	  fldr=7	    sx=2300	    gx=2475	offset=175	   cdp=46	
+
+ tracf=36	  fldr=6	    sx=2250	    gx=2525	offset=275	   cdp=46	
+
+ tracf=38	  fldr=5	    sx=2200	    gx=2575	offset=375	   cdp=46	
+
+ tracf=40	  fldr=4	    sx=2150	    gx=2625	offset=475	   cdp=46	
+
+ tracf=42	  fldr=3	    sx=2100	    gx=2675	offset=575	   cdp=46	
+
+ tracf=44	  fldr=2	    sx=2050	    gx=2725	offset=675	   cdp=46	
+
+ tracf=46	  fldr=1	    sx=2000	    gx=2775	offset=775	   cdp=46	
+
+ tracf=1	  fldr=24	    sx=3150	    gx=1675	offset=-1475	   cdp=47	
+
+ tracf=3	  fldr=23	    sx=3100	    gx=1725	offset=-1375	   cdp=47	
+
+ tracf=5	  fldr=22	    sx=3050	    gx=1775	offset=-1275	   cdp=47	
+
+ tracf=7	  fldr=21	    sx=3000	    gx=1825	offset=-1175	   cdp=47	
+
+ tracf=9	  fldr=20	    sx=2950	    gx=1875	offset=-1075	   cdp=47	
+
+ tracf=11	  fldr=19	    sx=2900	    gx=1925	offset=-975	   cdp=47	
+
+ tracf=13	  fldr=18	    sx=2850	    gx=1975	offset=-875	   cdp=47	
+
+ tracf=15	  fldr=17	    sx=2800	    gx=2025	offset=-775	   cdp=47	
+
+ tracf=17	  fldr=16	    sx=2750	    gx=2075	offset=-675	   cdp=47	
+
+ tracf=19	  fldr=15	    sx=2700	    gx=2125	offset=-575	   cdp=47	
+
+ tracf=21	  fldr=14	    sx=2650	    gx=2175	offset=-475	   cdp=47	
+
+ tracf=23	  fldr=13	    sx=2600	    gx=2225	offset=-375	   cdp=47	
+
+ tracf=25	  fldr=12	    sx=2550	    gx=2275	offset=-275	   cdp=47	
+
+ tracf=27	  fldr=11	    sx=2500	    gx=2325	offset=-175	   cdp=47	
+
+ tracf=29	  fldr=10	    sx=2450	    gx=2375	offset=-75	   cdp=47	
+
+ tracf=31	  fldr=9	    sx=2400	    gx=2425	offset=25	   cdp=47	
+
+ tracf=33	  fldr=8	    sx=2350	    gx=2475	offset=125	   cdp=47	
+
+ tracf=35	  fldr=7	    sx=2300	    gx=2525	offset=225	   cdp=47	
+
+ tracf=37	  fldr=6	    sx=2250	    gx=2575	offset=325	   cdp=47	
+
+ tracf=39	  fldr=5	    sx=2200	    gx=2625	offset=425	   cdp=47	
+
+ tracf=41	  fldr=4	    sx=2150	    gx=2675	offset=525	   cdp=47	
+
+ tracf=43	  fldr=3	    sx=2100	    gx=2725	offset=625	   cdp=47	
+
+ tracf=45	  fldr=2	    sx=2050	    gx=2775	offset=725	   cdp=47	
+
+ tracf=47	  fldr=1	    sx=2000	    gx=2825	offset=825	   cdp=47	
+
+ tracf=2	  fldr=24	    sx=3150	    gx=1725	offset=-1425	   cdp=48	
+
+ tracf=4	  fldr=23	    sx=3100	    gx=1775	offset=-1325	   cdp=48	
+
+ tracf=6	  fldr=22	    sx=3050	    gx=1825	offset=-1225	   cdp=48	
+
+ tracf=8	  fldr=21	    sx=3000	    gx=1875	offset=-1125	   cdp=48	
+
+ tracf=10	  fldr=20	    sx=2950	    gx=1925	offset=-1025	   cdp=48	
+
+ tracf=12	  fldr=19	    sx=2900	    gx=1975	offset=-925	   cdp=48	
+
+ tracf=14	  fldr=18	    sx=2850	    gx=2025	offset=-825	   cdp=48	
+
+ tracf=16	  fldr=17	    sx=2800	    gx=2075	offset=-725	   cdp=48	
+
+ tracf=18	  fldr=16	    sx=2750	    gx=2125	offset=-625	   cdp=48	
+
+ tracf=20	  fldr=15	    sx=2700	    gx=2175	offset=-525	   cdp=48	
+
+ tracf=22	  fldr=14	    sx=2650	    gx=2225	offset=-425	   cdp=48	
+
+ tracf=24	  fldr=13	    sx=2600	    gx=2275	offset=-325	   cdp=48	
+
+ tracf=26	  fldr=12	    sx=2550	    gx=2325	offset=-225	   cdp=48	
+
+ tracf=28	  fldr=11	    sx=2500	    gx=2375	offset=-125	   cdp=48	
+
+ tracf=30	  fldr=10	    sx=2450	    gx=2425	offset=-25	   cdp=48	
+
+ tracf=32	  fldr=9	    sx=2400	    gx=2475	offset=75	   cdp=48	
+
+ tracf=34	  fldr=8	    sx=2350	    gx=2525	offset=175	   cdp=48	
+
+ tracf=36	  fldr=7	    sx=2300	    gx=2575	offset=275	   cdp=48	
+
+ tracf=38	  fldr=6	    sx=2250	    gx=2625	offset=375	   cdp=48	
+
+ tracf=40	  fldr=5	    sx=2200	    gx=2675	offset=475	   cdp=48	
+
+ tracf=42	  fldr=4	    sx=2150	    gx=2725	offset=575	   cdp=48	
+
+ tracf=44	  fldr=3	    sx=2100	    gx=2775	offset=675	   cdp=48	
+
+ tracf=46	  fldr=2	    sx=2050	    gx=2825	offset=775	   cdp=48	
+
+ tracf=48	  fldr=1	    sx=2000	    gx=2875	offset=875	   cdp=48	
+
+ tracf=1	  fldr=25	    sx=3200	    gx=1725	offset=-1475	   cdp=49	
+
+ tracf=3	  fldr=24	    sx=3150	    gx=1775	offset=-1375	   cdp=49	
+
+ tracf=5	  fldr=23	    sx=3100	    gx=1825	offset=-1275	   cdp=49	
+
+ tracf=7	  fldr=22	    sx=3050	    gx=1875	offset=-1175	   cdp=49	
+
+ tracf=9	  fldr=21	    sx=3000	    gx=1925	offset=-1075	   cdp=49	
+
+ tracf=11	  fldr=20	    sx=2950	    gx=1975	offset=-975	   cdp=49	
+
+ tracf=13	  fldr=19	    sx=2900	    gx=2025	offset=-875	   cdp=49	
+
+ tracf=15	  fldr=18	    sx=2850	    gx=2075	offset=-775	   cdp=49	
+
+ tracf=17	  fldr=17	    sx=2800	    gx=2125	offset=-675	   cdp=49	
+
+ tracf=19	  fldr=16	    sx=2750	    gx=2175	offset=-575	   cdp=49	
+
+ tracf=21	  fldr=15	    sx=2700	    gx=2225	offset=-475	   cdp=49	
+
+ tracf=23	  fldr=14	    sx=2650	    gx=2275	offset=-375	   cdp=49	
+
+ tracf=25	  fldr=13	    sx=2600	    gx=2325	offset=-275	   cdp=49	
+
+ tracf=27	  fldr=12	    sx=2550	    gx=2375	offset=-175	   cdp=49	
+
+ tracf=29	  fldr=11	    sx=2500	    gx=2425	offset=-75	   cdp=49	
+
+ tracf=31	  fldr=10	    sx=2450	    gx=2475	offset=25	   cdp=49	
+
+ tracf=33	  fldr=9	    sx=2400	    gx=2525	offset=125	   cdp=49	
+
+ tracf=35	  fldr=8	    sx=2350	    gx=2575	offset=225	   cdp=49	
+
+ tracf=37	  fldr=7	    sx=2300	    gx=2625	offset=325	   cdp=49	
+
+ tracf=39	  fldr=6	    sx=2250	    gx=2675	offset=425	   cdp=49	
+
+ tracf=41	  fldr=5	    sx=2200	    gx=2725	offset=525	   cdp=49	
+
+ tracf=43	  fldr=4	    sx=2150	    gx=2775	offset=625	   cdp=49	
+
+ tracf=45	  fldr=3	    sx=2100	    gx=2825	offset=725	   cdp=49	
+
+ tracf=47	  fldr=2	    sx=2050	    gx=2875	offset=825	   cdp=49	
+
+ tracf=49	  fldr=1	    sx=2000	    gx=2925	offset=925	   cdp=49	
+
+ tracf=2	  fldr=25	    sx=3200	    gx=1775	offset=-1425	   cdp=50	
+
+ tracf=4	  fldr=24	    sx=3150	    gx=1825	offset=-1325	   cdp=50	
+
+ tracf=6	  fldr=23	    sx=3100	    gx=1875	offset=-1225	   cdp=50	
+
+ tracf=8	  fldr=22	    sx=3050	    gx=1925	offset=-1125	   cdp=50	
+
+ tracf=10	  fldr=21	    sx=3000	    gx=1975	offset=-1025	   cdp=50	
+
+ tracf=12	  fldr=20	    sx=2950	    gx=2025	offset=-925	   cdp=50	
+
+ tracf=14	  fldr=19	    sx=2900	    gx=2075	offset=-825	   cdp=50	
+
+ tracf=16	  fldr=18	    sx=2850	    gx=2125	offset=-725	   cdp=50	
+
+ tracf=18	  fldr=17	    sx=2800	    gx=2175	offset=-625	   cdp=50	
+
+ tracf=20	  fldr=16	    sx=2750	    gx=2225	offset=-525	   cdp=50	
+
+ tracf=22	  fldr=15	    sx=2700	    gx=2275	offset=-425	   cdp=50	
+
+ tracf=24	  fldr=14	    sx=2650	    gx=2325	offset=-325	   cdp=50	
+
+ tracf=26	  fldr=13	    sx=2600	    gx=2375	offset=-225	   cdp=50	
+
+ tracf=28	  fldr=12	    sx=2550	    gx=2425	offset=-125	   cdp=50	
+
+ tracf=30	  fldr=11	    sx=2500	    gx=2475	offset=-25	   cdp=50	
+
+ tracf=32	  fldr=10	    sx=2450	    gx=2525	offset=75	   cdp=50	
+
+ tracf=34	  fldr=9	    sx=2400	    gx=2575	offset=175	   cdp=50	
+
+ tracf=36	  fldr=8	    sx=2350	    gx=2625	offset=275	   cdp=50	
+
+ tracf=38	  fldr=7	    sx=2300	    gx=2675	offset=375	   cdp=50	
+
+ tracf=40	  fldr=6	    sx=2250	    gx=2725	offset=475	   cdp=50	
+
+ tracf=42	  fldr=5	    sx=2200	    gx=2775	offset=575	   cdp=50	
+
+ tracf=44	  fldr=4	    sx=2150	    gx=2825	offset=675	   cdp=50	
+
+ tracf=46	  fldr=3	    sx=2100	    gx=2875	offset=775	   cdp=50	
+
+ tracf=48	  fldr=2	    sx=2050	    gx=2925	offset=875	   cdp=50	
+
+ tracf=50	  fldr=1	    sx=2000	    gx=2975	offset=975	   cdp=50	
+
+ tracf=1	  fldr=26	    sx=3250	    gx=1775	offset=-1475	   cdp=51	
+
+ tracf=3	  fldr=25	    sx=3200	    gx=1825	offset=-1375	   cdp=51	
+
+ tracf=5	  fldr=24	    sx=3150	    gx=1875	offset=-1275	   cdp=51	
+
+ tracf=7	  fldr=23	    sx=3100	    gx=1925	offset=-1175	   cdp=51	
+
+ tracf=9	  fldr=22	    sx=3050	    gx=1975	offset=-1075	   cdp=51	
+
+ tracf=11	  fldr=21	    sx=3000	    gx=2025	offset=-975	   cdp=51	
+
+ tracf=13	  fldr=20	    sx=2950	    gx=2075	offset=-875	   cdp=51	
+
+ tracf=15	  fldr=19	    sx=2900	    gx=2125	offset=-775	   cdp=51	
+
+ tracf=17	  fldr=18	    sx=2850	    gx=2175	offset=-675	   cdp=51	
+
+ tracf=19	  fldr=17	    sx=2800	    gx=2225	offset=-575	   cdp=51	
+
+ tracf=21	  fldr=16	    sx=2750	    gx=2275	offset=-475	   cdp=51	
+
+ tracf=23	  fldr=15	    sx=2700	    gx=2325	offset=-375	   cdp=51	
+
+ tracf=25	  fldr=14	    sx=2650	    gx=2375	offset=-275	   cdp=51	
+
+ tracf=27	  fldr=13	    sx=2600	    gx=2425	offset=-175	   cdp=51	
+
+ tracf=29	  fldr=12	    sx=2550	    gx=2475	offset=-75	   cdp=51	
+
+ tracf=31	  fldr=11	    sx=2500	    gx=2525	offset=25	   cdp=51	
+
+ tracf=33	  fldr=10	    sx=2450	    gx=2575	offset=125	   cdp=51	
+
+ tracf=35	  fldr=9	    sx=2400	    gx=2625	offset=225	   cdp=51	
+
+ tracf=37	  fldr=8	    sx=2350	    gx=2675	offset=325	   cdp=51	
+
+ tracf=39	  fldr=7	    sx=2300	    gx=2725	offset=425	   cdp=51	
+
+ tracf=41	  fldr=6	    sx=2250	    gx=2775	offset=525	   cdp=51	
+
+ tracf=43	  fldr=5	    sx=2200	    gx=2825	offset=625	   cdp=51	
+
+ tracf=45	  fldr=4	    sx=2150	    gx=2875	offset=725	   cdp=51	
+
+ tracf=47	  fldr=3	    sx=2100	    gx=2925	offset=825	   cdp=51	
+
+ tracf=49	  fldr=2	    sx=2050	    gx=2975	offset=925	   cdp=51	
+
+ tracf=51	  fldr=1	    sx=2000	    gx=3025	offset=1025	   cdp=51	
+
+ tracf=2	  fldr=26	    sx=3250	    gx=1825	offset=-1425	   cdp=52	
+
+ tracf=4	  fldr=25	    sx=3200	    gx=1875	offset=-1325	   cdp=52	
+
+ tracf=6	  fldr=24	    sx=3150	    gx=1925	offset=-1225	   cdp=52	
+
+ tracf=8	  fldr=23	    sx=3100	    gx=1975	offset=-1125	   cdp=52	
+
+ tracf=10	  fldr=22	    sx=3050	    gx=2025	offset=-1025	   cdp=52	
+
+ tracf=12	  fldr=21	    sx=3000	    gx=2075	offset=-925	   cdp=52	
+
+ tracf=14	  fldr=20	    sx=2950	    gx=2125	offset=-825	   cdp=52	
+
+ tracf=16	  fldr=19	    sx=2900	    gx=2175	offset=-725	   cdp=52	
+
+ tracf=18	  fldr=18	    sx=2850	    gx=2225	offset=-625	   cdp=52	
+
+ tracf=20	  fldr=17	    sx=2800	    gx=2275	offset=-525	   cdp=52	
+
+ tracf=22	  fldr=16	    sx=2750	    gx=2325	offset=-425	   cdp=52	
+
+ tracf=24	  fldr=15	    sx=2700	    gx=2375	offset=-325	   cdp=52	
+
+ tracf=26	  fldr=14	    sx=2650	    gx=2425	offset=-225	   cdp=52	
+
+ tracf=28	  fldr=13	    sx=2600	    gx=2475	offset=-125	   cdp=52	
+
+ tracf=30	  fldr=12	    sx=2550	    gx=2525	offset=-25	   cdp=52	
+
+ tracf=32	  fldr=11	    sx=2500	    gx=2575	offset=75	   cdp=52	
+
+ tracf=34	  fldr=10	    sx=2450	    gx=2625	offset=175	   cdp=52	
+
+ tracf=36	  fldr=9	    sx=2400	    gx=2675	offset=275	   cdp=52	
+
+ tracf=38	  fldr=8	    sx=2350	    gx=2725	offset=375	   cdp=52	
+
+ tracf=40	  fldr=7	    sx=2300	    gx=2775	offset=475	   cdp=52	
+
+ tracf=42	  fldr=6	    sx=2250	    gx=2825	offset=575	   cdp=52	
+
+ tracf=44	  fldr=5	    sx=2200	    gx=2875	offset=675	   cdp=52	
+
+ tracf=46	  fldr=4	    sx=2150	    gx=2925	offset=775	   cdp=52	
+
+ tracf=48	  fldr=3	    sx=2100	    gx=2975	offset=875	   cdp=52	
+
+ tracf=50	  fldr=2	    sx=2050	    gx=3025	offset=975	   cdp=52	
+
+ tracf=52	  fldr=1	    sx=2000	    gx=3075	offset=1075	   cdp=52	
+
+ tracf=1	  fldr=27	    sx=3300	    gx=1825	offset=-1475	   cdp=53	
+
+ tracf=3	  fldr=26	    sx=3250	    gx=1875	offset=-1375	   cdp=53	
+
+ tracf=5	  fldr=25	    sx=3200	    gx=1925	offset=-1275	   cdp=53	
+
+ tracf=7	  fldr=24	    sx=3150	    gx=1975	offset=-1175	   cdp=53	
+
+ tracf=9	  fldr=23	    sx=3100	    gx=2025	offset=-1075	   cdp=53	
+
+ tracf=11	  fldr=22	    sx=3050	    gx=2075	offset=-975	   cdp=53	
+
+ tracf=13	  fldr=21	    sx=3000	    gx=2125	offset=-875	   cdp=53	
+
+ tracf=15	  fldr=20	    sx=2950	    gx=2175	offset=-775	   cdp=53	
+
+ tracf=17	  fldr=19	    sx=2900	    gx=2225	offset=-675	   cdp=53	
+
+ tracf=19	  fldr=18	    sx=2850	    gx=2275	offset=-575	   cdp=53	
+
+ tracf=21	  fldr=17	    sx=2800	    gx=2325	offset=-475	   cdp=53	
+
+ tracf=23	  fldr=16	    sx=2750	    gx=2375	offset=-375	   cdp=53	
+
+ tracf=25	  fldr=15	    sx=2700	    gx=2425	offset=-275	   cdp=53	
+
+ tracf=27	  fldr=14	    sx=2650	    gx=2475	offset=-175	   cdp=53	
+
+ tracf=29	  fldr=13	    sx=2600	    gx=2525	offset=-75	   cdp=53	
+
+ tracf=31	  fldr=12	    sx=2550	    gx=2575	offset=25	   cdp=53	
+
+ tracf=33	  fldr=11	    sx=2500	    gx=2625	offset=125	   cdp=53	
+
+ tracf=35	  fldr=10	    sx=2450	    gx=2675	offset=225	   cdp=53	
+
+ tracf=37	  fldr=9	    sx=2400	    gx=2725	offset=325	   cdp=53	
+
+ tracf=39	  fldr=8	    sx=2350	    gx=2775	offset=425	   cdp=53	
+
+ tracf=41	  fldr=7	    sx=2300	    gx=2825	offset=525	   cdp=53	
+
+ tracf=43	  fldr=6	    sx=2250	    gx=2875	offset=625	   cdp=53	
+
+ tracf=45	  fldr=5	    sx=2200	    gx=2925	offset=725	   cdp=53	
+
+ tracf=47	  fldr=4	    sx=2150	    gx=2975	offset=825	   cdp=53	
+
+ tracf=49	  fldr=3	    sx=2100	    gx=3025	offset=925	   cdp=53	
+
+ tracf=51	  fldr=2	    sx=2050	    gx=3075	offset=1025	   cdp=53	
+
+ tracf=53	  fldr=1	    sx=2000	    gx=3125	offset=1125	   cdp=53	
+
+ tracf=2	  fldr=27	    sx=3300	    gx=1875	offset=-1425	   cdp=54	
+
+ tracf=4	  fldr=26	    sx=3250	    gx=1925	offset=-1325	   cdp=54	
+
+ tracf=6	  fldr=25	    sx=3200	    gx=1975	offset=-1225	   cdp=54	
+
+ tracf=8	  fldr=24	    sx=3150	    gx=2025	offset=-1125	   cdp=54	
+
+ tracf=10	  fldr=23	    sx=3100	    gx=2075	offset=-1025	   cdp=54	
+
+ tracf=12	  fldr=22	    sx=3050	    gx=2125	offset=-925	   cdp=54	
+
+ tracf=14	  fldr=21	    sx=3000	    gx=2175	offset=-825	   cdp=54	
+
+ tracf=16	  fldr=20	    sx=2950	    gx=2225	offset=-725	   cdp=54	
+
+ tracf=18	  fldr=19	    sx=2900	    gx=2275	offset=-625	   cdp=54	
+
+ tracf=20	  fldr=18	    sx=2850	    gx=2325	offset=-525	   cdp=54	
+
+ tracf=22	  fldr=17	    sx=2800	    gx=2375	offset=-425	   cdp=54	
+
+ tracf=24	  fldr=16	    sx=2750	    gx=2425	offset=-325	   cdp=54	
+
+ tracf=26	  fldr=15	    sx=2700	    gx=2475	offset=-225	   cdp=54	
+
+ tracf=28	  fldr=14	    sx=2650	    gx=2525	offset=-125	   cdp=54	
+
+ tracf=30	  fldr=13	    sx=2600	    gx=2575	offset=-25	   cdp=54	
+
+ tracf=32	  fldr=12	    sx=2550	    gx=2625	offset=75	   cdp=54	
+
+ tracf=34	  fldr=11	    sx=2500	    gx=2675	offset=175	   cdp=54	
+
+ tracf=36	  fldr=10	    sx=2450	    gx=2725	offset=275	   cdp=54	
+
+ tracf=38	  fldr=9	    sx=2400	    gx=2775	offset=375	   cdp=54	
+
+ tracf=40	  fldr=8	    sx=2350	    gx=2825	offset=475	   cdp=54	
+
+ tracf=42	  fldr=7	    sx=2300	    gx=2875	offset=575	   cdp=54	
+
+ tracf=44	  fldr=6	    sx=2250	    gx=2925	offset=675	   cdp=54	
+
+ tracf=46	  fldr=5	    sx=2200	    gx=2975	offset=775	   cdp=54	
+
+ tracf=48	  fldr=4	    sx=2150	    gx=3025	offset=875	   cdp=54	
+
+ tracf=50	  fldr=3	    sx=2100	    gx=3075	offset=975	   cdp=54	
+
+ tracf=52	  fldr=2	    sx=2050	    gx=3125	offset=1075	   cdp=54	
+
+ tracf=54	  fldr=1	    sx=2000	    gx=3175	offset=1175	   cdp=54	
+
+ tracf=1	  fldr=28	    sx=3350	    gx=1875	offset=-1475	   cdp=55	
+
+ tracf=3	  fldr=27	    sx=3300	    gx=1925	offset=-1375	   cdp=55	
+
+ tracf=5	  fldr=26	    sx=3250	    gx=1975	offset=-1275	   cdp=55	
+
+ tracf=7	  fldr=25	    sx=3200	    gx=2025	offset=-1175	   cdp=55	
+
+ tracf=9	  fldr=24	    sx=3150	    gx=2075	offset=-1075	   cdp=55	
+
+ tracf=11	  fldr=23	    sx=3100	    gx=2125	offset=-975	   cdp=55	
+
+ tracf=13	  fldr=22	    sx=3050	    gx=2175	offset=-875	   cdp=55	
+
+ tracf=15	  fldr=21	    sx=3000	    gx=2225	offset=-775	   cdp=55	
+
+ tracf=17	  fldr=20	    sx=2950	    gx=2275	offset=-675	   cdp=55	
+
+ tracf=19	  fldr=19	    sx=2900	    gx=2325	offset=-575	   cdp=55	
+
+ tracf=21	  fldr=18	    sx=2850	    gx=2375	offset=-475	   cdp=55	
+
+ tracf=23	  fldr=17	    sx=2800	    gx=2425	offset=-375	   cdp=55	
+
+ tracf=25	  fldr=16	    sx=2750	    gx=2475	offset=-275	   cdp=55	
+
+ tracf=27	  fldr=15	    sx=2700	    gx=2525	offset=-175	   cdp=55	
+
+ tracf=29	  fldr=14	    sx=2650	    gx=2575	offset=-75	   cdp=55	
+
+ tracf=31	  fldr=13	    sx=2600	    gx=2625	offset=25	   cdp=55	
+
+ tracf=33	  fldr=12	    sx=2550	    gx=2675	offset=125	   cdp=55	
+
+ tracf=35	  fldr=11	    sx=2500	    gx=2725	offset=225	   cdp=55	
+
+ tracf=37	  fldr=10	    sx=2450	    gx=2775	offset=325	   cdp=55	
+
+ tracf=39	  fldr=9	    sx=2400	    gx=2825	offset=425	   cdp=55	
+
+ tracf=41	  fldr=8	    sx=2350	    gx=2875	offset=525	   cdp=55	
+
+ tracf=43	  fldr=7	    sx=2300	    gx=2925	offset=625	   cdp=55	
+
+ tracf=45	  fldr=6	    sx=2250	    gx=2975	offset=725	   cdp=55	
+
+ tracf=47	  fldr=5	    sx=2200	    gx=3025	offset=825	   cdp=55	
+
+ tracf=49	  fldr=4	    sx=2150	    gx=3075	offset=925	   cdp=55	
+
+ tracf=51	  fldr=3	    sx=2100	    gx=3125	offset=1025	   cdp=55	
+
+ tracf=53	  fldr=2	    sx=2050	    gx=3175	offset=1125	   cdp=55	
+
+ tracf=55	  fldr=1	    sx=2000	    gx=3225	offset=1225	   cdp=55	
+
+ tracf=2	  fldr=28	    sx=3350	    gx=1925	offset=-1425	   cdp=56	
+
+ tracf=4	  fldr=27	    sx=3300	    gx=1975	offset=-1325	   cdp=56	
+
+ tracf=6	  fldr=26	    sx=3250	    gx=2025	offset=-1225	   cdp=56	
+
+ tracf=8	  fldr=25	    sx=3200	    gx=2075	offset=-1125	   cdp=56	
+
+ tracf=10	  fldr=24	    sx=3150	    gx=2125	offset=-1025	   cdp=56	
+
+ tracf=12	  fldr=23	    sx=3100	    gx=2175	offset=-925	   cdp=56	
+
+ tracf=14	  fldr=22	    sx=3050	    gx=2225	offset=-825	   cdp=56	
+
+ tracf=16	  fldr=21	    sx=3000	    gx=2275	offset=-725	   cdp=56	
+
+ tracf=18	  fldr=20	    sx=2950	    gx=2325	offset=-625	   cdp=56	
+
+ tracf=20	  fldr=19	    sx=2900	    gx=2375	offset=-525	   cdp=56	
+
+ tracf=22	  fldr=18	    sx=2850	    gx=2425	offset=-425	   cdp=56	
+
+ tracf=24	  fldr=17	    sx=2800	    gx=2475	offset=-325	   cdp=56	
+
+ tracf=26	  fldr=16	    sx=2750	    gx=2525	offset=-225	   cdp=56	
+
+ tracf=28	  fldr=15	    sx=2700	    gx=2575	offset=-125	   cdp=56	
+
+ tracf=30	  fldr=14	    sx=2650	    gx=2625	offset=-25	   cdp=56	
+
+ tracf=32	  fldr=13	    sx=2600	    gx=2675	offset=75	   cdp=56	
+
+ tracf=34	  fldr=12	    sx=2550	    gx=2725	offset=175	   cdp=56	
+
+ tracf=36	  fldr=11	    sx=2500	    gx=2775	offset=275	   cdp=56	
+
+ tracf=38	  fldr=10	    sx=2450	    gx=2825	offset=375	   cdp=56	
+
+ tracf=40	  fldr=9	    sx=2400	    gx=2875	offset=475	   cdp=56	
+
+ tracf=42	  fldr=8	    sx=2350	    gx=2925	offset=575	   cdp=56	
+
+ tracf=44	  fldr=7	    sx=2300	    gx=2975	offset=675	   cdp=56	
+
+ tracf=46	  fldr=6	    sx=2250	    gx=3025	offset=775	   cdp=56	
+
+ tracf=48	  fldr=5	    sx=2200	    gx=3075	offset=875	   cdp=56	
+
+ tracf=50	  fldr=4	    sx=2150	    gx=3125	offset=975	   cdp=56	
+
+ tracf=52	  fldr=3	    sx=2100	    gx=3175	offset=1075	   cdp=56	
+
+ tracf=54	  fldr=2	    sx=2050	    gx=3225	offset=1175	   cdp=56	
+
+ tracf=56	  fldr=1	    sx=2000	    gx=3275	offset=1275	   cdp=56	
+
+ tracf=1	  fldr=29	    sx=3400	    gx=1925	offset=-1475	   cdp=57	
+
+ tracf=3	  fldr=28	    sx=3350	    gx=1975	offset=-1375	   cdp=57	
+
+ tracf=5	  fldr=27	    sx=3300	    gx=2025	offset=-1275	   cdp=57	
+
+ tracf=7	  fldr=26	    sx=3250	    gx=2075	offset=-1175	   cdp=57	
+
+ tracf=9	  fldr=25	    sx=3200	    gx=2125	offset=-1075	   cdp=57	
+
+ tracf=11	  fldr=24	    sx=3150	    gx=2175	offset=-975	   cdp=57	
+
+ tracf=13	  fldr=23	    sx=3100	    gx=2225	offset=-875	   cdp=57	
+
+ tracf=15	  fldr=22	    sx=3050	    gx=2275	offset=-775	   cdp=57	
+
+ tracf=17	  fldr=21	    sx=3000	    gx=2325	offset=-675	   cdp=57	
+
+ tracf=19	  fldr=20	    sx=2950	    gx=2375	offset=-575	   cdp=57	
+
+ tracf=21	  fldr=19	    sx=2900	    gx=2425	offset=-475	   cdp=57	
+
+ tracf=23	  fldr=18	    sx=2850	    gx=2475	offset=-375	   cdp=57	
+
+ tracf=25	  fldr=17	    sx=2800	    gx=2525	offset=-275	   cdp=57	
+
+ tracf=27	  fldr=16	    sx=2750	    gx=2575	offset=-175	   cdp=57	
+
+ tracf=29	  fldr=15	    sx=2700	    gx=2625	offset=-75	   cdp=57	
+
+ tracf=31	  fldr=14	    sx=2650	    gx=2675	offset=25	   cdp=57	
+
+ tracf=33	  fldr=13	    sx=2600	    gx=2725	offset=125	   cdp=57	
+
+ tracf=35	  fldr=12	    sx=2550	    gx=2775	offset=225	   cdp=57	
+
+ tracf=37	  fldr=11	    sx=2500	    gx=2825	offset=325	   cdp=57	
+
+ tracf=39	  fldr=10	    sx=2450	    gx=2875	offset=425	   cdp=57	
+
+ tracf=41	  fldr=9	    sx=2400	    gx=2925	offset=525	   cdp=57	
+
+ tracf=43	  fldr=8	    sx=2350	    gx=2975	offset=625	   cdp=57	
+
+ tracf=45	  fldr=7	    sx=2300	    gx=3025	offset=725	   cdp=57	
+
+ tracf=47	  fldr=6	    sx=2250	    gx=3075	offset=825	   cdp=57	
+
+ tracf=49	  fldr=5	    sx=2200	    gx=3125	offset=925	   cdp=57	
+
+ tracf=51	  fldr=4	    sx=2150	    gx=3175	offset=1025	   cdp=57	
+
+ tracf=53	  fldr=3	    sx=2100	    gx=3225	offset=1125	   cdp=57	
+
+ tracf=55	  fldr=2	    sx=2050	    gx=3275	offset=1225	   cdp=57	
+
+ tracf=57	  fldr=1	    sx=2000	    gx=3325	offset=1325	   cdp=57	
+
+ tracf=2	  fldr=29	    sx=3400	    gx=1975	offset=-1425	   cdp=58	
+
+ tracf=4	  fldr=28	    sx=3350	    gx=2025	offset=-1325	   cdp=58	
+
+ tracf=6	  fldr=27	    sx=3300	    gx=2075	offset=-1225	   cdp=58	
+
+ tracf=8	  fldr=26	    sx=3250	    gx=2125	offset=-1125	   cdp=58	
+
+ tracf=10	  fldr=25	    sx=3200	    gx=2175	offset=-1025	   cdp=58	
+
+ tracf=12	  fldr=24	    sx=3150	    gx=2225	offset=-925	   cdp=58	
+
+ tracf=14	  fldr=23	    sx=3100	    gx=2275	offset=-825	   cdp=58	
+
+ tracf=16	  fldr=22	    sx=3050	    gx=2325	offset=-725	   cdp=58	
+
+ tracf=18	  fldr=21	    sx=3000	    gx=2375	offset=-625	   cdp=58	
+
+ tracf=20	  fldr=20	    sx=2950	    gx=2425	offset=-525	   cdp=58	
+
+ tracf=22	  fldr=19	    sx=2900	    gx=2475	offset=-425	   cdp=58	
+
+ tracf=24	  fldr=18	    sx=2850	    gx=2525	offset=-325	   cdp=58	
+
+ tracf=26	  fldr=17	    sx=2800	    gx=2575	offset=-225	   cdp=58	
+
+ tracf=28	  fldr=16	    sx=2750	    gx=2625	offset=-125	   cdp=58	
+
+ tracf=30	  fldr=15	    sx=2700	    gx=2675	offset=-25	   cdp=58	
+
+ tracf=32	  fldr=14	    sx=2650	    gx=2725	offset=75	   cdp=58	
+
+ tracf=34	  fldr=13	    sx=2600	    gx=2775	offset=175	   cdp=58	
+
+ tracf=36	  fldr=12	    sx=2550	    gx=2825	offset=275	   cdp=58	
+
+ tracf=38	  fldr=11	    sx=2500	    gx=2875	offset=375	   cdp=58	
+
+ tracf=40	  fldr=10	    sx=2450	    gx=2925	offset=475	   cdp=58	
+
+ tracf=42	  fldr=9	    sx=2400	    gx=2975	offset=575	   cdp=58	
+
+ tracf=44	  fldr=8	    sx=2350	    gx=3025	offset=675	   cdp=58	
+
+ tracf=46	  fldr=7	    sx=2300	    gx=3075	offset=775	   cdp=58	
+
+ tracf=48	  fldr=6	    sx=2250	    gx=3125	offset=875	   cdp=58	
+
+ tracf=50	  fldr=5	    sx=2200	    gx=3175	offset=975	   cdp=58	
+
+ tracf=52	  fldr=4	    sx=2150	    gx=3225	offset=1075	   cdp=58	
+
+ tracf=54	  fldr=3	    sx=2100	    gx=3275	offset=1175	   cdp=58	
+
+ tracf=56	  fldr=2	    sx=2050	    gx=3325	offset=1275	   cdp=58	
+
+ tracf=58	  fldr=1	    sx=2000	    gx=3375	offset=1375	   cdp=58	
+
+ tracf=1	  fldr=30	    sx=3450	    gx=1975	offset=-1475	   cdp=59	
+
+ tracf=3	  fldr=29	    sx=3400	    gx=2025	offset=-1375	   cdp=59	
+
+ tracf=5	  fldr=28	    sx=3350	    gx=2075	offset=-1275	   cdp=59	
+
+ tracf=7	  fldr=27	    sx=3300	    gx=2125	offset=-1175	   cdp=59	
+
+ tracf=9	  fldr=26	    sx=3250	    gx=2175	offset=-1075	   cdp=59	
+
+ tracf=11	  fldr=25	    sx=3200	    gx=2225	offset=-975	   cdp=59	
+
+ tracf=13	  fldr=24	    sx=3150	    gx=2275	offset=-875	   cdp=59	
+
+ tracf=15	  fldr=23	    sx=3100	    gx=2325	offset=-775	   cdp=59	
+
+ tracf=17	  fldr=22	    sx=3050	    gx=2375	offset=-675	   cdp=59	
+
+ tracf=19	  fldr=21	    sx=3000	    gx=2425	offset=-575	   cdp=59	
+
+ tracf=21	  fldr=20	    sx=2950	    gx=2475	offset=-475	   cdp=59	
+
+ tracf=23	  fldr=19	    sx=2900	    gx=2525	offset=-375	   cdp=59	
+
+ tracf=25	  fldr=18	    sx=2850	    gx=2575	offset=-275	   cdp=59	
+
+ tracf=27	  fldr=17	    sx=2800	    gx=2625	offset=-175	   cdp=59	
+
+ tracf=29	  fldr=16	    sx=2750	    gx=2675	offset=-75	   cdp=59	
+
+ tracf=31	  fldr=15	    sx=2700	    gx=2725	offset=25	   cdp=59	
+
+ tracf=33	  fldr=14	    sx=2650	    gx=2775	offset=125	   cdp=59	
+
+ tracf=35	  fldr=13	    sx=2600	    gx=2825	offset=225	   cdp=59	
+
+ tracf=37	  fldr=12	    sx=2550	    gx=2875	offset=325	   cdp=59	
+
+ tracf=39	  fldr=11	    sx=2500	    gx=2925	offset=425	   cdp=59	
+
+ tracf=41	  fldr=10	    sx=2450	    gx=2975	offset=525	   cdp=59	
+
+ tracf=43	  fldr=9	    sx=2400	    gx=3025	offset=625	   cdp=59	
+
+ tracf=45	  fldr=8	    sx=2350	    gx=3075	offset=725	   cdp=59	
+
+ tracf=47	  fldr=7	    sx=2300	    gx=3125	offset=825	   cdp=59	
+
+ tracf=49	  fldr=6	    sx=2250	    gx=3175	offset=925	   cdp=59	
+
+ tracf=51	  fldr=5	    sx=2200	    gx=3225	offset=1025	   cdp=59	
+
+ tracf=53	  fldr=4	    sx=2150	    gx=3275	offset=1125	   cdp=59	
+
+ tracf=55	  fldr=3	    sx=2100	    gx=3325	offset=1225	   cdp=59	
+
+ tracf=57	  fldr=2	    sx=2050	    gx=3375	offset=1325	   cdp=59	
+
+ tracf=59	  fldr=1	    sx=2000	    gx=3425	offset=1425	   cdp=59	
+
+ tracf=2	  fldr=30	    sx=3450	    gx=2025	offset=-1425	   cdp=60	
+
+ tracf=4	  fldr=29	    sx=3400	    gx=2075	offset=-1325	   cdp=60	
+
+ tracf=6	  fldr=28	    sx=3350	    gx=2125	offset=-1225	   cdp=60	
+
+ tracf=8	  fldr=27	    sx=3300	    gx=2175	offset=-1125	   cdp=60	
+
+ tracf=10	  fldr=26	    sx=3250	    gx=2225	offset=-1025	   cdp=60	
+
+ tracf=12	  fldr=25	    sx=3200	    gx=2275	offset=-925	   cdp=60	
+
+ tracf=14	  fldr=24	    sx=3150	    gx=2325	offset=-825	   cdp=60	
+
+ tracf=16	  fldr=23	    sx=3100	    gx=2375	offset=-725	   cdp=60	
+
+ tracf=18	  fldr=22	    sx=3050	    gx=2425	offset=-625	   cdp=60	
+
+ tracf=20	  fldr=21	    sx=3000	    gx=2475	offset=-525	   cdp=60	
+
+ tracf=22	  fldr=20	    sx=2950	    gx=2525	offset=-425	   cdp=60	
+
+ tracf=24	  fldr=19	    sx=2900	    gx=2575	offset=-325	   cdp=60	
+
+ tracf=26	  fldr=18	    sx=2850	    gx=2625	offset=-225	   cdp=60	
+
+ tracf=28	  fldr=17	    sx=2800	    gx=2675	offset=-125	   cdp=60	
+
+ tracf=30	  fldr=16	    sx=2750	    gx=2725	offset=-25	   cdp=60	
+
+ tracf=32	  fldr=15	    sx=2700	    gx=2775	offset=75	   cdp=60	
+
+ tracf=34	  fldr=14	    sx=2650	    gx=2825	offset=175	   cdp=60	
+
+ tracf=36	  fldr=13	    sx=2600	    gx=2875	offset=275	   cdp=60	
+
+ tracf=38	  fldr=12	    sx=2550	    gx=2925	offset=375	   cdp=60	
+
+ tracf=40	  fldr=11	    sx=2500	    gx=2975	offset=475	   cdp=60	
+
+ tracf=42	  fldr=10	    sx=2450	    gx=3025	offset=575	   cdp=60	
+
+ tracf=44	  fldr=9	    sx=2400	    gx=3075	offset=675	   cdp=60	
+
+ tracf=46	  fldr=8	    sx=2350	    gx=3125	offset=775	   cdp=60	
+
+ tracf=48	  fldr=7	    sx=2300	    gx=3175	offset=875	   cdp=60	
+
+ tracf=50	  fldr=6	    sx=2250	    gx=3225	offset=975	   cdp=60	
+
+ tracf=52	  fldr=5	    sx=2200	    gx=3275	offset=1075	   cdp=60	
+
+ tracf=54	  fldr=4	    sx=2150	    gx=3325	offset=1175	   cdp=60	
+
+ tracf=56	  fldr=3	    sx=2100	    gx=3375	offset=1275	   cdp=60	
+
+ tracf=58	  fldr=2	    sx=2050	    gx=3425	offset=1375	   cdp=60	
+
+ tracf=60	  fldr=1	    sx=2000	    gx=3475	offset=1475	   cdp=60	
+
+ tracf=1	  fldr=31	    sx=3500	    gx=2025	offset=-1475	   cdp=61	
+
+ tracf=3	  fldr=30	    sx=3450	    gx=2075	offset=-1375	   cdp=61	
+
+ tracf=5	  fldr=29	    sx=3400	    gx=2125	offset=-1275	   cdp=61	
+
+ tracf=7	  fldr=28	    sx=3350	    gx=2175	offset=-1175	   cdp=61	
+
+ tracf=9	  fldr=27	    sx=3300	    gx=2225	offset=-1075	   cdp=61	
+
+ tracf=11	  fldr=26	    sx=3250	    gx=2275	offset=-975	   cdp=61	
+
+ tracf=13	  fldr=25	    sx=3200	    gx=2325	offset=-875	   cdp=61	
+
+ tracf=15	  fldr=24	    sx=3150	    gx=2375	offset=-775	   cdp=61	
+
+ tracf=17	  fldr=23	    sx=3100	    gx=2425	offset=-675	   cdp=61	
+
+ tracf=19	  fldr=22	    sx=3050	    gx=2475	offset=-575	   cdp=61	
+
+ tracf=21	  fldr=21	    sx=3000	    gx=2525	offset=-475	   cdp=61	
+
+ tracf=23	  fldr=20	    sx=2950	    gx=2575	offset=-375	   cdp=61	
+
+ tracf=25	  fldr=19	    sx=2900	    gx=2625	offset=-275	   cdp=61	
+
+ tracf=27	  fldr=18	    sx=2850	    gx=2675	offset=-175	   cdp=61	
+
+ tracf=29	  fldr=17	    sx=2800	    gx=2725	offset=-75	   cdp=61	
+
+ tracf=31	  fldr=16	    sx=2750	    gx=2775	offset=25	   cdp=61	
+
+ tracf=33	  fldr=15	    sx=2700	    gx=2825	offset=125	   cdp=61	
+
+ tracf=35	  fldr=14	    sx=2650	    gx=2875	offset=225	   cdp=61	
+
+ tracf=37	  fldr=13	    sx=2600	    gx=2925	offset=325	   cdp=61	
+
+ tracf=39	  fldr=12	    sx=2550	    gx=2975	offset=425	   cdp=61	
+
+ tracf=41	  fldr=11	    sx=2500	    gx=3025	offset=525	   cdp=61	
+
+ tracf=43	  fldr=10	    sx=2450	    gx=3075	offset=625	   cdp=61	
+
+ tracf=45	  fldr=9	    sx=2400	    gx=3125	offset=725	   cdp=61	
+
+ tracf=47	  fldr=8	    sx=2350	    gx=3175	offset=825	   cdp=61	
+
+ tracf=49	  fldr=7	    sx=2300	    gx=3225	offset=925	   cdp=61	
+
+ tracf=51	  fldr=6	    sx=2250	    gx=3275	offset=1025	   cdp=61	
+
+ tracf=53	  fldr=5	    sx=2200	    gx=3325	offset=1125	   cdp=61	
+
+ tracf=55	  fldr=4	    sx=2150	    gx=3375	offset=1225	   cdp=61	
+
+ tracf=57	  fldr=3	    sx=2100	    gx=3425	offset=1325	   cdp=61	
+
+ tracf=59	  fldr=2	    sx=2050	    gx=3475	offset=1425	   cdp=61	
+
+ tracf=2	  fldr=31	    sx=3500	    gx=2075	offset=-1425	   cdp=62	
+
+ tracf=4	  fldr=30	    sx=3450	    gx=2125	offset=-1325	   cdp=62	
+
+ tracf=6	  fldr=29	    sx=3400	    gx=2175	offset=-1225	   cdp=62	
+
+ tracf=8	  fldr=28	    sx=3350	    gx=2225	offset=-1125	   cdp=62	
+
+ tracf=10	  fldr=27	    sx=3300	    gx=2275	offset=-1025	   cdp=62	
+
+ tracf=12	  fldr=26	    sx=3250	    gx=2325	offset=-925	   cdp=62	
+
+ tracf=14	  fldr=25	    sx=3200	    gx=2375	offset=-825	   cdp=62	
+
+ tracf=16	  fldr=24	    sx=3150	    gx=2425	offset=-725	   cdp=62	
+
+ tracf=18	  fldr=23	    sx=3100	    gx=2475	offset=-625	   cdp=62	
+
+ tracf=20	  fldr=22	    sx=3050	    gx=2525	offset=-525	   cdp=62	
+
+ tracf=22	  fldr=21	    sx=3000	    gx=2575	offset=-425	   cdp=62	
+
+ tracf=24	  fldr=20	    sx=2950	    gx=2625	offset=-325	   cdp=62	
+
+ tracf=26	  fldr=19	    sx=2900	    gx=2675	offset=-225	   cdp=62	
+
+ tracf=28	  fldr=18	    sx=2850	    gx=2725	offset=-125	   cdp=62	
+
+ tracf=30	  fldr=17	    sx=2800	    gx=2775	offset=-25	   cdp=62	
+
+ tracf=32	  fldr=16	    sx=2750	    gx=2825	offset=75	   cdp=62	
+
+ tracf=34	  fldr=15	    sx=2700	    gx=2875	offset=175	   cdp=62	
+
+ tracf=36	  fldr=14	    sx=2650	    gx=2925	offset=275	   cdp=62	
+
+ tracf=38	  fldr=13	    sx=2600	    gx=2975	offset=375	   cdp=62	
+
+ tracf=40	  fldr=12	    sx=2550	    gx=3025	offset=475	   cdp=62	
+
+ tracf=42	  fldr=11	    sx=2500	    gx=3075	offset=575	   cdp=62	
+
+ tracf=44	  fldr=10	    sx=2450	    gx=3125	offset=675	   cdp=62	
+
+ tracf=46	  fldr=9	    sx=2400	    gx=3175	offset=775	   cdp=62	
+
+ tracf=48	  fldr=8	    sx=2350	    gx=3225	offset=875	   cdp=62	
+
+ tracf=50	  fldr=7	    sx=2300	    gx=3275	offset=975	   cdp=62	
+
+ tracf=52	  fldr=6	    sx=2250	    gx=3325	offset=1075	   cdp=62	
+
+ tracf=54	  fldr=5	    sx=2200	    gx=3375	offset=1175	   cdp=62	
+
+ tracf=56	  fldr=4	    sx=2150	    gx=3425	offset=1275	   cdp=62	
+
+ tracf=58	  fldr=3	    sx=2100	    gx=3475	offset=1375	   cdp=62	
+
+ tracf=60	  fldr=2	    sx=2050	    gx=3525	offset=1475	   cdp=62	
+
+ tracf=1	  fldr=32	    sx=3550	    gx=2075	offset=-1475	   cdp=63	
+
+ tracf=3	  fldr=31	    sx=3500	    gx=2125	offset=-1375	   cdp=63	
+
+ tracf=5	  fldr=30	    sx=3450	    gx=2175	offset=-1275	   cdp=63	
+
+ tracf=7	  fldr=29	    sx=3400	    gx=2225	offset=-1175	   cdp=63	
+
+ tracf=9	  fldr=28	    sx=3350	    gx=2275	offset=-1075	   cdp=63	
+
+ tracf=11	  fldr=27	    sx=3300	    gx=2325	offset=-975	   cdp=63	
+
+ tracf=13	  fldr=26	    sx=3250	    gx=2375	offset=-875	   cdp=63	
+
+ tracf=15	  fldr=25	    sx=3200	    gx=2425	offset=-775	   cdp=63	
+
+ tracf=17	  fldr=24	    sx=3150	    gx=2475	offset=-675	   cdp=63	
+
+ tracf=19	  fldr=23	    sx=3100	    gx=2525	offset=-575	   cdp=63	
+
+ tracf=21	  fldr=22	    sx=3050	    gx=2575	offset=-475	   cdp=63	
+
+ tracf=23	  fldr=21	    sx=3000	    gx=2625	offset=-375	   cdp=63	
+
+ tracf=25	  fldr=20	    sx=2950	    gx=2675	offset=-275	   cdp=63	
+
+ tracf=27	  fldr=19	    sx=2900	    gx=2725	offset=-175	   cdp=63	
+
+ tracf=29	  fldr=18	    sx=2850	    gx=2775	offset=-75	   cdp=63	
+
+ tracf=31	  fldr=17	    sx=2800	    gx=2825	offset=25	   cdp=63	
+
+ tracf=33	  fldr=16	    sx=2750	    gx=2875	offset=125	   cdp=63	
+
+ tracf=35	  fldr=15	    sx=2700	    gx=2925	offset=225	   cdp=63	
+
+ tracf=37	  fldr=14	    sx=2650	    gx=2975	offset=325	   cdp=63	
+
+ tracf=39	  fldr=13	    sx=2600	    gx=3025	offset=425	   cdp=63	
+
+ tracf=41	  fldr=12	    sx=2550	    gx=3075	offset=525	   cdp=63	
+
+ tracf=43	  fldr=11	    sx=2500	    gx=3125	offset=625	   cdp=63	
+
+ tracf=45	  fldr=10	    sx=2450	    gx=3175	offset=725	   cdp=63	
+
+ tracf=47	  fldr=9	    sx=2400	    gx=3225	offset=825	   cdp=63	
+
+ tracf=49	  fldr=8	    sx=2350	    gx=3275	offset=925	   cdp=63	
+
+ tracf=51	  fldr=7	    sx=2300	    gx=3325	offset=1025	   cdp=63	
+
+ tracf=53	  fldr=6	    sx=2250	    gx=3375	offset=1125	   cdp=63	
+
+ tracf=55	  fldr=5	    sx=2200	    gx=3425	offset=1225	   cdp=63	
+
+ tracf=57	  fldr=4	    sx=2150	    gx=3475	offset=1325	   cdp=63	
+
+ tracf=59	  fldr=3	    sx=2100	    gx=3525	offset=1425	   cdp=63	
+
+ tracf=2	  fldr=32	    sx=3550	    gx=2125	offset=-1425	   cdp=64	
+
+ tracf=4	  fldr=31	    sx=3500	    gx=2175	offset=-1325	   cdp=64	
+
+ tracf=6	  fldr=30	    sx=3450	    gx=2225	offset=-1225	   cdp=64	
+
+ tracf=8	  fldr=29	    sx=3400	    gx=2275	offset=-1125	   cdp=64	
+
+ tracf=10	  fldr=28	    sx=3350	    gx=2325	offset=-1025	   cdp=64	
+
+ tracf=12	  fldr=27	    sx=3300	    gx=2375	offset=-925	   cdp=64	
+
+ tracf=14	  fldr=26	    sx=3250	    gx=2425	offset=-825	   cdp=64	
+
+ tracf=16	  fldr=25	    sx=3200	    gx=2475	offset=-725	   cdp=64	
+
+ tracf=18	  fldr=24	    sx=3150	    gx=2525	offset=-625	   cdp=64	
+
+ tracf=20	  fldr=23	    sx=3100	    gx=2575	offset=-525	   cdp=64	
+
+ tracf=22	  fldr=22	    sx=3050	    gx=2625	offset=-425	   cdp=64	
+
+ tracf=24	  fldr=21	    sx=3000	    gx=2675	offset=-325	   cdp=64	
+
+ tracf=26	  fldr=20	    sx=2950	    gx=2725	offset=-225	   cdp=64	
+
+ tracf=28	  fldr=19	    sx=2900	    gx=2775	offset=-125	   cdp=64	
+
+ tracf=30	  fldr=18	    sx=2850	    gx=2825	offset=-25	   cdp=64	
+
+ tracf=32	  fldr=17	    sx=2800	    gx=2875	offset=75	   cdp=64	
+
+ tracf=34	  fldr=16	    sx=2750	    gx=2925	offset=175	   cdp=64	
+
+ tracf=36	  fldr=15	    sx=2700	    gx=2975	offset=275	   cdp=64	
+
+ tracf=38	  fldr=14	    sx=2650	    gx=3025	offset=375	   cdp=64	
+
+ tracf=40	  fldr=13	    sx=2600	    gx=3075	offset=475	   cdp=64	
+
+ tracf=42	  fldr=12	    sx=2550	    gx=3125	offset=575	   cdp=64	
+
+ tracf=44	  fldr=11	    sx=2500	    gx=3175	offset=675	   cdp=64	
+
+ tracf=46	  fldr=10	    sx=2450	    gx=3225	offset=775	   cdp=64	
+
+ tracf=48	  fldr=9	    sx=2400	    gx=3275	offset=875	   cdp=64	
+
+ tracf=50	  fldr=8	    sx=2350	    gx=3325	offset=975	   cdp=64	
+
+ tracf=52	  fldr=7	    sx=2300	    gx=3375	offset=1075	   cdp=64	
+
+ tracf=54	  fldr=6	    sx=2250	    gx=3425	offset=1175	   cdp=64	
+
+ tracf=56	  fldr=5	    sx=2200	    gx=3475	offset=1275	   cdp=64	
+
+ tracf=58	  fldr=4	    sx=2150	    gx=3525	offset=1375	   cdp=64	
+
+ tracf=60	  fldr=3	    sx=2100	    gx=3575	offset=1475	   cdp=64	
+
+ tracf=1	  fldr=33	    sx=3600	    gx=2125	offset=-1475	   cdp=65	
+
+ tracf=3	  fldr=32	    sx=3550	    gx=2175	offset=-1375	   cdp=65	
+
+ tracf=5	  fldr=31	    sx=3500	    gx=2225	offset=-1275	   cdp=65	
+
+ tracf=7	  fldr=30	    sx=3450	    gx=2275	offset=-1175	   cdp=65	
+
+ tracf=9	  fldr=29	    sx=3400	    gx=2325	offset=-1075	   cdp=65	
+
+ tracf=11	  fldr=28	    sx=3350	    gx=2375	offset=-975	   cdp=65	
+
+ tracf=13	  fldr=27	    sx=3300	    gx=2425	offset=-875	   cdp=65	
+
+ tracf=15	  fldr=26	    sx=3250	    gx=2475	offset=-775	   cdp=65	
+
+ tracf=17	  fldr=25	    sx=3200	    gx=2525	offset=-675	   cdp=65	
+
+ tracf=19	  fldr=24	    sx=3150	    gx=2575	offset=-575	   cdp=65	
+
+ tracf=21	  fldr=23	    sx=3100	    gx=2625	offset=-475	   cdp=65	
+
+ tracf=23	  fldr=22	    sx=3050	    gx=2675	offset=-375	   cdp=65	
+
+ tracf=25	  fldr=21	    sx=3000	    gx=2725	offset=-275	   cdp=65	
+
+ tracf=27	  fldr=20	    sx=2950	    gx=2775	offset=-175	   cdp=65	
+
+ tracf=29	  fldr=19	    sx=2900	    gx=2825	offset=-75	   cdp=65	
+
+ tracf=31	  fldr=18	    sx=2850	    gx=2875	offset=25	   cdp=65	
+
+ tracf=33	  fldr=17	    sx=2800	    gx=2925	offset=125	   cdp=65	
+
+ tracf=35	  fldr=16	    sx=2750	    gx=2975	offset=225	   cdp=65	
+
+ tracf=37	  fldr=15	    sx=2700	    gx=3025	offset=325	   cdp=65	
+
+ tracf=39	  fldr=14	    sx=2650	    gx=3075	offset=425	   cdp=65	
+
+ tracf=41	  fldr=13	    sx=2600	    gx=3125	offset=525	   cdp=65	
+
+ tracf=43	  fldr=12	    sx=2550	    gx=3175	offset=625	   cdp=65	
+
+ tracf=45	  fldr=11	    sx=2500	    gx=3225	offset=725	   cdp=65	
+
+ tracf=47	  fldr=10	    sx=2450	    gx=3275	offset=825	   cdp=65	
+
+ tracf=49	  fldr=9	    sx=2400	    gx=3325	offset=925	   cdp=65	
+
+ tracf=51	  fldr=8	    sx=2350	    gx=3375	offset=1025	   cdp=65	
+
+ tracf=53	  fldr=7	    sx=2300	    gx=3425	offset=1125	   cdp=65	
+
+ tracf=55	  fldr=6	    sx=2250	    gx=3475	offset=1225	   cdp=65	
+
+ tracf=57	  fldr=5	    sx=2200	    gx=3525	offset=1325	   cdp=65	
+
+ tracf=59	  fldr=4	    sx=2150	    gx=3575	offset=1425	   cdp=65	
+
+ tracf=2	  fldr=33	    sx=3600	    gx=2175	offset=-1425	   cdp=66	
+
+ tracf=4	  fldr=32	    sx=3550	    gx=2225	offset=-1325	   cdp=66	
+
+ tracf=6	  fldr=31	    sx=3500	    gx=2275	offset=-1225	   cdp=66	
+
+ tracf=8	  fldr=30	    sx=3450	    gx=2325	offset=-1125	   cdp=66	
+
+ tracf=10	  fldr=29	    sx=3400	    gx=2375	offset=-1025	   cdp=66	
+
+ tracf=12	  fldr=28	    sx=3350	    gx=2425	offset=-925	   cdp=66	
+
+ tracf=14	  fldr=27	    sx=3300	    gx=2475	offset=-825	   cdp=66	
+
+ tracf=16	  fldr=26	    sx=3250	    gx=2525	offset=-725	   cdp=66	
+
+ tracf=18	  fldr=25	    sx=3200	    gx=2575	offset=-625	   cdp=66	
+
+ tracf=20	  fldr=24	    sx=3150	    gx=2625	offset=-525	   cdp=66	
+
+ tracf=22	  fldr=23	    sx=3100	    gx=2675	offset=-425	   cdp=66	
+
+ tracf=24	  fldr=22	    sx=3050	    gx=2725	offset=-325	   cdp=66	
+
+ tracf=26	  fldr=21	    sx=3000	    gx=2775	offset=-225	   cdp=66	
+
+ tracf=28	  fldr=20	    sx=2950	    gx=2825	offset=-125	   cdp=66	
+
+ tracf=30	  fldr=19	    sx=2900	    gx=2875	offset=-25	   cdp=66	
+
+ tracf=32	  fldr=18	    sx=2850	    gx=2925	offset=75	   cdp=66	
+
+ tracf=34	  fldr=17	    sx=2800	    gx=2975	offset=175	   cdp=66	
+
+ tracf=36	  fldr=16	    sx=2750	    gx=3025	offset=275	   cdp=66	
+
+ tracf=38	  fldr=15	    sx=2700	    gx=3075	offset=375	   cdp=66	
+
+ tracf=40	  fldr=14	    sx=2650	    gx=3125	offset=475	   cdp=66	
+
+ tracf=42	  fldr=13	    sx=2600	    gx=3175	offset=575	   cdp=66	
+
+ tracf=44	  fldr=12	    sx=2550	    gx=3225	offset=675	   cdp=66	
+
+ tracf=46	  fldr=11	    sx=2500	    gx=3275	offset=775	   cdp=66	
+
+ tracf=48	  fldr=10	    sx=2450	    gx=3325	offset=875	   cdp=66	
+
+ tracf=50	  fldr=9	    sx=2400	    gx=3375	offset=975	   cdp=66	
+
+ tracf=52	  fldr=8	    sx=2350	    gx=3425	offset=1075	   cdp=66	
+
+ tracf=54	  fldr=7	    sx=2300	    gx=3475	offset=1175	   cdp=66	
+
+ tracf=56	  fldr=6	    sx=2250	    gx=3525	offset=1275	   cdp=66	
+
+ tracf=58	  fldr=5	    sx=2200	    gx=3575	offset=1375	   cdp=66	
+
+ tracf=60	  fldr=4	    sx=2150	    gx=3625	offset=1475	   cdp=66	
+
+ tracf=1	  fldr=34	    sx=3650	    gx=2175	offset=-1475	   cdp=67	
+
+ tracf=3	  fldr=33	    sx=3600	    gx=2225	offset=-1375	   cdp=67	
+
+ tracf=5	  fldr=32	    sx=3550	    gx=2275	offset=-1275	   cdp=67	
+
+ tracf=7	  fldr=31	    sx=3500	    gx=2325	offset=-1175	   cdp=67	
+
+ tracf=9	  fldr=30	    sx=3450	    gx=2375	offset=-1075	   cdp=67	
+
+ tracf=11	  fldr=29	    sx=3400	    gx=2425	offset=-975	   cdp=67	
+
+ tracf=13	  fldr=28	    sx=3350	    gx=2475	offset=-875	   cdp=67	
+
+ tracf=15	  fldr=27	    sx=3300	    gx=2525	offset=-775	   cdp=67	
+
+ tracf=17	  fldr=26	    sx=3250	    gx=2575	offset=-675	   cdp=67	
+
+ tracf=19	  fldr=25	    sx=3200	    gx=2625	offset=-575	   cdp=67	
+
+ tracf=21	  fldr=24	    sx=3150	    gx=2675	offset=-475	   cdp=67	
+
+ tracf=23	  fldr=23	    sx=3100	    gx=2725	offset=-375	   cdp=67	
+
+ tracf=25	  fldr=22	    sx=3050	    gx=2775	offset=-275	   cdp=67	
+
+ tracf=27	  fldr=21	    sx=3000	    gx=2825	offset=-175	   cdp=67	
+
+ tracf=29	  fldr=20	    sx=2950	    gx=2875	offset=-75	   cdp=67	
+
+ tracf=31	  fldr=19	    sx=2900	    gx=2925	offset=25	   cdp=67	
+
+ tracf=33	  fldr=18	    sx=2850	    gx=2975	offset=125	   cdp=67	
+
+ tracf=35	  fldr=17	    sx=2800	    gx=3025	offset=225	   cdp=67	
+
+ tracf=37	  fldr=16	    sx=2750	    gx=3075	offset=325	   cdp=67	
+
+ tracf=39	  fldr=15	    sx=2700	    gx=3125	offset=425	   cdp=67	
+
+ tracf=41	  fldr=14	    sx=2650	    gx=3175	offset=525	   cdp=67	
+
+ tracf=43	  fldr=13	    sx=2600	    gx=3225	offset=625	   cdp=67	
+
+ tracf=45	  fldr=12	    sx=2550	    gx=3275	offset=725	   cdp=67	
+
+ tracf=47	  fldr=11	    sx=2500	    gx=3325	offset=825	   cdp=67	
+
+ tracf=49	  fldr=10	    sx=2450	    gx=3375	offset=925	   cdp=67	
+
+ tracf=51	  fldr=9	    sx=2400	    gx=3425	offset=1025	   cdp=67	
+
+ tracf=53	  fldr=8	    sx=2350	    gx=3475	offset=1125	   cdp=67	
+
+ tracf=55	  fldr=7	    sx=2300	    gx=3525	offset=1225	   cdp=67	
+
+ tracf=57	  fldr=6	    sx=2250	    gx=3575	offset=1325	   cdp=67	
+
+ tracf=59	  fldr=5	    sx=2200	    gx=3625	offset=1425	   cdp=67	
+
+ tracf=2	  fldr=34	    sx=3650	    gx=2225	offset=-1425	   cdp=68	
+
+ tracf=4	  fldr=33	    sx=3600	    gx=2275	offset=-1325	   cdp=68	
+
+ tracf=6	  fldr=32	    sx=3550	    gx=2325	offset=-1225	   cdp=68	
+
+ tracf=8	  fldr=31	    sx=3500	    gx=2375	offset=-1125	   cdp=68	
+
+ tracf=10	  fldr=30	    sx=3450	    gx=2425	offset=-1025	   cdp=68	
+
+ tracf=12	  fldr=29	    sx=3400	    gx=2475	offset=-925	   cdp=68	
+
+ tracf=14	  fldr=28	    sx=3350	    gx=2525	offset=-825	   cdp=68	
+
+ tracf=16	  fldr=27	    sx=3300	    gx=2575	offset=-725	   cdp=68	
+
+ tracf=18	  fldr=26	    sx=3250	    gx=2625	offset=-625	   cdp=68	
+
+ tracf=20	  fldr=25	    sx=3200	    gx=2675	offset=-525	   cdp=68	
+
+ tracf=22	  fldr=24	    sx=3150	    gx=2725	offset=-425	   cdp=68	
+
+ tracf=24	  fldr=23	    sx=3100	    gx=2775	offset=-325	   cdp=68	
+
+ tracf=26	  fldr=22	    sx=3050	    gx=2825	offset=-225	   cdp=68	
+
+ tracf=28	  fldr=21	    sx=3000	    gx=2875	offset=-125	   cdp=68	
+
+ tracf=30	  fldr=20	    sx=2950	    gx=2925	offset=-25	   cdp=68	
+
+ tracf=32	  fldr=19	    sx=2900	    gx=2975	offset=75	   cdp=68	
+
+ tracf=34	  fldr=18	    sx=2850	    gx=3025	offset=175	   cdp=68	
+
+ tracf=36	  fldr=17	    sx=2800	    gx=3075	offset=275	   cdp=68	
+
+ tracf=38	  fldr=16	    sx=2750	    gx=3125	offset=375	   cdp=68	
+
+ tracf=40	  fldr=15	    sx=2700	    gx=3175	offset=475	   cdp=68	
+
+ tracf=42	  fldr=14	    sx=2650	    gx=3225	offset=575	   cdp=68	
+
+ tracf=44	  fldr=13	    sx=2600	    gx=3275	offset=675	   cdp=68	
+
+ tracf=46	  fldr=12	    sx=2550	    gx=3325	offset=775	   cdp=68	
+
+ tracf=48	  fldr=11	    sx=2500	    gx=3375	offset=875	   cdp=68	
+
+ tracf=50	  fldr=10	    sx=2450	    gx=3425	offset=975	   cdp=68	
+
+ tracf=52	  fldr=9	    sx=2400	    gx=3475	offset=1075	   cdp=68	
+
+ tracf=54	  fldr=8	    sx=2350	    gx=3525	offset=1175	   cdp=68	
+
+ tracf=56	  fldr=7	    sx=2300	    gx=3575	offset=1275	   cdp=68	
+
+ tracf=58	  fldr=6	    sx=2250	    gx=3625	offset=1375	   cdp=68	
+
+ tracf=60	  fldr=5	    sx=2200	    gx=3675	offset=1475	   cdp=68	
+
+ tracf=1	  fldr=35	    sx=3700	    gx=2225	offset=-1475	   cdp=69	
+
+ tracf=3	  fldr=34	    sx=3650	    gx=2275	offset=-1375	   cdp=69	
+
+ tracf=5	  fldr=33	    sx=3600	    gx=2325	offset=-1275	   cdp=69	
+
+ tracf=7	  fldr=32	    sx=3550	    gx=2375	offset=-1175	   cdp=69	
+
+ tracf=9	  fldr=31	    sx=3500	    gx=2425	offset=-1075	   cdp=69	
+
+ tracf=11	  fldr=30	    sx=3450	    gx=2475	offset=-975	   cdp=69	
+
+ tracf=13	  fldr=29	    sx=3400	    gx=2525	offset=-875	   cdp=69	
+
+ tracf=15	  fldr=28	    sx=3350	    gx=2575	offset=-775	   cdp=69	
+
+ tracf=17	  fldr=27	    sx=3300	    gx=2625	offset=-675	   cdp=69	
+
+ tracf=19	  fldr=26	    sx=3250	    gx=2675	offset=-575	   cdp=69	
+
+ tracf=21	  fldr=25	    sx=3200	    gx=2725	offset=-475	   cdp=69	
+
+ tracf=23	  fldr=24	    sx=3150	    gx=2775	offset=-375	   cdp=69	
+
+ tracf=25	  fldr=23	    sx=3100	    gx=2825	offset=-275	   cdp=69	
+
+ tracf=27	  fldr=22	    sx=3050	    gx=2875	offset=-175	   cdp=69	
+
+ tracf=29	  fldr=21	    sx=3000	    gx=2925	offset=-75	   cdp=69	
+
+ tracf=31	  fldr=20	    sx=2950	    gx=2975	offset=25	   cdp=69	
+
+ tracf=33	  fldr=19	    sx=2900	    gx=3025	offset=125	   cdp=69	
+
+ tracf=35	  fldr=18	    sx=2850	    gx=3075	offset=225	   cdp=69	
+
+ tracf=37	  fldr=17	    sx=2800	    gx=3125	offset=325	   cdp=69	
+
+ tracf=39	  fldr=16	    sx=2750	    gx=3175	offset=425	   cdp=69	
+
+ tracf=41	  fldr=15	    sx=2700	    gx=3225	offset=525	   cdp=69	
+
+ tracf=43	  fldr=14	    sx=2650	    gx=3275	offset=625	   cdp=69	
+
+ tracf=45	  fldr=13	    sx=2600	    gx=3325	offset=725	   cdp=69	
+
+ tracf=47	  fldr=12	    sx=2550	    gx=3375	offset=825	   cdp=69	
+
+ tracf=49	  fldr=11	    sx=2500	    gx=3425	offset=925	   cdp=69	
+
+ tracf=51	  fldr=10	    sx=2450	    gx=3475	offset=1025	   cdp=69	
+
+ tracf=53	  fldr=9	    sx=2400	    gx=3525	offset=1125	   cdp=69	
+
+ tracf=55	  fldr=8	    sx=2350	    gx=3575	offset=1225	   cdp=69	
+
+ tracf=57	  fldr=7	    sx=2300	    gx=3625	offset=1325	   cdp=69	
+
+ tracf=59	  fldr=6	    sx=2250	    gx=3675	offset=1425	   cdp=69	
+
+ tracf=2	  fldr=35	    sx=3700	    gx=2275	offset=-1425	   cdp=70	
+
+ tracf=4	  fldr=34	    sx=3650	    gx=2325	offset=-1325	   cdp=70	
+
+ tracf=6	  fldr=33	    sx=3600	    gx=2375	offset=-1225	   cdp=70	
+
+ tracf=8	  fldr=32	    sx=3550	    gx=2425	offset=-1125	   cdp=70	
+
+ tracf=10	  fldr=31	    sx=3500	    gx=2475	offset=-1025	   cdp=70	
+
+ tracf=12	  fldr=30	    sx=3450	    gx=2525	offset=-925	   cdp=70	
+
+ tracf=14	  fldr=29	    sx=3400	    gx=2575	offset=-825	   cdp=70	
+
+ tracf=16	  fldr=28	    sx=3350	    gx=2625	offset=-725	   cdp=70	
+
+ tracf=18	  fldr=27	    sx=3300	    gx=2675	offset=-625	   cdp=70	
+
+ tracf=20	  fldr=26	    sx=3250	    gx=2725	offset=-525	   cdp=70	
+
+ tracf=22	  fldr=25	    sx=3200	    gx=2775	offset=-425	   cdp=70	
+
+ tracf=24	  fldr=24	    sx=3150	    gx=2825	offset=-325	   cdp=70	
+
+ tracf=26	  fldr=23	    sx=3100	    gx=2875	offset=-225	   cdp=70	
+
+ tracf=28	  fldr=22	    sx=3050	    gx=2925	offset=-125	   cdp=70	
+
+ tracf=30	  fldr=21	    sx=3000	    gx=2975	offset=-25	   cdp=70	
+
+ tracf=32	  fldr=20	    sx=2950	    gx=3025	offset=75	   cdp=70	
+
+ tracf=34	  fldr=19	    sx=2900	    gx=3075	offset=175	   cdp=70	
+
+ tracf=36	  fldr=18	    sx=2850	    gx=3125	offset=275	   cdp=70	
+
+ tracf=38	  fldr=17	    sx=2800	    gx=3175	offset=375	   cdp=70	
+
+ tracf=40	  fldr=16	    sx=2750	    gx=3225	offset=475	   cdp=70	
+
+ tracf=42	  fldr=15	    sx=2700	    gx=3275	offset=575	   cdp=70	
+
+ tracf=44	  fldr=14	    sx=2650	    gx=3325	offset=675	   cdp=70	
+
+ tracf=46	  fldr=13	    sx=2600	    gx=3375	offset=775	   cdp=70	
+
+ tracf=48	  fldr=12	    sx=2550	    gx=3425	offset=875	   cdp=70	
+
+ tracf=50	  fldr=11	    sx=2500	    gx=3475	offset=975	   cdp=70	
+
+ tracf=52	  fldr=10	    sx=2450	    gx=3525	offset=1075	   cdp=70	
+
+ tracf=54	  fldr=9	    sx=2400	    gx=3575	offset=1175	   cdp=70	
+
+ tracf=56	  fldr=8	    sx=2350	    gx=3625	offset=1275	   cdp=70	
+
+ tracf=58	  fldr=7	    sx=2300	    gx=3675	offset=1375	   cdp=70	
+
+ tracf=60	  fldr=6	    sx=2250	    gx=3725	offset=1475	   cdp=70	
+
+ tracf=1	  fldr=36	    sx=3750	    gx=2275	offset=-1475	   cdp=71	
+
+ tracf=3	  fldr=35	    sx=3700	    gx=2325	offset=-1375	   cdp=71	
+
+ tracf=5	  fldr=34	    sx=3650	    gx=2375	offset=-1275	   cdp=71	
+
+ tracf=7	  fldr=33	    sx=3600	    gx=2425	offset=-1175	   cdp=71	
+
+ tracf=9	  fldr=32	    sx=3550	    gx=2475	offset=-1075	   cdp=71	
+
+ tracf=11	  fldr=31	    sx=3500	    gx=2525	offset=-975	   cdp=71	
+
+ tracf=13	  fldr=30	    sx=3450	    gx=2575	offset=-875	   cdp=71	
+
+ tracf=15	  fldr=29	    sx=3400	    gx=2625	offset=-775	   cdp=71	
+
+ tracf=17	  fldr=28	    sx=3350	    gx=2675	offset=-675	   cdp=71	
+
+ tracf=19	  fldr=27	    sx=3300	    gx=2725	offset=-575	   cdp=71	
+
+ tracf=21	  fldr=26	    sx=3250	    gx=2775	offset=-475	   cdp=71	
+
+ tracf=23	  fldr=25	    sx=3200	    gx=2825	offset=-375	   cdp=71	
+
+ tracf=25	  fldr=24	    sx=3150	    gx=2875	offset=-275	   cdp=71	
+
+ tracf=27	  fldr=23	    sx=3100	    gx=2925	offset=-175	   cdp=71	
+
+ tracf=29	  fldr=22	    sx=3050	    gx=2975	offset=-75	   cdp=71	
+
+ tracf=31	  fldr=21	    sx=3000	    gx=3025	offset=25	   cdp=71	
+
+ tracf=33	  fldr=20	    sx=2950	    gx=3075	offset=125	   cdp=71	
+
+ tracf=35	  fldr=19	    sx=2900	    gx=3125	offset=225	   cdp=71	
+
+ tracf=37	  fldr=18	    sx=2850	    gx=3175	offset=325	   cdp=71	
+
+ tracf=39	  fldr=17	    sx=2800	    gx=3225	offset=425	   cdp=71	
+
+ tracf=41	  fldr=16	    sx=2750	    gx=3275	offset=525	   cdp=71	
+
+ tracf=43	  fldr=15	    sx=2700	    gx=3325	offset=625	   cdp=71	
+
+ tracf=45	  fldr=14	    sx=2650	    gx=3375	offset=725	   cdp=71	
+
+ tracf=47	  fldr=13	    sx=2600	    gx=3425	offset=825	   cdp=71	
+
+ tracf=49	  fldr=12	    sx=2550	    gx=3475	offset=925	   cdp=71	
+
+ tracf=51	  fldr=11	    sx=2500	    gx=3525	offset=1025	   cdp=71	
+
+ tracf=53	  fldr=10	    sx=2450	    gx=3575	offset=1125	   cdp=71	
+
+ tracf=55	  fldr=9	    sx=2400	    gx=3625	offset=1225	   cdp=71	
+
+ tracf=57	  fldr=8	    sx=2350	    gx=3675	offset=1325	   cdp=71	
+
+ tracf=59	  fldr=7	    sx=2300	    gx=3725	offset=1425	   cdp=71	
+
+ tracf=2	  fldr=36	    sx=3750	    gx=2325	offset=-1425	   cdp=72	
+
+ tracf=4	  fldr=35	    sx=3700	    gx=2375	offset=-1325	   cdp=72	
+
+ tracf=6	  fldr=34	    sx=3650	    gx=2425	offset=-1225	   cdp=72	
+
+ tracf=8	  fldr=33	    sx=3600	    gx=2475	offset=-1125	   cdp=72	
+
+ tracf=10	  fldr=32	    sx=3550	    gx=2525	offset=-1025	   cdp=72	
+
+ tracf=12	  fldr=31	    sx=3500	    gx=2575	offset=-925	   cdp=72	
+
+ tracf=14	  fldr=30	    sx=3450	    gx=2625	offset=-825	   cdp=72	
+
+ tracf=16	  fldr=29	    sx=3400	    gx=2675	offset=-725	   cdp=72	
+
+ tracf=18	  fldr=28	    sx=3350	    gx=2725	offset=-625	   cdp=72	
+
+ tracf=20	  fldr=27	    sx=3300	    gx=2775	offset=-525	   cdp=72	
+
+ tracf=22	  fldr=26	    sx=3250	    gx=2825	offset=-425	   cdp=72	
+
+ tracf=24	  fldr=25	    sx=3200	    gx=2875	offset=-325	   cdp=72	
+
+ tracf=26	  fldr=24	    sx=3150	    gx=2925	offset=-225	   cdp=72	
+
+ tracf=28	  fldr=23	    sx=3100	    gx=2975	offset=-125	   cdp=72	
+
+ tracf=30	  fldr=22	    sx=3050	    gx=3025	offset=-25	   cdp=72	
+
+ tracf=32	  fldr=21	    sx=3000	    gx=3075	offset=75	   cdp=72	
+
+ tracf=34	  fldr=20	    sx=2950	    gx=3125	offset=175	   cdp=72	
+
+ tracf=36	  fldr=19	    sx=2900	    gx=3175	offset=275	   cdp=72	
+
+ tracf=38	  fldr=18	    sx=2850	    gx=3225	offset=375	   cdp=72	
+
+ tracf=40	  fldr=17	    sx=2800	    gx=3275	offset=475	   cdp=72	
+
+ tracf=42	  fldr=16	    sx=2750	    gx=3325	offset=575	   cdp=72	
+
+ tracf=44	  fldr=15	    sx=2700	    gx=3375	offset=675	   cdp=72	
+
+ tracf=46	  fldr=14	    sx=2650	    gx=3425	offset=775	   cdp=72	
+
+ tracf=48	  fldr=13	    sx=2600	    gx=3475	offset=875	   cdp=72	
+
+ tracf=50	  fldr=12	    sx=2550	    gx=3525	offset=975	   cdp=72	
+
+ tracf=52	  fldr=11	    sx=2500	    gx=3575	offset=1075	   cdp=72	
+
+ tracf=54	  fldr=10	    sx=2450	    gx=3625	offset=1175	   cdp=72	
+
+ tracf=56	  fldr=9	    sx=2400	    gx=3675	offset=1275	   cdp=72	
+
+ tracf=58	  fldr=8	    sx=2350	    gx=3725	offset=1375	   cdp=72	
+
+ tracf=60	  fldr=7	    sx=2300	    gx=3775	offset=1475	   cdp=72	
+
+ tracf=1	  fldr=37	    sx=3800	    gx=2325	offset=-1475	   cdp=73	
+
+ tracf=3	  fldr=36	    sx=3750	    gx=2375	offset=-1375	   cdp=73	
+
+ tracf=5	  fldr=35	    sx=3700	    gx=2425	offset=-1275	   cdp=73	
+
+ tracf=7	  fldr=34	    sx=3650	    gx=2475	offset=-1175	   cdp=73	
+
+ tracf=9	  fldr=33	    sx=3600	    gx=2525	offset=-1075	   cdp=73	
+
+ tracf=11	  fldr=32	    sx=3550	    gx=2575	offset=-975	   cdp=73	
+
+ tracf=13	  fldr=31	    sx=3500	    gx=2625	offset=-875	   cdp=73	
+
+ tracf=15	  fldr=30	    sx=3450	    gx=2675	offset=-775	   cdp=73	
+
+ tracf=17	  fldr=29	    sx=3400	    gx=2725	offset=-675	   cdp=73	
+
+ tracf=19	  fldr=28	    sx=3350	    gx=2775	offset=-575	   cdp=73	
+
+ tracf=21	  fldr=27	    sx=3300	    gx=2825	offset=-475	   cdp=73	
+
+ tracf=23	  fldr=26	    sx=3250	    gx=2875	offset=-375	   cdp=73	
+
+ tracf=25	  fldr=25	    sx=3200	    gx=2925	offset=-275	   cdp=73	
+
+ tracf=27	  fldr=24	    sx=3150	    gx=2975	offset=-175	   cdp=73	
+
+ tracf=29	  fldr=23	    sx=3100	    gx=3025	offset=-75	   cdp=73	
+
+ tracf=31	  fldr=22	    sx=3050	    gx=3075	offset=25	   cdp=73	
+
+ tracf=33	  fldr=21	    sx=3000	    gx=3125	offset=125	   cdp=73	
+
+ tracf=35	  fldr=20	    sx=2950	    gx=3175	offset=225	   cdp=73	
+
+ tracf=37	  fldr=19	    sx=2900	    gx=3225	offset=325	   cdp=73	
+
+ tracf=39	  fldr=18	    sx=2850	    gx=3275	offset=425	   cdp=73	
+
+ tracf=41	  fldr=17	    sx=2800	    gx=3325	offset=525	   cdp=73	
+
+ tracf=43	  fldr=16	    sx=2750	    gx=3375	offset=625	   cdp=73	
+
+ tracf=45	  fldr=15	    sx=2700	    gx=3425	offset=725	   cdp=73	
+
+ tracf=47	  fldr=14	    sx=2650	    gx=3475	offset=825	   cdp=73	
+
+ tracf=49	  fldr=13	    sx=2600	    gx=3525	offset=925	   cdp=73	
+
+ tracf=51	  fldr=12	    sx=2550	    gx=3575	offset=1025	   cdp=73	
+
+ tracf=53	  fldr=11	    sx=2500	    gx=3625	offset=1125	   cdp=73	
+
+ tracf=55	  fldr=10	    sx=2450	    gx=3675	offset=1225	   cdp=73	
+
+ tracf=57	  fldr=9	    sx=2400	    gx=3725	offset=1325	   cdp=73	
+
+ tracf=59	  fldr=8	    sx=2350	    gx=3775	offset=1425	   cdp=73	
+
+ tracf=2	  fldr=37	    sx=3800	    gx=2375	offset=-1425	   cdp=74	
+
+ tracf=4	  fldr=36	    sx=3750	    gx=2425	offset=-1325	   cdp=74	
+
+ tracf=6	  fldr=35	    sx=3700	    gx=2475	offset=-1225	   cdp=74	
+
+ tracf=8	  fldr=34	    sx=3650	    gx=2525	offset=-1125	   cdp=74	
+
+ tracf=10	  fldr=33	    sx=3600	    gx=2575	offset=-1025	   cdp=74	
+
+ tracf=12	  fldr=32	    sx=3550	    gx=2625	offset=-925	   cdp=74	
+
+ tracf=14	  fldr=31	    sx=3500	    gx=2675	offset=-825	   cdp=74	
+
+ tracf=16	  fldr=30	    sx=3450	    gx=2725	offset=-725	   cdp=74	
+
+ tracf=18	  fldr=29	    sx=3400	    gx=2775	offset=-625	   cdp=74	
+
+ tracf=20	  fldr=28	    sx=3350	    gx=2825	offset=-525	   cdp=74	
+
+ tracf=22	  fldr=27	    sx=3300	    gx=2875	offset=-425	   cdp=74	
+
+ tracf=24	  fldr=26	    sx=3250	    gx=2925	offset=-325	   cdp=74	
+
+ tracf=26	  fldr=25	    sx=3200	    gx=2975	offset=-225	   cdp=74	
+
+ tracf=28	  fldr=24	    sx=3150	    gx=3025	offset=-125	   cdp=74	
+
+ tracf=30	  fldr=23	    sx=3100	    gx=3075	offset=-25	   cdp=74	
+
+ tracf=32	  fldr=22	    sx=3050	    gx=3125	offset=75	   cdp=74	
+
+ tracf=34	  fldr=21	    sx=3000	    gx=3175	offset=175	   cdp=74	
+
+ tracf=36	  fldr=20	    sx=2950	    gx=3225	offset=275	   cdp=74	
+
+ tracf=38	  fldr=19	    sx=2900	    gx=3275	offset=375	   cdp=74	
+
+ tracf=40	  fldr=18	    sx=2850	    gx=3325	offset=475	   cdp=74	
+
+ tracf=42	  fldr=17	    sx=2800	    gx=3375	offset=575	   cdp=74	
+
+ tracf=44	  fldr=16	    sx=2750	    gx=3425	offset=675	   cdp=74	
+
+ tracf=46	  fldr=15	    sx=2700	    gx=3475	offset=775	   cdp=74	
+
+ tracf=48	  fldr=14	    sx=2650	    gx=3525	offset=875	   cdp=74	
+
+ tracf=50	  fldr=13	    sx=2600	    gx=3575	offset=975	   cdp=74	
+
+ tracf=52	  fldr=12	    sx=2550	    gx=3625	offset=1075	   cdp=74	
+
+ tracf=54	  fldr=11	    sx=2500	    gx=3675	offset=1175	   cdp=74	
+
+ tracf=56	  fldr=10	    sx=2450	    gx=3725	offset=1275	   cdp=74	
+
+ tracf=58	  fldr=9	    sx=2400	    gx=3775	offset=1375	   cdp=74	
+
+ tracf=60	  fldr=8	    sx=2350	    gx=3825	offset=1475	   cdp=74	
+
+ tracf=1	  fldr=38	    sx=3850	    gx=2375	offset=-1475	   cdp=75	
+
+ tracf=3	  fldr=37	    sx=3800	    gx=2425	offset=-1375	   cdp=75	
+
+ tracf=5	  fldr=36	    sx=3750	    gx=2475	offset=-1275	   cdp=75	
+
+ tracf=7	  fldr=35	    sx=3700	    gx=2525	offset=-1175	   cdp=75	
+
+ tracf=9	  fldr=34	    sx=3650	    gx=2575	offset=-1075	   cdp=75	
+
+ tracf=11	  fldr=33	    sx=3600	    gx=2625	offset=-975	   cdp=75	
+
+ tracf=13	  fldr=32	    sx=3550	    gx=2675	offset=-875	   cdp=75	
+
+ tracf=15	  fldr=31	    sx=3500	    gx=2725	offset=-775	   cdp=75	
+
+ tracf=17	  fldr=30	    sx=3450	    gx=2775	offset=-675	   cdp=75	
+
+ tracf=19	  fldr=29	    sx=3400	    gx=2825	offset=-575	   cdp=75	
+
+ tracf=21	  fldr=28	    sx=3350	    gx=2875	offset=-475	   cdp=75	
+
+ tracf=23	  fldr=27	    sx=3300	    gx=2925	offset=-375	   cdp=75	
+
+ tracf=25	  fldr=26	    sx=3250	    gx=2975	offset=-275	   cdp=75	
+
+ tracf=27	  fldr=25	    sx=3200	    gx=3025	offset=-175	   cdp=75	
+
+ tracf=29	  fldr=24	    sx=3150	    gx=3075	offset=-75	   cdp=75	
+
+ tracf=31	  fldr=23	    sx=3100	    gx=3125	offset=25	   cdp=75	
+
+ tracf=33	  fldr=22	    sx=3050	    gx=3175	offset=125	   cdp=75	
+
+ tracf=35	  fldr=21	    sx=3000	    gx=3225	offset=225	   cdp=75	
+
+ tracf=37	  fldr=20	    sx=2950	    gx=3275	offset=325	   cdp=75	
+
+ tracf=39	  fldr=19	    sx=2900	    gx=3325	offset=425	   cdp=75	
+
+ tracf=41	  fldr=18	    sx=2850	    gx=3375	offset=525	   cdp=75	
+
+ tracf=43	  fldr=17	    sx=2800	    gx=3425	offset=625	   cdp=75	
+
+ tracf=45	  fldr=16	    sx=2750	    gx=3475	offset=725	   cdp=75	
+
+ tracf=47	  fldr=15	    sx=2700	    gx=3525	offset=825	   cdp=75	
+
+ tracf=49	  fldr=14	    sx=2650	    gx=3575	offset=925	   cdp=75	
+
+ tracf=51	  fldr=13	    sx=2600	    gx=3625	offset=1025	   cdp=75	
+
+ tracf=53	  fldr=12	    sx=2550	    gx=3675	offset=1125	   cdp=75	
+
+ tracf=55	  fldr=11	    sx=2500	    gx=3725	offset=1225	   cdp=75	
+
+ tracf=57	  fldr=10	    sx=2450	    gx=3775	offset=1325	   cdp=75	
+
+ tracf=59	  fldr=9	    sx=2400	    gx=3825	offset=1425	   cdp=75	
+
+ tracf=2	  fldr=38	    sx=3850	    gx=2425	offset=-1425	   cdp=76	
+
+ tracf=4	  fldr=37	    sx=3800	    gx=2475	offset=-1325	   cdp=76	
+
+ tracf=6	  fldr=36	    sx=3750	    gx=2525	offset=-1225	   cdp=76	
+
+ tracf=8	  fldr=35	    sx=3700	    gx=2575	offset=-1125	   cdp=76	
+
+ tracf=10	  fldr=34	    sx=3650	    gx=2625	offset=-1025	   cdp=76	
+
+ tracf=12	  fldr=33	    sx=3600	    gx=2675	offset=-925	   cdp=76	
+
+ tracf=14	  fldr=32	    sx=3550	    gx=2725	offset=-825	   cdp=76	
+
+ tracf=16	  fldr=31	    sx=3500	    gx=2775	offset=-725	   cdp=76	
+
+ tracf=18	  fldr=30	    sx=3450	    gx=2825	offset=-625	   cdp=76	
+
+ tracf=20	  fldr=29	    sx=3400	    gx=2875	offset=-525	   cdp=76	
+
+ tracf=22	  fldr=28	    sx=3350	    gx=2925	offset=-425	   cdp=76	
+
+ tracf=24	  fldr=27	    sx=3300	    gx=2975	offset=-325	   cdp=76	
+
+ tracf=26	  fldr=26	    sx=3250	    gx=3025	offset=-225	   cdp=76	
+
+ tracf=28	  fldr=25	    sx=3200	    gx=3075	offset=-125	   cdp=76	
+
+ tracf=30	  fldr=24	    sx=3150	    gx=3125	offset=-25	   cdp=76	
+
+ tracf=32	  fldr=23	    sx=3100	    gx=3175	offset=75	   cdp=76	
+
+ tracf=34	  fldr=22	    sx=3050	    gx=3225	offset=175	   cdp=76	
+
+ tracf=36	  fldr=21	    sx=3000	    gx=3275	offset=275	   cdp=76	
+
+ tracf=38	  fldr=20	    sx=2950	    gx=3325	offset=375	   cdp=76	
+
+ tracf=40	  fldr=19	    sx=2900	    gx=3375	offset=475	   cdp=76	
+
+ tracf=42	  fldr=18	    sx=2850	    gx=3425	offset=575	   cdp=76	
+
+ tracf=44	  fldr=17	    sx=2800	    gx=3475	offset=675	   cdp=76	
+
+ tracf=46	  fldr=16	    sx=2750	    gx=3525	offset=775	   cdp=76	
+
+ tracf=48	  fldr=15	    sx=2700	    gx=3575	offset=875	   cdp=76	
+
+ tracf=50	  fldr=14	    sx=2650	    gx=3625	offset=975	   cdp=76	
+
+ tracf=52	  fldr=13	    sx=2600	    gx=3675	offset=1075	   cdp=76	
+
+ tracf=54	  fldr=12	    sx=2550	    gx=3725	offset=1175	   cdp=76	
+
+ tracf=56	  fldr=11	    sx=2500	    gx=3775	offset=1275	   cdp=76	
+
+ tracf=58	  fldr=10	    sx=2450	    gx=3825	offset=1375	   cdp=76	
+
+ tracf=60	  fldr=9	    sx=2400	    gx=3875	offset=1475	   cdp=76	
+
+ tracf=1	  fldr=39	    sx=3900	    gx=2425	offset=-1475	   cdp=77	
+
+ tracf=3	  fldr=38	    sx=3850	    gx=2475	offset=-1375	   cdp=77	
+
+ tracf=5	  fldr=37	    sx=3800	    gx=2525	offset=-1275	   cdp=77	
+
+ tracf=7	  fldr=36	    sx=3750	    gx=2575	offset=-1175	   cdp=77	
+
+ tracf=9	  fldr=35	    sx=3700	    gx=2625	offset=-1075	   cdp=77	
+
+ tracf=11	  fldr=34	    sx=3650	    gx=2675	offset=-975	   cdp=77	
+
+ tracf=13	  fldr=33	    sx=3600	    gx=2725	offset=-875	   cdp=77	
+
+ tracf=15	  fldr=32	    sx=3550	    gx=2775	offset=-775	   cdp=77	
+
+ tracf=17	  fldr=31	    sx=3500	    gx=2825	offset=-675	   cdp=77	
+
+ tracf=19	  fldr=30	    sx=3450	    gx=2875	offset=-575	   cdp=77	
+
+ tracf=21	  fldr=29	    sx=3400	    gx=2925	offset=-475	   cdp=77	
+
+ tracf=23	  fldr=28	    sx=3350	    gx=2975	offset=-375	   cdp=77	
+
+ tracf=25	  fldr=27	    sx=3300	    gx=3025	offset=-275	   cdp=77	
+
+ tracf=27	  fldr=26	    sx=3250	    gx=3075	offset=-175	   cdp=77	
+
+ tracf=29	  fldr=25	    sx=3200	    gx=3125	offset=-75	   cdp=77	
+
+ tracf=31	  fldr=24	    sx=3150	    gx=3175	offset=25	   cdp=77	
+
+ tracf=33	  fldr=23	    sx=3100	    gx=3225	offset=125	   cdp=77	
+
+ tracf=35	  fldr=22	    sx=3050	    gx=3275	offset=225	   cdp=77	
+
+ tracf=37	  fldr=21	    sx=3000	    gx=3325	offset=325	   cdp=77	
+
+ tracf=39	  fldr=20	    sx=2950	    gx=3375	offset=425	   cdp=77	
+
+ tracf=41	  fldr=19	    sx=2900	    gx=3425	offset=525	   cdp=77	
+
+ tracf=43	  fldr=18	    sx=2850	    gx=3475	offset=625	   cdp=77	
+
+ tracf=45	  fldr=17	    sx=2800	    gx=3525	offset=725	   cdp=77	
+
+ tracf=47	  fldr=16	    sx=2750	    gx=3575	offset=825	   cdp=77	
+
+ tracf=49	  fldr=15	    sx=2700	    gx=3625	offset=925	   cdp=77	
+
+ tracf=51	  fldr=14	    sx=2650	    gx=3675	offset=1025	   cdp=77	
+
+ tracf=53	  fldr=13	    sx=2600	    gx=3725	offset=1125	   cdp=77	
+
+ tracf=55	  fldr=12	    sx=2550	    gx=3775	offset=1225	   cdp=77	
+
+ tracf=57	  fldr=11	    sx=2500	    gx=3825	offset=1325	   cdp=77	
+
+ tracf=59	  fldr=10	    sx=2450	    gx=3875	offset=1425	   cdp=77	
+
+ tracf=2	  fldr=39	    sx=3900	    gx=2475	offset=-1425	   cdp=78	
+
+ tracf=4	  fldr=38	    sx=3850	    gx=2525	offset=-1325	   cdp=78	
+
+ tracf=6	  fldr=37	    sx=3800	    gx=2575	offset=-1225	   cdp=78	
+
+ tracf=8	  fldr=36	    sx=3750	    gx=2625	offset=-1125	   cdp=78	
+
+ tracf=10	  fldr=35	    sx=3700	    gx=2675	offset=-1025	   cdp=78	
+
+ tracf=12	  fldr=34	    sx=3650	    gx=2725	offset=-925	   cdp=78	
+
+ tracf=14	  fldr=33	    sx=3600	    gx=2775	offset=-825	   cdp=78	
+
+ tracf=16	  fldr=32	    sx=3550	    gx=2825	offset=-725	   cdp=78	
+
+ tracf=18	  fldr=31	    sx=3500	    gx=2875	offset=-625	   cdp=78	
+
+ tracf=20	  fldr=30	    sx=3450	    gx=2925	offset=-525	   cdp=78	
+
+ tracf=22	  fldr=29	    sx=3400	    gx=2975	offset=-425	   cdp=78	
+
+ tracf=24	  fldr=28	    sx=3350	    gx=3025	offset=-325	   cdp=78	
+
+ tracf=26	  fldr=27	    sx=3300	    gx=3075	offset=-225	   cdp=78	
+
+ tracf=28	  fldr=26	    sx=3250	    gx=3125	offset=-125	   cdp=78	
+
+ tracf=30	  fldr=25	    sx=3200	    gx=3175	offset=-25	   cdp=78	
+
+ tracf=32	  fldr=24	    sx=3150	    gx=3225	offset=75	   cdp=78	
+
+ tracf=34	  fldr=23	    sx=3100	    gx=3275	offset=175	   cdp=78	
+
+ tracf=36	  fldr=22	    sx=3050	    gx=3325	offset=275	   cdp=78	
+
+ tracf=38	  fldr=21	    sx=3000	    gx=3375	offset=375	   cdp=78	
+
+ tracf=40	  fldr=20	    sx=2950	    gx=3425	offset=475	   cdp=78	
+
+ tracf=42	  fldr=19	    sx=2900	    gx=3475	offset=575	   cdp=78	
+
+ tracf=44	  fldr=18	    sx=2850	    gx=3525	offset=675	   cdp=78	
+
+ tracf=46	  fldr=17	    sx=2800	    gx=3575	offset=775	   cdp=78	
+
+ tracf=48	  fldr=16	    sx=2750	    gx=3625	offset=875	   cdp=78	
+
+ tracf=50	  fldr=15	    sx=2700	    gx=3675	offset=975	   cdp=78	
+
+ tracf=52	  fldr=14	    sx=2650	    gx=3725	offset=1075	   cdp=78	
+
+ tracf=54	  fldr=13	    sx=2600	    gx=3775	offset=1175	   cdp=78	
+
+ tracf=56	  fldr=12	    sx=2550	    gx=3825	offset=1275	   cdp=78	
+
+ tracf=58	  fldr=11	    sx=2500	    gx=3875	offset=1375	   cdp=78	
+
+ tracf=60	  fldr=10	    sx=2450	    gx=3925	offset=1475	   cdp=78	
+
+ tracf=1	  fldr=40	    sx=3950	    gx=2475	offset=-1475	   cdp=79	
+
+ tracf=3	  fldr=39	    sx=3900	    gx=2525	offset=-1375	   cdp=79	
+
+ tracf=5	  fldr=38	    sx=3850	    gx=2575	offset=-1275	   cdp=79	
+
+ tracf=7	  fldr=37	    sx=3800	    gx=2625	offset=-1175	   cdp=79	
+
+ tracf=9	  fldr=36	    sx=3750	    gx=2675	offset=-1075	   cdp=79	
+
+ tracf=11	  fldr=35	    sx=3700	    gx=2725	offset=-975	   cdp=79	
+
+ tracf=13	  fldr=34	    sx=3650	    gx=2775	offset=-875	   cdp=79	
+
+ tracf=15	  fldr=33	    sx=3600	    gx=2825	offset=-775	   cdp=79	
+
+ tracf=17	  fldr=32	    sx=3550	    gx=2875	offset=-675	   cdp=79	
+
+ tracf=19	  fldr=31	    sx=3500	    gx=2925	offset=-575	   cdp=79	
+
+ tracf=21	  fldr=30	    sx=3450	    gx=2975	offset=-475	   cdp=79	
+
+ tracf=23	  fldr=29	    sx=3400	    gx=3025	offset=-375	   cdp=79	
+
+ tracf=25	  fldr=28	    sx=3350	    gx=3075	offset=-275	   cdp=79	
+
+ tracf=27	  fldr=27	    sx=3300	    gx=3125	offset=-175	   cdp=79	
+
+ tracf=29	  fldr=26	    sx=3250	    gx=3175	offset=-75	   cdp=79	
+
+ tracf=31	  fldr=25	    sx=3200	    gx=3225	offset=25	   cdp=79	
+
+ tracf=33	  fldr=24	    sx=3150	    gx=3275	offset=125	   cdp=79	
+
+ tracf=35	  fldr=23	    sx=3100	    gx=3325	offset=225	   cdp=79	
+
+ tracf=37	  fldr=22	    sx=3050	    gx=3375	offset=325	   cdp=79	
+
+ tracf=39	  fldr=21	    sx=3000	    gx=3425	offset=425	   cdp=79	
+
+ tracf=41	  fldr=20	    sx=2950	    gx=3475	offset=525	   cdp=79	
+
+ tracf=43	  fldr=19	    sx=2900	    gx=3525	offset=625	   cdp=79	
+
+ tracf=45	  fldr=18	    sx=2850	    gx=3575	offset=725	   cdp=79	
+
+ tracf=47	  fldr=17	    sx=2800	    gx=3625	offset=825	   cdp=79	
+
+ tracf=49	  fldr=16	    sx=2750	    gx=3675	offset=925	   cdp=79	
+
+ tracf=51	  fldr=15	    sx=2700	    gx=3725	offset=1025	   cdp=79	
+
+ tracf=53	  fldr=14	    sx=2650	    gx=3775	offset=1125	   cdp=79	
+
+ tracf=55	  fldr=13	    sx=2600	    gx=3825	offset=1225	   cdp=79	
+
+ tracf=57	  fldr=12	    sx=2550	    gx=3875	offset=1325	   cdp=79	
+
+ tracf=59	  fldr=11	    sx=2500	    gx=3925	offset=1425	   cdp=79	
+
+ tracf=2	  fldr=40	    sx=3950	    gx=2525	offset=-1425	   cdp=80	
+
+ tracf=4	  fldr=39	    sx=3900	    gx=2575	offset=-1325	   cdp=80	
+
+ tracf=6	  fldr=38	    sx=3850	    gx=2625	offset=-1225	   cdp=80	
+
+ tracf=8	  fldr=37	    sx=3800	    gx=2675	offset=-1125	   cdp=80	
+
+ tracf=10	  fldr=36	    sx=3750	    gx=2725	offset=-1025	   cdp=80	
+
+ tracf=12	  fldr=35	    sx=3700	    gx=2775	offset=-925	   cdp=80	
+
+ tracf=14	  fldr=34	    sx=3650	    gx=2825	offset=-825	   cdp=80	
+
+ tracf=16	  fldr=33	    sx=3600	    gx=2875	offset=-725	   cdp=80	
+
+ tracf=18	  fldr=32	    sx=3550	    gx=2925	offset=-625	   cdp=80	
+
+ tracf=20	  fldr=31	    sx=3500	    gx=2975	offset=-525	   cdp=80	
+
+ tracf=22	  fldr=30	    sx=3450	    gx=3025	offset=-425	   cdp=80	
+
+ tracf=24	  fldr=29	    sx=3400	    gx=3075	offset=-325	   cdp=80	
+
+ tracf=26	  fldr=28	    sx=3350	    gx=3125	offset=-225	   cdp=80	
+
+ tracf=28	  fldr=27	    sx=3300	    gx=3175	offset=-125	   cdp=80	
+
+ tracf=30	  fldr=26	    sx=3250	    gx=3225	offset=-25	   cdp=80	
+
+ tracf=32	  fldr=25	    sx=3200	    gx=3275	offset=75	   cdp=80	
+
+ tracf=34	  fldr=24	    sx=3150	    gx=3325	offset=175	   cdp=80	
+
+ tracf=36	  fldr=23	    sx=3100	    gx=3375	offset=275	   cdp=80	
+
+ tracf=38	  fldr=22	    sx=3050	    gx=3425	offset=375	   cdp=80	
+
+ tracf=40	  fldr=21	    sx=3000	    gx=3475	offset=475	   cdp=80	
+
+ tracf=42	  fldr=20	    sx=2950	    gx=3525	offset=575	   cdp=80	
+
+ tracf=44	  fldr=19	    sx=2900	    gx=3575	offset=675	   cdp=80	
+
+ tracf=46	  fldr=18	    sx=2850	    gx=3625	offset=775	   cdp=80	
+
+ tracf=48	  fldr=17	    sx=2800	    gx=3675	offset=875	   cdp=80	
+
+ tracf=50	  fldr=16	    sx=2750	    gx=3725	offset=975	   cdp=80	
+
+ tracf=52	  fldr=15	    sx=2700	    gx=3775	offset=1075	   cdp=80	
+
+ tracf=54	  fldr=14	    sx=2650	    gx=3825	offset=1175	   cdp=80	
+
+ tracf=56	  fldr=13	    sx=2600	    gx=3875	offset=1275	   cdp=80	
+
+ tracf=58	  fldr=12	    sx=2550	    gx=3925	offset=1375	   cdp=80	
+
+ tracf=60	  fldr=11	    sx=2500	    gx=3975	offset=1475	   cdp=80	
+
+ tracf=3	  fldr=40	    sx=3950	    gx=2575	offset=-1375	   cdp=81	
+
+ tracf=5	  fldr=39	    sx=3900	    gx=2625	offset=-1275	   cdp=81	
+
+ tracf=7	  fldr=38	    sx=3850	    gx=2675	offset=-1175	   cdp=81	
+
+ tracf=9	  fldr=37	    sx=3800	    gx=2725	offset=-1075	   cdp=81	
+
+ tracf=11	  fldr=36	    sx=3750	    gx=2775	offset=-975	   cdp=81	
+
+ tracf=13	  fldr=35	    sx=3700	    gx=2825	offset=-875	   cdp=81	
+
+ tracf=15	  fldr=34	    sx=3650	    gx=2875	offset=-775	   cdp=81	
+
+ tracf=17	  fldr=33	    sx=3600	    gx=2925	offset=-675	   cdp=81	
+
+ tracf=19	  fldr=32	    sx=3550	    gx=2975	offset=-575	   cdp=81	
+
+ tracf=21	  fldr=31	    sx=3500	    gx=3025	offset=-475	   cdp=81	
+
+ tracf=23	  fldr=30	    sx=3450	    gx=3075	offset=-375	   cdp=81	
+
+ tracf=25	  fldr=29	    sx=3400	    gx=3125	offset=-275	   cdp=81	
+
+ tracf=27	  fldr=28	    sx=3350	    gx=3175	offset=-175	   cdp=81	
+
+ tracf=29	  fldr=27	    sx=3300	    gx=3225	offset=-75	   cdp=81	
+
+ tracf=31	  fldr=26	    sx=3250	    gx=3275	offset=25	   cdp=81	
+
+ tracf=33	  fldr=25	    sx=3200	    gx=3325	offset=125	   cdp=81	
+
+ tracf=35	  fldr=24	    sx=3150	    gx=3375	offset=225	   cdp=81	
+
+ tracf=37	  fldr=23	    sx=3100	    gx=3425	offset=325	   cdp=81	
+
+ tracf=39	  fldr=22	    sx=3050	    gx=3475	offset=425	   cdp=81	
+
+ tracf=41	  fldr=21	    sx=3000	    gx=3525	offset=525	   cdp=81	
+
+ tracf=43	  fldr=20	    sx=2950	    gx=3575	offset=625	   cdp=81	
+
+ tracf=45	  fldr=19	    sx=2900	    gx=3625	offset=725	   cdp=81	
+
+ tracf=47	  fldr=18	    sx=2850	    gx=3675	offset=825	   cdp=81	
+
+ tracf=49	  fldr=17	    sx=2800	    gx=3725	offset=925	   cdp=81	
+
+ tracf=51	  fldr=16	    sx=2750	    gx=3775	offset=1025	   cdp=81	
+
+ tracf=53	  fldr=15	    sx=2700	    gx=3825	offset=1125	   cdp=81	
+
+ tracf=55	  fldr=14	    sx=2650	    gx=3875	offset=1225	   cdp=81	
+
+ tracf=57	  fldr=13	    sx=2600	    gx=3925	offset=1325	   cdp=81	
+
+ tracf=59	  fldr=12	    sx=2550	    gx=3975	offset=1425	   cdp=81	
+
+ tracf=4	  fldr=40	    sx=3950	    gx=2625	offset=-1325	   cdp=82	
+
+ tracf=6	  fldr=39	    sx=3900	    gx=2675	offset=-1225	   cdp=82	
+
+ tracf=8	  fldr=38	    sx=3850	    gx=2725	offset=-1125	   cdp=82	
+
+ tracf=10	  fldr=37	    sx=3800	    gx=2775	offset=-1025	   cdp=82	
+
+ tracf=12	  fldr=36	    sx=3750	    gx=2825	offset=-925	   cdp=82	
+
+ tracf=14	  fldr=35	    sx=3700	    gx=2875	offset=-825	   cdp=82	
+
+ tracf=16	  fldr=34	    sx=3650	    gx=2925	offset=-725	   cdp=82	
+
+ tracf=18	  fldr=33	    sx=3600	    gx=2975	offset=-625	   cdp=82	
+
+ tracf=20	  fldr=32	    sx=3550	    gx=3025	offset=-525	   cdp=82	
+
+ tracf=22	  fldr=31	    sx=3500	    gx=3075	offset=-425	   cdp=82	
+
+ tracf=24	  fldr=30	    sx=3450	    gx=3125	offset=-325	   cdp=82	
+
+ tracf=26	  fldr=29	    sx=3400	    gx=3175	offset=-225	   cdp=82	
+
+ tracf=28	  fldr=28	    sx=3350	    gx=3225	offset=-125	   cdp=82	
+
+ tracf=30	  fldr=27	    sx=3300	    gx=3275	offset=-25	   cdp=82	
+
+ tracf=32	  fldr=26	    sx=3250	    gx=3325	offset=75	   cdp=82	
+
+ tracf=34	  fldr=25	    sx=3200	    gx=3375	offset=175	   cdp=82	
+
+ tracf=36	  fldr=24	    sx=3150	    gx=3425	offset=275	   cdp=82	
+
+ tracf=38	  fldr=23	    sx=3100	    gx=3475	offset=375	   cdp=82	
+
+ tracf=40	  fldr=22	    sx=3050	    gx=3525	offset=475	   cdp=82	
+
+ tracf=42	  fldr=21	    sx=3000	    gx=3575	offset=575	   cdp=82	
+
+ tracf=44	  fldr=20	    sx=2950	    gx=3625	offset=675	   cdp=82	
+
+ tracf=46	  fldr=19	    sx=2900	    gx=3675	offset=775	   cdp=82	
+
+ tracf=48	  fldr=18	    sx=2850	    gx=3725	offset=875	   cdp=82	
+
+ tracf=50	  fldr=17	    sx=2800	    gx=3775	offset=975	   cdp=82	
+
+ tracf=52	  fldr=16	    sx=2750	    gx=3825	offset=1075	   cdp=82	
+
+ tracf=54	  fldr=15	    sx=2700	    gx=3875	offset=1175	   cdp=82	
+
+ tracf=56	  fldr=14	    sx=2650	    gx=3925	offset=1275	   cdp=82	
+
+ tracf=58	  fldr=13	    sx=2600	    gx=3975	offset=1375	   cdp=82	
+
+ tracf=60	  fldr=12	    sx=2550	    gx=4025	offset=1475	   cdp=82	
+
+ tracf=5	  fldr=40	    sx=3950	    gx=2675	offset=-1275	   cdp=83	
+
+ tracf=7	  fldr=39	    sx=3900	    gx=2725	offset=-1175	   cdp=83	
+
+ tracf=9	  fldr=38	    sx=3850	    gx=2775	offset=-1075	   cdp=83	
+
+ tracf=11	  fldr=37	    sx=3800	    gx=2825	offset=-975	   cdp=83	
+
+ tracf=13	  fldr=36	    sx=3750	    gx=2875	offset=-875	   cdp=83	
+
+ tracf=15	  fldr=35	    sx=3700	    gx=2925	offset=-775	   cdp=83	
+
+ tracf=17	  fldr=34	    sx=3650	    gx=2975	offset=-675	   cdp=83	
+
+ tracf=19	  fldr=33	    sx=3600	    gx=3025	offset=-575	   cdp=83	
+
+ tracf=21	  fldr=32	    sx=3550	    gx=3075	offset=-475	   cdp=83	
+
+ tracf=23	  fldr=31	    sx=3500	    gx=3125	offset=-375	   cdp=83	
+
+ tracf=25	  fldr=30	    sx=3450	    gx=3175	offset=-275	   cdp=83	
+
+ tracf=27	  fldr=29	    sx=3400	    gx=3225	offset=-175	   cdp=83	
+
+ tracf=29	  fldr=28	    sx=3350	    gx=3275	offset=-75	   cdp=83	
+
+ tracf=31	  fldr=27	    sx=3300	    gx=3325	offset=25	   cdp=83	
+
+ tracf=33	  fldr=26	    sx=3250	    gx=3375	offset=125	   cdp=83	
+
+ tracf=35	  fldr=25	    sx=3200	    gx=3425	offset=225	   cdp=83	
+
+ tracf=37	  fldr=24	    sx=3150	    gx=3475	offset=325	   cdp=83	
+
+ tracf=39	  fldr=23	    sx=3100	    gx=3525	offset=425	   cdp=83	
+
+ tracf=41	  fldr=22	    sx=3050	    gx=3575	offset=525	   cdp=83	
+
+ tracf=43	  fldr=21	    sx=3000	    gx=3625	offset=625	   cdp=83	
+
+ tracf=45	  fldr=20	    sx=2950	    gx=3675	offset=725	   cdp=83	
+
+ tracf=47	  fldr=19	    sx=2900	    gx=3725	offset=825	   cdp=83	
+
+ tracf=49	  fldr=18	    sx=2850	    gx=3775	offset=925	   cdp=83	
+
+ tracf=51	  fldr=17	    sx=2800	    gx=3825	offset=1025	   cdp=83	
+
+ tracf=53	  fldr=16	    sx=2750	    gx=3875	offset=1125	   cdp=83	
+
+ tracf=55	  fldr=15	    sx=2700	    gx=3925	offset=1225	   cdp=83	
+
+ tracf=57	  fldr=14	    sx=2650	    gx=3975	offset=1325	   cdp=83	
+
+ tracf=59	  fldr=13	    sx=2600	    gx=4025	offset=1425	   cdp=83	
+
+ tracf=6	  fldr=40	    sx=3950	    gx=2725	offset=-1225	   cdp=84	
+
+ tracf=8	  fldr=39	    sx=3900	    gx=2775	offset=-1125	   cdp=84	
+
+ tracf=10	  fldr=38	    sx=3850	    gx=2825	offset=-1025	   cdp=84	
+
+ tracf=12	  fldr=37	    sx=3800	    gx=2875	offset=-925	   cdp=84	
+
+ tracf=14	  fldr=36	    sx=3750	    gx=2925	offset=-825	   cdp=84	
+
+ tracf=16	  fldr=35	    sx=3700	    gx=2975	offset=-725	   cdp=84	
+
+ tracf=18	  fldr=34	    sx=3650	    gx=3025	offset=-625	   cdp=84	
+
+ tracf=20	  fldr=33	    sx=3600	    gx=3075	offset=-525	   cdp=84	
+
+ tracf=22	  fldr=32	    sx=3550	    gx=3125	offset=-425	   cdp=84	
+
+ tracf=24	  fldr=31	    sx=3500	    gx=3175	offset=-325	   cdp=84	
+
+ tracf=26	  fldr=30	    sx=3450	    gx=3225	offset=-225	   cdp=84	
+
+ tracf=28	  fldr=29	    sx=3400	    gx=3275	offset=-125	   cdp=84	
+
+ tracf=30	  fldr=28	    sx=3350	    gx=3325	offset=-25	   cdp=84	
+
+ tracf=32	  fldr=27	    sx=3300	    gx=3375	offset=75	   cdp=84	
+
+ tracf=34	  fldr=26	    sx=3250	    gx=3425	offset=175	   cdp=84	
+
+ tracf=36	  fldr=25	    sx=3200	    gx=3475	offset=275	   cdp=84	
+
+ tracf=38	  fldr=24	    sx=3150	    gx=3525	offset=375	   cdp=84	
+
+ tracf=40	  fldr=23	    sx=3100	    gx=3575	offset=475	   cdp=84	
+
+ tracf=42	  fldr=22	    sx=3050	    gx=3625	offset=575	   cdp=84	
+
+ tracf=44	  fldr=21	    sx=3000	    gx=3675	offset=675	   cdp=84	
+
+ tracf=46	  fldr=20	    sx=2950	    gx=3725	offset=775	   cdp=84	
+
+ tracf=48	  fldr=19	    sx=2900	    gx=3775	offset=875	   cdp=84	
+
+ tracf=50	  fldr=18	    sx=2850	    gx=3825	offset=975	   cdp=84	
+
+ tracf=52	  fldr=17	    sx=2800	    gx=3875	offset=1075	   cdp=84	
+
+ tracf=54	  fldr=16	    sx=2750	    gx=3925	offset=1175	   cdp=84	
+
+ tracf=56	  fldr=15	    sx=2700	    gx=3975	offset=1275	   cdp=84	
+
+ tracf=58	  fldr=14	    sx=2650	    gx=4025	offset=1375	   cdp=84	
+
+ tracf=60	  fldr=13	    sx=2600	    gx=4075	offset=1475	   cdp=84	
+
+ tracf=7	  fldr=40	    sx=3950	    gx=2775	offset=-1175	   cdp=85	
+
+ tracf=9	  fldr=39	    sx=3900	    gx=2825	offset=-1075	   cdp=85	
+
+ tracf=11	  fldr=38	    sx=3850	    gx=2875	offset=-975	   cdp=85	
+
+ tracf=13	  fldr=37	    sx=3800	    gx=2925	offset=-875	   cdp=85	
+
+ tracf=15	  fldr=36	    sx=3750	    gx=2975	offset=-775	   cdp=85	
+
+ tracf=17	  fldr=35	    sx=3700	    gx=3025	offset=-675	   cdp=85	
+
+ tracf=19	  fldr=34	    sx=3650	    gx=3075	offset=-575	   cdp=85	
+
+ tracf=21	  fldr=33	    sx=3600	    gx=3125	offset=-475	   cdp=85	
+
+ tracf=23	  fldr=32	    sx=3550	    gx=3175	offset=-375	   cdp=85	
+
+ tracf=25	  fldr=31	    sx=3500	    gx=3225	offset=-275	   cdp=85	
+
+ tracf=27	  fldr=30	    sx=3450	    gx=3275	offset=-175	   cdp=85	
+
+ tracf=29	  fldr=29	    sx=3400	    gx=3325	offset=-75	   cdp=85	
+
+ tracf=31	  fldr=28	    sx=3350	    gx=3375	offset=25	   cdp=85	
+
+ tracf=33	  fldr=27	    sx=3300	    gx=3425	offset=125	   cdp=85	
+
+ tracf=35	  fldr=26	    sx=3250	    gx=3475	offset=225	   cdp=85	
+
+ tracf=37	  fldr=25	    sx=3200	    gx=3525	offset=325	   cdp=85	
+
+ tracf=39	  fldr=24	    sx=3150	    gx=3575	offset=425	   cdp=85	
+
+ tracf=41	  fldr=23	    sx=3100	    gx=3625	offset=525	   cdp=85	
+
+ tracf=43	  fldr=22	    sx=3050	    gx=3675	offset=625	   cdp=85	
+
+ tracf=45	  fldr=21	    sx=3000	    gx=3725	offset=725	   cdp=85	
+
+ tracf=47	  fldr=20	    sx=2950	    gx=3775	offset=825	   cdp=85	
+
+ tracf=49	  fldr=19	    sx=2900	    gx=3825	offset=925	   cdp=85	
+
+ tracf=51	  fldr=18	    sx=2850	    gx=3875	offset=1025	   cdp=85	
+
+ tracf=53	  fldr=17	    sx=2800	    gx=3925	offset=1125	   cdp=85	
+
+ tracf=55	  fldr=16	    sx=2750	    gx=3975	offset=1225	   cdp=85	
+
+ tracf=57	  fldr=15	    sx=2700	    gx=4025	offset=1325	   cdp=85	
+
+ tracf=59	  fldr=14	    sx=2650	    gx=4075	offset=1425	   cdp=85	
+
+ tracf=8	  fldr=40	    sx=3950	    gx=2825	offset=-1125	   cdp=86	
+
+ tracf=10	  fldr=39	    sx=3900	    gx=2875	offset=-1025	   cdp=86	
+
+ tracf=12	  fldr=38	    sx=3850	    gx=2925	offset=-925	   cdp=86	
+
+ tracf=14	  fldr=37	    sx=3800	    gx=2975	offset=-825	   cdp=86	
+
+ tracf=16	  fldr=36	    sx=3750	    gx=3025	offset=-725	   cdp=86	
+
+ tracf=18	  fldr=35	    sx=3700	    gx=3075	offset=-625	   cdp=86	
+
+ tracf=20	  fldr=34	    sx=3650	    gx=3125	offset=-525	   cdp=86	
+
+ tracf=22	  fldr=33	    sx=3600	    gx=3175	offset=-425	   cdp=86	
+
+ tracf=24	  fldr=32	    sx=3550	    gx=3225	offset=-325	   cdp=86	
+
+ tracf=26	  fldr=31	    sx=3500	    gx=3275	offset=-225	   cdp=86	
+
+ tracf=28	  fldr=30	    sx=3450	    gx=3325	offset=-125	   cdp=86	
+
+ tracf=30	  fldr=29	    sx=3400	    gx=3375	offset=-25	   cdp=86	
+
+ tracf=32	  fldr=28	    sx=3350	    gx=3425	offset=75	   cdp=86	
+
+ tracf=34	  fldr=27	    sx=3300	    gx=3475	offset=175	   cdp=86	
+
+ tracf=36	  fldr=26	    sx=3250	    gx=3525	offset=275	   cdp=86	
+
+ tracf=38	  fldr=25	    sx=3200	    gx=3575	offset=375	   cdp=86	
+
+ tracf=40	  fldr=24	    sx=3150	    gx=3625	offset=475	   cdp=86	
+
+ tracf=42	  fldr=23	    sx=3100	    gx=3675	offset=575	   cdp=86	
+
+ tracf=44	  fldr=22	    sx=3050	    gx=3725	offset=675	   cdp=86	
+
+ tracf=46	  fldr=21	    sx=3000	    gx=3775	offset=775	   cdp=86	
+
+ tracf=48	  fldr=20	    sx=2950	    gx=3825	offset=875	   cdp=86	
+
+ tracf=50	  fldr=19	    sx=2900	    gx=3875	offset=975	   cdp=86	
+
+ tracf=52	  fldr=18	    sx=2850	    gx=3925	offset=1075	   cdp=86	
+
+ tracf=54	  fldr=17	    sx=2800	    gx=3975	offset=1175	   cdp=86	
+
+ tracf=56	  fldr=16	    sx=2750	    gx=4025	offset=1275	   cdp=86	
+
+ tracf=58	  fldr=15	    sx=2700	    gx=4075	offset=1375	   cdp=86	
+
+ tracf=60	  fldr=14	    sx=2650	    gx=4125	offset=1475	   cdp=86	
+
+ tracf=9	  fldr=40	    sx=3950	    gx=2875	offset=-1075	   cdp=87	
+
+ tracf=11	  fldr=39	    sx=3900	    gx=2925	offset=-975	   cdp=87	
+
+ tracf=13	  fldr=38	    sx=3850	    gx=2975	offset=-875	   cdp=87	
+
+ tracf=15	  fldr=37	    sx=3800	    gx=3025	offset=-775	   cdp=87	
+
+ tracf=17	  fldr=36	    sx=3750	    gx=3075	offset=-675	   cdp=87	
+
+ tracf=19	  fldr=35	    sx=3700	    gx=3125	offset=-575	   cdp=87	
+
+ tracf=21	  fldr=34	    sx=3650	    gx=3175	offset=-475	   cdp=87	
+
+ tracf=23	  fldr=33	    sx=3600	    gx=3225	offset=-375	   cdp=87	
+
+ tracf=25	  fldr=32	    sx=3550	    gx=3275	offset=-275	   cdp=87	
+
+ tracf=27	  fldr=31	    sx=3500	    gx=3325	offset=-175	   cdp=87	
+
+ tracf=29	  fldr=30	    sx=3450	    gx=3375	offset=-75	   cdp=87	
+
+ tracf=31	  fldr=29	    sx=3400	    gx=3425	offset=25	   cdp=87	
+
+ tracf=33	  fldr=28	    sx=3350	    gx=3475	offset=125	   cdp=87	
+
+ tracf=35	  fldr=27	    sx=3300	    gx=3525	offset=225	   cdp=87	
+
+ tracf=37	  fldr=26	    sx=3250	    gx=3575	offset=325	   cdp=87	
+
+ tracf=39	  fldr=25	    sx=3200	    gx=3625	offset=425	   cdp=87	
+
+ tracf=41	  fldr=24	    sx=3150	    gx=3675	offset=525	   cdp=87	
+
+ tracf=43	  fldr=23	    sx=3100	    gx=3725	offset=625	   cdp=87	
+
+ tracf=45	  fldr=22	    sx=3050	    gx=3775	offset=725	   cdp=87	
+
+ tracf=47	  fldr=21	    sx=3000	    gx=3825	offset=825	   cdp=87	
+
+ tracf=49	  fldr=20	    sx=2950	    gx=3875	offset=925	   cdp=87	
+
+ tracf=51	  fldr=19	    sx=2900	    gx=3925	offset=1025	   cdp=87	
+
+ tracf=53	  fldr=18	    sx=2850	    gx=3975	offset=1125	   cdp=87	
+
+ tracf=55	  fldr=17	    sx=2800	    gx=4025	offset=1225	   cdp=87	
+
+ tracf=57	  fldr=16	    sx=2750	    gx=4075	offset=1325	   cdp=87	
+
+ tracf=59	  fldr=15	    sx=2700	    gx=4125	offset=1425	   cdp=87	
+
+ tracf=10	  fldr=40	    sx=3950	    gx=2925	offset=-1025	   cdp=88	
+
+ tracf=12	  fldr=39	    sx=3900	    gx=2975	offset=-925	   cdp=88	
+
+ tracf=14	  fldr=38	    sx=3850	    gx=3025	offset=-825	   cdp=88	
+
+ tracf=16	  fldr=37	    sx=3800	    gx=3075	offset=-725	   cdp=88	
+
+ tracf=18	  fldr=36	    sx=3750	    gx=3125	offset=-625	   cdp=88	
+
+ tracf=20	  fldr=35	    sx=3700	    gx=3175	offset=-525	   cdp=88	
+
+ tracf=22	  fldr=34	    sx=3650	    gx=3225	offset=-425	   cdp=88	
+
+ tracf=24	  fldr=33	    sx=3600	    gx=3275	offset=-325	   cdp=88	
+
+ tracf=26	  fldr=32	    sx=3550	    gx=3325	offset=-225	   cdp=88	
+
+ tracf=28	  fldr=31	    sx=3500	    gx=3375	offset=-125	   cdp=88	
+
+ tracf=30	  fldr=30	    sx=3450	    gx=3425	offset=-25	   cdp=88	
+
+ tracf=32	  fldr=29	    sx=3400	    gx=3475	offset=75	   cdp=88	
+
+ tracf=34	  fldr=28	    sx=3350	    gx=3525	offset=175	   cdp=88	
+
+ tracf=36	  fldr=27	    sx=3300	    gx=3575	offset=275	   cdp=88	
+
+ tracf=38	  fldr=26	    sx=3250	    gx=3625	offset=375	   cdp=88	
+
+ tracf=40	  fldr=25	    sx=3200	    gx=3675	offset=475	   cdp=88	
+
+ tracf=42	  fldr=24	    sx=3150	    gx=3725	offset=575	   cdp=88	
+
+ tracf=44	  fldr=23	    sx=3100	    gx=3775	offset=675	   cdp=88	
+
+ tracf=46	  fldr=22	    sx=3050	    gx=3825	offset=775	   cdp=88	
+
+ tracf=48	  fldr=21	    sx=3000	    gx=3875	offset=875	   cdp=88	
+
+ tracf=50	  fldr=20	    sx=2950	    gx=3925	offset=975	   cdp=88	
+
+ tracf=52	  fldr=19	    sx=2900	    gx=3975	offset=1075	   cdp=88	
+
+ tracf=54	  fldr=18	    sx=2850	    gx=4025	offset=1175	   cdp=88	
+
+ tracf=56	  fldr=17	    sx=2800	    gx=4075	offset=1275	   cdp=88	
+
+ tracf=58	  fldr=16	    sx=2750	    gx=4125	offset=1375	   cdp=88	
+
+ tracf=60	  fldr=15	    sx=2700	    gx=4175	offset=1475	   cdp=88	
+
+ tracf=11	  fldr=40	    sx=3950	    gx=2975	offset=-975	   cdp=89	
+
+ tracf=13	  fldr=39	    sx=3900	    gx=3025	offset=-875	   cdp=89	
+
+ tracf=15	  fldr=38	    sx=3850	    gx=3075	offset=-775	   cdp=89	
+
+ tracf=17	  fldr=37	    sx=3800	    gx=3125	offset=-675	   cdp=89	
+
+ tracf=19	  fldr=36	    sx=3750	    gx=3175	offset=-575	   cdp=89	
+
+ tracf=21	  fldr=35	    sx=3700	    gx=3225	offset=-475	   cdp=89	
+
+ tracf=23	  fldr=34	    sx=3650	    gx=3275	offset=-375	   cdp=89	
+
+ tracf=25	  fldr=33	    sx=3600	    gx=3325	offset=-275	   cdp=89	
+
+ tracf=27	  fldr=32	    sx=3550	    gx=3375	offset=-175	   cdp=89	
+
+ tracf=29	  fldr=31	    sx=3500	    gx=3425	offset=-75	   cdp=89	
+
+ tracf=31	  fldr=30	    sx=3450	    gx=3475	offset=25	   cdp=89	
+
+ tracf=33	  fldr=29	    sx=3400	    gx=3525	offset=125	   cdp=89	
+
+ tracf=35	  fldr=28	    sx=3350	    gx=3575	offset=225	   cdp=89	
+
+ tracf=37	  fldr=27	    sx=3300	    gx=3625	offset=325	   cdp=89	
+
+ tracf=39	  fldr=26	    sx=3250	    gx=3675	offset=425	   cdp=89	
+
+ tracf=41	  fldr=25	    sx=3200	    gx=3725	offset=525	   cdp=89	
+
+ tracf=43	  fldr=24	    sx=3150	    gx=3775	offset=625	   cdp=89	
+
+ tracf=45	  fldr=23	    sx=3100	    gx=3825	offset=725	   cdp=89	
+
+ tracf=47	  fldr=22	    sx=3050	    gx=3875	offset=825	   cdp=89	
+
+ tracf=49	  fldr=21	    sx=3000	    gx=3925	offset=925	   cdp=89	
+
+ tracf=51	  fldr=20	    sx=2950	    gx=3975	offset=1025	   cdp=89	
+
+ tracf=53	  fldr=19	    sx=2900	    gx=4025	offset=1125	   cdp=89	
+
+ tracf=55	  fldr=18	    sx=2850	    gx=4075	offset=1225	   cdp=89	
+
+ tracf=57	  fldr=17	    sx=2800	    gx=4125	offset=1325	   cdp=89	
+
+ tracf=59	  fldr=16	    sx=2750	    gx=4175	offset=1425	   cdp=89	
+
+ tracf=12	  fldr=40	    sx=3950	    gx=3025	offset=-925	   cdp=90	
+
+ tracf=14	  fldr=39	    sx=3900	    gx=3075	offset=-825	   cdp=90	
+
+ tracf=16	  fldr=38	    sx=3850	    gx=3125	offset=-725	   cdp=90	
+
+ tracf=18	  fldr=37	    sx=3800	    gx=3175	offset=-625	   cdp=90	
+
+ tracf=20	  fldr=36	    sx=3750	    gx=3225	offset=-525	   cdp=90	
+
+ tracf=22	  fldr=35	    sx=3700	    gx=3275	offset=-425	   cdp=90	
+
+ tracf=24	  fldr=34	    sx=3650	    gx=3325	offset=-325	   cdp=90	
+
+ tracf=26	  fldr=33	    sx=3600	    gx=3375	offset=-225	   cdp=90	
+
+ tracf=28	  fldr=32	    sx=3550	    gx=3425	offset=-125	   cdp=90	
+
+ tracf=30	  fldr=31	    sx=3500	    gx=3475	offset=-25	   cdp=90	
+
+ tracf=32	  fldr=30	    sx=3450	    gx=3525	offset=75	   cdp=90	
+
+ tracf=34	  fldr=29	    sx=3400	    gx=3575	offset=175	   cdp=90	
+
+ tracf=36	  fldr=28	    sx=3350	    gx=3625	offset=275	   cdp=90	
+
+ tracf=38	  fldr=27	    sx=3300	    gx=3675	offset=375	   cdp=90	
+
+ tracf=40	  fldr=26	    sx=3250	    gx=3725	offset=475	   cdp=90	
+
+ tracf=42	  fldr=25	    sx=3200	    gx=3775	offset=575	   cdp=90	
+
+ tracf=44	  fldr=24	    sx=3150	    gx=3825	offset=675	   cdp=90	
+
+ tracf=46	  fldr=23	    sx=3100	    gx=3875	offset=775	   cdp=90	
+
+ tracf=48	  fldr=22	    sx=3050	    gx=3925	offset=875	   cdp=90	
+
+ tracf=50	  fldr=21	    sx=3000	    gx=3975	offset=975	   cdp=90	
+
+ tracf=52	  fldr=20	    sx=2950	    gx=4025	offset=1075	   cdp=90	
+
+ tracf=54	  fldr=19	    sx=2900	    gx=4075	offset=1175	   cdp=90	
+
+ tracf=56	  fldr=18	    sx=2850	    gx=4125	offset=1275	   cdp=90	
+
+ tracf=58	  fldr=17	    sx=2800	    gx=4175	offset=1375	   cdp=90	
+
+ tracf=60	  fldr=16	    sx=2750	    gx=4225	offset=1475	   cdp=90	
+
+ tracf=13	  fldr=40	    sx=3950	    gx=3075	offset=-875	   cdp=91	
+
+ tracf=15	  fldr=39	    sx=3900	    gx=3125	offset=-775	   cdp=91	
+
+ tracf=17	  fldr=38	    sx=3850	    gx=3175	offset=-675	   cdp=91	
+
+ tracf=19	  fldr=37	    sx=3800	    gx=3225	offset=-575	   cdp=91	
+
+ tracf=21	  fldr=36	    sx=3750	    gx=3275	offset=-475	   cdp=91	
+
+ tracf=23	  fldr=35	    sx=3700	    gx=3325	offset=-375	   cdp=91	
+
+ tracf=25	  fldr=34	    sx=3650	    gx=3375	offset=-275	   cdp=91	
+
+ tracf=27	  fldr=33	    sx=3600	    gx=3425	offset=-175	   cdp=91	
+
+ tracf=29	  fldr=32	    sx=3550	    gx=3475	offset=-75	   cdp=91	
+
+ tracf=31	  fldr=31	    sx=3500	    gx=3525	offset=25	   cdp=91	
+
+ tracf=33	  fldr=30	    sx=3450	    gx=3575	offset=125	   cdp=91	
+
+ tracf=35	  fldr=29	    sx=3400	    gx=3625	offset=225	   cdp=91	
+
+ tracf=37	  fldr=28	    sx=3350	    gx=3675	offset=325	   cdp=91	
+
+ tracf=39	  fldr=27	    sx=3300	    gx=3725	offset=425	   cdp=91	
+
+ tracf=41	  fldr=26	    sx=3250	    gx=3775	offset=525	   cdp=91	
+
+ tracf=43	  fldr=25	    sx=3200	    gx=3825	offset=625	   cdp=91	
+
+ tracf=45	  fldr=24	    sx=3150	    gx=3875	offset=725	   cdp=91	
+
+ tracf=47	  fldr=23	    sx=3100	    gx=3925	offset=825	   cdp=91	
+
+ tracf=49	  fldr=22	    sx=3050	    gx=3975	offset=925	   cdp=91	
+
+ tracf=51	  fldr=21	    sx=3000	    gx=4025	offset=1025	   cdp=91	
+
+ tracf=53	  fldr=20	    sx=2950	    gx=4075	offset=1125	   cdp=91	
+
+ tracf=55	  fldr=19	    sx=2900	    gx=4125	offset=1225	   cdp=91	
+
+ tracf=57	  fldr=18	    sx=2850	    gx=4175	offset=1325	   cdp=91	
+
+ tracf=59	  fldr=17	    sx=2800	    gx=4225	offset=1425	   cdp=91	
+
+ tracf=14	  fldr=40	    sx=3950	    gx=3125	offset=-825	   cdp=92	
+
+ tracf=16	  fldr=39	    sx=3900	    gx=3175	offset=-725	   cdp=92	
+
+ tracf=18	  fldr=38	    sx=3850	    gx=3225	offset=-625	   cdp=92	
+
+ tracf=20	  fldr=37	    sx=3800	    gx=3275	offset=-525	   cdp=92	
+
+ tracf=22	  fldr=36	    sx=3750	    gx=3325	offset=-425	   cdp=92	
+
+ tracf=24	  fldr=35	    sx=3700	    gx=3375	offset=-325	   cdp=92	
+
+ tracf=26	  fldr=34	    sx=3650	    gx=3425	offset=-225	   cdp=92	
+
+ tracf=28	  fldr=33	    sx=3600	    gx=3475	offset=-125	   cdp=92	
+
+ tracf=30	  fldr=32	    sx=3550	    gx=3525	offset=-25	   cdp=92	
+
+ tracf=32	  fldr=31	    sx=3500	    gx=3575	offset=75	   cdp=92	
+
+ tracf=34	  fldr=30	    sx=3450	    gx=3625	offset=175	   cdp=92	
+
+ tracf=36	  fldr=29	    sx=3400	    gx=3675	offset=275	   cdp=92	
+
+ tracf=38	  fldr=28	    sx=3350	    gx=3725	offset=375	   cdp=92	
+
+ tracf=40	  fldr=27	    sx=3300	    gx=3775	offset=475	   cdp=92	
+
+ tracf=42	  fldr=26	    sx=3250	    gx=3825	offset=575	   cdp=92	
+
+ tracf=44	  fldr=25	    sx=3200	    gx=3875	offset=675	   cdp=92	
+
+ tracf=46	  fldr=24	    sx=3150	    gx=3925	offset=775	   cdp=92	
+
+ tracf=48	  fldr=23	    sx=3100	    gx=3975	offset=875	   cdp=92	
+
+ tracf=50	  fldr=22	    sx=3050	    gx=4025	offset=975	   cdp=92	
+
+ tracf=52	  fldr=21	    sx=3000	    gx=4075	offset=1075	   cdp=92	
+
+ tracf=54	  fldr=20	    sx=2950	    gx=4125	offset=1175	   cdp=92	
+
+ tracf=56	  fldr=19	    sx=2900	    gx=4175	offset=1275	   cdp=92	
+
+ tracf=58	  fldr=18	    sx=2850	    gx=4225	offset=1375	   cdp=92	
+
+ tracf=60	  fldr=17	    sx=2800	    gx=4275	offset=1475	   cdp=92	
+
+ tracf=15	  fldr=40	    sx=3950	    gx=3175	offset=-775	   cdp=93	
+
+ tracf=17	  fldr=39	    sx=3900	    gx=3225	offset=-675	   cdp=93	
+
+ tracf=19	  fldr=38	    sx=3850	    gx=3275	offset=-575	   cdp=93	
+
+ tracf=21	  fldr=37	    sx=3800	    gx=3325	offset=-475	   cdp=93	
+
+ tracf=23	  fldr=36	    sx=3750	    gx=3375	offset=-375	   cdp=93	
+
+ tracf=25	  fldr=35	    sx=3700	    gx=3425	offset=-275	   cdp=93	
+
+ tracf=27	  fldr=34	    sx=3650	    gx=3475	offset=-175	   cdp=93	
+
+ tracf=29	  fldr=33	    sx=3600	    gx=3525	offset=-75	   cdp=93	
+
+ tracf=31	  fldr=32	    sx=3550	    gx=3575	offset=25	   cdp=93	
+
+ tracf=33	  fldr=31	    sx=3500	    gx=3625	offset=125	   cdp=93	
+
+ tracf=35	  fldr=30	    sx=3450	    gx=3675	offset=225	   cdp=93	
+
+ tracf=37	  fldr=29	    sx=3400	    gx=3725	offset=325	   cdp=93	
+
+ tracf=39	  fldr=28	    sx=3350	    gx=3775	offset=425	   cdp=93	
+
+ tracf=41	  fldr=27	    sx=3300	    gx=3825	offset=525	   cdp=93	
+
+ tracf=43	  fldr=26	    sx=3250	    gx=3875	offset=625	   cdp=93	
+
+ tracf=45	  fldr=25	    sx=3200	    gx=3925	offset=725	   cdp=93	
+
+ tracf=47	  fldr=24	    sx=3150	    gx=3975	offset=825	   cdp=93	
+
+ tracf=49	  fldr=23	    sx=3100	    gx=4025	offset=925	   cdp=93	
+
+ tracf=51	  fldr=22	    sx=3050	    gx=4075	offset=1025	   cdp=93	
+
+ tracf=53	  fldr=21	    sx=3000	    gx=4125	offset=1125	   cdp=93	
+
+ tracf=55	  fldr=20	    sx=2950	    gx=4175	offset=1225	   cdp=93	
+
+ tracf=57	  fldr=19	    sx=2900	    gx=4225	offset=1325	   cdp=93	
+
+ tracf=59	  fldr=18	    sx=2850	    gx=4275	offset=1425	   cdp=93	
+
+ tracf=16	  fldr=40	    sx=3950	    gx=3225	offset=-725	   cdp=94	
+
+ tracf=18	  fldr=39	    sx=3900	    gx=3275	offset=-625	   cdp=94	
+
+ tracf=20	  fldr=38	    sx=3850	    gx=3325	offset=-525	   cdp=94	
+
+ tracf=22	  fldr=37	    sx=3800	    gx=3375	offset=-425	   cdp=94	
+
+ tracf=24	  fldr=36	    sx=3750	    gx=3425	offset=-325	   cdp=94	
+
+ tracf=26	  fldr=35	    sx=3700	    gx=3475	offset=-225	   cdp=94	
+
+ tracf=28	  fldr=34	    sx=3650	    gx=3525	offset=-125	   cdp=94	
+
+ tracf=30	  fldr=33	    sx=3600	    gx=3575	offset=-25	   cdp=94	
+
+ tracf=32	  fldr=32	    sx=3550	    gx=3625	offset=75	   cdp=94	
+
+ tracf=34	  fldr=31	    sx=3500	    gx=3675	offset=175	   cdp=94	
+
+ tracf=36	  fldr=30	    sx=3450	    gx=3725	offset=275	   cdp=94	
+
+ tracf=38	  fldr=29	    sx=3400	    gx=3775	offset=375	   cdp=94	
+
+ tracf=40	  fldr=28	    sx=3350	    gx=3825	offset=475	   cdp=94	
+
+ tracf=42	  fldr=27	    sx=3300	    gx=3875	offset=575	   cdp=94	
+
+ tracf=44	  fldr=26	    sx=3250	    gx=3925	offset=675	   cdp=94	
+
+ tracf=46	  fldr=25	    sx=3200	    gx=3975	offset=775	   cdp=94	
+
+ tracf=48	  fldr=24	    sx=3150	    gx=4025	offset=875	   cdp=94	
+
+ tracf=50	  fldr=23	    sx=3100	    gx=4075	offset=975	   cdp=94	
+
+ tracf=52	  fldr=22	    sx=3050	    gx=4125	offset=1075	   cdp=94	
+
+ tracf=54	  fldr=21	    sx=3000	    gx=4175	offset=1175	   cdp=94	
+
+ tracf=56	  fldr=20	    sx=2950	    gx=4225	offset=1275	   cdp=94	
+
+ tracf=58	  fldr=19	    sx=2900	    gx=4275	offset=1375	   cdp=94	
+
+ tracf=60	  fldr=18	    sx=2850	    gx=4325	offset=1475	   cdp=94	
+
+ tracf=17	  fldr=40	    sx=3950	    gx=3275	offset=-675	   cdp=95	
+
+ tracf=19	  fldr=39	    sx=3900	    gx=3325	offset=-575	   cdp=95	
+
+ tracf=21	  fldr=38	    sx=3850	    gx=3375	offset=-475	   cdp=95	
+
+ tracf=23	  fldr=37	    sx=3800	    gx=3425	offset=-375	   cdp=95	
+
+ tracf=25	  fldr=36	    sx=3750	    gx=3475	offset=-275	   cdp=95	
+
+ tracf=27	  fldr=35	    sx=3700	    gx=3525	offset=-175	   cdp=95	
+
+ tracf=29	  fldr=34	    sx=3650	    gx=3575	offset=-75	   cdp=95	
+
+ tracf=31	  fldr=33	    sx=3600	    gx=3625	offset=25	   cdp=95	
+
+ tracf=33	  fldr=32	    sx=3550	    gx=3675	offset=125	   cdp=95	
+
+ tracf=35	  fldr=31	    sx=3500	    gx=3725	offset=225	   cdp=95	
+
+ tracf=37	  fldr=30	    sx=3450	    gx=3775	offset=325	   cdp=95	
+
+ tracf=39	  fldr=29	    sx=3400	    gx=3825	offset=425	   cdp=95	
+
+ tracf=41	  fldr=28	    sx=3350	    gx=3875	offset=525	   cdp=95	
+
+ tracf=43	  fldr=27	    sx=3300	    gx=3925	offset=625	   cdp=95	
+
+ tracf=45	  fldr=26	    sx=3250	    gx=3975	offset=725	   cdp=95	
+
+ tracf=47	  fldr=25	    sx=3200	    gx=4025	offset=825	   cdp=95	
+
+ tracf=49	  fldr=24	    sx=3150	    gx=4075	offset=925	   cdp=95	
+
+ tracf=51	  fldr=23	    sx=3100	    gx=4125	offset=1025	   cdp=95	
+
+ tracf=53	  fldr=22	    sx=3050	    gx=4175	offset=1125	   cdp=95	
+
+ tracf=55	  fldr=21	    sx=3000	    gx=4225	offset=1225	   cdp=95	
+
+ tracf=57	  fldr=20	    sx=2950	    gx=4275	offset=1325	   cdp=95	
+
+ tracf=59	  fldr=19	    sx=2900	    gx=4325	offset=1425	   cdp=95	
+
+ tracf=18	  fldr=40	    sx=3950	    gx=3325	offset=-625	   cdp=96	
+
+ tracf=20	  fldr=39	    sx=3900	    gx=3375	offset=-525	   cdp=96	
+
+ tracf=22	  fldr=38	    sx=3850	    gx=3425	offset=-425	   cdp=96	
+
+ tracf=24	  fldr=37	    sx=3800	    gx=3475	offset=-325	   cdp=96	
+
+ tracf=26	  fldr=36	    sx=3750	    gx=3525	offset=-225	   cdp=96	
+
+ tracf=28	  fldr=35	    sx=3700	    gx=3575	offset=-125	   cdp=96	
+
+ tracf=30	  fldr=34	    sx=3650	    gx=3625	offset=-25	   cdp=96	
+
+ tracf=32	  fldr=33	    sx=3600	    gx=3675	offset=75	   cdp=96	
+
+ tracf=34	  fldr=32	    sx=3550	    gx=3725	offset=175	   cdp=96	
+
+ tracf=36	  fldr=31	    sx=3500	    gx=3775	offset=275	   cdp=96	
+
+ tracf=38	  fldr=30	    sx=3450	    gx=3825	offset=375	   cdp=96	
+
+ tracf=40	  fldr=29	    sx=3400	    gx=3875	offset=475	   cdp=96	
+
+ tracf=42	  fldr=28	    sx=3350	    gx=3925	offset=575	   cdp=96	
+
+ tracf=44	  fldr=27	    sx=3300	    gx=3975	offset=675	   cdp=96	
+
+ tracf=46	  fldr=26	    sx=3250	    gx=4025	offset=775	   cdp=96	
+
+ tracf=48	  fldr=25	    sx=3200	    gx=4075	offset=875	   cdp=96	
+
+ tracf=50	  fldr=24	    sx=3150	    gx=4125	offset=975	   cdp=96	
+
+ tracf=52	  fldr=23	    sx=3100	    gx=4175	offset=1075	   cdp=96	
+
+ tracf=54	  fldr=22	    sx=3050	    gx=4225	offset=1175	   cdp=96	
+
+ tracf=56	  fldr=21	    sx=3000	    gx=4275	offset=1275	   cdp=96	
+
+ tracf=58	  fldr=20	    sx=2950	    gx=4325	offset=1375	   cdp=96	
+
+ tracf=60	  fldr=19	    sx=2900	    gx=4375	offset=1475	   cdp=96	
+
+ tracf=19	  fldr=40	    sx=3950	    gx=3375	offset=-575	   cdp=97	
+
+ tracf=21	  fldr=39	    sx=3900	    gx=3425	offset=-475	   cdp=97	
+
+ tracf=23	  fldr=38	    sx=3850	    gx=3475	offset=-375	   cdp=97	
+
+ tracf=25	  fldr=37	    sx=3800	    gx=3525	offset=-275	   cdp=97	
+
+ tracf=27	  fldr=36	    sx=3750	    gx=3575	offset=-175	   cdp=97	
+
+ tracf=29	  fldr=35	    sx=3700	    gx=3625	offset=-75	   cdp=97	
+
+ tracf=31	  fldr=34	    sx=3650	    gx=3675	offset=25	   cdp=97	
+
+ tracf=33	  fldr=33	    sx=3600	    gx=3725	offset=125	   cdp=97	
+
+ tracf=35	  fldr=32	    sx=3550	    gx=3775	offset=225	   cdp=97	
+
+ tracf=37	  fldr=31	    sx=3500	    gx=3825	offset=325	   cdp=97	
+
+ tracf=39	  fldr=30	    sx=3450	    gx=3875	offset=425	   cdp=97	
+
+ tracf=41	  fldr=29	    sx=3400	    gx=3925	offset=525	   cdp=97	
+
+ tracf=43	  fldr=28	    sx=3350	    gx=3975	offset=625	   cdp=97	
+
+ tracf=45	  fldr=27	    sx=3300	    gx=4025	offset=725	   cdp=97	
+
+ tracf=47	  fldr=26	    sx=3250	    gx=4075	offset=825	   cdp=97	
+
+ tracf=49	  fldr=25	    sx=3200	    gx=4125	offset=925	   cdp=97	
+
+ tracf=51	  fldr=24	    sx=3150	    gx=4175	offset=1025	   cdp=97	
+
+ tracf=53	  fldr=23	    sx=3100	    gx=4225	offset=1125	   cdp=97	
+
+ tracf=55	  fldr=22	    sx=3050	    gx=4275	offset=1225	   cdp=97	
+
+ tracf=57	  fldr=21	    sx=3000	    gx=4325	offset=1325	   cdp=97	
+
+ tracf=59	  fldr=20	    sx=2950	    gx=4375	offset=1425	   cdp=97	
+
+ tracf=20	  fldr=40	    sx=3950	    gx=3425	offset=-525	   cdp=98	
+
+ tracf=22	  fldr=39	    sx=3900	    gx=3475	offset=-425	   cdp=98	
+
+ tracf=24	  fldr=38	    sx=3850	    gx=3525	offset=-325	   cdp=98	
+
+ tracf=26	  fldr=37	    sx=3800	    gx=3575	offset=-225	   cdp=98	
+
+ tracf=28	  fldr=36	    sx=3750	    gx=3625	offset=-125	   cdp=98	
+
+ tracf=30	  fldr=35	    sx=3700	    gx=3675	offset=-25	   cdp=98	
+
+ tracf=32	  fldr=34	    sx=3650	    gx=3725	offset=75	   cdp=98	
+
+ tracf=34	  fldr=33	    sx=3600	    gx=3775	offset=175	   cdp=98	
+
+ tracf=36	  fldr=32	    sx=3550	    gx=3825	offset=275	   cdp=98	
+
+ tracf=38	  fldr=31	    sx=3500	    gx=3875	offset=375	   cdp=98	
+
+ tracf=40	  fldr=30	    sx=3450	    gx=3925	offset=475	   cdp=98	
+
+ tracf=42	  fldr=29	    sx=3400	    gx=3975	offset=575	   cdp=98	
+
+ tracf=44	  fldr=28	    sx=3350	    gx=4025	offset=675	   cdp=98	
+
+ tracf=46	  fldr=27	    sx=3300	    gx=4075	offset=775	   cdp=98	
+
+ tracf=48	  fldr=26	    sx=3250	    gx=4125	offset=875	   cdp=98	
+
+ tracf=50	  fldr=25	    sx=3200	    gx=4175	offset=975	   cdp=98	
+
+ tracf=52	  fldr=24	    sx=3150	    gx=4225	offset=1075	   cdp=98	
+
+ tracf=54	  fldr=23	    sx=3100	    gx=4275	offset=1175	   cdp=98	
+
+ tracf=56	  fldr=22	    sx=3050	    gx=4325	offset=1275	   cdp=98	
+
+ tracf=58	  fldr=21	    sx=3000	    gx=4375	offset=1375	   cdp=98	
+
+ tracf=60	  fldr=20	    sx=2950	    gx=4425	offset=1475	   cdp=98	
+
+ tracf=21	  fldr=40	    sx=3950	    gx=3475	offset=-475	   cdp=99	
+
+ tracf=23	  fldr=39	    sx=3900	    gx=3525	offset=-375	   cdp=99	
+
+ tracf=25	  fldr=38	    sx=3850	    gx=3575	offset=-275	   cdp=99	
+
+ tracf=27	  fldr=37	    sx=3800	    gx=3625	offset=-175	   cdp=99	
+
+ tracf=29	  fldr=36	    sx=3750	    gx=3675	offset=-75	   cdp=99	
+
+ tracf=31	  fldr=35	    sx=3700	    gx=3725	offset=25	   cdp=99	
+
+ tracf=33	  fldr=34	    sx=3650	    gx=3775	offset=125	   cdp=99	
+
+ tracf=35	  fldr=33	    sx=3600	    gx=3825	offset=225	   cdp=99	
+
+ tracf=37	  fldr=32	    sx=3550	    gx=3875	offset=325	   cdp=99	
+
+ tracf=39	  fldr=31	    sx=3500	    gx=3925	offset=425	   cdp=99	
+
+ tracf=41	  fldr=30	    sx=3450	    gx=3975	offset=525	   cdp=99	
+
+ tracf=43	  fldr=29	    sx=3400	    gx=4025	offset=625	   cdp=99	
+
+ tracf=45	  fldr=28	    sx=3350	    gx=4075	offset=725	   cdp=99	
+
+ tracf=47	  fldr=27	    sx=3300	    gx=4125	offset=825	   cdp=99	
+
+ tracf=49	  fldr=26	    sx=3250	    gx=4175	offset=925	   cdp=99	
+
+ tracf=51	  fldr=25	    sx=3200	    gx=4225	offset=1025	   cdp=99	
+
+ tracf=53	  fldr=24	    sx=3150	    gx=4275	offset=1125	   cdp=99	
+
+ tracf=55	  fldr=23	    sx=3100	    gx=4325	offset=1225	   cdp=99	
+
+ tracf=57	  fldr=22	    sx=3050	    gx=4375	offset=1325	   cdp=99	
+
+ tracf=59	  fldr=21	    sx=3000	    gx=4425	offset=1425	   cdp=99	
+
+ tracf=22	  fldr=40	    sx=3950	    gx=3525	offset=-425	   cdp=100	
+
+ tracf=24	  fldr=39	    sx=3900	    gx=3575	offset=-325	   cdp=100	
+
+ tracf=26	  fldr=38	    sx=3850	    gx=3625	offset=-225	   cdp=100	
+
+ tracf=28	  fldr=37	    sx=3800	    gx=3675	offset=-125	   cdp=100	
+
+ tracf=30	  fldr=36	    sx=3750	    gx=3725	offset=-25	   cdp=100	
+
+ tracf=32	  fldr=35	    sx=3700	    gx=3775	offset=75	   cdp=100	
+
+ tracf=34	  fldr=34	    sx=3650	    gx=3825	offset=175	   cdp=100	
+
+ tracf=36	  fldr=33	    sx=3600	    gx=3875	offset=275	   cdp=100	
+
+ tracf=38	  fldr=32	    sx=3550	    gx=3925	offset=375	   cdp=100	
+
+ tracf=40	  fldr=31	    sx=3500	    gx=3975	offset=475	   cdp=100	
+
+ tracf=42	  fldr=30	    sx=3450	    gx=4025	offset=575	   cdp=100	
+
+ tracf=44	  fldr=29	    sx=3400	    gx=4075	offset=675	   cdp=100	
+
+ tracf=46	  fldr=28	    sx=3350	    gx=4125	offset=775	   cdp=100	
+
+ tracf=48	  fldr=27	    sx=3300	    gx=4175	offset=875	   cdp=100	
+
+ tracf=50	  fldr=26	    sx=3250	    gx=4225	offset=975	   cdp=100	
+
+ tracf=52	  fldr=25	    sx=3200	    gx=4275	offset=1075	   cdp=100	
+
+ tracf=54	  fldr=24	    sx=3150	    gx=4325	offset=1175	   cdp=100	
+
+ tracf=56	  fldr=23	    sx=3100	    gx=4375	offset=1275	   cdp=100	
+
+ tracf=58	  fldr=22	    sx=3050	    gx=4425	offset=1375	   cdp=100	
+
+ tracf=60	  fldr=21	    sx=3000	    gx=4475	offset=1475	   cdp=100	
+
+ tracf=23	  fldr=40	    sx=3950	    gx=3575	offset=-375	   cdp=101	
+
+ tracf=25	  fldr=39	    sx=3900	    gx=3625	offset=-275	   cdp=101	
+
+ tracf=27	  fldr=38	    sx=3850	    gx=3675	offset=-175	   cdp=101	
+
+ tracf=29	  fldr=37	    sx=3800	    gx=3725	offset=-75	   cdp=101	
+
+ tracf=31	  fldr=36	    sx=3750	    gx=3775	offset=25	   cdp=101	
+
+ tracf=33	  fldr=35	    sx=3700	    gx=3825	offset=125	   cdp=101	
+
+ tracf=35	  fldr=34	    sx=3650	    gx=3875	offset=225	   cdp=101	
+
+ tracf=37	  fldr=33	    sx=3600	    gx=3925	offset=325	   cdp=101	
+
+ tracf=39	  fldr=32	    sx=3550	    gx=3975	offset=425	   cdp=101	
+
+ tracf=41	  fldr=31	    sx=3500	    gx=4025	offset=525	   cdp=101	
+
+ tracf=43	  fldr=30	    sx=3450	    gx=4075	offset=625	   cdp=101	
+
+ tracf=45	  fldr=29	    sx=3400	    gx=4125	offset=725	   cdp=101	
+
+ tracf=47	  fldr=28	    sx=3350	    gx=4175	offset=825	   cdp=101	
+
+ tracf=49	  fldr=27	    sx=3300	    gx=4225	offset=925	   cdp=101	
+
+ tracf=51	  fldr=26	    sx=3250	    gx=4275	offset=1025	   cdp=101	
+
+ tracf=53	  fldr=25	    sx=3200	    gx=4325	offset=1125	   cdp=101	
+
+ tracf=55	  fldr=24	    sx=3150	    gx=4375	offset=1225	   cdp=101	
+
+ tracf=57	  fldr=23	    sx=3100	    gx=4425	offset=1325	   cdp=101	
+
+ tracf=59	  fldr=22	    sx=3050	    gx=4475	offset=1425	   cdp=101	
+
+ tracf=24	  fldr=40	    sx=3950	    gx=3625	offset=-325	   cdp=102	
+
+ tracf=26	  fldr=39	    sx=3900	    gx=3675	offset=-225	   cdp=102	
+
+ tracf=28	  fldr=38	    sx=3850	    gx=3725	offset=-125	   cdp=102	
+
+ tracf=30	  fldr=37	    sx=3800	    gx=3775	offset=-25	   cdp=102	
+
+ tracf=32	  fldr=36	    sx=3750	    gx=3825	offset=75	   cdp=102	
+
+ tracf=34	  fldr=35	    sx=3700	    gx=3875	offset=175	   cdp=102	
+
+ tracf=36	  fldr=34	    sx=3650	    gx=3925	offset=275	   cdp=102	
+
+ tracf=38	  fldr=33	    sx=3600	    gx=3975	offset=375	   cdp=102	
+
+ tracf=40	  fldr=32	    sx=3550	    gx=4025	offset=475	   cdp=102	
+
+ tracf=42	  fldr=31	    sx=3500	    gx=4075	offset=575	   cdp=102	
+
+ tracf=44	  fldr=30	    sx=3450	    gx=4125	offset=675	   cdp=102	
+
+ tracf=46	  fldr=29	    sx=3400	    gx=4175	offset=775	   cdp=102	
+
+ tracf=48	  fldr=28	    sx=3350	    gx=4225	offset=875	   cdp=102	
+
+ tracf=50	  fldr=27	    sx=3300	    gx=4275	offset=975	   cdp=102	
+
+ tracf=52	  fldr=26	    sx=3250	    gx=4325	offset=1075	   cdp=102	
+
+ tracf=54	  fldr=25	    sx=3200	    gx=4375	offset=1175	   cdp=102	
+
+ tracf=56	  fldr=24	    sx=3150	    gx=4425	offset=1275	   cdp=102	
+
+ tracf=58	  fldr=23	    sx=3100	    gx=4475	offset=1375	   cdp=102	
+
+ tracf=60	  fldr=22	    sx=3050	    gx=4525	offset=1475	   cdp=102	
+
+ tracf=25	  fldr=40	    sx=3950	    gx=3675	offset=-275	   cdp=103	
+
+ tracf=27	  fldr=39	    sx=3900	    gx=3725	offset=-175	   cdp=103	
+
+ tracf=29	  fldr=38	    sx=3850	    gx=3775	offset=-75	   cdp=103	
+
+ tracf=31	  fldr=37	    sx=3800	    gx=3825	offset=25	   cdp=103	
+
+ tracf=33	  fldr=36	    sx=3750	    gx=3875	offset=125	   cdp=103	
+
+ tracf=35	  fldr=35	    sx=3700	    gx=3925	offset=225	   cdp=103	
+
+ tracf=37	  fldr=34	    sx=3650	    gx=3975	offset=325	   cdp=103	
+
+ tracf=39	  fldr=33	    sx=3600	    gx=4025	offset=425	   cdp=103	
+
+ tracf=41	  fldr=32	    sx=3550	    gx=4075	offset=525	   cdp=103	
+
+ tracf=43	  fldr=31	    sx=3500	    gx=4125	offset=625	   cdp=103	
+
+ tracf=45	  fldr=30	    sx=3450	    gx=4175	offset=725	   cdp=103	
+
+ tracf=47	  fldr=29	    sx=3400	    gx=4225	offset=825	   cdp=103	
+
+ tracf=49	  fldr=28	    sx=3350	    gx=4275	offset=925	   cdp=103	
+
+ tracf=51	  fldr=27	    sx=3300	    gx=4325	offset=1025	   cdp=103	
+
+ tracf=53	  fldr=26	    sx=3250	    gx=4375	offset=1125	   cdp=103	
+
+ tracf=55	  fldr=25	    sx=3200	    gx=4425	offset=1225	   cdp=103	
+
+ tracf=57	  fldr=24	    sx=3150	    gx=4475	offset=1325	   cdp=103	
+
+ tracf=59	  fldr=23	    sx=3100	    gx=4525	offset=1425	   cdp=103	
+
+ tracf=26	  fldr=40	    sx=3950	    gx=3725	offset=-225	   cdp=104	
+
+ tracf=28	  fldr=39	    sx=3900	    gx=3775	offset=-125	   cdp=104	
+
+ tracf=30	  fldr=38	    sx=3850	    gx=3825	offset=-25	   cdp=104	
+
+ tracf=32	  fldr=37	    sx=3800	    gx=3875	offset=75	   cdp=104	
+
+ tracf=34	  fldr=36	    sx=3750	    gx=3925	offset=175	   cdp=104	
+
+ tracf=36	  fldr=35	    sx=3700	    gx=3975	offset=275	   cdp=104	
+
+ tracf=38	  fldr=34	    sx=3650	    gx=4025	offset=375	   cdp=104	
+
+ tracf=40	  fldr=33	    sx=3600	    gx=4075	offset=475	   cdp=104	
+
+ tracf=42	  fldr=32	    sx=3550	    gx=4125	offset=575	   cdp=104	
+
+ tracf=44	  fldr=31	    sx=3500	    gx=4175	offset=675	   cdp=104	
+
+ tracf=46	  fldr=30	    sx=3450	    gx=4225	offset=775	   cdp=104	
+
+ tracf=48	  fldr=29	    sx=3400	    gx=4275	offset=875	   cdp=104	
+
+ tracf=50	  fldr=28	    sx=3350	    gx=4325	offset=975	   cdp=104	
+
+ tracf=52	  fldr=27	    sx=3300	    gx=4375	offset=1075	   cdp=104	
+
+ tracf=54	  fldr=26	    sx=3250	    gx=4425	offset=1175	   cdp=104	
+
+ tracf=56	  fldr=25	    sx=3200	    gx=4475	offset=1275	   cdp=104	
+
+ tracf=58	  fldr=24	    sx=3150	    gx=4525	offset=1375	   cdp=104	
+
+ tracf=60	  fldr=23	    sx=3100	    gx=4575	offset=1475	   cdp=104	
+
+ tracf=27	  fldr=40	    sx=3950	    gx=3775	offset=-175	   cdp=105	
+
+ tracf=29	  fldr=39	    sx=3900	    gx=3825	offset=-75	   cdp=105	
+
+ tracf=31	  fldr=38	    sx=3850	    gx=3875	offset=25	   cdp=105	
+
+ tracf=33	  fldr=37	    sx=3800	    gx=3925	offset=125	   cdp=105	
+
+ tracf=35	  fldr=36	    sx=3750	    gx=3975	offset=225	   cdp=105	
+
+ tracf=37	  fldr=35	    sx=3700	    gx=4025	offset=325	   cdp=105	
+
+ tracf=39	  fldr=34	    sx=3650	    gx=4075	offset=425	   cdp=105	
+
+ tracf=41	  fldr=33	    sx=3600	    gx=4125	offset=525	   cdp=105	
+
+ tracf=43	  fldr=32	    sx=3550	    gx=4175	offset=625	   cdp=105	
+
+ tracf=45	  fldr=31	    sx=3500	    gx=4225	offset=725	   cdp=105	
+
+ tracf=47	  fldr=30	    sx=3450	    gx=4275	offset=825	   cdp=105	
+
+ tracf=49	  fldr=29	    sx=3400	    gx=4325	offset=925	   cdp=105	
+
+ tracf=51	  fldr=28	    sx=3350	    gx=4375	offset=1025	   cdp=105	
+
+ tracf=53	  fldr=27	    sx=3300	    gx=4425	offset=1125	   cdp=105	
+
+ tracf=55	  fldr=26	    sx=3250	    gx=4475	offset=1225	   cdp=105	
+
+ tracf=57	  fldr=25	    sx=3200	    gx=4525	offset=1325	   cdp=105	
+
+ tracf=59	  fldr=24	    sx=3150	    gx=4575	offset=1425	   cdp=105	
+
+ tracf=28	  fldr=40	    sx=3950	    gx=3825	offset=-125	   cdp=106	
+
+ tracf=30	  fldr=39	    sx=3900	    gx=3875	offset=-25	   cdp=106	
+
+ tracf=32	  fldr=38	    sx=3850	    gx=3925	offset=75	   cdp=106	
+
+ tracf=34	  fldr=37	    sx=3800	    gx=3975	offset=175	   cdp=106	
+
+ tracf=36	  fldr=36	    sx=3750	    gx=4025	offset=275	   cdp=106	
+
+ tracf=38	  fldr=35	    sx=3700	    gx=4075	offset=375	   cdp=106	
+
+ tracf=40	  fldr=34	    sx=3650	    gx=4125	offset=475	   cdp=106	
+
+ tracf=42	  fldr=33	    sx=3600	    gx=4175	offset=575	   cdp=106	
+
+ tracf=44	  fldr=32	    sx=3550	    gx=4225	offset=675	   cdp=106	
+
+ tracf=46	  fldr=31	    sx=3500	    gx=4275	offset=775	   cdp=106	
+
+ tracf=48	  fldr=30	    sx=3450	    gx=4325	offset=875	   cdp=106	
+
+ tracf=50	  fldr=29	    sx=3400	    gx=4375	offset=975	   cdp=106	
+
+ tracf=52	  fldr=28	    sx=3350	    gx=4425	offset=1075	   cdp=106	
+
+ tracf=54	  fldr=27	    sx=3300	    gx=4475	offset=1175	   cdp=106	
+
+ tracf=56	  fldr=26	    sx=3250	    gx=4525	offset=1275	   cdp=106	
+
+ tracf=58	  fldr=25	    sx=3200	    gx=4575	offset=1375	   cdp=106	
+
+ tracf=60	  fldr=24	    sx=3150	    gx=4625	offset=1475	   cdp=106	
+
+ tracf=29	  fldr=40	    sx=3950	    gx=3875	offset=-75	   cdp=107	
+
+ tracf=31	  fldr=39	    sx=3900	    gx=3925	offset=25	   cdp=107	
+
+ tracf=33	  fldr=38	    sx=3850	    gx=3975	offset=125	   cdp=107	
+
+ tracf=35	  fldr=37	    sx=3800	    gx=4025	offset=225	   cdp=107	
+
+ tracf=37	  fldr=36	    sx=3750	    gx=4075	offset=325	   cdp=107	
+
+ tracf=39	  fldr=35	    sx=3700	    gx=4125	offset=425	   cdp=107	
+
+ tracf=41	  fldr=34	    sx=3650	    gx=4175	offset=525	   cdp=107	
+
+ tracf=43	  fldr=33	    sx=3600	    gx=4225	offset=625	   cdp=107	
+
+ tracf=45	  fldr=32	    sx=3550	    gx=4275	offset=725	   cdp=107	
+
+ tracf=47	  fldr=31	    sx=3500	    gx=4325	offset=825	   cdp=107	
+
+ tracf=49	  fldr=30	    sx=3450	    gx=4375	offset=925	   cdp=107	
+
+ tracf=51	  fldr=29	    sx=3400	    gx=4425	offset=1025	   cdp=107	
+
+ tracf=53	  fldr=28	    sx=3350	    gx=4475	offset=1125	   cdp=107	
+
+ tracf=55	  fldr=27	    sx=3300	    gx=4525	offset=1225	   cdp=107	
+
+ tracf=57	  fldr=26	    sx=3250	    gx=4575	offset=1325	   cdp=107	
+
+ tracf=59	  fldr=25	    sx=3200	    gx=4625	offset=1425	   cdp=107	
+
+ tracf=30	  fldr=40	    sx=3950	    gx=3925	offset=-25	   cdp=108	
+
+ tracf=32	  fldr=39	    sx=3900	    gx=3975	offset=75	   cdp=108	
+
+ tracf=34	  fldr=38	    sx=3850	    gx=4025	offset=175	   cdp=108	
+
+ tracf=36	  fldr=37	    sx=3800	    gx=4075	offset=275	   cdp=108	
+
+ tracf=38	  fldr=36	    sx=3750	    gx=4125	offset=375	   cdp=108	
+
+ tracf=40	  fldr=35	    sx=3700	    gx=4175	offset=475	   cdp=108	
+
+ tracf=42	  fldr=34	    sx=3650	    gx=4225	offset=575	   cdp=108	
+
+ tracf=44	  fldr=33	    sx=3600	    gx=4275	offset=675	   cdp=108	
+
+ tracf=46	  fldr=32	    sx=3550	    gx=4325	offset=775	   cdp=108	
+
+ tracf=48	  fldr=31	    sx=3500	    gx=4375	offset=875	   cdp=108	
+
+ tracf=50	  fldr=30	    sx=3450	    gx=4425	offset=975	   cdp=108	
+
+ tracf=52	  fldr=29	    sx=3400	    gx=4475	offset=1075	   cdp=108	
+
+ tracf=54	  fldr=28	    sx=3350	    gx=4525	offset=1175	   cdp=108	
+
+ tracf=56	  fldr=27	    sx=3300	    gx=4575	offset=1275	   cdp=108	
+
+ tracf=58	  fldr=26	    sx=3250	    gx=4625	offset=1375	   cdp=108	
+
+ tracf=60	  fldr=25	    sx=3200	    gx=4675	offset=1475	   cdp=108	
+
+ tracf=31	  fldr=40	    sx=3950	    gx=3975	offset=25	   cdp=109	
+
+ tracf=33	  fldr=39	    sx=3900	    gx=4025	offset=125	   cdp=109	
+
+ tracf=35	  fldr=38	    sx=3850	    gx=4075	offset=225	   cdp=109	
+
+ tracf=37	  fldr=37	    sx=3800	    gx=4125	offset=325	   cdp=109	
+
+ tracf=39	  fldr=36	    sx=3750	    gx=4175	offset=425	   cdp=109	
+
+ tracf=41	  fldr=35	    sx=3700	    gx=4225	offset=525	   cdp=109	
+
+ tracf=43	  fldr=34	    sx=3650	    gx=4275	offset=625	   cdp=109	
+
+ tracf=45	  fldr=33	    sx=3600	    gx=4325	offset=725	   cdp=109	
+
+ tracf=47	  fldr=32	    sx=3550	    gx=4375	offset=825	   cdp=109	
+
+ tracf=49	  fldr=31	    sx=3500	    gx=4425	offset=925	   cdp=109	
+
+ tracf=51	  fldr=30	    sx=3450	    gx=4475	offset=1025	   cdp=109	
+
+ tracf=53	  fldr=29	    sx=3400	    gx=4525	offset=1125	   cdp=109	
+
+ tracf=55	  fldr=28	    sx=3350	    gx=4575	offset=1225	   cdp=109	
+
+ tracf=57	  fldr=27	    sx=3300	    gx=4625	offset=1325	   cdp=109	
+
+ tracf=59	  fldr=26	    sx=3250	    gx=4675	offset=1425	   cdp=109	
+
+ tracf=32	  fldr=40	    sx=3950	    gx=4025	offset=75	   cdp=110	
+
+ tracf=34	  fldr=39	    sx=3900	    gx=4075	offset=175	   cdp=110	
+
+ tracf=36	  fldr=38	    sx=3850	    gx=4125	offset=275	   cdp=110	
+
+ tracf=38	  fldr=37	    sx=3800	    gx=4175	offset=375	   cdp=110	
+
+ tracf=40	  fldr=36	    sx=3750	    gx=4225	offset=475	   cdp=110	
+
+ tracf=42	  fldr=35	    sx=3700	    gx=4275	offset=575	   cdp=110	
+
+ tracf=44	  fldr=34	    sx=3650	    gx=4325	offset=675	   cdp=110	
+
+ tracf=46	  fldr=33	    sx=3600	    gx=4375	offset=775	   cdp=110	
+
+ tracf=48	  fldr=32	    sx=3550	    gx=4425	offset=875	   cdp=110	
+
+ tracf=50	  fldr=31	    sx=3500	    gx=4475	offset=975	   cdp=110	
+
+ tracf=52	  fldr=30	    sx=3450	    gx=4525	offset=1075	   cdp=110	
+
+ tracf=54	  fldr=29	    sx=3400	    gx=4575	offset=1175	   cdp=110	
+
+ tracf=56	  fldr=28	    sx=3350	    gx=4625	offset=1275	   cdp=110	
+
+ tracf=58	  fldr=27	    sx=3300	    gx=4675	offset=1375	   cdp=110	
+
+ tracf=60	  fldr=26	    sx=3250	    gx=4725	offset=1475	   cdp=110	
+
+ tracf=33	  fldr=40	    sx=3950	    gx=4075	offset=125	   cdp=111	
+
+ tracf=35	  fldr=39	    sx=3900	    gx=4125	offset=225	   cdp=111	
+
+ tracf=37	  fldr=38	    sx=3850	    gx=4175	offset=325	   cdp=111	
+
+ tracf=39	  fldr=37	    sx=3800	    gx=4225	offset=425	   cdp=111	
+
+ tracf=41	  fldr=36	    sx=3750	    gx=4275	offset=525	   cdp=111	
+
+ tracf=43	  fldr=35	    sx=3700	    gx=4325	offset=625	   cdp=111	
+
+ tracf=45	  fldr=34	    sx=3650	    gx=4375	offset=725	   cdp=111	
+
+ tracf=47	  fldr=33	    sx=3600	    gx=4425	offset=825	   cdp=111	
+
+ tracf=49	  fldr=32	    sx=3550	    gx=4475	offset=925	   cdp=111	
+
+ tracf=51	  fldr=31	    sx=3500	    gx=4525	offset=1025	   cdp=111	
+
+ tracf=53	  fldr=30	    sx=3450	    gx=4575	offset=1125	   cdp=111	
+
+ tracf=55	  fldr=29	    sx=3400	    gx=4625	offset=1225	   cdp=111	
+
+ tracf=57	  fldr=28	    sx=3350	    gx=4675	offset=1325	   cdp=111	
+
+ tracf=59	  fldr=27	    sx=3300	    gx=4725	offset=1425	   cdp=111	
+
+ tracf=34	  fldr=40	    sx=3950	    gx=4125	offset=175	   cdp=112	
+
+ tracf=36	  fldr=39	    sx=3900	    gx=4175	offset=275	   cdp=112	
+
+ tracf=38	  fldr=38	    sx=3850	    gx=4225	offset=375	   cdp=112	
+
+ tracf=40	  fldr=37	    sx=3800	    gx=4275	offset=475	   cdp=112	
+
+ tracf=42	  fldr=36	    sx=3750	    gx=4325	offset=575	   cdp=112	
+
+ tracf=44	  fldr=35	    sx=3700	    gx=4375	offset=675	   cdp=112	
+
+ tracf=46	  fldr=34	    sx=3650	    gx=4425	offset=775	   cdp=112	
+
+ tracf=48	  fldr=33	    sx=3600	    gx=4475	offset=875	   cdp=112	
+
+ tracf=50	  fldr=32	    sx=3550	    gx=4525	offset=975	   cdp=112	
+
+ tracf=52	  fldr=31	    sx=3500	    gx=4575	offset=1075	   cdp=112	
+
+ tracf=54	  fldr=30	    sx=3450	    gx=4625	offset=1175	   cdp=112	
+
+ tracf=56	  fldr=29	    sx=3400	    gx=4675	offset=1275	   cdp=112	
+
+ tracf=58	  fldr=28	    sx=3350	    gx=4725	offset=1375	   cdp=112	
+
+ tracf=60	  fldr=27	    sx=3300	    gx=4775	offset=1475	   cdp=112	
+
+ tracf=35	  fldr=40	    sx=3950	    gx=4175	offset=225	   cdp=113	
+
+ tracf=37	  fldr=39	    sx=3900	    gx=4225	offset=325	   cdp=113	
+
+ tracf=39	  fldr=38	    sx=3850	    gx=4275	offset=425	   cdp=113	
+
+ tracf=41	  fldr=37	    sx=3800	    gx=4325	offset=525	   cdp=113	
+
+ tracf=43	  fldr=36	    sx=3750	    gx=4375	offset=625	   cdp=113	
+
+ tracf=45	  fldr=35	    sx=3700	    gx=4425	offset=725	   cdp=113	
+
+ tracf=47	  fldr=34	    sx=3650	    gx=4475	offset=825	   cdp=113	
+
+ tracf=49	  fldr=33	    sx=3600	    gx=4525	offset=925	   cdp=113	
+
+ tracf=51	  fldr=32	    sx=3550	    gx=4575	offset=1025	   cdp=113	
+
+ tracf=53	  fldr=31	    sx=3500	    gx=4625	offset=1125	   cdp=113	
+
+ tracf=55	  fldr=30	    sx=3450	    gx=4675	offset=1225	   cdp=113	
+
+ tracf=57	  fldr=29	    sx=3400	    gx=4725	offset=1325	   cdp=113	
+
+ tracf=59	  fldr=28	    sx=3350	    gx=4775	offset=1425	   cdp=113	
+
+ tracf=36	  fldr=40	    sx=3950	    gx=4225	offset=275	   cdp=114	
+
+ tracf=38	  fldr=39	    sx=3900	    gx=4275	offset=375	   cdp=114	
+
+ tracf=40	  fldr=38	    sx=3850	    gx=4325	offset=475	   cdp=114	
+
+ tracf=42	  fldr=37	    sx=3800	    gx=4375	offset=575	   cdp=114	
+
+ tracf=44	  fldr=36	    sx=3750	    gx=4425	offset=675	   cdp=114	
+
+ tracf=46	  fldr=35	    sx=3700	    gx=4475	offset=775	   cdp=114	
+
+ tracf=48	  fldr=34	    sx=3650	    gx=4525	offset=875	   cdp=114	
+
+ tracf=50	  fldr=33	    sx=3600	    gx=4575	offset=975	   cdp=114	
+
+ tracf=52	  fldr=32	    sx=3550	    gx=4625	offset=1075	   cdp=114	
+
+ tracf=54	  fldr=31	    sx=3500	    gx=4675	offset=1175	   cdp=114	
+
+ tracf=56	  fldr=30	    sx=3450	    gx=4725	offset=1275	   cdp=114	
+
+ tracf=58	  fldr=29	    sx=3400	    gx=4775	offset=1375	   cdp=114	
+
+ tracf=60	  fldr=28	    sx=3350	    gx=4825	offset=1475	   cdp=114	
+
+ tracf=37	  fldr=40	    sx=3950	    gx=4275	offset=325	   cdp=115	
+
+ tracf=39	  fldr=39	    sx=3900	    gx=4325	offset=425	   cdp=115	
+
+ tracf=41	  fldr=38	    sx=3850	    gx=4375	offset=525	   cdp=115	
+
+ tracf=43	  fldr=37	    sx=3800	    gx=4425	offset=625	   cdp=115	
+
+ tracf=45	  fldr=36	    sx=3750	    gx=4475	offset=725	   cdp=115	
+
+ tracf=47	  fldr=35	    sx=3700	    gx=4525	offset=825	   cdp=115	
+
+ tracf=49	  fldr=34	    sx=3650	    gx=4575	offset=925	   cdp=115	
+
+ tracf=51	  fldr=33	    sx=3600	    gx=4625	offset=1025	   cdp=115	
+
+ tracf=53	  fldr=32	    sx=3550	    gx=4675	offset=1125	   cdp=115	
+
+ tracf=55	  fldr=31	    sx=3500	    gx=4725	offset=1225	   cdp=115	
+
+ tracf=57	  fldr=30	    sx=3450	    gx=4775	offset=1325	   cdp=115	
+
+ tracf=59	  fldr=29	    sx=3400	    gx=4825	offset=1425	   cdp=115	
+
+ tracf=38	  fldr=40	    sx=3950	    gx=4325	offset=375	   cdp=116	
+
+ tracf=40	  fldr=39	    sx=3900	    gx=4375	offset=475	   cdp=116	
+
+ tracf=42	  fldr=38	    sx=3850	    gx=4425	offset=575	   cdp=116	
+
+ tracf=44	  fldr=37	    sx=3800	    gx=4475	offset=675	   cdp=116	
+
+ tracf=46	  fldr=36	    sx=3750	    gx=4525	offset=775	   cdp=116	
+
+ tracf=48	  fldr=35	    sx=3700	    gx=4575	offset=875	   cdp=116	
+
+ tracf=50	  fldr=34	    sx=3650	    gx=4625	offset=975	   cdp=116	
+
+ tracf=52	  fldr=33	    sx=3600	    gx=4675	offset=1075	   cdp=116	
+
+ tracf=54	  fldr=32	    sx=3550	    gx=4725	offset=1175	   cdp=116	
+
+ tracf=56	  fldr=31	    sx=3500	    gx=4775	offset=1275	   cdp=116	
+
+ tracf=58	  fldr=30	    sx=3450	    gx=4825	offset=1375	   cdp=116	
+
+ tracf=60	  fldr=29	    sx=3400	    gx=4875	offset=1475	   cdp=116	
+
+ tracf=39	  fldr=40	    sx=3950	    gx=4375	offset=425	   cdp=117	
+
+ tracf=41	  fldr=39	    sx=3900	    gx=4425	offset=525	   cdp=117	
+
+ tracf=43	  fldr=38	    sx=3850	    gx=4475	offset=625	   cdp=117	
+
+ tracf=45	  fldr=37	    sx=3800	    gx=4525	offset=725	   cdp=117	
+
+ tracf=47	  fldr=36	    sx=3750	    gx=4575	offset=825	   cdp=117	
+
+ tracf=49	  fldr=35	    sx=3700	    gx=4625	offset=925	   cdp=117	
+
+ tracf=51	  fldr=34	    sx=3650	    gx=4675	offset=1025	   cdp=117	
+
+ tracf=53	  fldr=33	    sx=3600	    gx=4725	offset=1125	   cdp=117	
+
+ tracf=55	  fldr=32	    sx=3550	    gx=4775	offset=1225	   cdp=117	
+
+ tracf=57	  fldr=31	    sx=3500	    gx=4825	offset=1325	   cdp=117	
+
+ tracf=59	  fldr=30	    sx=3450	    gx=4875	offset=1425	   cdp=117	
+
+ tracf=40	  fldr=40	    sx=3950	    gx=4425	offset=475	   cdp=118	
+
+ tracf=42	  fldr=39	    sx=3900	    gx=4475	offset=575	   cdp=118	
+
+ tracf=44	  fldr=38	    sx=3850	    gx=4525	offset=675	   cdp=118	
+
+ tracf=46	  fldr=37	    sx=3800	    gx=4575	offset=775	   cdp=118	
+
+ tracf=48	  fldr=36	    sx=3750	    gx=4625	offset=875	   cdp=118	
+
+ tracf=50	  fldr=35	    sx=3700	    gx=4675	offset=975	   cdp=118	
+
+ tracf=52	  fldr=34	    sx=3650	    gx=4725	offset=1075	   cdp=118	
+
+ tracf=54	  fldr=33	    sx=3600	    gx=4775	offset=1175	   cdp=118	
+
+ tracf=56	  fldr=32	    sx=3550	    gx=4825	offset=1275	   cdp=118	
+
+ tracf=58	  fldr=31	    sx=3500	    gx=4875	offset=1375	   cdp=118	
+
+ tracf=60	  fldr=30	    sx=3450	    gx=4925	offset=1475	   cdp=118	
+
+ tracf=41	  fldr=40	    sx=3950	    gx=4475	offset=525	   cdp=119	
+
+ tracf=43	  fldr=39	    sx=3900	    gx=4525	offset=625	   cdp=119	
+
+ tracf=45	  fldr=38	    sx=3850	    gx=4575	offset=725	   cdp=119	
+
+ tracf=47	  fldr=37	    sx=3800	    gx=4625	offset=825	   cdp=119	
+
+ tracf=49	  fldr=36	    sx=3750	    gx=4675	offset=925	   cdp=119	
+
+ tracf=51	  fldr=35	    sx=3700	    gx=4725	offset=1025	   cdp=119	
+
+ tracf=53	  fldr=34	    sx=3650	    gx=4775	offset=1125	   cdp=119	
+
+ tracf=55	  fldr=33	    sx=3600	    gx=4825	offset=1225	   cdp=119	
+
+ tracf=57	  fldr=32	    sx=3550	    gx=4875	offset=1325	   cdp=119	
+
+ tracf=59	  fldr=31	    sx=3500	    gx=4925	offset=1425	   cdp=119	
+
+ tracf=42	  fldr=40	    sx=3950	    gx=4525	offset=575	   cdp=120	
+
+ tracf=44	  fldr=39	    sx=3900	    gx=4575	offset=675	   cdp=120	
+
+ tracf=46	  fldr=38	    sx=3850	    gx=4625	offset=775	   cdp=120	
+
+ tracf=48	  fldr=37	    sx=3800	    gx=4675	offset=875	   cdp=120	
+
+ tracf=50	  fldr=36	    sx=3750	    gx=4725	offset=975	   cdp=120	
+
+ tracf=52	  fldr=35	    sx=3700	    gx=4775	offset=1075	   cdp=120	
+
+ tracf=54	  fldr=34	    sx=3650	    gx=4825	offset=1175	   cdp=120	
+
+ tracf=56	  fldr=33	    sx=3600	    gx=4875	offset=1275	   cdp=120	
+
+ tracf=58	  fldr=32	    sx=3550	    gx=4925	offset=1375	   cdp=120	
+
+ tracf=60	  fldr=31	    sx=3500	    gx=4975	offset=1475	   cdp=120	
+
+ tracf=43	  fldr=40	    sx=3950	    gx=4575	offset=625	   cdp=121	
+
+ tracf=45	  fldr=39	    sx=3900	    gx=4625	offset=725	   cdp=121	
+
+ tracf=47	  fldr=38	    sx=3850	    gx=4675	offset=825	   cdp=121	
+
+ tracf=49	  fldr=37	    sx=3800	    gx=4725	offset=925	   cdp=121	
+
+ tracf=51	  fldr=36	    sx=3750	    gx=4775	offset=1025	   cdp=121	
+
+ tracf=53	  fldr=35	    sx=3700	    gx=4825	offset=1125	   cdp=121	
+
+ tracf=55	  fldr=34	    sx=3650	    gx=4875	offset=1225	   cdp=121	
+
+ tracf=57	  fldr=33	    sx=3600	    gx=4925	offset=1325	   cdp=121	
+
+ tracf=59	  fldr=32	    sx=3550	    gx=4975	offset=1425	   cdp=121	
+
+ tracf=44	  fldr=40	    sx=3950	    gx=4625	offset=675	   cdp=122	
+
+ tracf=46	  fldr=39	    sx=3900	    gx=4675	offset=775	   cdp=122	
+
+ tracf=48	  fldr=38	    sx=3850	    gx=4725	offset=875	   cdp=122	
+
+ tracf=50	  fldr=37	    sx=3800	    gx=4775	offset=975	   cdp=122	
+
+ tracf=52	  fldr=36	    sx=3750	    gx=4825	offset=1075	   cdp=122	
+
+ tracf=54	  fldr=35	    sx=3700	    gx=4875	offset=1175	   cdp=122	
+
+ tracf=56	  fldr=34	    sx=3650	    gx=4925	offset=1275	   cdp=122	
+
+ tracf=58	  fldr=33	    sx=3600	    gx=4975	offset=1375	   cdp=122	
+
+ tracf=60	  fldr=32	    sx=3550	    gx=5025	offset=1475	   cdp=122	
+
+ tracf=45	  fldr=40	    sx=3950	    gx=4675	offset=725	   cdp=123	
+
+ tracf=47	  fldr=39	    sx=3900	    gx=4725	offset=825	   cdp=123	
+
+ tracf=49	  fldr=38	    sx=3850	    gx=4775	offset=925	   cdp=123	
+
+ tracf=51	  fldr=37	    sx=3800	    gx=4825	offset=1025	   cdp=123	
+
+ tracf=53	  fldr=36	    sx=3750	    gx=4875	offset=1125	   cdp=123	
+
+ tracf=55	  fldr=35	    sx=3700	    gx=4925	offset=1225	   cdp=123	
+
+ tracf=57	  fldr=34	    sx=3650	    gx=4975	offset=1325	   cdp=123	
+
+ tracf=59	  fldr=33	    sx=3600	    gx=5025	offset=1425	   cdp=123	
+
+ tracf=46	  fldr=40	    sx=3950	    gx=4725	offset=775	   cdp=124	
+
+ tracf=48	  fldr=39	    sx=3900	    gx=4775	offset=875	   cdp=124	
+
+ tracf=50	  fldr=38	    sx=3850	    gx=4825	offset=975	   cdp=124	
+
+ tracf=52	  fldr=37	    sx=3800	    gx=4875	offset=1075	   cdp=124	
+
+ tracf=54	  fldr=36	    sx=3750	    gx=4925	offset=1175	   cdp=124	
+
+ tracf=56	  fldr=35	    sx=3700	    gx=4975	offset=1275	   cdp=124	
+
+ tracf=58	  fldr=34	    sx=3650	    gx=5025	offset=1375	   cdp=124	
+
+ tracf=60	  fldr=33	    sx=3600	    gx=5075	offset=1475	   cdp=124	
+
+ tracf=47	  fldr=40	    sx=3950	    gx=4775	offset=825	   cdp=125	
+
+ tracf=49	  fldr=39	    sx=3900	    gx=4825	offset=925	   cdp=125	
+
+ tracf=51	  fldr=38	    sx=3850	    gx=4875	offset=1025	   cdp=125	
+
+ tracf=53	  fldr=37	    sx=3800	    gx=4925	offset=1125	   cdp=125	
+
+ tracf=55	  fldr=36	    sx=3750	    gx=4975	offset=1225	   cdp=125	
+
+ tracf=57	  fldr=35	    sx=3700	    gx=5025	offset=1325	   cdp=125	
+
+ tracf=59	  fldr=34	    sx=3650	    gx=5075	offset=1425	   cdp=125	
+
+ tracf=48	  fldr=40	    sx=3950	    gx=4825	offset=875	   cdp=126	
+
+ tracf=50	  fldr=39	    sx=3900	    gx=4875	offset=975	   cdp=126	
+
+ tracf=52	  fldr=38	    sx=3850	    gx=4925	offset=1075	   cdp=126	
+
+ tracf=54	  fldr=37	    sx=3800	    gx=4975	offset=1175	   cdp=126	
+
+ tracf=56	  fldr=36	    sx=3750	    gx=5025	offset=1275	   cdp=126	
+
+ tracf=58	  fldr=35	    sx=3700	    gx=5075	offset=1375	   cdp=126	
+
+ tracf=60	  fldr=34	    sx=3650	    gx=5125	offset=1475	   cdp=126	
+
+ tracf=49	  fldr=40	    sx=3950	    gx=4875	offset=925	   cdp=127	
+
+ tracf=51	  fldr=39	    sx=3900	    gx=4925	offset=1025	   cdp=127	
+
+ tracf=53	  fldr=38	    sx=3850	    gx=4975	offset=1125	   cdp=127	
+
+ tracf=55	  fldr=37	    sx=3800	    gx=5025	offset=1225	   cdp=127	
+
+ tracf=57	  fldr=36	    sx=3750	    gx=5075	offset=1325	   cdp=127	
+
+ tracf=59	  fldr=35	    sx=3700	    gx=5125	offset=1425	   cdp=127	
+
+ tracf=50	  fldr=40	    sx=3950	    gx=4925	offset=975	   cdp=128	
+
+ tracf=52	  fldr=39	    sx=3900	    gx=4975	offset=1075	   cdp=128	
+
+ tracf=54	  fldr=38	    sx=3850	    gx=5025	offset=1175	   cdp=128	
+
+ tracf=56	  fldr=37	    sx=3800	    gx=5075	offset=1275	   cdp=128	
+
+ tracf=58	  fldr=36	    sx=3750	    gx=5125	offset=1375	   cdp=128	
+
+ tracf=60	  fldr=35	    sx=3700	    gx=5175	offset=1475	   cdp=128	
+
+ tracf=51	  fldr=40	    sx=3950	    gx=4975	offset=1025	   cdp=129	
+
+ tracf=53	  fldr=39	    sx=3900	    gx=5025	offset=1125	   cdp=129	
+
+ tracf=55	  fldr=38	    sx=3850	    gx=5075	offset=1225	   cdp=129	
+
+ tracf=57	  fldr=37	    sx=3800	    gx=5125	offset=1325	   cdp=129	
+
+ tracf=59	  fldr=36	    sx=3750	    gx=5175	offset=1425	   cdp=129	
+
+ tracf=52	  fldr=40	    sx=3950	    gx=5025	offset=1075	   cdp=130	
+
+ tracf=54	  fldr=39	    sx=3900	    gx=5075	offset=1175	   cdp=130	
+
+ tracf=56	  fldr=38	    sx=3850	    gx=5125	offset=1275	   cdp=130	
+
+ tracf=58	  fldr=37	    sx=3800	    gx=5175	offset=1375	   cdp=130	
+
+ tracf=60	  fldr=36	    sx=3750	    gx=5225	offset=1475	   cdp=130	
+
+ tracf=53	  fldr=40	    sx=3950	    gx=5075	offset=1125	   cdp=131	
+
+ tracf=55	  fldr=39	    sx=3900	    gx=5125	offset=1225	   cdp=131	
+
+ tracf=57	  fldr=38	    sx=3850	    gx=5175	offset=1325	   cdp=131	
+
+ tracf=59	  fldr=37	    sx=3800	    gx=5225	offset=1425	   cdp=131	
+
+ tracf=54	  fldr=40	    sx=3950	    gx=5125	offset=1175	   cdp=132	
+
+ tracf=56	  fldr=39	    sx=3900	    gx=5175	offset=1275	   cdp=132	
+
+ tracf=58	  fldr=38	    sx=3850	    gx=5225	offset=1375	   cdp=132	
+
+ tracf=60	  fldr=37	    sx=3800	    gx=5275	offset=1475	   cdp=132	
+
+ tracf=55	  fldr=40	    sx=3950	    gx=5175	offset=1225	   cdp=133	
+
+ tracf=57	  fldr=39	    sx=3900	    gx=5225	offset=1325	   cdp=133	
+
+ tracf=59	  fldr=38	    sx=3850	    gx=5275	offset=1425	   cdp=133	
+
+ tracf=56	  fldr=40	    sx=3950	    gx=5225	offset=1275	   cdp=134	
+
+ tracf=58	  fldr=39	    sx=3900	    gx=5275	offset=1375	   cdp=134	
+
+ tracf=60	  fldr=38	    sx=3850	    gx=5325	offset=1475	   cdp=134	
+
+ tracf=57	  fldr=40	    sx=3950	    gx=5275	offset=1325	   cdp=135	
+
+ tracf=59	  fldr=39	    sx=3900	    gx=5325	offset=1425	   cdp=135	
+
+ tracf=58	  fldr=40	    sx=3950	    gx=5325	offset=1375	   cdp=136	
+
+ tracf=60	  fldr=39	    sx=3900	    gx=5375	offset=1475	   cdp=136	
+
+ tracf=59	  fldr=40	    sx=3950	    gx=5375	offset=1425	   cdp=137	
+
+ tracf=60	  fldr=40	    sx=3950	    gx=5425	offset=1475	   cdp=138	
+

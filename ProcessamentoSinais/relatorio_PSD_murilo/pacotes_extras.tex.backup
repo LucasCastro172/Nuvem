@@ -1,0 +1,23 @@
+\usepackage{pdflscape} % colocar a figura em paisagem no pdf
+\usepackage{amssymb,amsfonts,amsmath,wasysym}
+\usepackage{empheq}
+\usepackage{float}
+\usepackage{pdflscape}
+\usepackage{cmap}
+\usepackage{xcolor}
+\usepackage{indentfirst}
+\usepackage{siunitx}
+\usepackage{lscape}
+\usepackage{rotating}
+\usepackage{epstopdf}
+% \usepackage[utf8x]{inputenc}
+\usepackage{listings}
+\lstset{
+  language=bash,
+  basicstyle=\ttfamily,
+showstringspaces=false
+}
+\usepackage[autolinebreaks,useliterate]{mcode}
+% \usepackage{subcaption}
+% \setlength{\parindent}{0pt}
+% \setlength{\parskip}{20pt}

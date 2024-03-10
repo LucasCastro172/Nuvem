@@ -1,0 +1,120 @@
+ tracf=1	  fldr=1	    sx=2000	    gx=525	offset=-1475	   cdp=1	
+
+ tracf=2	  fldr=1	    sx=2000	    gx=575	offset=-1425	   cdp=2	
+
+ tracf=3	  fldr=1	    sx=2000	    gx=625	offset=-1375	   cdp=3	
+
+ tracf=4	  fldr=1	    sx=2000	    gx=675	offset=-1325	   cdp=4	
+
+ tracf=5	  fldr=1	    sx=2000	    gx=725	offset=-1275	   cdp=5	
+
+ tracf=6	  fldr=1	    sx=2000	    gx=775	offset=-1225	   cdp=6	
+
+ tracf=7	  fldr=1	    sx=2000	    gx=825	offset=-1175	   cdp=7	
+
+ tracf=8	  fldr=1	    sx=2000	    gx=875	offset=-1125	   cdp=8	
+
+ tracf=9	  fldr=1	    sx=2000	    gx=925	offset=-1075	   cdp=9	
+
+ tracf=10	  fldr=1	    sx=2000	    gx=975	offset=-1025	   cdp=10	
+
+ tracf=11	  fldr=1	    sx=2000	    gx=1025	offset=-975	   cdp=11	
+
+ tracf=12	  fldr=1	    sx=2000	    gx=1075	offset=-925	   cdp=12	
+
+ tracf=13	  fldr=1	    sx=2000	    gx=1125	offset=-875	   cdp=13	
+
+ tracf=14	  fldr=1	    sx=2000	    gx=1175	offset=-825	   cdp=14	
+
+ tracf=15	  fldr=1	    sx=2000	    gx=1225	offset=-775	   cdp=15	
+
+ tracf=16	  fldr=1	    sx=2000	    gx=1275	offset=-725	   cdp=16	
+
+ tracf=17	  fldr=1	    sx=2000	    gx=1325	offset=-675	   cdp=17	
+
+ tracf=18	  fldr=1	    sx=2000	    gx=1375	offset=-625	   cdp=18	
+
+ tracf=19	  fldr=1	    sx=2000	    gx=1425	offset=-575	   cdp=19	
+
+ tracf=20	  fldr=1	    sx=2000	    gx=1475	offset=-525	   cdp=20	
+
+ tracf=21	  fldr=1	    sx=2000	    gx=1525	offset=-475	   cdp=21	
+
+ tracf=22	  fldr=1	    sx=2000	    gx=1575	offset=-425	   cdp=22	
+
+ tracf=23	  fldr=1	    sx=2000	    gx=1625	offset=-375	   cdp=23	
+
+ tracf=24	  fldr=1	    sx=2000	    gx=1675	offset=-325	   cdp=24	
+
+ tracf=25	  fldr=1	    sx=2000	    gx=1725	offset=-275	   cdp=25	
+
+ tracf=26	  fldr=1	    sx=2000	    gx=1775	offset=-225	   cdp=26	
+
+ tracf=27	  fldr=1	    sx=2000	    gx=1825	offset=-175	   cdp=27	
+
+ tracf=28	  fldr=1	    sx=2000	    gx=1875	offset=-125	   cdp=28	
+
+ tracf=29	  fldr=1	    sx=2000	    gx=1925	offset=-75	   cdp=29	
+
+ tracf=30	  fldr=1	    sx=2000	    gx=1975	offset=-25	   cdp=30	
+
+ tracf=31	  fldr=1	    sx=2000	    gx=2025	offset=25	   cdp=31	
+
+ tracf=32	  fldr=1	    sx=2000	    gx=2075	offset=75	   cdp=32	
+
+ tracf=33	  fldr=1	    sx=2000	    gx=2125	offset=125	   cdp=33	
+
+ tracf=34	  fldr=1	    sx=2000	    gx=2175	offset=175	   cdp=34	
+
+ tracf=35	  fldr=1	    sx=2000	    gx=2225	offset=225	   cdp=35	
+
+ tracf=36	  fldr=1	    sx=2000	    gx=2275	offset=275	   cdp=36	
+
+ tracf=37	  fldr=1	    sx=2000	    gx=2325	offset=325	   cdp=37	
+
+ tracf=38	  fldr=1	    sx=2000	    gx=2375	offset=375	   cdp=38	
+
+ tracf=39	  fldr=1	    sx=2000	    gx=2425	offset=425	   cdp=39	
+
+ tracf=40	  fldr=1	    sx=2000	    gx=2475	offset=475	   cdp=40	
+
+ tracf=41	  fldr=1	    sx=2000	    gx=2525	offset=525	   cdp=41	
+
+ tracf=42	  fldr=1	    sx=2000	    gx=2575	offset=575	   cdp=42	
+
+ tracf=43	  fldr=1	    sx=2000	    gx=2625	offset=625	   cdp=43	
+
+ tracf=44	  fldr=1	    sx=2000	    gx=2675	offset=675	   cdp=44	
+
+ tracf=45	  fldr=1	    sx=2000	    gx=2725	offset=725	   cdp=45	
+
+ tracf=46	  fldr=1	    sx=2000	    gx=2775	offset=775	   cdp=46	
+
+ tracf=47	  fldr=1	    sx=2000	    gx=2825	offset=825	   cdp=47	
+
+ tracf=48	  fldr=1	    sx=2000	    gx=2875	offset=875	   cdp=48	
+
+ tracf=49	  fldr=1	    sx=2000	    gx=2925	offset=925	   cdp=49	
+
+ tracf=50	  fldr=1	    sx=2000	    gx=2975	offset=975	   cdp=50	
+
+ tracf=51	  fldr=1	    sx=2000	    gx=3025	offset=1025	   cdp=51	
+
+ tracf=52	  fldr=1	    sx=2000	    gx=3075	offset=1075	   cdp=52	
+
+ tracf=53	  fldr=1	    sx=2000	    gx=3125	offset=1125	   cdp=53	
+
+ tracf=54	  fldr=1	    sx=2000	    gx=3175	offset=1175	   cdp=54	
+
+ tracf=55	  fldr=1	    sx=2000	    gx=3225	offset=1225	   cdp=55	
+
+ tracf=56	  fldr=1	    sx=2000	    gx=3275	offset=1275	   cdp=56	
+
+ tracf=57	  fldr=1	    sx=2000	    gx=3325	offset=1325	   cdp=57	
+
+ tracf=58	  fldr=1	    sx=2000	    gx=3375	offset=1375	   cdp=58	
+
+ tracf=59	  fldr=1	    sx=2000	    gx=3425	offset=1425	   cdp=59	
+
+ tracf=60	  fldr=1	    sx=2000	    gx=3475	offset=1475	   cdp=60	
+

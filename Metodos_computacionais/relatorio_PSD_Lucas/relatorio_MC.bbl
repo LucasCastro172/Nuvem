@@ -1,0 +1,36 @@
+\begin{thebibliography}{}
+
+\bibitem[Berenger et~al., 1994]{berenger1994perfectly}
+Berenger, J.-P.  et~al.,  1994, A perfectly matched layer for the absorption of
+  electromagnetic waves: Journal of computational physics, {\bf 114}, 185--200.
+
+\bibitem[Chandra et~al., 2001]{chandra2001parallel}
+Chandra, R., L. Dagum, D. Kohr, R. Menon, D. Maydan  and J. McDonald,  2001,
+  Parallel programming in openmp: Morgan kaufmann.
+
+\bibitem[Claerbout, 1971]{claerbout1971toward}
+Claerbout, J.~F.,  1971, Toward a unified theory of reflector mapping:
+  Geophysics, {\bf 36}, 467--481.
+
+\bibitem[Ismail-Zadeh e Tackley, 2010]{ismail2010computational}
+Ismail-Zadeh, A.  and P. Tackley,  2010, Computational methods for geodynamics:
+  Cambridge University Press.
+
+\bibitem[Komatitsch e Martin, 2007]{komatitsch2007unsplit}
+Komatitsch, D.  and R. Martin,  2007, An unsplit convolutional perfectly
+  matched layer improved at grazing incidence for the seismic wave equation:
+  Geophysics, {\bf 72}, SM155--SM167.
+
+\bibitem[Matias, 2009]{matias}
+Matias, M.,  2009, Imageamento marchenko e condições de imagem aplicadas às
+  componen- tes da função de green.: Essay, Universidade Federal da Bahia.
+
+\bibitem[Snieder, 1998]{snieder1998}
+Snieder, R.~K.,  1998, A guided tour of mathematical physics: Samizdat Press.
+
+\bibitem[Zakaria et~al., 2000]{zakaria2000two}
+Zakaria, A., J. Penrose, F. Thomas  and X. Wang,  2000, The two dimensional
+  numerical modeling of acoustic wave propagation in shallow water: Presented
+  at the Australian Acoustical Society Conference (Acoustics).
+
+\end{thebibliography}

@@ -1,0 +1,120 @@
+ tracl=1	  fldr=1	 tracf=1	    sx=2000	    gx=525	offset=-1475	
+
+ tracl=2	  fldr=1	 tracf=2	    sx=2000	    gx=575	offset=-1425	
+
+ tracl=3	  fldr=1	 tracf=3	    sx=2000	    gx=625	offset=-1375	
+
+ tracl=4	  fldr=1	 tracf=4	    sx=2000	    gx=675	offset=-1325	
+
+ tracl=5	  fldr=1	 tracf=5	    sx=2000	    gx=725	offset=-1275	
+
+ tracl=6	  fldr=1	 tracf=6	    sx=2000	    gx=775	offset=-1225	
+
+ tracl=7	  fldr=1	 tracf=7	    sx=2000	    gx=825	offset=-1175	
+
+ tracl=8	  fldr=1	 tracf=8	    sx=2000	    gx=875	offset=-1125	
+
+ tracl=9	  fldr=1	 tracf=9	    sx=2000	    gx=925	offset=-1075	
+
+ tracl=10	  fldr=1	 tracf=10	    sx=2000	    gx=975	offset=-1025	
+
+ tracl=11	  fldr=1	 tracf=11	    sx=2000	    gx=1025	offset=-975	
+
+ tracl=12	  fldr=1	 tracf=12	    sx=2000	    gx=1075	offset=-925	
+
+ tracl=13	  fldr=1	 tracf=13	    sx=2000	    gx=1125	offset=-875	
+
+ tracl=14	  fldr=1	 tracf=14	    sx=2000	    gx=1175	offset=-825	
+
+ tracl=15	  fldr=1	 tracf=15	    sx=2000	    gx=1225	offset=-775	
+
+ tracl=16	  fldr=1	 tracf=16	    sx=2000	    gx=1275	offset=-725	
+
+ tracl=17	  fldr=1	 tracf=17	    sx=2000	    gx=1325	offset=-675	
+
+ tracl=18	  fldr=1	 tracf=18	    sx=2000	    gx=1375	offset=-625	
+
+ tracl=19	  fldr=1	 tracf=19	    sx=2000	    gx=1425	offset=-575	
+
+ tracl=20	  fldr=1	 tracf=20	    sx=2000	    gx=1475	offset=-525	
+
+ tracl=21	  fldr=1	 tracf=21	    sx=2000	    gx=1525	offset=-475	
+
+ tracl=22	  fldr=1	 tracf=22	    sx=2000	    gx=1575	offset=-425	
+
+ tracl=23	  fldr=1	 tracf=23	    sx=2000	    gx=1625	offset=-375	
+
+ tracl=24	  fldr=1	 tracf=24	    sx=2000	    gx=1675	offset=-325	
+
+ tracl=25	  fldr=1	 tracf=25	    sx=2000	    gx=1725	offset=-275	
+
+ tracl=26	  fldr=1	 tracf=26	    sx=2000	    gx=1775	offset=-225	
+
+ tracl=27	  fldr=1	 tracf=27	    sx=2000	    gx=1825	offset=-175	
+
+ tracl=28	  fldr=1	 tracf=28	    sx=2000	    gx=1875	offset=-125	
+
+ tracl=29	  fldr=1	 tracf=29	    sx=2000	    gx=1925	offset=-75	
+
+ tracl=30	  fldr=1	 tracf=30	    sx=2000	    gx=1975	offset=-25	
+
+ tracl=31	  fldr=1	 tracf=31	    sx=2000	    gx=2025	offset=25	
+
+ tracl=32	  fldr=1	 tracf=32	    sx=2000	    gx=2075	offset=75	
+
+ tracl=33	  fldr=1	 tracf=33	    sx=2000	    gx=2125	offset=125	
+
+ tracl=34	  fldr=1	 tracf=34	    sx=2000	    gx=2175	offset=175	
+
+ tracl=35	  fldr=1	 tracf=35	    sx=2000	    gx=2225	offset=225	
+
+ tracl=36	  fldr=1	 tracf=36	    sx=2000	    gx=2275	offset=275	
+
+ tracl=37	  fldr=1	 tracf=37	    sx=2000	    gx=2325	offset=325	
+
+ tracl=38	  fldr=1	 tracf=38	    sx=2000	    gx=2375	offset=375	
+
+ tracl=39	  fldr=1	 tracf=39	    sx=2000	    gx=2425	offset=425	
+
+ tracl=40	  fldr=1	 tracf=40	    sx=2000	    gx=2475	offset=475	
+
+ tracl=41	  fldr=1	 tracf=41	    sx=2000	    gx=2525	offset=525	
+
+ tracl=42	  fldr=1	 tracf=42	    sx=2000	    gx=2575	offset=575	
+
+ tracl=43	  fldr=1	 tracf=43	    sx=2000	    gx=2625	offset=625	
+
+ tracl=44	  fldr=1	 tracf=44	    sx=2000	    gx=2675	offset=675	
+
+ tracl=45	  fldr=1	 tracf=45	    sx=2000	    gx=2725	offset=725	
+
+ tracl=46	  fldr=1	 tracf=46	    sx=2000	    gx=2775	offset=775	
+
+ tracl=47	  fldr=1	 tracf=47	    sx=2000	    gx=2825	offset=825	
+
+ tracl=48	  fldr=1	 tracf=48	    sx=2000	    gx=2875	offset=875	
+
+ tracl=49	  fldr=1	 tracf=49	    sx=2000	    gx=2925	offset=925	
+
+ tracl=50	  fldr=1	 tracf=50	    sx=2000	    gx=2975	offset=975	
+
+ tracl=51	  fldr=1	 tracf=51	    sx=2000	    gx=3025	offset=1025	
+
+ tracl=52	  fldr=1	 tracf=52	    sx=2000	    gx=3075	offset=1075	
+
+ tracl=53	  fldr=1	 tracf=53	    sx=2000	    gx=3125	offset=1125	
+
+ tracl=54	  fldr=1	 tracf=54	    sx=2000	    gx=3175	offset=1175	
+
+ tracl=55	  fldr=1	 tracf=55	    sx=2000	    gx=3225	offset=1225	
+
+ tracl=56	  fldr=1	 tracf=56	    sx=2000	    gx=3275	offset=1275	
+
+ tracl=57	  fldr=1	 tracf=57	    sx=2000	    gx=3325	offset=1325	
+
+ tracl=58	  fldr=1	 tracf=58	    sx=2000	    gx=3375	offset=1375	
+
+ tracl=59	  fldr=1	 tracf=59	    sx=2000	    gx=3425	offset=1425	
+
+ tracl=60	  fldr=1	 tracf=60	    sx=2000	    gx=3475	offset=1475	
+

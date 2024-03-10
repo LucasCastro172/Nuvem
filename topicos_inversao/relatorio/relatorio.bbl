@@ -1,0 +1,13 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem{kochenderfer2019algorithms}
+\abntrefinfo{Kochenderfer e Wheeler}{KOCHENDERFER; WHEELER}{2019}
+{KOCHENDERFER, M.~J.; WHEELER, T.~A. \emph{Algorithms for optimization}.
+  [S.l.]: Mit Press, 2019.}
+
+\end{thebibliography}

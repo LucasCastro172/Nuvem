@@ -1,0 +1,261 @@
+\chapter{M\'{E}TODO NUM\'{E}RICO PARA A MODELAGEM ACÚSTICA}
+\label{cap4}
+
+\begin{enumerate}
+      \item Descrição resumida dos seguintes tópicos:
+      \item Malha.
+      \item Método numérico por diferenças finitas.
+      \item Método numérico por raios.
+      \item Comparação entre os métodos.
+      \item Modelo de Velocidade.
+      \item Resultados.
+\end{enumerate}
+
+\textbf{------------------------------------------------------}
+
+\textbf{FALTA CORRIGIR}
+
+% \section{Equação da Onda Sísmica Acústica}
+% 
+% Os dados sísmicos observados correspondem ao registro da informação tempo-amplitude (sismogramas) da ondas primárias (P e S) e ondas de superfície (Rayleigh e Love) em meios elásticos. 
+% Estas ondas são regidas pela equação de onda na sua forma heterogênea, mas que simplificamos imediatamente para a propagação em meios isotrópicos e heterogêneos.
+% Além desta restrição, admitimos a condição geral da sísmica de exploração que realiza modelagem, processamento e inversão considerado que a propagação das ondas sísmicas é regida pela equação na forma acústica; isto é, não há amostragem do coeficiente de cisalhamento ($\mu=0$) pelo modelo teórico. 
+% Sendo assim, não se admite a conversão entre as ondas P e S, e todo o registro é considerado composto de ondas compressíveis (P), e a presença das ondas S é considerado como ruído nos dados observados. 
+% 
+% A equação de regência da onda acústica na forma de trabalho é expressa por:
+% \begin{equation}
+% \nabla^{2}P(x,y,z,t)-\frac{1}{v^{2}(x,y,z)}\frac{\partial^{2}}{\partial t^{2}}P(x,y,z,t)= f(x,y,z,t).
+% \label{eq:Equacao_onda_acustica_1}
+% \end{equation}
+% Nesta equação, $f(x,y,z,t)$ é a função forçante (fonte distribuída no tempo e no espaço), que na prática geral é uma forma de explosivo (dinamite, martelo, canhões de ar, queda de peso), e se pode desacoplar a parte espacial da temporal na forma $f(x,y,z,t)=f_{1}(x,y,z)f_{2}(t)$. 
+% A distribuição espacial pode ser considerada localizada, de forma que se pode resumi-la a uma função Delta de Dirac, $f_{1}(x,y,z)=\delta(\mathbf{x}-\mathbf{x_{0}})$.
+% A distribuição temporal tem que ser considerada apenas limitada no tempo (pulso temporal curto), de forma que se pode resumi-la a uma função tipo ondeletas (\textit{wavelet}), $f_{2}(t)=w(t)$. 
+% A condição da função $f_{2}$ ser uma Delta de Dirac se aplica quando se deseja a função de Green, o que é obtido a partir da equação: 
+% \begin{equation}
+% \nabla^{2}P(x,y,z,t)-\frac{1}{v^{2}(x,y,z)}\frac{\partial^{2}}{\partial t^{2}}P(x,y,z,t)=\delta(\mathbf{x}-\mathbf{x_{0}})\delta(t-t_{0}).
+% \label{eq:Equacao_onda_acustica_2}
+% \end{equation}
+% Notifica-se que no denominador se tem a velocidade com distribuição espacial na forma $v=v(x,y,z)$, e que representa um inserção física a mais na equação de regência, e que se justifica considerando que $v(x,y,z)$ varia suavemente ao longo do comprimento de onda. 
+% A função $v(x,y,z)$ corresponde à velocidade de propagação das ondas no subsolo (meio semi-infinito, limitado na superfície livre acima da qual se condira vácuo). 
+% Neste trabalho, consideramos apenas os dados sísmicos provenientes das ondas $P$ (acústicas) e nos referimos a $v(x,y,z)$ como a velocidade sísmica. 
+% As velocidades sísmicas (compressão-cisalhamento) são tipicamente desconhecidas, e a sua determinação é objeto maior da sísmica, e classificado como um processo de inversão sísmica.
+% 
+% A correspondente forma homogênea da equação de dada acústica é por:
+% \begin{equation}
+% \nabla^{2}P(x,y,z,t)-\frac{1}{v^{2}(x,y,z)}\frac{\partial^{2}}{\partial t^{2}}P(x,y,z,t)=0
+% \label{eq:Equacao_onda_acustica_3}
+% \end{equation}
+% onde o curto efeito da fonte é considerado como cessado a partir do tempo de origem $t_{0}=0$ (isto é, a ação da fonte é muito mais curta do que o registro útil).
+% 
+% 
+% 
+% O que se deseja neste trabalho é estudar, calcular e analisar o campo $P(x,y,z,t)$ para modelos específicos onde se tem a presença de importantes pontos de difração \cite{Cameron(2007)}
+
+\section{Diferenças Finitas}
+
+A solução da equação de onda na forma acústica e simples depende do modelo a ser usado, mas em regra geral a solução é muito complicada, e onde mais uma vez se acrescenta limitações para que se possa desenvolver tecnologia.
+
+O método de diferenças finitas corresponde a substituir o cálculo das derivadas espaciais (Laplaciano) e temporal (segunda ordem) por aproximações numéricas de diferentes ordens, e substituir a equação diferencial por uma equação que envolva somente diferenças e quocientes finitos (que não envolvam valores infinitamente grandes ou muito pequenos) \cite{LeVeque(2007)}. 
+
+A aproximação espacial por diferenças finitas corresponde a uma forma de solução numérica da equação de onda que se baseia na discretização da subsuperfície em uma malha, onde se tem uma valor de propriedade física (velocidade, densidade).
+A equação de aproximação por diferenças finitas de segunda ordem para ambos o tempo-espaço é definida por (ver figura \ref{fig:grid}):
+\begin{eqnarray}
+P^{n+1}_{i,j}-2P^{n}_{i,j}+P^{n-1}_{i,j}=\alpha^2[P^{n}_{i+1,j}+P^{n}_{i-1,j}+P^{n}_{i,j+1}+P^{n}_{i,j-1}-4P^{n}_{i,j}]+R^{n}.
+\label{eq:approx_finit}
+\end{eqnarray}
+Nesta equação $P$ é o campo de onda (campo de pressão), a função fonte é expressa por $R^{n}$ e $\alpha=\frac{C_{i,j\delta t}}{h}$. 
+Os índices $i$ e $j$ definem os pontos da malha espacial nas direções dos eixos $x$ e $z$, enquanto $\delta t$ e $h$ definem respectivamente os intervalos de discretização temporal e espacial, e $n$ representa o índice da evolução temporal.
+
+A equação (\ref{eq:approx_finit}) pode ser reescrita como a seguir, onde se destaca para a esquerda o próximo ponto temporal ($n+1$) em função do ponto anterior ($n$) dentro da malha ($i,j$):
+\begin{eqnarray}
+P^{n+1}_{i,j}=2P^{n}_{i,j}-P^{n-1}_{i,j}+\alpha^2[P^{n}_{i+1,j}+P^{n}_{i-1,j}+P^{n}_{i,j+1}+P^{n}_{i,j-1}-4P^{n}_{i,j}]+R^{n}.
+\label{eq:approx_finit_1}
+\end{eqnarray}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=8.0cm,height=10.0cm,keepaspectratio]{figuras/cap4/grid.pdf}
+\caption{Malha bi-dimensional com os espaçamentos $dx$ e $dz$. Fonte: Adaptado de \cite{Bording(1997)}.}
+\label{fig:grid}
+\end{figure}
+
+Enfatizamos que existe sutileza e diferenças entre a física (propagação da onda) na natureza e a da malha; isto é, a onda se propaga na natureza com uma velocidade e na malha com outra velocidade; a natureza não tem bordas nem limites, a malha precisa de bordas absorventes.
+
+A estabilidade, no sentido de convergência, é fundamental método de diferenças finitas, para que se obtenha resultados satisfatórios usando esta técnica. A marcha no tempo é que o próximo valor do campo são determinados a partir dos valores anteriores, sendo assim é necessário evitar divergência no algoritmo. O espaçamento da malha é $h=25 m$, e a velocidade da malha é $\frac{h}{\delta t}$. A velocidade de propagação da onda na malha não pode ser maior do que a velocidade da malha; sendo assim, o intervalo no tempo $\delta t$ deve ser limitado, e para a equação (\ref{eq:approx_finit_1}) acima, este limite é dado por:
+\begin{equation}
+\frac{c\delta t}{h}\leq \frac{1}{\sqrt{n_{d}}}
+\label{eq:vel_limite}
+\end{equation}
+onde $n_{d}$ é o número de dimensões espaciais ($n_{d}=2$).
+A partir da equação \ref{eq:vel_limite} para duas dimensões, a condição de estabilidade no tempo para a equação (\ref{eq:approx_finit_1}) é dada por:
+\begin{equation}
+\frac{c\delta t}{h}\leq \frac{1}{\sqrt{2}}.
+\end{equation}
+O máximo passo no tempo é limitado por:
+\begin{equation}
+\delta t\leq \frac{h}{c\sqrt{2}}.
+\label{eq:estabilidade}
+\end{equation}
+Deste resultado se observa que a velocidade da malha é sempre maior do que a velocidade máxima permitida pela condição de estabilidade. Além disso, a velocidade $c$ máxima do modelo é menor que a velocidade da malha. Para o caso presente com $c=1500$m/s o cálculo tem os seguintes valores:
+\begin{equation}
+\delta t=0,002 s\leq \frac{h}{c\sqrt{2}}=\frac{25}{1500\sqrt{2}}=0,018.
+\label{eq:estabilidade_1500}
+\end{equation}
+ou para $c=3000$m/s
+\begin{equation}
+\delta t=0,002 s\leq \frac{h}{c\sqrt{2}}=\frac{25}{3500\sqrt{2}}=0,007.
+\label{eq:estabilidade_3500}
+\end{equation}
+Estes valores indicam que as condições de convergência para a modelagem estão numericamente satisfeitas.
+
+\textbf{Condições de Fronteira}
+
+O modelo  mostrado na Figura \ref{fig:modelo1}) é formado por um semi-espaço limitado por fronteiras em duas dimensões, com uma superfície livre no topo. A onda incidente na fronteira exibe efeitos de  reflexão.
+
+O modelo deve ter dimensões adequadas para incluir todos os eventos de reflexão significativos dentro da janela de tempo de registro. A estrutura geológica que está sendo modelada pode ser maior em comparação com a área do modelo computacional (ver Figura \ref{fig:modelo1}).
+
+A superfície da terra apresenta um contraste de densidade, onde a densidade do ar é muito diferente da densidade das rochas e da água. A superfície tem um coeficiente de refletividade alto, e é modelado como sendo uma fronteira rígida. Os lados e a base do modelo são geralmente tratados como limites transmissivos. 
+
+Podemos considerar dois tipos de métodos que utilizam as condições de contorno (ou limites): os reflexivos e os não-reflexivos; onde o mais simples é o de limite reflexivo.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=12.0cm,height=10.0cm,keepaspectratio]{figuras/cap4/modelo.pdf}
+\caption{Desenho do modelo geológico e suas propriedades. Fonte: Adaptado de \cite{Bording(1997)}.}
+\label{fig:modelo1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=12.0cm,height=10.0cm,keepaspectratio]{figuras/cap4/limite.pdf}
+\caption{Nós da fronteira. Fonte: Adaptado de \cite{Bording(1997)}.}
+\label{fig:limite}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=8.0cm,height=10.0cm,keepaspectratio]{figuras/cap4/stencil.pdf}
+\caption{Desenho dos nós e da fronteira do modelo para o lado esquerdo. Fonte: Adaptado de \cite{Bording(1997)}.}
+\label{fig:stencil}
+\end{figure}
+
+Uma fronteira reflexiva é formada por uma superfície plana na qual uma onda incidente é propagada obedecendo a equação da onda. A equação de diferenças finitas, $\Psi^{n+1}(z<0)=\Psi^{n}(z<0)\equiv 0$, usa uma malha que coloca nós fictícios externos ao modelo. Estes nós são inicialmente zero e são mantidos zero durante todo o tempo do modelo. Isto é mostrado na Figura (\ref{fig:stencil}) para a fronteira limite de uma superfície plana e a diferença de segunda ordem.
+
+A fronteira não-reflexiva é muito mais complicado na sua implementação, e dois métodos são mostrados para exemplificação. Para exemplificar, o primeiro é com a fatoração da derivada da equação unidimensional, com densidade constante, em duas equações de onda para sentidos opostos ao longo do eixo $x$:
+\begin{equation}
+\frac{\partial^2\Psi}{\partial x^2}=\frac{1}{C(x,z)^2}\left(\frac{\partial^2 \Psi}{\partial t^2}\right);
+\label{eq:non-reflec1}
+\end{equation}
+\begin{equation}
+\left(\frac{\partial^2}{\partial x^2}-\frac{1}{C(x,z)^2}\frac{\partial^2}{\partial t^2}\right)\Psi=0.
+\label{eq:non-reflec2}
+\end{equation}
+Fatorando o operador da equação anterior, se tem a forma:
+\begin{equation}
+\left(\frac{\partial}{\partial x}+\frac{1}{C(x,z)}\frac{\partial}{\partial t}\right)\left(\frac{\partial}{\partial x}-\frac{1}{C(x,z)}\frac{\partial}{\partial t}\right)\Psi=0.
+\label{eq:factoring}
+\end{equation}
+Se o produto dos dois termos na equação (\ref{eq:factoring}) é zero, então um ou o outro termo poderá ser zero. A equação (\ref{eq:left-side-model}) abaixo representa a propagação para a esquerda no modelo:
+\begin{equation}
+\left(\frac{\partial}{\partial x}-\frac{1}{C(x,z)}\frac{\partial}{\partial t}\right)\Psi=0.
+\label{eq:left-side-model}
+\end{equation}
+\begin{figure}[H]
+\centering
+\includegraphics[width=12.0cm,height=10.0cm,keepaspectratio]{figuras/cap4/dampingzone.pdf}
+\caption{Desenho da zona de amortecimento do modelo computacional. Fonte: Adaptado de \cite{Bording(1997)}.}
+\label{fig:damping-zone}
+\end{figure}
+
+É importante resaltar que a propagação de onda é analisada em 2, 2.5 e 3 dimensões, e que as equação é para ser fatorada de acordo com o medelo usado. Usualmente, considerando uma propagação vertical, se fatora a equação de onda ao longo do eixo $z$.
+
+Quando a equação da onda é aplicada para cada passo no tempo, erros de um passo anterior, $E_{r}$, pode ser calculado usando a equação (\ref{eq:erro}). Esse erro pode ser corrigido com a ajuda da condição de contorno da fronteira mostrado na Figura (\ref{fig:stencil}).
+\begin{equation}
+\left(\frac{\partial}{\partial x}-\frac{1}{C(x,z)}\frac{\partial}{\partial t}\right)\Psi^{n}_{x=\delta x}=E_{r}.
+\label{eq:erro}
+\end{equation}
+
+% A aproximação é corrigida apartir da inclusão de um termo ($E_{r}$), a partir do tempo anterior. O erro é calculado no tempo atual para um nó deslocado para um espaço dentro do nós do modelo, equação (\ref{eq:erro2}). O resultado da condição de contorno é mostrado nas equações (\ref{eq:boundary-left}), (\ref{eq:boundary-right}), (\ref{eq:boundary-top}), e (\ref{eq:boundary-bottom}) para todos os quatro lados de um modelo retangular, esquerdo, direito, topo e base, respectivamente.
+% \begin{equation}
+%  \left(\frac{\partial}{\partial x}-\frac{1}{C(x,z)}\frac{\partial}{\partial t}\right)\Psi^{n+1}_{x=0}-E_{r}=0.
+% \label{eq:erro2}
+% \end{equation}
+% 
+% Equação do limite do lado esquerdo do modelo:
+% \begin{equation}
+%  \left(\frac{\partial}{\partial x}-\frac{1}{C(x,z)}\frac{\partial}{\partial t}\right)\Psi^{n+1}_{x=0}-\left(\frac{\partial}{\partial x}-\frac{1}{C(x,z)}\frac{\partial}{\partial t}\right)\Psi^{n}_{x=\delta x}=0.
+% \label{eq:boundary-left}
+% \end{equation}
+% 
+% Equação do limite do lado direito do modelo:
+% \begin{equation}
+%  \left(\frac{\partial}{\partial x}-\frac{1}{C(x,z)}\frac{\partial}{\partial t}\right)\Psi^{n+1}_{x=xmax}-\left(\frac{\partial}{\partial x}-\frac{1}{C(x,z)}\frac{\partial}{\partial t}\right)\Psi^{n}_{x=xmax-\delta x}=0.
+% \label{eq:boundary-right}
+% \end{equation}
+% 
+% Equação do limite no topo do modelo:
+% \begin{equation}
+%  \left(\frac{\partial}{\partial x}-\frac{1}{C(x,z)}\frac{\partial}{\partial t}\right)\Psi^{n+1}_{z=0}-\left(\frac{\partial}{\partial x}-\frac{1}{C(x,z)}\frac{\partial}{\partial t}\right)\Psi^{n}_{z=\delta z}=0.
+% \label{eq:boundary-top}
+% \end{equation}
+% 
+% Equação do limite na base do modelo:
+% \begin{equation}
+%  \left(\frac{\partial}{\partial x}-\frac{1}{C(x,z)}\frac{\partial}{\partial t}\right)\Psi^{n+1}_{z=zmax}-\left(\frac{\partial}{\partial x}-\frac{1}{C(x,z)}\frac{\partial}{\partial t}\right)\Psi^{n}_{z=zmax-\delta z}=0.
+% \label{eq:boundary-bottom}
+% \end{equation}
+
+A equação de onda se torna difícil para resolver quando se têm ondas oriundas de ângulos diferentes do normal, para isto é necessário utilizar um método de ângulo dependente. O campo de onda é utilizado para determinar a direção da onda que entra, e esta onda é decomposta em duas partes, normal e tangencial. Se mais de uma onda entra na região de fronteira, isto faz com que a direção e a decomposição desta onda se torne mais complexa.
+
+\textbf{Zona de Amortecimento} 
+
+Para a solução numérica com a equação da onda se cria uma zona de amortecimento numérico (ver Figura \ref{fig:damping-zone}) para reduzir a intensidade da onda ao longo de uma região da malha próximo da fronteira, para fazer um amortecimento lento e suave pela aplicação um peso, $w(x_{w})$, que seja efetivo. Um detalhe é que o produto dos pesos, $W=\prod w(x_{w})$; $W\leq \epsilon$, deve obedecer a um valor pequeno $\epsilon$. A suavização é necessária para reduzir as reflexões no interior da zona de amortecimento.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=9.0cm,height=10.0cm,keepaspectratio]{figuras/cap4/damping.pdf}
+\caption{Desenho da fronteira e da zona de amortecimento referente ao lado esquerdo do modelo. Fonte: Adaptado de \cite{Bording(1997)}.}
+\label{fig:damping}
+\end{figure}
+
+Continuando, o peso para o lado esquerdo do modelo, $0\geq x_{w}\geq x_{b}$, é calculado com uma extensão da malha para fora do modelo considerado. Uma equação para os pesos é dada por: 
+\begin{equation}
+w(x_{w})=\exp^{-[0.015(20-i)]^2},
+\label{eq:peso_no}
+\end{equation}
+onde $i$ é o índice do nó. Os pesos são aplicados a todos os nós da região delimitada, e para todos os instantes temporais, como indicado nas equações (\ref{eq:finite-diffe-int1}) e (\ref{eq:finite-diffe-int2}) abaixo:
+\begin{equation}
+\hat{\Psi}^{n+1}(x_{w})=\Psi^{n+1}(x_{w})w(x_{w})
+\label{eq:finite-diffe-int1}
+\end{equation}
+\begin{equation}
+\hat{\Psi}^{n}(x_{w})=\Psi^{n}(x_{w})w(x_{w})
+\label{eq:finite-diffe-int2}
+\end{equation}
+
+Um exemplo da condição de contorno de amortecimento é mostrada na Figura (\ref{fig:damping}), onde essas condições são aplicadas para os lados e base do modelo. O topo do modelo pode ser reflexivo (não-absorvente).
+
+\section{Modelo Geológico Sintético}
+
+O modelo sintético da bacia de Camamu-Almada é baseado numa seção geológica da Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP). 
+Tem-se por objetivo simular de maneira satisfatória a geometria da bacia (camadas, falhas e dobras geológicas), figura (\ref{fig:bacia_camamu_almada_color_eixos_sl}). 
+O modelo consistirá de dados geológicos aproximados dos materiais que formam as suas camadas em subsuperfície (velocidade da onda sísmica, densidade).
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=13.0cm,height=5.0cm,keepaspectratio]{figuras/cap4/bacia_camamu_almada2.png}
+\caption{Seção geológica da Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP).}
+\label{fig:camamu_almada_anp}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=16.0cm,height=10.0cm,keepaspectratio]{figuras/cap4/bacia_camamu_almada_color_eixos_sl.pdf}
+\caption{Modelo sintético baseado numa seção geológica da bacia do Camamu-Almada (produzida pelo autor). Figura original baseada no dados do site da ANP.}
+\label{fig:bacia_camamu_almada_color_eixos_sl}
+\end{figure}
+
+\section{Resultados}
+
+
+

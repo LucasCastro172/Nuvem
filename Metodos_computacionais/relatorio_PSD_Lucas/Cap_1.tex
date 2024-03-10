@@ -1,0 +1,45 @@
+\chapter{introdução}
+\label{cap1}
+
+A teoria que descreve a propagação de uma onda mecânica é a base da 
+sismologia e sísmica de exploração. Essa teoria está 
+baseada na resolução das equações diferenciais parciais desde o modelo mais simples –
+onda acústica em um meio com densidade constante – até o modelo com uma complexidade
+maior. Saber a solução da equação da onda para um dado conjunto ou distribuição de
+fontes em um dado meio é crucial em várias aplicações dentro da sísmica de 
+exploração: estudos de iluminação para um levantamento sísmico, amarração 
+poço-sísmica, migração RTM, FWI, por exemplo.
+
+Porém, nem sempre esta solução pode ser obtida facilmente. Na verdade, a não ser 
+em casos mais simples de meios homogêneos ou meios com complexidade muito baixa, 
+a solução analítica nunca está ao alcance de nossas mãos. Neste contexto, a 
+procura por soluções numéricas se torna relevante, o que é comumente conhecido 
+por modelagem numérica. Esta usa modelos matemáticos para descrever as condições 
+físicas de cenários geológicos usando números e equações. Com modelos numéricos, 
+existem técnicas, como métodos de diferenças finitas e elementos finitos, para 
+aproximar as soluções dessas equações. Experimentos numéricos podem, então, ser 
+realizados nesses modelos produzindo os resultados que podem ser interpretados 
+no contexto do processo geológico \citep{ismail2010computational}.
+
+Neste trabalho, será feita a modelagem da equação acústica escalar. Para o processo de imageamento, foi utilizado a técnica RTM (\textit{Reverse Time Migration}).
+
+A RTM pode ser aplicada em um dado
+pós-empilhado ou pré-empilhado organizado em família de
+fonte comum, obtendo a imagem pelo princípio de \citep{claerbout1971toward} que diz: "O refletor
+existe nos pontos da subsuperfície onde a primeira chegada da onda descendente (onda
+direta da fonte) coincide no tempo t (tempo de propagação) e no espaço (x, y, z) com a
+onda ascendente (onda refletida)".
+
+A evolução das técnicas de obtenção de dados aumentou a quantidade destes que temos à disposição. Isso significa que, frequentemente, temos de processar mais dados para obtermos as informações que queremos. Para fazer com que isso aconteça em um tempo razoável, é necessário aumentar a capacidade de processamento das entidades envolvidas. O aumento do poder individual de processamento pode ser custoso ou até tecnicamente inviável. 
+
+Dessa forma, para obter o resultado de algum processamento em tempo razoável, frequentemente faz-se necessária a paralelização ou distribuição da computação dos dados. 
+
+ O objetivo geral deste trabalho é analisar como fica a imagem gerada, analisando sua qualidade com os eventos visíveis e o custo computacional após a paralelização do código.
+
+Para isso, serão apresentados os pressupostos teóricos referentes a modelagem da equação acústica, a técnica de imageamento RTM e a paralelização. Depois, serão mostrados os passos utilizados para poder gerar os resultado do RTM. Por fim, será apresentado a imagem obtida após todos os processos e terá a discussão sobre o tempo necessário e a qualidade da imagem obtida.
+
+
+
+
+
+

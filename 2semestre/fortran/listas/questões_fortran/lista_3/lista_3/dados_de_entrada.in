@@ -1,0 +1,8 @@
+40      !numero de pontos
+2       !grau do polinomio 
+3       !numero de colunas
+1.d-6   !precisao
+1 2 0.1 !raio, altura, profundidade
+6       !centro do 1 cilindro
+8       !centro do 2 cilindro
+10      !centro do 3 cilindro 

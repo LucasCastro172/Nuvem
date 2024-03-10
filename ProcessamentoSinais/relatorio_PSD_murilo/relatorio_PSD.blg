@@ -1,0 +1,76 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: relatorio_PSD.aux
+A level-1 auxiliary file: pretextuais.aux
+A level-1 auxiliary file: Cap_1.aux
+A level-1 auxiliary file: Cap_2.aux
+A level-1 auxiliary file: Cap_3.aux
+A level-1 auxiliary file: Cap_4.aux
+The style file: cpgf_seg.bst
+A level-1 auxiliary file: Cap_7_apendice.aux
+Database file #1: biblio.bib
+You're missing a field name---line 61 of file biblio.bib
+ : 
+ : %author    = {ANP, A. N. P.},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 69 of file biblio.bib
+ : 
+ : %author = {BDEP, B.D.E.P.},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 674 of file biblio.bib
+ : 
+ : pages     = {167}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field part---line 1567 of file biblio.bib
+ : month = 
+ :         }
+I'm skipping whatever remains of this entry
+Repeated entry---line 2824 of file biblio.bib
+ : @article{Hale(1991)
+ :                    ,
+I'm skipping whatever remains of this entry
+You've used 4 entries,
+            2636 wiz_defined-function locations,
+            732 strings with 6758 characters,
+and the built_in function-call counts, 1313 in all, are:
+= -- 137
+> -- 45
+< -- 3
++ -- 14
+- -- 14
+* -- 101
+:= -- 243
+add.period$ -- 4
+call.type$ -- 4
+change.case$ -- 27
+chr.to.int$ -- 4
+cite$ -- 4
+duplicate$ -- 53
+empty$ -- 101
+format.name$ -- 20
+if$ -- 268
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 6
+newline$ -- 15
+num.names$ -- 12
+pop$ -- 26
+preamble$ -- 1
+purify$ -- 27
+quote$ -- 0
+skip$ -- 40
+stack$ -- 0
+substring$ -- 67
+swap$ -- 2
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 20
+warning$ -- 0
+while$ -- 10
+width$ -- 0
+write$ -- 44
+(There were 5 error messages)

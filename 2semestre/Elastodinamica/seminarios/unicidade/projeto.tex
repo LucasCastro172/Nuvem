@@ -1,0 +1,85 @@
+\documentclass{beamer}
+
+\mode<presentation> {
+\usetheme{Madrid}
+%\usecolortheme{whale}
+}
+\RequirePackage{epsfig}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs}
+\usepackage{amsmath}% A
+\usepackage{bm}
+\usepackage{xcolor}
+\usepackage{subfigure}
+\usepackage{gensymb}
+\usepackage{tikz}
+\usepackage[document]{ragged2e}
+\usetikzlibrary{shapes,backgrounds}
+\graphicspath{{figures/}}
+% Define block styles
+\tikzstyle{block} = [rectangle, draw, fill=white, 
+text width=6em, text centered, rounded corners, node distance=2cm, minimum height=2em]
+\tikzstyle{line} = [draw, -latex]
+\tikzstyle{cloud} = [draw, ellipse,fill=white, node distance=2cm,
+minimum height=2em]
+
+
+\title[Demonstração]{Um exemplo simples de deslizamento em uma falha enterrada} % The short title appears at the bottom of every slide, the full title is only on the title page
+\input{macro.tex}
+
+\author{Lucas de Castro Costa} % Your name
+\institute[UFPA] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
+{
+	Professor: Jessé Costa\\
+Universidade Federal do Pará \\ % Your institution for the title page
+\medskip
+ % Your email address
+}
+\date{\today} % Date
+
+\setbeamercovered{transparent}
+
+%\AtBeginSection[]{
+%\begin{frame}
+%\frametitle{Sumário}
+% \tableofcontents[currentsection]
+%\end{frame}
+%}
+
+
+
+
+
+\begin{document}
+ \begin{frame}
+\begin{figure}[htb]
+\centering
+\includegraphics[width= 2cm, height= 2.5cm]{logo.jpg}
+\end{figure}
+
+\titlepage
+\end{frame}
+
+%%%%%%%%%%%Introdução
+%\section{Introdução}
+\begin{frame}{Parte inicial}
+
+
+$$\int \int \int_{V} \vc{f}\cdot \dot{\vc{u}}  + \int \int_{S} \vc{T} \cdot \dot{\vc{u}} = 
+ \ddt \int \int \int_{V} \frac{1}{2} \rho \dot{u}_i \dot{u}_i dV + 
+ \int \int \int_{V} \tau_{ij} \dot{e}_{ij}dV$$
+	
+
+
+\end{frame}
+
+\begin{frame}{Parte final}
+ $$\int \int \int_{V} \frac{1}{2} \rho \dot{U}_i \dot{U}_i dV + \int \int \int_{V} \frac{1}{2} C_{ijkl}U_{ij}U_{kl}dV = 0   $$
+ 
+\end{frame}
+
+
+
+\end{document}

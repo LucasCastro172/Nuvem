@@ -1,0 +1,225 @@
+\documentclass{beamer}
+
+\mode<presentation> {
+\usetheme{Madrid}
+%\usecolortheme{whale}
+}
+\RequirePackage{epsfig}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs}
+\usepackage{amsmath}% A
+\usepackage{bm}
+\usepackage{xcolor}
+\usepackage{subfigure}
+\usepackage{gensymb}
+\usepackage{tikz}
+\usepackage[document]{ragged2e}
+\usetikzlibrary{shapes,backgrounds}
+\graphicspath{{figures/}}
+
+
+\newcommand{\nvec}{\mathbf{n}}
+\newcommand{\xvec}{\mathbf{x}}
+\newcommand{\vvec}{\mathbf{v}}
+\newcommand{\mvec}{\mathbf{m}}
+\newcommand{\uvec}{\mathbf{u}}
+\newcommand{\fvec}{\mathbf{f}}
+\newcommand{\zvec}{\mathbf{0}}
+\newcommand{\xivec}{\boldmath \xi}
+% Define block styles
+\tikzstyle{block} = [rectangle, draw, fill=white, 
+text width=6em, text centered, rounded corners, node distance=2cm, minimum height=2em]
+\tikzstyle{line} = [draw, -latex]
+\tikzstyle{cloud} = [draw, ellipse,fill=white, node distance=2cm,
+minimum height=2em]
+
+
+\title[Seminário]{Representa\c{c}\~ao de fontes s\'ismicas} % The short title appears at the bottom of every slide, the full title is only on the title page
+\input{macro.tex}
+
+\author{} % Your name
+\institute[UFPA] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
+{
+	Professor: Jessé Costa\\
+Universidade Federal do Pará \\ % Your institution for the title page
+\medskip
+ % Your email address
+}
+\date{\today} % Date
+
+\setbeamercovered{transparent}
+
+\AtBeginSection[]{
+\begin{frame}
+\frametitle{Sumário}
+ \tableofcontents[currentsection]
+\end{frame}
+}
+
+
+
+
+
+\begin{document}
+ \begin{frame}
+\begin{figure}[htb]
+\centering
+\includegraphics[width= 2cm, height= 2.5cm]{logo.jpg}
+\end{figure}
+
+\titlepage
+\end{frame}
+
+\section{Teorema da representa\c{c}\~ao para uma superf\'icie interna descont\'inua}
+
+\begin{frame}{Teorema da representa\c{c}\~ao para uma superf\'icie interna descont\'inua}
+Assumindo um dom\'inio el\'astico $\Omega$ com uma superf\'icie externa $S$ e duas superf\'icies internas 
+adjacentes
+\begin{eqnarray}
+\label{trep1}
+u_{n}(\xvec,t) &=&  \int_{-\infty
+}^{+\infty}d\tau\int_{\Omega}d\Omega(\xvec')\,
+f_{p}(\xvec',\tau) G_{np}(\xvec,t-\tau;\xvec',0)\nonumber \, \\
+&+& \int_{-\infty }^{+\infty}d\tau\int_{\Sigma}d\Sigma(\xivec) 
+\, \left[ u_{i}(\xivec,\tau) \nu_{j}c_{ijpq}(\xivec) \frac{\partial}{\partial \xi_q} G_{np}(\xvec,t-\tau;\xivec,0)\right] 
+\nonumber \\      
+&-&  \int_{-\infty }^{+\infty}d\tau\int_{\Sigma}d\Sigma(\xivec)
+\, \left[ T_{p}(\xivec,\tau) G_{np}(\xvec,t-\tau;\xivec,0)\right] \ \nonumber ,
+\end{eqnarray}
+	
+\end{frame}
+
+\begin{frame}{Teorema da representa\c{c}\~ao para uma superf\'icie interna descont\'inua}
+	O segundo termo da equação anterior pode ser reescrito como:
+	\begin{eqnarray*}  
+		& & \int_{-\infty }^{+\infty}d\tau\int_{\Sigma}d\Sigma(\xivec)\, \left[ u_{i}(\xivec,\tau) \nu_{j}c_{ijpq}(\xivec) \frac{\partial}{\partial \xi_q} G_{np}(\xvec,t-\tau;\xivec,0)\right] =  \, \\
+		& & \int_{-\infty }^{+\infty}d\tau\int_{\Sigma^{+}}d\Sigma^{+}(\xivec)\, u^{+}_{i}(\xivec,\tau) \nu^{+}_{j} c_{ijpq}(\xivec) \frac{\partial}{\partial \xi_q} G_{np}(\xvec,t-\tau;\xivec,0)\, \\
+		& - & \int_{-\infty }^{+\infty}d\tau\int_{\Sigma^{-}}d\Sigma^{-}(\xivec)\, u^{-}_{i}(\xivec,\tau) \nu^{-}_{j} c_{ijpq}(\xivec) \frac{\partial}{\partial \xi_q} G_{np}(\xvec,t-\tau;\xivec,0)\, , \nonumber  
+	\end{eqnarray*}
+\end{frame}
+
+\begin{frame}{Teorema da representa\c{c}\~ao para uma superf\'icie interna descont\'inua}
+E o último termo seria:
+\begin{eqnarray*}  
+	& & \int_{-\infty }^{+\infty}d\tau\int_{\Sigma}d\Sigma(\xivec)\, \left[ T_{p}(\xivec,\tau) G_{np}(\xvec,t-\tau;\xivec,0) \right] =  \, \\
+	& & \int_{-\infty }^{+\infty}d\tau\int_{\Sigma^{+}}d\Sigma^{+}(\xivec)\,  T^{+}_{p}(\xivec,\tau) G_{np}(\xvec,t-\tau;\xivec,0)\, \\
+	&-& \int_{-\infty }^{+\infty}d\tau\int_{\Sigma^{-}}d\Sigma^{-}(\xivec)\, T^{-}_{p}(\xivec,\tau)G_{np}(\xvec,t-\tau;\xivec,0) \, ,   
+\end{eqnarray*}
+\end{frame}
+
+\begin{frame}{Teorema da representa\c{c}\~ao para uma superf\'icie interna descont\'inua}
+	E o último termo seria:
+	\begin{eqnarray*}  
+		& & \int_{-\infty }^{+\infty}d\tau\int_{\Sigma}d\Sigma(\xivec)\, \left[ T_{p}(\xivec,\tau) G_{np}(\xvec,t-\tau;\xivec,0) \right] =  \, \\
+		& & \int_{-\infty }^{+\infty}d\tau\int_{\Sigma^{+}}d\Sigma^{+}(\xivec)\,  T^{+}_{p}(\xivec,\tau) G_{np}(\xvec,t-\tau;\xivec,0)\, \\
+		&-& \int_{-\infty }^{+\infty}d\tau\int_{\Sigma^{-}}d\Sigma^{-}(\xivec)\, T^{-}_{p}(\xivec,\tau)G_{np}(\xvec,t-\tau;\xivec,0) \, ,   
+	\end{eqnarray*}
+\end{frame}
+
+\begin{frame}{Teorema da representa\c{c}\~ao para uma superf\'icie interna descont\'inua}
+
+\only<1>{A fun\c{c}\~ao de Green satisfaz a equa\c{c}\~ao da onda tanto em $\Omega$ quanto na descontinuidade $\Sigma$. Portanto, pode alterar esta equação abaixo:
+	\begin{eqnarray}
+	\label{trep1}
+	u_{n}(\xvec,t) &=&  \int_{-\infty
+	}^{+\infty}d\tau\int_{\Omega}d\Omega(\xvec')\,
+	f_{p}(\xvec',\tau) G_{np}(\xvec,t-\tau;\xvec',0)\nonumber \, \\
+	&+& \int_{-\infty }^{+\infty}d\tau\int_{\Sigma}d\Sigma(\xivec) 
+	\, \left[ u_{i}(\xivec,\tau) \nu_{j}c_{ijpq}(\xivec) \frac{\partial}{\partial \xi_q} G_{np}(\xvec,t-\tau;\xivec,0)\right] 
+	\nonumber \\      
+	&-&  \int_{-\infty }^{+\infty}d\tau\int_{\Sigma}d\Sigma(\xivec)
+	\, \left[ T_{p}(\xivec,\tau) G_{np}(\xvec,t-\tau;\xivec,0)\right] \ \nonumber ,
+	\end{eqnarray}}
+\only<2>{Para este formato:
+	\begin{eqnarray}
+\label{trep2}
+u_{n}(\xvec,t) &=&  \int_{-\infty
+}^{+\infty}d\tau\int_{\Omega}d\Omega(\xvec')\,
+f_{p}(\xvec',\tau) G_{np}(\xvec,t-\tau;\xvec',0)\nonumber \, \\
+&+& \int_{-\infty }^{+\infty}d\tau\int_{\Sigma}d\Sigma(\xivec) 
+\, \left[ u_{i}(\xivec,\tau)\right] \nu_{j}c_{ijpq}(\xivec) \frac{\partial}{\partial \xi_q} G_{np}(\xvec,t-\tau;\xivec,0) 
+\nonumber \\      
+&-&  \int_{-\infty }^{+\infty}d\tau\int_{\Sigma}d\Sigma(\xivec)
+\, \left[T_{p}(\xivec,\tau) \right] G_{np}(\xvec,t-\tau;\xivec,0)  \, ,\nonumber
+\end{eqnarray}}
+
+
+\end{frame}
+
+\begin{frame}{Teorema da representa\c{c}\~ao para uma superf\'icie interna descont\'inua}
+	Tem-se que o campo de deslocamento nos lados da descontinuidade $u_{i}^{-}(\xivec,t)$ e $u_{i}^{+}(\xivec,t)$ s\~ao 
+	diferentes, enquanto que as tra\c{c}\~oes $T_{p}^{-}(\xivec,t)$ e $T_{p}^{+}(\xivec,t)$ se cancelam se for assumido 
+	que elas s\~ao cont\'inuas na superf\'icie $\Sigma$. Portanto,o teorema da representa\c{c}\~ao se reduz para
+\begin{eqnarray}
+\label{feq1}
+u_{n}(\xvec,t) &=& \int_{-\infty }^{+\infty}d\tau\int_{\Sigma}d\Sigma(\xivec) 
+\, \left[ u_{i}(\xivec,\tau)\right] \nu_{j}c_{ijpq}(\xivec) \frac{\partial}{\partial \xi_q} G_{np}(\xvec,t-\tau;\xivec,0) \, ,
+\end{eqnarray}	
+	
+\end{frame}
+
+
+
+\section{Forças de corpo equivalentes}
+
+
+\begin{frame}{Forças de corpo equivalentes para o campo de tração}
+
+\end{frame}
+
+\begin{frame}
+	\begin{figure}[htb]
+		\centering
+		\includegraphics[width= 8cm, height= 8cm]{superficie}
+	\end{figure}
+\end{frame}
+
+\begin{frame}
+	\begin{equation}
+	\begin{matrix}
+	f_1(\vc{\eta},\tau) &=& -M_0\delta(\eta_1)\delta(\eta_2)\frac{\partial}{\partial \eta_3}\delta(\eta_3)H(\tau) \nonumber \\
+	f_2(\vc{\eta},\tau)& =& 0 \nonumber \\
+	f_3(\vc{\eta},\tau) &=& -M_0\frac{\partial}{\partial \eta_1}\delta(\eta_1)\delta(\eta_2)\delta(\eta_3)H(\tau)
+	\end{matrix}
+	\end{equation}
+	$$M_0 =  \mu \bar{u}A = \mu \times \text{deslizamento médio} \times \text{área de falha} $$
+	$$\text{log} M_0 = 1.5 M_w + 16.1 $$
+\end{frame}
+
+
+
+\begin{frame}
+	\begin{figure}[htb]
+		\centering
+		\includegraphics[width= 8cm, height= 8cm]{diagramas}
+	\end{figure}
+\end{frame}
+
+\begin{frame}
+	\begin{figure}[htb]
+		\centering
+		\includegraphics[width= 8cm, height= 8cm]{distribuicao}
+	\end{figure}
+\end{frame}
+
+\begin{frame}
+	\begin{figure}[htb]
+		\centering
+		\includegraphics[width= 8cm, height= 8cm]{terceira}
+	\end{figure}
+\end{frame}
+
+\begin{frame}
+	\begin{figure}[htb]
+		\centering
+		\includegraphics[width= 8cm, height= 8cm]{forca}
+	\end{figure}
+\end{frame}
+
+
+
+
+
+\end{document}

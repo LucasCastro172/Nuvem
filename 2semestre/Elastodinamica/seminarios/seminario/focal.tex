@@ -1,0 +1,190 @@
+\documentclass{beamer}
+
+\mode<presentation> {
+\usetheme{Madrid}
+%\usecolortheme{whale}
+}
+\RequirePackage{epsfig}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs}
+\usepackage{amsmath}% A
+\usepackage{bm}
+\usepackage{xcolor}
+\usepackage{subfigure}
+\usepackage{gensymb}
+\usepackage{tikz}
+\usepackage[document]{ragged2e}
+\usetikzlibrary{shapes,backgrounds}
+\graphicspath{{figures/}}
+\usepackage{amsmath,amssymb}
+
+\newcommand{\nvec}{\vc{n}}
+\newcommand{\xvec}{\vc{x}}
+\newcommand{\evec}{\vc{e}}
+\newcommand{\vvec}{\vc{v}}
+\newcommand{\mvec}{\vc{m}}
+\newcommand{\uvec}{\vc{u}}
+\newcommand{\fvec}{\vc{f}}
+\newcommand{\zvec}{\vc{0}}
+\newcommand{\Psivec}{\vc{ \Psi}}
+\newcommand{\xivec}{\boldmath \xi}
+\newcommand{\ub}{\bar{u}}
+\newcommand{\g}{\gamma}
+
+
+
+% Define block styles
+\tikzstyle{block} = [rectangle, draw, fill=white, 
+text width=6em, text centered, rounded corners, node distance=2cm, minimum height=2em]
+\tikzstyle{line} = [draw, -latex]
+\tikzstyle{cloud} = [draw, ellipse,fill=white, node distance=2cm,
+minimum height=2em]
+
+
+\title[Seminário]{Mecanismo Focal de Exibição} % The short title appears at the bottom of every slide, the full title is only on the title page
+\input{macro.tex}
+
+\author{} % Your name
+\institute[UFPA] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
+{
+	Professor: Jessé Costa\\
+Universidade Federal do Pará \\ % Your institution for the title page
+\medskip
+ % Your email address
+}
+\date{\today} % Date
+
+\setbeamercovered{transparent}
+
+\AtBeginSection[]{
+\begin{frame}
+\frametitle{Sumário}
+ \tableofcontents[currentsection]
+\end{frame}
+}
+
+
+\begin{document}
+ \begin{frame}
+\begin{figure}[htb]
+\centering
+\includegraphics[width= 2cm, height= 2.5cm]{logo.jpg}
+\end{figure}
+
+\titlepage
+\end{frame}
+\begin{frame}{Para o tensor de momento}
+\small
+\begin{eqnarray}
+M_{pq} \ast G_{np,q} &=&\left(\frac{15\gamma_n\gamma_p\gamma_q-3\gamma_n\delta_{pq}-3\gamma_p\delta_{nq}-3\gamma_{q}\delta_{np}}{4\pi\rho}\right)\frac{1}{r^4}\int_{r/\alpha}^{r/\beta} \tau M_{pq}(t-\tau) d\tau \nonumber \\
+&&+ \left(\frac{6\gamma_n\gamma_p\gamma_q-\gamma_n\delta_{pq}-\gamma_p\delta_{nq}-\gamma_{q}\delta_{np}}{4\pi\rho\alpha^2}\right)\frac{1}{r^2}M_{pq}\left(t-\frac{r}{\alpha}\right) \nonumber \\
+&&-
+\left(\frac{6\gamma_n\gamma_p\gamma_q-\gamma_n\delta_{pq}-\gamma_p\delta_{nq}-\gamma_{q}\delta_{np}}{4\pi\rho\beta^2}\right)\frac{1}{r^2}M_{pq}\left(t-\frac{r}{\beta}\right) \nonumber \\
+&&+ \frac{\gamma_n \gamma_p \gamma_q}{4\pi\alpha^3}\frac{1}{r}\dot{M}_{pq}\left(t-\frac{r}{\alpha}\right)- \left(\frac{\gamma_n\gamma_p-\delta_{np}}{4\pi\beta^3}\right)\gamma_{q}\frac{1}{r}\dot{M}_{pq}\left(t-\frac{r}{\beta}\right) \nonumber
+\end{eqnarray}
+
+\end{frame}
+
+\begin{frame}{Deslocamento de cisalhamento}
+	\begin{eqnarray}
+	\mu(\ub_pv_q+\ub_qv_p)A \ast G_{np,q}&=&R_1\mu A\int_{r/\alpha}^{r/\beta} \tau \ub_pv(t-\tau) d\tau \nonumber \\
+	&&+ R_2\mu A\ub_p\left(t-\frac{r}{\alpha}\right) \nonumber \\
+	&&-
+    R_3\mu A\ub_p\left(t-\frac{r}{\beta}\right) \nonumber \\
+	&&+ R_4\mu A\dot{\ub}_{p}\left(t-\frac{r}{\alpha}\right)- R_5\mu A\dot{ub}_{p}\left(t-\frac{r}{\beta}\right) \nonumber
+	\end{eqnarray}
+
+\end{frame}
+
+\begin{frame}{Deslocamento de cisalhamento}
+	\begin{eqnarray}
+	R_1 &=& \frac{30\g_n\g_p\g_qv_q-6v_n\g_p-6\delta_{np}\g_qv_q}{4\pi\rho r^4} \nonumber \\
+	R_2 &=& \frac{12\g_n\g_p\g_qv_q-2v_n\g_p-\delta_{np}\g_qv_q}{4\pi\rho\alpha^2 r^2} \nonumber \\
+	R_3 &=& \frac{12\g_n\g_p\g_qv_q-3v_n\g_p-3\delta_{np}\g_qv_q}{4\pi\rho\beta^2 r^2} \nonumber \\
+	R_4 &=& \frac{2\g_n\g_p\g_qv_q}{4\pi\rho\alpha^3r} \nonumber \\
+	R_5 &=& \frac{2\g_n\g_p\g_qv_q-v_n\g_p-\delta_{np}\g_qv_q}{4\pi\rho\beta^3 r} \nonumber 
+	\end{eqnarray}
+\end{frame}
+
+\begin{frame}{$\phi = 0$}
+	\begin{figure}[htb]
+		\centering
+		\includegraphics[width= 10cm, height= 8cm]{fig44}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{$\phi = 0$}
+	\begin{figure}[htb]
+		\centering
+		\includegraphics[width= 10cm, height= 8cm]{fig45}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{$\phi = 0$}
+	\begin{figure}[htb]
+		\centering
+		\includegraphics[width= 10cm, height= 8cm]{fig46}
+	\end{figure}
+\end{frame}
+
+
+%\begin{frame}{Deslocamento de cisalhamento}
+%	\begin{eqnarray}
+%	2\g_n\g_p\ub_{p}\g_qv_q & \text{é a enésima componenente o} \quad  \ub \sin 2\theta \cos \phi \vc{\hat{r}} \nonumber \\
+%	2v_n\g_p\ub_{p} & \text{é a enésima componenente o} \quad  \ub \sin 2\theta \cos \phi \vc{\hat{r}}- \ub 2\sin^2\theta \cos \phi \vc{\hat{\theta}} \nonumber \\
+%	R_3 & \frac{12\g_n\g_p\g_qv_q-3v_n\g_p-3\delta_{np}\g_qv_q}{4\pi\rho\beta^2 r^2} \nonumber \\
+%	R_4 & \frac{2\g_n\g_p\g_qv_q}{4\pi\rho\alpha^3r} \nonumber \\
+%	R_5 & \frac{2\g_n\g_p\g_qv_q-v_n\g_p-\delta_{np}\g_qv_q}{4\pi\rho\beta^3 r} \nonumber 
+%	\end{eqnarray}
+%\end{frame}
+
+\begin{frame}{Deslocamento de cisalhamento}
+	\begin{eqnarray}
+	\vc{u}(\vc{x},t)&=&\frac{1}{4\pi\rho}\vc{A}^N\frac{1}{r^4}\int_{r/\alpha}^{r/\beta} \tau M_0(t-\tau) d\tau \nonumber \\
+	&&+ \frac{1}{4\pi\rho\alpha^2}\vc{A}^{IP}\frac{1}{r^2}M_0\left(t-\frac{r}{\alpha}\right) + \frac{1}{4\pi\rho\beta^2}\vc{A}^{IS}\frac{1}{r^2}M_0\left(t-\frac{r}{\beta}\right) \nonumber \\
+	&&+ \frac{1}{4\pi\rho\alpha^3}\vc{A}^{FP}\frac{1}{r}\dot{M}_0\left(t-\frac{r}{\alpha}\right) + \frac{1}{4\pi\rho\beta^3}\vc{A}^{FS}\frac{1}{r}\dot{M}_0\left(t-\frac{r}{\beta}\right) \nonumber 
+	\end{eqnarray}
+	
+\end{frame}
+
+\begin{frame}
+\begin{eqnarray}
+\vc{A}^{N} &=& 9\sin2\theta \cos\phi \vc{\hat{r}}-6(\cos 2\theta\cos \phi \vc{\hat{\theta}}-\cos \theta \sin \phi \vc{\hat{\phi}})\nonumber \\
+\vc{A}^{IP} &=& 4\sin2\theta \cos\phi \vc{\hat{r}}-2(\cos 2\theta\cos \phi \vc{\hat{\theta}}-\cos \theta \sin \phi \vc{\hat{\phi}})\nonumber \\
+\vc{A}^{IS} &=& -3\sin2\theta \cos\phi \vc{\hat{r}}+3(\cos 2\theta\cos \phi \vc{\hat{\theta}}-\cos \theta \sin \phi \vc{\hat{\phi}})\nonumber \\
+\vc{A}^{FP} &=& \sin2\theta \cos\phi \vc{\hat{r}} \nonumber \\
+\vc{A}^{FS} &=& \cos 2\theta\cos \phi \vc{\hat{\theta}}-\cos \theta \sin \phi \vc{\hat{\phi}}\nonumber 
+\end{eqnarray}	
+\end{frame}
+
+\begin{frame}
+\begin{equation}
+\vc{u}(\vc{x},\infty) =\frac{M_0(\infty)}{4\pi\rho  r^2} \vc{A}^{N}\left[\left(\frac{1}{2\beta^2}-\frac{1}{2\alpha^2}\right)+\frac{\vc{A}^{IP}}{\alpha^2}+\frac{\vc{A}^{IS}}{\beta^2}\right] \nonumber
+\end{equation}
+\end{frame}
+
+
+\begin{frame}{$\phi = 0$}
+	\begin{figure}[htb]
+		\centering
+		\includegraphics[width= 10cm, height= 8cm]{fig31}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{$\phi = 0$}
+	\begin{figure}[htb]
+		\centering
+		\includegraphics[width= 8cm, height= 8cm]{kanamori}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{$\phi = 0$}
+	\begin{figure}[htb]
+		\centering
+		\includegraphics[width= 10cm, height= 8cm]{fig322}
+	\end{figure}
+\end{frame}
+
+\end{document}

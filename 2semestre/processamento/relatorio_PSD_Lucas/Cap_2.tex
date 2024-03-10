@@ -1,0 +1,72 @@
+\chapter{PARTE TEÓRICA}
+\label{cap.2}
+
+\section{MÉTODO SÍSMICO DE REFLEXÃO}
+A teoria que descreve a propagação de uma onda mecânica é a base da sismologia e
+sísmica de exploração. Essa teoria está baseada na resolução das equações diferenciais
+parciais desde o modelo mais simples – onda acústica em um meio com densidade constante
+– até o modelo com uma complexidade maior. Saber a solução da equação da onda para
+um dado conjunto ou distribuição de fontes em um dado meio é crucial em várias aplicações
+dentro da sísmica de exploração: estudos de iluminação para um levantamento sísmico,
+amarração poço-sísmica, migração RTM, FWI, por exemplo.
+
+O método sísmico de reflexão, consiste, basicamente, em obter informações da subsuperfície através da propagação de ondas produzidas por fontes artificiais em superfície e o posterior registro dessas ondas em receptores (geofones), que estão em superfície.
+
+As ondas geradas pelas fontes propagam-se na subsuperfície, sendo transmitidas, refletidas e difratadas por interfaces geológicas que delimitam as camadas de rochas de diferentes propriedades físicas \citep{zakaria2000two}.
+As ondas registradas nos receptores são provenientes das reflexões das interfaces, o sinal registrado pelos receptores possuem informações sob as ondas propagadas e suas mudanças conforme o trajeto do percusso da onda \citep{yilmaz2001seismic}.
+
+
+O metódo sísmico baseia-se na propagação do campo de onda, ou seja, na evolução temporal e espacial da frente de onda através de um meio com propriedades distintas e específicas, nas quais afetam diretamente a energia sísmica em propagação, fazendo-se necessário o estudo da equação da onda para compreender os fenômenos físicos envolvidos.
+
+
+\section{MODELAGEM DA ESTRUTURA GEOLÓGICA}
+
+O objetivo da modelagem de uma seção sísmica é a construção de um modelo que represente a subsuperfície de forma coerente geologicamente. A modelagem sísmica pode ser feita de forma direta e inversa a primeira é realizada quando se parte de um modelo geológico ``a priori'' onde conhecendo os parâmetros (velocidade, densidade), é gerada a resposta da energia de amplitude das ondas propagadas sob a condição da geometria das interfaces e camadas, registradas no sismograma sintético. Já na modelagem inversa, tem-se a resposta sísmica da subsuperfície e a partir da resposta, tenta-se então estimar os parâmetros sísmicos para construir um modelo geológico conciso a essas propriedades estimadas.
+
+A modelagem direta, ou seja, o processo através do qual um modelo geológico de subsuperfície, em uma, duas ou três dimensões, é transformado em um registro sísmico sintético de dimensão correspondente, foi primeiramente usado por exploracionistas na década de 50 \citep{Edwards(1988)}.
+
+A modelagem sísmica consiste de um sistema de equações diferenciais parciais (geralmente equações da onda acústicas, elásticas, visco-elásticas, etc.) acompanhadas das condições de contorno (comportamento nas interfaces e bordas do modelo) e condições iniciais (caracterização da emissão de energia pela fonte, tempo de propagação requerido, etc.). Na modelagem acústica na ausência de fontes internas, o sistema de equações diferenciais que expressa a resposta de um modelo geológico a um campo de ondas incidente, é constituído de equações da onda do tipo:
+
+\begin{equation}
+\nabla^{2}P(\mathbf{x},t)-\frac{1}{v^{2}}\frac{\partial^{2}}{\partial t^{2}}P(\mathbf{x},t)= 0,
+\label{eq:Equacao_onda_acustica_0}
+\end{equation}
+
+
+O pacote Seismic Unix (SU) oferece subrotinas de modelagem e processamento de dados sísmicos, pode-se dividir em três grandes etapas este relatório:
+
+\begin{itemize}
+	\item Criação do modelo pela subrotina \textit{trimodel}.
+	\item Aquisição do modelo (simulação do experimento sísmico).
+\end{itemize}
+
+Para a modelagem da estrutura geológica foi usada a subrotina \textit{trimodel} do pacote \textit{Seismic Unix} \citep{STOCKWELL(2017)}, esta rotina se baseia na triangulação de Delaunay. Este método sofisticado de geração de gráficos e imagens digitais, em duas ou três dimensões, é amplamente utilizado para modelar
+a superfície de objetos de diferentes complexidades.
+
+A subrotina \textit{trimodel} do SU cria um modelo triangularizado. 
+A velocidade é introduzida na forma de vagarosidade, o método realiza o traçamento dos raios baseado na equação iconal \citep{Forel(2005)}. A vagarosidade ao quadrado das regiões (triângulos) é determinada pela equação (\ref{eq:vagarosidade}), onde o usuário define como é a variação da velocidade dentro de cada camada, na forma:
+
+\begin{equation}
+s(x,z)=s_{0}+\left(x-x_{0}\right) \frac{ds}{dx}+\left(z-z_{0}\right) \frac{ds}{dz}
+\label{eq:vagarosidade}
+\end{equation}
+
+
+\section{PARÂMETROS DE AQUISIÇÃO}
+
+Para se obter um sismograma sintético a partir de uma modelagem sísmica é preciso definir, inicialmente, a geometria de aquisição de dados. Neste sistema devem ser estabelecidas: a quantidade de receptores, a distância entre a fonte e o primeiro receptor e a distância entre os demais receptores.
+
+Utilizamos a subrotina \textit{triseis} do \textit{Seismic Unix} que tem por objetivo gerar os traços sísmicos referente a resposta do modelo de camadas curvas. A subrotina se baseia na teoria de raios e gera os sismogramas sintéticos de feixes Gaussianos, a partir de um modelo triangularizado preenchido (triângulos) com os valores de vagarosidade. Os parâmetros requeridos pela subrotina são:
+
+\begin{itemize}
+	\item xs: coordenadas da fonte
+	\item zs: profundidade da fonte em superfície
+	\item xg: coordenada dos receptores em superfície
+	\item zg: profundidade dos receptores
+\end{itemize}
+
+\section{Próximos passos do Processamento Sísmico}
+
+Com o modelo de velocidade pronto e a aquisição feita, deve-se realizar os seguintes passos: análise da velocidade, correção de deslocamento normal (NMO), empilhamento e migração.
+
+Após a aquisição dos dados de reflexão sísmica, os mesmos dados são processados, de forma que o produto final seja a seção sísmica, a ser interpretada por geofísicos e geólogos. Existem três etapas principais no processamento de dados sísmicos: deconvolução, empilhamento e migração, em sua ordem usual de aplicação \citep{ylmaz1987seismic}. A deconvolução remove os efeitos da \textit{wavelet}, que é a onda gerada pela fonte sísmica, do traço sísmico registrado nos receptores de superfície. Com a deconvolução aumenta a resolução temporal do traço sísmico. Após a deconvolução, ocorre o empilhamento que é um procedimento de compressão, de forma que o volume de dados é reduzido a uma seção sísmica empilhada. Isso é feito aplicando a correção de deslocamento normal (NMO) aos traços sísmicos classificados em grupos ou famílias de pontos médios comuns (CMPs) e, em seguida, os traços são somados ao longo do eixo de deslocamento. Um importante parâmetro necessário para o empilhamento é a chamada velocidade de empilhamento, que por sua vez é obtida por meio de uma análise de velocidade ou de um processo estatístico de maximização da consistência. Finalmente, a migração é uma etapa que elimina difrações e mapeia os eventos em uma seção empilhada para suas posições corretas de subsuperfície. Para obter a imagem empilhada, os dados são transformados de coordenadas fonte-receptor em famílias CMP. Uma família CMP consiste em vários traços sísmicos que têm diferentes posições de fonte e receptor, mas todos têm o mesmo ponto médio \citep{ortega2020non}.

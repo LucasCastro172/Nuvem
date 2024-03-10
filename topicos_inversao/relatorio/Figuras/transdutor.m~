@@ -1,0 +1,324 @@
+%=================================================================
+% Programa : Funcao t r a n s f e r e n c i a do g e o f o n e mecanico s i m p l e s .
+% Autores : L o u r e n i l d o e Wildney .
+% Data da a t u a l i z a c a o : 18 de Marco de 2 0 2 1 .
+%=================================================================
+% Observacoes :
+%
+% ( 1 ) A f u n c a o t r a n s f e r e n c i a do t r a n s d u t o r e l e t r o m a g n e t i c o e e
+% d e f i n i d a no dominio da f r e q u e n c i a , e p e l a TF i n v e r s a s e obtem
+% a r e s p o s t a temporal .
+% ( 2 ) P r i m e i r o s e c a l c u l a a s componentes e s p e c t r a i s c o r r e s p o n d e n t e s
+% ao e i x o p o s i t i v o , e por r e f l e x a o o e i x o n e g a t i v o .
+% ( 3 ) Um problema com o e s p e c t r o do g e o f o n e e e que e l e nao e e z e r o
+% para a s a l t a s f r e q u e n c i a s , mas a s s i n t o t i c o com um partamar a l t o ,
+% o que conduz a um s i n a l nao−c a u s a l no dominio do tempo
+% ( ver f i g u r a correspondente ) .
+% ( 4 ) A nao−c a u s a l i d a d e do t r a c o t e m p o r a l deve s e r c o r r i g i d a com
+% r e c u r s o s do Matlab , ou o uso de d e s l o c a m e n t o de f a s e quando f o r
+% c a l c u l a r a TF i n v e r s a .
+% ( 5 ) Para c a l c u l a r a f r e q u e n c i a ou o tempo , m u l t i p l i q u e o i n d i c e
+
+clc ;
+close all ;
+clear ;
+tic
+
+% Parametros de entrada e controle
+
+Ao=1000;
+% Amplificacao .
+h = [ 0.2 0.4 0.6 0.8 1.0 ] ; % Amortecimento v i s c o s o .
+Nh = length(h) ;
+% Numero de a m o r t e c i m e n t o s v i s c o s o .
+fn = 10;
+% F r e q u e n c i a n a t u r a l Hz do s e n s o r em 1/ s .
+Nf =128;
+% Numero f r q u e n c i a s : 3 2 , 6 4 , 128
+Df = 1.0 ;
+Dt=1/(Nf*Df ) ;
+
+
+% C a l c u l o do e i x o das f r e q u e n c i a s p o s i t i v a e n e g a t i v a . A f r e q u e n c i a
+% z e r o e a Nyquist s a o comuns a o s d o i s e i x o s :
+
+for n=1: Nf /2 +1
+    f(n) = (n-1)*Df ;
+end
+
+for n=(Nf/2) +2: Nf
+    f(n)= - f(Nf+2-n) ;
+end
+
+% D e f i n i c a o no dominio da f r e q u e n c i a s i m p l e s ( p o s i t i v a apenas ) .
+% Apenas para v e r a s c a r a c t e r i s t i c a s do e s p e c t r o .
+
+ii = 1;
+j = 1;
+for j = 1:Nh
+    for ii = 1:Nf
+        if ( ii <(Nf /2 + 1 ) )
+            f_razao (ii) = f (ii)/fn ; % Frequencias p o s i t i v a s.
+            Numerador = Ao*( f_razao(ii)).^2 ;
+            Denominador = (1-(f_razao(ii)).^2).^2 + (2.0*h(j)*f_razao(ii)).^2;
+            Fator = 1-(f_razao(ii)).^2 + i*2.0*h(j)*(f_razao(ii));
+            X(ii,j) = (Numerador/ Denominador )*Fator ;
+        else
+            f_razao (ii) = f (ii)/fn ; % Frequencias p o s i t i v a s.
+            Numerador = Ao*( f_razao(ii)).^2 ;
+            Denominador = (1-(f_razao(ii)).^2).^2 + (2.0*h(j)*f_razao(ii)).^2;
+            Fator = 1-(f_razao(ii)).^2 + i*2.0*h(j)*(f_razao(ii));
+            X(ii,j) = (Numerador/ Denominador )*Fator ;
+        end
+    end
+end
+
+%
+
+Ampl_X=abs (X); % Calculo do espectro de amplitude .
+Fase_X=unwrap(atan2( imag(X),real(X))); % Fase restaurada .
+Real_X=real(X); % Selecao da parte real .
+Imag_X=imag(X); % Selecao da parte imaginaria .
+X_t = ifft(X);
+Real_X_t=real(X_t);
+Imag_X_t=imag(X_t);
+
+% Espectros dobrados ( eixos positivo e negativo ).
+
+figure (1)
+plot(Real_X,'LineWidth',2) % E i x o s pos . e neg . Funcao par . OK.
+grid on ;
+legend ('h=0.2', 'h=0.4', 'h=0.6', 'h=0.8', 'h=1.0','location','best')
+xlabel ('Índice da frequência relativa (\omega/\omega_n)','fontsize',15 ,'fontweight','b')
+ylabel ('Amplitude R(f)','fontsize',15,'fontweight','b')
+title ('Parte real do espectro','fontsize',15,'fontweight','b')
+set (gca ,'FontSize',15); % tamanho da f o n t e dos a x i s
+set (gcf ,'PaperPosition',[ 0.25 2.5 5.0 5.0 ]) ; % [ l e f t bottom width h e i g h t ]
+set (gcf ,'PaperSize',[ 8.5 11 ]) ; % [ x y ]
+saveas(1,'Espectro_real_X_f.png')
+
+%
+
+figure(2)
+plot( Imag_X, 'LineWidth',2) % E i x o s pos . e neg . Funcao impar . OK.
+grid on ;
+legend ('h=0.2', 'h=0.4', 'h=0.6', 'h=0.8', 'h=1.0','location','best')
+xlabel ('Índice da frequência relativa (\omega/\omega_n)','fontsize',15,'fontweight','b')
+ylabel ('Amplitude I(f)','fontsize',15,'fontweight','b')
+title ('Parte imaginária do espectro','fontsize',15,'fontweight','b')
+set (gca,'FontSize',15); % tamanho da f o n t e dos a x i s
+set (gcf,'PaperPosition',[ 0.25 2.5 5.0 5.0 ]) ; % [ l e f t bottom width h e i g h t ]
+set (gcf ,'PaperSize',[ 8.5 11 ]) ; % [ x y ]
+saveas(2,'Espectro_imaginaria_X_f.png')
+
+% %
+
+
+figure(3)
+plot(Ampl_X, 'LineWidth',2) % E i x o s pos . e neg . Funcao par . OK.
+grid on ;
+legend ('h=0.2', 'h=0.4', 'h=0.6', 'h=0.8', 'h=1.0','location','best')
+xlabel ('Índice da frequência relativa (\omega/\omega_n)','fontsize',15,'fontweight','b')
+ylabel ('Amplitude I(f)','fontsize',15,'fontweight','b')
+title ('Espectro de amplitude','fontsize',15,'fontweight','b')
+set (gca,'FontSize',15); % tamanho da f o n t e dos a x i s
+set (gcf,'PaperPosition',[ 0.25 2.5 5.0 5.0 ]) ; % [ l e f t bottom width h e i g h t ]
+set (gcf,'PaperSize',[ 8.5 11 ]) ; % [ x y ]
+saveas(3,'Espectro_amplitude_X_f.png')
+
+% 
+
+figure(4)
+plot(Fase_X,'LineWidth',2) % E i x o s pos . e neg . Funcao par . OK.
+grid on ;
+legend ('h=0.2', 'h=0.4', 'h=0.6', 'h=0.8', 'h=1.0','location','best')
+xlabel ('Índice da frequência relativa (\omega/\omega_n)','fontsize',15,'fontweight','b')
+ylabel ('Fase \theta(f)','fontsize',15,'fontweight','b')
+title ('Espectro de fase restaurada','fontsize',15,'fontweight','b')
+set (gca,'FontSize',15); % tamanho da f o n t e dos a x i s
+set (gcf,'PaperPosition',[ 0.25 2.5 5.0 5.0 ]) ; % [ l e f t bottom width h e i g h t ]
+set (gcf,'PaperSize',[ 8.5 11 ]) ; % [ x y ]
+saveas(4,'Espectro_fase_X_f.png')
+
+ 
+% 
+
+figure(5)
+plot(Real_X_t,'LineWidth',2) % E i x o s pos . e neg . Funcao par . OK.
+grid on ;
+legend ('h=0.2', 'h=0.4', 'h=0.6', 'h=0.8', 'h=1.0','location','best')
+xlabel ('Índice do tempo (n)','fontsize',15,'fontweight','b')
+ylabel ('Amplitude R(t)','fontsize',15,'fontweight','b')
+title ('Parte real da TFi','fontsize',15,'fontweight','b')
+set (gca,'FontSize',15); % tamanho da f o n t e dos a x i s
+set (gcf,'PaperPosition',[ 0.25 2.5 5.0 5.0 ]) ; % [ l e f t bottom width h e i g h t ]
+set (gcf,'PaperSize',[ 8.5 11 ]) ; % [ x y ]
+saveas(5,'TFi_parte_real_X_f.png')
+
+
+% %
+
+figure(6)
+plot(Imag_X_t,'LineWidth',2) % E i x o s pos . e neg . Funcao par . OK.
+grid on ;
+legend ('h=0.2', 'h=0.4', 'h=0.6', 'h=0.8', 'h=1.0','location','best')
+xlabel ('Índice do tempo (n)','fontsize',15,'fontweight','b')
+ylabel ('Amplitude I(t)','fontsize',15,'fontweight','b')
+title ('Parte imaginária da TFi','fontsize',15,'fontweight','b')
+set (gca,'FontSize',15 ); % tamanho da f o n t e dos a x i s
+set (gcf,'PaperPosition',[ 0.25 2.5 5.0 5.0 ]) ; % [ l e f t bottom width h e i g h t ]
+set (gcf,'PaperSize',[ 8.5 11 ]) ; % [ x y ]
+saveas(6,'Espectro_amplitude_X_f.png')
+
+
+% %
+
+figure(7)
+plot(Ampl_X(1:Nf/2,:),'LineWidth',2) % E i x o s pos . e neg . Funcao par . OK.
+grid on ;
+legend ('h=0.2', 'h=0.4', 'h=0.6', 'h=0.8', 'h=1.0','location','best')
+xlabel ('Índice da frequência relativa (\omega/\omega_n)','fontsize',15,'fontweight','b')
+ylabel ('Amplitude A(f)','fontsize',15,'fontweight','b')
+title ('Espectro de amplitude','fontsize',15,'fontweight','b')
+set (gca,'FontSize',15); % tamanho da f o n t e dos a x i s
+set (gcf,'PaperPosition',[ 0.25 2.5 5.0 5.0 ]) ; % [ l e f t bottom width h e i g h t ]
+set (gcf ,'PaperSize',[ 8.5 11 ]) ; % [ x y ]
+saveas(7,'Espectro_amplitude_X_f.png')
+
+%               Resolvendo o problema de causalidade
+
+% Para r e s o l v e r a nao−c a u s a l i d a d e f a c a pn 0 = 0 . 0 .
+% Para a n a l i s a r o e f e i t o do d e s l o c a m e n t o de f a s e f a c a ,
+% por exemplo , pn 0 =0.10 , pn 0 =0.15 , pn 0 =0.20 , pn 0 =0.25 ,
+% pn 0 =0.3 , e t c , e a n a l i s e de g r a f i c o s .
+
+pn_0 = 0.0 ; % Numero de d e s l o c , t e n t a t i v e e r r o medido no g r a f i c o .
+Phi_0=pn_0*2*pi*Df ; % Mudanca no s i n a l da TF p e l a d e f i n i c a o com
+X_C=Ampl_X.*(cos(Fase_X-Phi_0)-i.*sin(Fase_X-Phi_0)); % p a r t e imag .
+
+
+X_C_real=real(X_C) ;  % Part e r e a l .
+X_C_imag=imag(X_C) ;  % Part e imag .
+X_C_Ampl=abs(X_C) ;   % Esp . a m p l i t u d e
+X_C_Fase=unwrap(atan2(imag(X_C),real(X_C))) ; % Fase r e s t a u r a d a .
+X_C_t=ifft(X_C) ;   % Resposta temp . ao i m p u l s o .
+X_C_t_Real=real(X_C_t);    % Resp . temp . ao i m p u l s o ( t r a c o ) .
+X_C_t_Imag=imag(X_C_t) ;   % Resp . temp . ao i m p u l s o ( l i x o )
+
+
+%
+
+figure(8)
+plot(X_C_real,'LineWidth',2) % E i x o s pos . e neg . Funcao par . OK.
+grid on ;
+legend ('h=0.2 h=0.4 h=0.6 h=0.8  h=1.0','location','best')
+xlabel ('Indice da frequencia relativa, ( omega  omega n )','fontsize',15,'fontweight','b')
+ylabel ('Amplitude, R_C(f)','fontsize',15,'fontweight','b')
+title ('Parte real do espectro','fontsize',15,'fontweight','b')
+set (gca,'FontSize',15); % tamanho da f o n t e dos a x i s
+set (gcf,'PaperPosition',[ 0.25 2.5 5.0 5.0 ]) ; % [ l e f t bottom width h e i g h t ]
+set (gcf ,'PaperSize',[ 8.5 11 ]) ; % [ x y ]
+saveas(8,'Espectro_real_X_C.png')
+
+%
+
+figure(9)
+plot(X_C_imag,'LineWidth',2) % E i x o s pos . e neg . Funcao par . OK.
+grid on ;
+legend ('h=0.2 h=0.4 h=0.6 h=0.8  h=1.0','location','best')
+xlabel ('Indice da frequencia relativa, ( omega  omega n )','fontsize',15,'fontweight','b')
+ylabel ('Amplitude, I_C(f)','fontsize',15,'fontweight','b')
+title ('Parte imaginaria do espectro','fontsize',15,'fontweight','b')
+set (gca,'FontSize',15); % tamanho da f o n t e dos a x i s
+set (gcf,'PaperPosition',[ 0.25 2.5 5.0 5.0 ]) ; % [ l e f t bottom width h e i g h t ]
+set (gcf ,'PaperSize',[ 8.5 11 ]) ; % [ x y ]
+saveas(9,'Espectro_imaginario_X_C.png')
+
+%
+
+figure(10)
+plot(X_C_Ampl,'LineWidth',2) % E i x o s pos . e neg . Funcao par . OK.
+grid on ;
+legend ('h=0.2 h=0.4 h=0.6 h=0.8  h=1.0','location','best')
+xlabel ('Indice da frequencia relativa, ( omega  omega n )','fontsize',15,'fontweight','b')
+ylabel ('Amplitude, A_C(f)','fontsize',15,'fontweight','b')
+title ('espectro de amplitude','fontsize',15,'fontweight','b')
+set (gca,'FontSize',15); % tamanho da f o n t e dos a x i s
+set (gcf,'PaperPosition',[ 0.25 2.5 5.0 5.0 ]) ; % [ l e f t bottom width h e i g h t ]
+set (gcf ,'PaperSize',[ 8.5 11 ]) ; % [ x y ]
+saveas(10,'Espectro_Amplitude_X.png')
+
+
+%
+
+figure(11)
+plot(X_C_Fase,'LineWidth',2) % E i x o s pos . e neg . Funcao par . OK.
+grid on ;
+legend ('h=0.2 h=0.4 h=0.6 h=0.8  h=1.0','location','best')
+xlabel ('Indice da frequencia relativa, ( omega  omega n )','fontsize',15,'fontweight','b')
+ylabel ('Fase, theta_C(f)','fontsize',15,'fontweight','b')
+title ('Espectro de fase rest.','fontsize',15,'fontweight','b')
+set (gca,'FontSize',15); % tamanho da f o n t e dos a x i s
+set (gcf,'PaperPosition',[ 0.25 2.5 5.0 5.0 ]) ; % [ l e f t bottom width h e i g h t ]
+set (gcf ,'PaperSize',[ 8.5 11 ]) ; % [ x y ]
+saveas(11,'Espectro_Fase_X.png')
+
+%
+
+figure(12)
+plot(X_C_t_Real,'LineWidth',2) % E i x o s pos . e neg . Funcao par . OK.
+grid on ;
+legend ('h=0.2 h=0.4 h=0.6 h=0.8  h=1.0','location','best')
+xlabel ('Indice do tempo (n)','fontsize',15,'fontweight','b')
+ylabel ('Amplitude, R_C(t)','fontsize',15,'fontweight','b')
+title ('Parte real da TFi','fontsize',15,'fontweight','b')
+set (gca,'FontSize',15); % tamanho da f o n t e dos a x i s
+set (gcf,'PaperPosition',[ 0.25 2.5 5.0 5.0 ]) ; % [ l e f t bottom width h e i g h t ]
+set (gcf ,'PaperSize',[ 8.5 11 ]) ; % [ x y ]
+saveas(12,'TFi_parte_real_X_C_t.png')
+
+%
+
+figure(13)
+plot(X_C_t_Imag,'LineWidth',2) % E i x o s pos . e neg . Funcao par . OK.
+grid on ;
+legend ('h=0.2 h=0.4 h=0.6 h=0.8  h=1.0','location','best')
+xlabel ('Indice do tempo (n)','fontsize',15,'fontweight','b')
+ylabel ('Amplitude, I_C(t)','fontsize',15,'fontweight','b')
+title ('Parte imaginaria da TFi','fontsize',15,'fontweight','b')
+set (gca,'FontSize',15); % tamanho da f o n t e dos a x i s
+set (gcf,'PaperPosition',[ 0.25 2.5 5.0 5.0 ]) ; % [ l e f t bottom width h e i g h t ]
+set (gcf ,'PaperSize',[ 8.5 11 ]) ; % [ x y ]
+saveas(13,'TFi_parte_imag_X_C_t.png')
+
+%
+
+figure(14)
+plot(X_C_Ampl(1:Nf/2,:),'LineWidth',2) % E i x o s pos . e neg . Funcao par . OK.
+grid on ;
+legend ('h=0.2 h=0.4 h=0.6 h=0.8  h=1.0','location','best')
+xlabel ('Indice de frequencia relativa','fontsize',15,'fontweight','b')
+ylabel ('Amplitude, A_C(t)','fontsize',15,'fontweight','b')
+title ('Espectro de amplitude','fontsize',15,'fontweight','b')
+set (gca,'FontSize',15); % tamanho da f o n t e dos a x i s
+set (gcf,'PaperPosition',[ 0.25 2.5 5.0 5.0 ]) ; % [ l e f t bottom width h e i g h t ]
+set (gcf ,'PaperSize',[ 8.5 11 ]) ; % [ x y ]
+saveas(14,'Espectro_Amplitude_X_C_t.png')
+
+%
+
+figure(15)
+plot(X_C_t_Real(1:Nf/2,:),'LineWidth',2) % E i x o s pos . e neg . Funcao par . OK.
+grid on ;
+legend ('h=0.2 h=0.4 h=0.6 h=0.8  h=1.0','location','best')
+xlabel ('Índice no tempo (n)','fontsize',15,'fontweight','b')
+ylabel ('Amplitude A_C(t)','fontsize',15,'fontweight','b')
+title ('Resposta ao impulso causal','fontsize',15,'fontweight','b')
+set (gca,'FontSize',15); % tamanho da f o n t e dos a x i s
+set (gcf,'PaperPosition',[0.25 2.5 5.0 5.0]) ; % [ l e f t bottom width h e i g h t ]
+set (gcf ,'PaperSize',[8.5 11]) ; % [ x y ]
+saveas(15,'Pulso_causal_X_C_t.png')
+
+
+toc
+

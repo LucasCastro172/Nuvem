@@ -1,0 +1,184 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb}
+\usepackage[brazil]{babel}
+
+%opening
+\title{Solução para a Função de Green em um meio homogêneo, isotrópico e ilimitado}
+\author{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+
+\end{abstract}
+
+\section{Equação da Onda escalar para uma fonte pontual e impulsiva}
+
+Neste texto será derivada a solução para o deslocamento $\mathbf{u}(\mathbf{x},t)$ em decorrência de uma força de corpo pontual e unidirecional com magnitude que varia no tempo, fixada em um ponto $O$ de um meio homogêneo, isotrópico, ilimitado e elástico. A equação a ser resolvida para que se determine $\mathbf{u}$ é dada por:
+
+\begin{equation}
+ \rho\mathbf{\ddot{u}} = \mathbf{f} + (\lambda + 2\mu)\nabla(\nabla\cdot\mathbf{u}) - \mu\nabla\times(\nabla\times\mathbf{u}),
+ \label{eq_onda}
+\end{equation}
+onde a força de corpo $\mathbf{f}$ é dada por $f_i = X_0(t)\delta(\mathbf{x})\delta_{i1}$, e temos condições iniciais dadas por $\mathbf{u}(\mathbf{x},0) = 0$, e $\mathbf{\dot{u}}(\mathbf{x},0) = 0$ para $\mathbf{x}\neq 0$.
+
+Nessas condições, podemos escrever o campo de deslocamento como
+
+\begin{equation}
+ \mathbf{u}_n(\mathbf{x},t) = X_0\ast{G_{n1}},
+\end{equation}
+onde $G$ é a Função de Green para a equação \ref{eq_onda} dada uma fonte pontual, impulsiva e unidirecional. Para desenvolver a solução $\mathbf{u}$, é interessante que se faça uma análise preliminar da Função de Green para a Equação da Onda escalar, dada por:´
+
+\begin{equation}
+ \bigg(\nabla^2 - \frac{1}{c^2}\frac{\partial^2}{\partial{t^2}}\bigg)g(\mathbf{x},t) = \delta(\mathbf{x})\delta(t).
+ \label{eq_onda_escalar}
+\end{equation}
+
+As propriedades da solução obtida a partir dessa equação são de extrema importância para simplificar a solução da equação \ref{eq_onda}. O primeiro passo para a solução da equação \ref{eq_onda_escalar} é introduzir a definição da Transformada de Fourier temporal e espacial, dada por:
+
+\begin{equation}
+ f(\mathbf{x},t) = \frac{1}{(2\pi)^4}\iint F(\mathbf{k},\omega)e^{i(\mathbf{k}\cdot\mathbf{x} - \omega t)}d\omega d^3\mathbf{k},
+\end{equation}
+onde $\mathbf{k}$ é o número de onda e $\omega$ a frequência. Aplicando essa definição em ambos os lados da equação \ref{eq_onda_escalar}, obtemos que a Função de Green é dada por:
+
+\begin{equation}
+ G(\mathbf{k},\omega) = \frac{c^2}{\omega^2 - c^2\mathbf{k}^2}.
+\end{equation}
+
+Podemos então calcular a Função de Green $g(\mathbf{x},t)$ utilizando a definição da Transformada de Fourier espacial e temporal
+
+\begin{equation}
+ g(\mathbf{x},t) = \frac{1}{(2\pi)^4}\iint \frac{c^2}{\omega^2 - c^2\mathbf{k}^2} e^{i(\mathbf{k}\cdot\mathbf{x} - \omega t)}d\omega d^3\mathbf{k}.
+\end{equation}
+
+A solução é dada por:
+
+\begin{equation}
+ g(\mathbf{x},t) = \frac{1}{4\pi c^2}\frac{\delta\Big(t - \frac{|\mathbf{x}|}{c}\Big)}{|\mathbf{x}|}.
+\end{equation}
+
+Dada esta solução, três propriedades importantes devem ser lembradas para uso futuro. A primeira é que um deslocamento da no tempo e no espaço dado por  $\ddot{g}_1 = \delta(\mathbf{x} - \mathbf{\xi})\delta(t - \tau) + c^2\nabla^2g_1$, gera um deslocamento temporal e espacial na solução, dada por:
+
+\begin{equation}
+ g1(\mathbf{x},t) = \frac{1}{4\pi c^2}\frac{\delta\Big(t - \tau - \frac{|\mathbf{x}-\mathbf{\xi}|}{c}\Big)}{|\mathbf{x}-\mathbf{\xi}|}.
+\end{equation}
+
+A segunda é que para uma fonte pontual, mas com magnitude que varia no tempo dada por $\ddot{g}_2 = \delta(\mathbf{x} - \mathbf{\xi})f(t) + c^2\nabla^2g_2$, a solução é dada pela superposição de soluções do tipo $g_1$
+
+\begin{equation}
+ g_2(\mathbf{x},t) = \int_{-\infty}^{\infty}f(\tau)g_1(\mathbf{x},t)d\tau = \frac{1}{4\pi c^2}\frac{f\Big(t - \frac{|\mathbf{x}-\mathbf{\xi}|}{c}\Big)}{|\mathbf{x}-\mathbf{\xi}|}.
+\end{equation}
+
+Finialmente, a terceira, quando a fonte se extende por um volume, assim como no tempo, temos:
+
+\begin{equation}
+ \frac{\partial^2g_3}{\partial{t}^2} = \frac{\Phi(\mathbf{x},t)}{\rho} + \alpha^2\nabla^2g_3,
+ \label{eq_potencial}
+\end{equation}
+com a fonte dada por:
+
+\begin{equation}
+ \Phi(\mathbf{x},t) = \int_{-\infty}^{\infty}d\tau\iiint_V\Phi(\mathbf{\xi},\tau)\delta(\mathbf{x}-\mathbf{\xi})\delta(t-\tau)dV(\mathbf{\xi}).
+\end{equation}
+
+A solução para esse caso será:
+
+\begin{equation}
+ g_3(\mathbf{x},t) =  \frac{1}{4\pi \alpha^2\rho}\iiint_V\frac{\Phi\Big(\mathbf{\xi},t - \frac{|\mathbf{x}-\mathbf{\xi}|}{\alpha}\Big)}{|\mathbf{x}-\mathbf{\xi}|}dV.
+\end{equation}
+
+
+\section{Teorema de Lamé}
+
+Para que possamos obter a solução da equação \ref{eq_onda}, iremos reescrever-la na forma de equações do tipo \ref{eq_potencial}. Para isso, iremos utilizar o Teorema de Helmholtz, que será descrito a seguir.
+
+Dado um campo vetorial $\mathbf{Z}$, podemos escreve-lo em termos de pontenciais de Helmholtz, na forma:
+
+\begin{equation}
+ \mathbf{Z} = \nabla{X} + \nabla\times\mathbf{Y}
+\end{equation}
+
+Para construir os potenciais $X$ e $\mathbf{Y}$, basta que solucionemos a equação de Poisson $\nabla^2\mathbf{W} = \mathbf{Z}$ e utilizemos a relação:
+
+\begin{equation}
+ \nabla^2\mathbf{W} \equiv \nabla(\nabla\cdot{\mathbf{W}}) - \nabla\times(\nabla\times\mathbf{W}),
+\end{equation}
+escolhendo os potenciais como:
+
+\begin{equation}
+ X = \nabla\cdot\mathbf{W}, \hspace{0.3cm} \mathbf{Y} = -\nabla\times\mathbf{W},
+\end{equation}
+podemos calcular estes a partir da solução da equação dada por
+
+\begin{equation}
+ \mathbf{W}(\mathbf{x}) = - \iiint_V \frac{\mathbf{Z}(\mathbf{\xi})}{4\pi|\mathbf{x}-\mathbf{\xi}|}dV(\mathbf{\xi}).
+\end{equation}
+
+O primeiro passo para solucionar a equação \ref{eq_onda}, é escrever o campo de deslocamento $\mathbf{u}$ e a fonte $\mathbf{f}$ na forma dos seus potenciais de Helmholtz como:
+
+\begin{equation}
+ \mathbf{u} = \nabla{\phi} + \nabla\times\mathbf{\psi}
+ \label{eq_u}
+\end{equation}
+
+\begin{equation}
+ \mathbf{f} = \nabla{\Phi} + \nabla\times\mathbf{\Psi}
+ \label{eq_f}
+\end{equation}
+
+Substituindo as expressões \ref{eq_u} e \ref{eq_f} na \ref{eq_onda}, obtemos as expressões:
+
+\begin{eqnarray}
+ \rho\frac{\partial^2}{\partial t^2}(\nabla\phi + \nabla\times\boldsymbol{\psi}) - 
+ (\lambda + 2\mu)\nabla(\nabla\,\cdotp\nabla\phi + \nabla\,\cdotp\nabla\times\boldsymbol{\psi}) \nonumber \\
+ + \mu\nabla\times(\nabla\times\nabla\phi + \nabla\times\nabla\times\boldsymbol{\psi}) 
+ = \nabla\Phi + \nabla\times\mathbf{\Psi},
+\end{eqnarray}
+
+\begin{equation}
+ \rho\frac{\partial^2}{\partial t^2}(\nabla\phi + \nabla\times\boldsymbol{\psi}) - 
+ (\lambda + 2\mu)\nabla(\nabla^2\phi)
+ + \mu\nabla\times(\nabla\times\nabla\times\boldsymbol{\psi}) 
+ = \nabla\Phi + \nabla\times\mathbf{\Psi}.
+\end{equation}
+
+Sabendo que $\nabla\times\nabla\times\boldsymbol{\psi} = 
+\nabla(\nabla\,\cdotp\boldsymbol{\psi}) - \nabla^2\boldsymbol{\psi}$ e que 
+$\nabla\,\cdotp\boldsymbol{\psi} = \mathbf{0}$, temos
+
+\begin{equation}
+ \rho\frac{\partial^2}{\partial t^2}(\nabla\phi) + \rho\frac{\partial^2}{\partial t^2}(\nabla\times\boldsymbol{\psi}) 
+ - (\lambda + 2\mu)\nabla(\nabla^2\phi) - \mu\nabla\times(\nabla^2\boldsymbol{\psi})  
+ = \nabla\Phi + \nabla\times\mathbf{\Psi}.
+ \label{eq:eq_tmp}
+\end{equation}
+
+Podemos reorganizar a equa\c{c}\~ao \ref{eq:eq_tmp} em fun\c{c}\~ao dos seus termos compressionais e cisalhantes
+como
+
+\begin{equation}
+ \ddot{\phi} = \frac{\Phi}{\rho} + \alpha^2\nabla^2\phi,
+\end{equation}
+
+\begin{equation}
+ \ddot{\psi} = \frac{\Psi}{\rho} + \beta^2\nabla^2\psi,
+\end{equation}
+chamadas componentes P e S de $\mathbf{u}$.
+
+Sabendo que $\mathbf{f} = X_0(t)\delta(\mathbf{x})\widehat{\mathbf{x}}_1 = \nabla{\Phi} + \nabla\times\mathbf{\Psi}$, podemos construir os potenciais a partir da solução da equação de Helmholtz.
+
+\begin{equation}
+ \mathbf{W} = -\frac{X_0(t)}{4\pi}\iiint_V(1,0,0)\frac{\delta(\mathbf{\xi})dV}{|\mathbf{x}-\mathbf{\xi}|} = - \frac{X_0(t)}{4\pi|\mathbf{x}|}\widehat{{\mathbf{x}}}_1
+\end{equation}
+
+\begin{equation}
+ \Phi = \nabla\cdot\mathbf{W} = -\frac{X_0(t)}{4\pi}\frac{\partial}{\partial{x}_1}\frac{1}{|\mathbf{x}|}
+\end{equation}
+
+
+
+
+\end{document}

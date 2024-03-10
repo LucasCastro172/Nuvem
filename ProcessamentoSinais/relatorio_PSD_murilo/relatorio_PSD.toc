@@ -1,0 +1,14 @@
+\select@language {brazil}
+\contentsline {chapter}{\numberline {1} \uppercase {OBJETIVOS}}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2} \uppercase {M\IeC {\'E}TODO S\IeC {\'I}SMICO DE REFLEX\IeC {\~A}O}}{2}{chapter.2}
+\contentsline {section}{\numberline {2.1}MODELAGEM DA ESTRUTURA GEOL\IeC {\'O}GICA}{2}{section.2.1}
+\contentsline {section}{\numberline {2.2}PAR\IeC {\^A}METROS DE AQUISI\IeC {\c C}\IeC {\~A}O}{7}{section.2.2}
+\contentsline {chapter}{\numberline {3} \uppercase {FILTRAGEM F-K}}{9}{chapter.3}
+\contentsline {section}{\numberline {3.1}Filtros de corte na frequ\IeC {\^e}ncia}{10}{section.3.1}
+\contentsline {section}{\numberline {3.2}FILTRAGEM F-K DA SE\IeC {\c C}\IeC {\~A}O TIRO 50}{12}{section.3.2}
+\contentsline {chapter}{\numberline {4} \uppercase {RESULTADOS E DISCURS\IeC {\~O}ES}}{25}{chapter.4}
+\contentsline {chapter}{REFER\^ENCIAS}{26}{chapter*.25}
+\contentsline {chapter}{AP\^ENDICES}{27}{chapter*.25}
+\contentsline {chapter}{\numberline {A--} \uppercase {SHELL SCRIPT MODELAGEM TRIMODEL}}{28}{chapter.1}
+\contentsline {chapter}{\numberline {B--} \uppercase {SHELL SCRIPT AQUISI\IeC {\c C}\IeC {\~A}O TRISEIS}}{30}{chapter.2}
+\contentsline {chapter}{\numberline {C--} \uppercase {C\IeC {\'O}DIGO MATLAB DE FILTRAGEM F-K}}{32}{chapter.3}

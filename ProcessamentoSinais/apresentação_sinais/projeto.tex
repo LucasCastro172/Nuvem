@@ -1,0 +1,200 @@
+\documentclass{beamer}
+
+\mode<presentation> {
+\usetheme{Madrid}
+%\usecolortheme{whale}
+}
+\RequirePackage{epsfig}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs}
+\usepackage{amsmath}% A
+\usepackage{bm}
+\usepackage{xcolor}
+\usepackage{subfigure}
+\usepackage{gensymb}
+\usepackage{tikz}
+\usepackage[document]{ragged2e}
+\usetikzlibrary{shapes,backgrounds}
+\graphicspath{{figures/}}
+% Define block styles
+\tikzstyle{block} = [rectangle, draw, fill=white, 
+text width=6em, text centered, rounded corners, node distance=2cm, minimum height=2em]
+\tikzstyle{line} = [draw, -latex]
+\tikzstyle{cloud} = [draw, ellipse,fill=white, node distance=2cm,
+minimum height=2em]
+
+
+\title[Projeto]{Convolução: função retangular} % The short title appears at the bottom of every slide, the full title is only on the title page
+\input{macro.tex}
+
+\author{Lucas de Castro Costa} % Your name
+\institute[UFPA] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
+{
+	Professor: Lourenildo Leite\\
+Universidade Federal do Pará \\ % Your institution for the title page
+\medskip
+ % Your email address
+}
+\date{\today} % Date
+
+\setbeamercovered{transparent}
+
+\AtBeginSection[]{
+\begin{frame}
+\frametitle{Sumário}
+ \tableofcontents[currentsection]
+\end{frame}
+}
+
+
+
+
+
+\begin{document}
+ \begin{frame}
+\begin{figure}[htb]
+\centering
+\includegraphics[width= 2cm, height= 2.5cm]{logo.jpg}
+\end{figure}
+
+\titlepage
+\end{frame}
+
+%%%%%%%%%%%Introdução
+\section{Introdução}
+\begin{frame}{Motivação}
+\begin{itemize}
+	\item Função retangular;
+	\item Convoluções;
+	\item Amplitude espectral.
+\end{itemize}
+\end{frame}
+
+\section{Teoria}
+\begin{frame}{Equações importantes}
+\visible<1->{
+	\begin{block}{Função retangular}
+		\begin{equation}
+		rect(t)=\left\{\begin{matrix} 0 & \text{se} &  |t|> a/2,\\
+		\frac{1}{2} & \text{se} & |t| = a/2,\\
+		1 & \text{se} & |t| < a/2. \\
+		\end{matrix}\right. \nonumber
+		\end{equation}
+	\end{block}}
+\visible<2->{	\begin{block}{Convolução}
+	\begin{equation}
+	f(x) \ast g(x) = \int_{-\infty}^{\infty}f(\tau)g(x-\tau)d\tau \nonumber
+	\end{equation}
+	\end{block}}
+\visible<3->{\begin{block}{Transformada rápida de Fourier}
+	\begin{equation}
+	F(x)=\sum_{n=0}^{N-1}f(n)e^{-i\pi(x\frac{n}{N})} \nonumber
+	\end{equation}
+\end{block}}
+\end{frame}
+
+
+%%%%%%%%%%%%%Metodologia
+
+\section{Metodologia}
+
+\begin{frame}{Parâmetros utilizados}
+\begin{itemize}
+	\item $a=2$;
+	\item $\Delta t=0.001$;
+	\item $\Delta f = \frac{1}{n\Delta t}$;
+	\item $n \rightarrow$ número de pontos no \textit{grid};
+\end{itemize}		
+\end{frame}
+
+\begin{frame}{Função retangular}
+	\begin{equation}
+	rect(t)=\left\{\begin{matrix} 0 & \text{se} &  |t|> a/2,\\
+	\frac{1}{2} & \text{se} & |t| = a/2,\\
+	1 & \text{se} & |t| < a/2. \\
+	\end{matrix}\right. \nonumber
+	\end{equation}
+\end{frame}
+
+\begin{frame}{Parâmetros utilizados}
+	\begin{itemize}
+		\item $a=2$;
+		\item $\Delta t=0.001$;
+		\item $\Delta f = \frac{1}{n\Delta t}$;
+		\item $n \rightarrow$ número de pontos no \textit{grid}.
+	\end{itemize}		
+\end{frame}
+
+\begin{frame}{Gráfico da função retangular com $a=2$}
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=9cm]{retangular}
+	\caption{Função retangular com $a=2$.}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Auto convolução}
+\only<1>{\begin{equation}
+	f(x) \ast g(x) = \int_{-\infty}^{\infty}f(\tau)g(x-\tau)d\tau \nonumber
+	\end{equation}}
+\only<2->{\begin{equation}
+	rect(t) \ast rect(t) = \int_{-\infty}^{\infty}rect(\tau)rect(t-\tau)d\tau \nonumber
+	\end{equation}}
+\visible<3->{
+\begin{itemize}
+	\item Serão feitas 5 auto convoluções;
+	\item Por se tratar de convolução, o tamanho de amostragens dobra após cada convolução;
+	\item No final, serão comparados os resultados normalizados.
+\end{itemize}}
+\end{frame}
+
+\begin{frame}{Amplitude espectral}
+	\only<1>{	\begin{equation}
+		F(x)=\sum_{n=0}^{N-1}f(n)e^{-i\pi(x\frac{n}{N})} \nonumber
+		\end{equation}}
+\visible<2->{	\begin{itemize}
+		\item Serão aplicadas as transformadas em cada uma das funções;
+		\item Foi plotado apenas uma parte da amplitude espectral;
+		\item No final, serão comparados os resultados normalizados;
+	\end{itemize}}
+\end{frame}
+
+\section{Resultados}
+
+\begin{frame}{Gráfico com função e convoluções}
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=9cm]{convolucoes}
+	\caption{Gráfico de comparação da função original e as convoluções.}
+\end{figure}	
+\end{frame}
+
+\begin{frame}{Gráfico com função e amplitudes espectrais}
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=9cm]{espectral}
+	\caption{Gráfico de comparação das amplitudes espectrais.}
+\end{figure}	
+\end{frame}
+
+%%%%%%%%%%%Conclusão
+\section{Conclusão}
+
+\begin{frame}{Conclusões}
+\begin{itemize}
+	\item Mudança no formato ao decorrer das auto convoluções, tendendo a uma Gaussiana;
+	\item Perda de energia na amplitude espectral com o decorrer das convoluções.
+\end{itemize}	
+\end{frame}
+
+\begin{frame}
+	\begin{center}
+		\textbf{{\large Obrigado pela atenção!}}
+	\end{center}
+	
+\end{frame}
+
+
+\end{document}

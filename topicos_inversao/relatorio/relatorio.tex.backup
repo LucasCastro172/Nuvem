@@ -1,0 +1,188 @@
+\documentclass[12pt]{article}
+
+\usepackage[brazilian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amssymb}
+\usepackage{setspace}
+
+\RequirePackage{amsmath}
+\RequirePackage{graphicx}
+\RequirePackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=2cm]{geometry}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% documento %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\thispagestyle{empty}
+
+ \begin{figure}[!t]
+ 
+  \begin{center}
+   \includegraphics[scale=0.8]{Logo_UFPA.jpg}
+  \end{center}
+
+ \end{figure}
+
+ \begin{center}
+  \large{UNIVERSIDADE FEDERAL DO PARÁ} \\ {INSTITUTO DE GEOCIÊNCIAS} \\ {FACULDADE DE GEOFÍSICA} \\
+  \vspace{2cm}
+  \large{RELATÓRIO DE ESTÁGIO} \\
+  \vspace{2cm}
+  \large {\bf {MODELAGEM DA EQUAÇÃO DE POISSON 2D POR DIFERENÇAS FINITAS}} \\
+  \vspace{2cm}
+  \large {THYERRE AUGUSTO CARDOSO SAMPAIO} \\ {YAN LUTH MONTEIRO DE FREITAS} \\
+  \vfill 
+  \large Belém \\ 2019
+ \end{center}
+
+ \newpage
+ \setcounter{page}{1}
+ 
+ \begin{center}
+  \large{\bf{RESUMO}}
+ \end{center}
+ \vspace{0.3cm}
+ 
+ \onehalfspacing
+ O método de diferenças finitas é um método numérico utilizado para solucionar equações diferenciais parciais (EDPs), onde 
+ as derivadas parciais presentes nessas equações são aproximadas por diferenças entre os valores das funções, que 
+ são conhecidos em pontos de um domínio discreto preestabelecido. Tal solução, em geral, se torna mais proxima da solução
+ real da equação problema conforme o espaçamento entre os pontos do domínio diminuem.
+ O presente trabalho tem por objetivo a aplicação do método de diferenças finitas na solução da equação de Poisson 2D, com o 
+ intuito de avaliar a sua eficácia na solução de equações diferenciais parciais. Para que os resultados obtidos com a solução
+ numérica fossem avaliados, estes foram comparados com a solução analítica da equação de Poisson. A implementação dos métodos
+ listados e todos os resultados foram obtidos utilizando o software Matlab.
+
+ 
+ \newpage
+ 
+ {\large{\bf{1 INTRODUÇÃO}}}
+ \vspace{0.5cm}
+ 
+ \onehalfspacing
+ A equação de Poisson é uma equação diferencial parcial utilizada nos campos da física teórica, a exemplo da gravitação e 
+ do eletromagnetismo, para descrever campos potenciais gerados por distribuições de cargas elétricas e densidades de massas. 
+ Umas vez conhecidos, estes potenciais podem ser utilizados para calcular os campos eletroestáticos e gravitacionais 
+ associados. Portanto, a sua solução é de extrema importância para a modelagem computacional de problemas físicos relacionados
+ a estes campos de estudo. Para tanto, no presente trabalho, aplicamos o método de diferenças finitas a este problema.
+ 
+ \onehalfspacing
+ O método de diferenças finitas é uma técnica utilizada para resolver equações diferenciais parciais (EDPs) numericamente,
+ aproximando as derivadas parciais presentes nas equações por diferenças entre os valores da função objetivo em pontos 
+ preestabelecidos por um domínio discreto. Utilizando essa aproximação podemos reescrever a equação que queremos resolver 
+ na forma de um sistema linear, que pode ser solucionado por diversos métodos numéricos. Usando a abordagem de diferenças
+ finitas, discretizamos equação de Poisson para um domínio 2D, e aplicamos o método de Gauss-Seidel na solução do sistema 
+ linear obtido, utilizando diferentes números máximos de interações, e posteriormente comparamos estas soluções com a 
+ solução analítica da equação de Poisson, afim de determinar a acurácia do método de diferenças finitas na solução deste 
+ problema.
+ 
+ 
+ \newpage
+ 
+ {\large{\bf{2 DESENVOLVIMENTO TEÓRICO}}}
+ \vspace{0.5cm}
+ 
+ Neste capítulo apresentaremos brevemente a teoria dos métodos utilizados no presente trabalho para a solução da equação de 
+ Poisson. O método de diferenças finitas e a sua aplicação na discretização da equação de Poisson serão abordados, assim como
+ o método de Gauss-Seidel utilizado na solução do sistema linear proveniente da discretização citada.
+ 
+ \vspace{0.5cm}
+ 
+ {\large{{2.1 O MÉTODO DE DIFERENÇAS FINITAS}}}
+ \vspace{0.5cm}
+ 
+ O método das diferenças finitas é um dos principais métodos numéricos utilizados na solução de EDPs. Neste método, 
+ as derivadas da EDP em questão são substituidas por diferenças baseadas na expansão da série de Taylor. Dada uma função
+ $f(x)$, as derivadas de primeira e segunda ordem, $f'(x)$ e $f''(x)$, podem ser aproximadas por:
+ 
+ \begin{equation}
+  f'(x) \approx \frac{1}{h}[f(x + h) - f(x)],
+ \end{equation}
+
+ \begin{equation}
+  f''(x) \approx \frac{1}{h^2}[f(x + h) - 2f(x) + f(x - h)],
+  \label{eq:eq_fd}
+ \end{equation}
+ na qual $h$ é um tamanho de passo arbitrariamente pequeno.
+
+ \vspace{0.5cm}
+ 
+ {\large{{2.2 EQUAÇÃO DE POISSON DISCRETA}}}
+ \vspace{0.5cm}
+ 
+ Utilizando as aproximações mostradas na seção anterior podemos discretizar a equação de Poisson, que em um domínio 2D
+ é dada por:
+ 
+ \begin{equation}
+  \nabla^2{u(x,y)} = - g(x,y),
+  \label{eq:eq_poisson}
+ \end{equation}
+ para que possamos obter uma solução numérica para a função $u(x,y)$. Começamos reescrevendo a equação \ref{eq:eq_poisson} 
+ como:
+ 
+ \begin{equation}
+  \frac{\partial^2{u(x,y)}}{\partial{x}^2} + \frac{\partial^2{u(x,y)}}{\partial{y}^2} = - g(x,y).
+  \label{eq:eq_poisson2}
+ \end{equation}
+
+ Usando a equação \ref{eq:eq_fd}, podemos substituir as derivadas parciais de segunda ordem da equação \ref{eq:eq_poisson2}, 
+ e assim reescrever a equação de Poisson como:
+ 
+ \begin{equation}
+  \frac{1}{h^2}[u(x + h,y) + u(x - h,y) + u(x,y + h) + u(x,y - h) - 4u(x,y)] = - g(x,y).
+  \label{eq:eq_poisson3}
+ \end{equation}
+ 
+ Esta é a equação de Poisson discreta. Defininindo o domínio 2D da função $u(x,y)$, para valores de inteiros de $i$ e $j$,
+ como:
+  
+ \begin{equation}
+  x_i = ih, \qquad y_j = jh, \qquad (i,j \ge 1)
+ \end{equation}
+ na qual $h$ é o espaçamento entre os pontos da malha, podemos reescrever as funções $u(x,y)$ e $g(x,y)$ como:
+ 
+ \begin{equation}
+  u_{i,j} = u(x_i,y_j), \qquad g_{i,j} = g(x_i,y_j),
+ \end{equation}
+ e a equação \ref{eq:eq_poisson3}, como:
+
+ \begin{equation}
+  - u_{i+1,j} - u_{i-1,j} - u_{i,j+1} - u_{i,j-1} + 4u_{i,j} = h^2g_{i,j}.
+ \label{eq:eq_poisson4} 
+ \end{equation}
+
+ \vspace{0.5cm}
+ 
+ {\large{{2.3 MÉTODO DE GAUSS-SEIDEL}}}
+ \vspace{0.5cm}
+ 
+ A equação \ref{eq:eq_poisson4} obtida a partir da aplicação do método de diferenças finitas à equação de Poisson pode ser 
+ escrita na forma de um sistema linear dado por:
+ 
+ \begin{equation}
+  \mathbf{A}\mathbf{u} = \mathbf{b},
+  \label{eq:eq_ls}
+ \end{equation}
+ que pode ser solucionado a partir de diversas abordagens. No presente trabalho, escolhemos o método de Gauss-Seidel 
+ em função das características apresentadas pela matriz $\mathbf{A}$ de coeficientes do sistema, que é esparsa e 
+ diagonal dominante.
+ 
+ O método de Gauss-Seidel é um método iterativo de solução de sistemas lineares, onde o vetor solução do sistema, 
+ $\mathbf{u}$, é calculado a partir de um vetor solução inicial $\mathbf{u}_0$, que será ajustado iterativamente até que 
+ a solução real $\mathbf{u}$, seja obtida. Uma vez que $\mathbf{A}$ seja uma matriz diagonal dominante, a convergência do
+ vetor solução inicial para o vetor solução $\mathbf{u}$ é garantida para qualquer vetor $\mathbf{u}_0$.
+ 
+ Escrevendo a equação \ref{eq:eq_ls} na forma:
+ 
+ \begin{equation}
+  \sum_{j=1}^{n} a_{i,j}x_j = b_i, \qquad (1 \le i \le n),
+ \end{equation}
+ o método de Gauss-Seidel é dado por:
+ 
+ \begin{equation}
+  x_i^{(k)}  = -\sum_{\overset{j = 1}{j < i}}^{n} (a_{i,j}/a_{i,i})x_j^{(k)} - 
+  \sum_{\overset{j = 1}{j > i}}^{n} (a_{i,j}/a_{i,i})x_j^{(k-1)} + b_i/a_{i,i}
+ \end{equation}
+
+ 
+ \end{document}

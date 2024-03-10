@@ -1,0 +1,162 @@
+\chapter{GEOLOGIA E PARÂMETROS FÍSICOS}
+\label{cap.2}
+\section{DESCRIÇÃO GEOLÓGICA}
+
+Apresentamos neste capítulo algumas informações geológicas da Bacia do Jequitinhonha e sobre a aquisição dos dados geofísicos utilizados para a modelagem, processamento e imageamento da bacia sedimentar.
+A descrição geológica visa sobretudo entender geologicamente sobre um sistema petrolífero, e sobrepuja em detalhes. 
+O que se deseja são informações mais gerais que sejam possíveis de serem usadas como informação a priori na modelagem da bacia, e depois verificar se essas condições são geofísicamente plausíveis, consistentes e verificáveis; no entanto, uma aplicação plena destes três conceitos necessitam que as informações sejam precisas, densas e os modelos geologicamente detalhados. 
+
+A bacia de Jequitinhonha está situada na porção nordeste da margem leste brasileira, na costa sul do estado da
+Bahia, em frente à foz do rio Jequitinhonha entre os paralelos \SI{14}{\degree}\SI{37}{\arcminute} Sul e
+\SI{16}{\degree}\SI{24}{\arcminute} Sul, na costa leste do Brasil. 
+Limita-se ao norte com a Bacia do Almada pelo Alto da Olivença e o banco vulcânico de Royal Charlotte a separa da Bacia de Cumuruxatiba ao sul \citep{Caixeta(2008)}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=12.0cm]{figuras/cap2/cap2_jequi.pdf}
+\caption{Mapa simplificado com a localização da Bacia do Jequitinhonha, em destaque (polígono vermelho). Fonte: Modificado de dados da \citep{BDEP(2018)}.}
+\label{fig:cap2_jequi}
+\end{figure}
+
+
+\section{MODELO TECTÔNICO-ESTRATIGRÁFICO DA BACIA}
+
+A evolução tectono-estratigráfica das bacias sedimentares da margem leste–sudeste da costa brasileira, em especial, a Bacia do Jequitinhonha situada em segmento divergente, está relacionada à ruptura do Gondwana, iniciada no Mesozóico. Este evento iniciou-se nos extremos norte e sul da América do Sul e envolveu a produção de sistemas de riftes associados à separação entre as placas Sul-Americana e Africana \citep{Mohriak(2003)}.
+
+Deste modo a Bacia do Jequitinhonha compreende uma bacia $rift$, de idade aptiana, que evoluiu para uma típica de margem passiva. Sedimentos mais antigos das idades berriasiana, valanginiana, hauteriviana e barremiana, comuns nas bacias marítimas vizinhas, ainda são uma hipótese, pois não foram datados com base em ostracodes e palinomorfos. Falhamentos identificados em imagens sísmicas e também descritos em afloramentos e identificados em dados de poços sugerem a presença de um $rift$ mais antigo. Porém, como nunca foi ainda amostrado, a sua idade é indeterminada \citep{Chagas(2003)}.
+
+Durante a evolução da Bacia do Jequitinhonha, após o rifteamento e com a ingressão marinha inicial, consequência do estiramento crustal, implantou-se a sedimentação de margem passiva Albo-Cenomaniana, com predomínio de fácies terrígena e carbonática de ambiente parálico e nerítico, além de folhelhos negros e margas do Grupo Barra Nova, formações São Mateus e Regência (Turoniano e Coniaciano) em contexto bacinal nerítico a abissal \citep{Chagas(2003)}.
+
+Nessa fase, a bacia experimentou resfriamento térmico e começou a bascular suavemente para leste, deflagrando os
+processos de movimentações adiastróficas dos evaporitos para as porções mais elevadas, formando pequenas almofadas.
+Os sedimentos da seção clástica e carbonática, sobrepostos aos evaporitos, aportaram para a bacia proveniente dos
+altos adjacentes do embasamento (margem oeste), ou aí se desenvolveram em plataforma carbonática estreita
+(5 a \SI{10}{\km}), mais espessos nessas porções proximais \citep{Chagas(2003)}.
+
+Do ponto de vista estrutural, a porção norte da bacia distingue-se da porção sul pela presença de um patamar no embasamento, na região da plataforma continental rasa \citep{Mohriak(2003)}.
+
+Do ponto de vista estrutural, a porção norte da bacia distingue-se da porção sul pela presença de um patamar no embasamento, na região da plataforma continental rasa. A evolução geológica da Bacia do Jequitinhonha é caracterizada por três megassequências principais \citep{santos_1994}:
+\begin{enumerate}
+ \item Megassequência relacionada a uma fase \textit{rift}, com sedimentação iniciada no Eoaptiano, cuja seção é
+ mais espessa na parte terrestre e na porção marítima sul, sendo caracterizada pelo Membro Mucuri (Formação
+ Mariricu);
+ \item Megassequência transicional caracteriza-se por evaporitos neoaptianos do Membro Itaúnas (Formação Mariricu), marcando o início de uma ingressão marinha.
+ \item Megassequência, pós-rifte ou marinha, formou-se durante a fase de deriva continental (drifte) e caracteriza-se pela acumulação de sedimentos marinhos transgressivos, depositados durante uma fase de subsidência termal da bacia, seguindo-se uma fase marinha regressiva. 
+\end{enumerate}
+
+Baseada no comportamento das falhas normais, a bacia é dividida em dois compartimentos tectônicos informais: norte e sul. No compartimento sul, apresenta falha de borda com grande rejeito, uma feição característica dessa região. No compartimento norte, esta mesma falha delimita uma sequência de blocos escalonados com mergulho geral para leste \citep{Cordoba(1990)}.
+
+A arquitetura tectono-estratigráfica do rifte Aptiano/Eoalbiano, mais novo e amplo, é semelhante à de uma bacia apenas estirada. Esse padrão pode ser um reflexo de um aporte incomum de calor, que teve início durante o Barremiano, causado pela domação, cujas rochas vulcânicas só extrudiram, na vizinhança sul da bacia, durante o Paleoceno e o Eoceno. O Complexo de Royal Charlotte é o testemunho desse evento; após soerguimento térmico delineou-se, durante o Aptiano e o Eoalbiano, as falhas extensionais que, com o arrefecimento posterior, formaram um sistema de riftes encravados numa larga depressão. 
+
+Estes riftes foram preenchidos, principalmente, por sedimentos terrígenos areno-argilosos em contexto flúvio lacustre, intercalados no topo com evaporitos, típicos de uma bacia rasa, que acumulou espessa camada de sedimentos simultaneamente à criação dos espaços baciais, colmatados por uma coluna sedimentar cuja espessura total é superior a \SI{3.5}{\km} \citep{Chagas(2003)}.
+
+A coluna estratigráfica da bacia de Jequitinhonha (Figura \ref{fig:carta_estrat_jeq}) é similar à de outras bacias da costa leste brasileira, evidenciando sedimentos lacustres da fase rifte iniciada no Eoaptiano, recobertos por rochas evaporíticas de idade Neo-aptiana e, subsequentemente, por rochas de margem passiva do oceano aberto relacionadas à subsidência térmica. Logo abaixo na tabela \ref{tabela_coluna_estratigrafica} é descrito um resumo simplicado das supersequências rifte, pós-rifte e drifte.
+
+Uma seção geológica esquemática da bacia é mostrada na figura \ref{fig:secao_geo_intro}, onde se destaca a ocorrência de uma fossa, de uma feição estrutural-estratigráfica associada à tectônica extensional causada pelo fluxo de sal \citep{Magnavita(1998)}.
+
+\begin{table}[H]
+\begin{tabular}{c| p{13cm}}
+\hline
+Formação & Descrição petrográfica \\
+\hline
+Cricaré & Unidade inferior do Grupo Nativo. Estágio inicial de sedimentação, que ocorreu durante a fase Rifte. 
+Composta pelos membros Jaguaré e Sernambi. 
+O membro Jaguaré corresponde a unidade basal que apresenta maiores espessuras nas porções terrestre e marítima sul, e consiste de arenitos intercalados com delgados níveis de folhelhos depositados em ambiente flúvio-lacustre durante o Barremiano. 
+O membro Sernambi corresponde a unidade superior que compreende coquinas e folhelhos depositados em ambiente continental fluvio-lacustre desde o final do Barremiano até o início do Aptiano \citep{Rangel(2007)}. \\
+\hline
+Mariricu & Unidade superior do Grupo Nativo. 
+Corresponde as primeiras incursões marinhas que delinearam a passagem do ambiente continental da fase Rifte para o ambiente marinho aberto da fase Drifte, de idade Aptiano. 
+Reune os membros Mucuri e Itaúnas. O Membro Mucuri é composto por arenitos e folhelhos depositados em ambiente lagunar durante o Mesoaptiano. 
+O Membro Itaúnas é composto por rochas evaporíticas, halita e anidrita, depositadas em ambiente marinho durante o Neoaptiano \citep{Santos(1994)}. \\
+\hline
+São Mateus & Grupo Barra Nova. Fase Drifte marcada pela implantação da crosta oceânica e do mar aberto, que se instalou a partir do Albiano.
+Consiste em sedimentos siliciclásticos grossos (principalmente arenitos), depositados em ambiente de leques deltaicos nas porções proximais da bacia durante o Albiano-Cenomaniano \citep{Rangel(2007)}. \\
+\hline
+Regência & Grupo Barra Nova. 
+Constituída por rochas carbonáticas, margas, calcissiltitos, calcilutitos e folhelhos de ambiente marinho nerítico. \\
+\hline
+Urucutuca & Grupo Espírito Santo. 
+Constituída por folhelhos, margas, calcarenitos e arenitos turbidíticos, depositados em ambiente marinho profundo (talude) inicialmente transgressivo (Turoniano-Maastrichtiano) e que gradou para marinho regressivo (Maastrichtiano-Pleistoceno). \\
+\hline
+Caravelas & Grupo Espírito Santo. 
+Compreende rochas carbonáticas plataformais depositadas em marinha regressiva, de idade Ypresiano-Pleistoceno. \\
+\hline
+Rio Doce & Grupo Espírito Santo. 
+Constituída por arenitos grossos característicos de leques costeiros em um sistema regressivo, gerados no intervalo Mesoeoceno (Lutetiano) a Pleistoceno. \\
+\hline
+Barreiras & Compreende os sedimentos siliciclásticos arenosos e argilosos fluviais-aluviais, a partir do intervalo Neomioceno (Tortoniano) até o Plioceno \citep{Rangel(2007)}. \\
+\hline
+\end{tabular}
+\caption{Coluna estratigráfica geológica simplificada da Bacia Jequitinhonha. Fonte: \citep{Aucilene(2016)}.}
+\label{tabela_coluna_estratigrafica}
+\end{table}
+
+\begin{landscape}
+\newpage
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.62]{figuras/cap2/carta_estratigrafica_jeq.pdf}
+\caption{Carta estratigráfica da Bacia de Jequitinhonha. Fonte: \citep{Rangel(2007)}.}
+\label{fig:carta_estrat_jeq}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.95]{figuras/cap2/secao_geologica_jeq.pdf}
+\caption{Seção geológica esquemática da Bacia do Jequitinhonha. Fonte: \citep{anp(2009)}.}
+\label{fig:secao_geo_intro}
+\end{figure}
+\end{landscape}
+
+\section{POSICIONAMENTO DA LINHA SÍSMICA}
+
+A linha sísmica 214-266 utilizada neste trabalho esta localizada na Bacia do Jequitinhonha. O dado $2D$ é do tipo dip\footnote[3]{Linha que são perpendiculares à região de quebra do talude.} e foi obtido na direção NW-SE conforme a figura \ref{fig:cap2_jequi2} ilustra o posicionamento da linha sísmica.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=12.0cm]{figuras/cap2/cap2_jequi2.pdf}
+\caption{Mapa simplificado com a localização da linha sísmica 214-266 da Bacia do Jequitinhonha, em destaque (linha laranja). Fonte: Modificado de dados da \citep{BDEP(2018)}.}
+\label{fig:cap2_jequi2}
+\end{figure}
+
+Nos levantamentos sísmicos são gerados relatórios de campo, através destes, são obtidas informações sobre os parâmetros da geometria de aquisição da linha sísmica. A aquisição foi realizada da parte mais rasa para a mais profunda. Foram realizados $1577$ tiros, totalizando aproximadamente $39,4 km$ de linha sísmica no azimute $50N$ (sentido NE). Os detalhes sobre a geometria estão resumidos na tabela \ref{tabela_aquisicao_jeq_NWSE}.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|c|}
+\hline
+\multicolumn{1}{|c|}{\textbf{LINHA SÍSMICA}} & \textbf{214-266} \\ \hline
+Número de fontes                             & 1577             \\ \hline
+Número de receptores                         & 120              \\ \hline
+Profundidade da fonte (m)                    & 9                \\ \hline
+Profundidade média do cabo (m)               & 10,5             \\ \hline
+Intervalos entre fontes (m)                  & 25               \\ \hline
+Intervalo entre receptores (m)               & 25               \\ \hline
+Afastamento máximo (m)                       & 3125             \\ \hline
+Afastamento mínimo (m)                       & 150              \\ \hline
+Número de CMP                                & 3272             \\ \hline
+Intervalo entre CMP                          & 12.5             \\ \hline
+Intervalo de amostragem (ms)                 & 4                \\ \hline
+Tempo de registro (s)                        & 7                \\ \hline
+\end{tabular}
+\caption{Parâmetros da aquisição do dado sísmico $2D$ marinho para a linha na direção NW-SE. Fonte: Relatórios de campo.}
+\label{tabela_aquisicao_jeq_NWSE}
+\end{table}
+
+% A Bacia de Camamu-Almada situa-se na costa leste brasileira, entre as cidades de Salvador e Ilhéus, no estado da Bahia (Figura \ref{fig:bacia_Camamu-Almada1}). Considerando suas porções emersas e marinhas até a cota batimétrica de $3.000$ metros, a bacia ocupa uma área total de $22.429 Km^2$. Seu limite norte com as bacias do Recôncavo e Jacuípe é determinado pela falha da barra e pelo sistema de falhas de Itapuã, respectivamente. Já o limite sul com a bacia de Jequitinhonha é representado pelo alto do embasamento denominado Alto de Olivença.
+
+% \section{MODELO GEOMÉTRICO}
+% 
+% 
+% \section{MODELO FÍSICO}
+% 
+% \textbf{Lei de Birch}
+% 
+% \textbf{Lei de Gardner}
+% 
+% \textbf{Modelo Vs versus Vp}
+% 
+% \textbf{Modelo porosidade versus Vp}
+% 
+% \textbf{Modelo de velocidade versus pressão efetiva}
+% 
+% \textbf{Figuras e Tabelas}

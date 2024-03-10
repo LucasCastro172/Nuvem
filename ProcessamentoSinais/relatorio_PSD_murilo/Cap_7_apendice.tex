@@ -1,0 +1,28 @@
+\appendix
+% \addcontentsline{doc}{chapter}{Ap\^endices}
+\label{apendice}
+
+\chapter{SHELL SCRIPT MODELAGEM TRIMODEL}
+\label{apendice_A}
+
+Este shell script foi escrito para utilizar a subrotina \textit{trimodel} do pacote Seismic Unix (SU). 
+O script gera a figura (2.2) do modelo de camadas curvas.
+
+\lstinputlisting[language=bash,breaklines=true]{codes/geomodel.sh}
+
+\chapter{SHELL SCRIPT AQUISIÇÃO TRISEIS}
+\label{apendice_B}
+
+Este shell script foi escrito para utilizar a subrotina \textit{triseis} do pacote Seismic Unix (SU). 
+O script gera a seção (binário) para o processamento.
+
+\lstinputlisting[language=bash,breaklines=true]{codes/acquisition.sh}
+
+
+\chapter{CÓDIGO MATLAB DE FILTRAGEM F-K}
+\label{apendice_C}
+Este script em matlab foi escrito para realizar a filtragem f-k. O script gera 12 figuras para o modelo de camadas curvas.
+Os parâmetros de entrada são os seguintes:
+
+\lstinputlisting[breaklines=true]{codes/Filtro_corte_FK.m}
+

@@ -1,0 +1,82 @@
+\appendix
+% \addcontentsline{doc}{chapter}{Ap\^endices}
+\label{apendice}
+
+\chapter{MATLAB SCRIPT TROREY}
+\label{apendice_A}
+Este script em matlab foi escrito para calcular a equação (3.52). 
+O script gera as figuras do modelo-1.
+% Os parâmetros de entrada são os seguintes:
+% \begin{itemize}
+%  \vspace{-0.4cm}
+%  \item R = Coeficiente de reflexão
+%  \vspace{-0.4cm}
+%  \item z = Profundidade do refletor em metros.
+%   \vspace{-0.4cm}
+%  \item v = Velocidade m/s.
+%    \vspace{-0.4cm}
+%  \item dt = Intervalo de discretização do tempo em segundos.
+%   \vspace{-0.4cm}
+%  \item Nptt = Número de pontos no tempo.
+%   \vspace{-0.4cm}
+%  \item dx = Intervalo de discretização no espaço.
+%   \vspace{-0.4cm}
+%  \item Nptx = Número de pontos na distância.
+%   \vspace{-0.4cm}
+%  \item x01 = Borda $x1$
+%   \vspace{-0.4cm}
+%  \item x02 = Borda $x2$
+%   \vspace{-0.4cm}
+%  \item coef\underline{\hspace{.10in}}a = Coeficiente a da função ganho.
+%   \vspace{-0.4cm}
+%  \item coef\underline{\hspace{.10in}}b = Coeficiente b da função ganho.
+%   \vspace{-0.4cm}
+% \end{itemize}
+
+\lstinputlisting[breaklines=true]{codes/Trorey_D2_Horizontal.m}
+
+\chapter{SHELL SCRIPT MIGRAÇÃO SUMIGTK}
+\label{apendice_B}
+Este shell script foi escrito para utilizar a função \textit{sumigtk} do pacote Seismic Unix (SU). 
+O script gera as figuras da migração denominada de Kirchhoff.
+Os parâmetros de entrada são os seguintes:
+\begin{itemize}
+ \vspace{-0.4cm}
+ \item Input = binário
+ \vspace{-0.4cm}
+ \item ns= número de pontos no tempo
+  \vspace{-0.4cm}
+ \item v = Velocidade m/s.
+   \vspace{-0.4cm}
+ \item dt = Intervalo de discretização do tempo em segundos.
+  \vspace{-0.4cm}
+ \item Nptt = Número de pontos no tempo.
+  \vspace{-0.4cm}
+ \item dx = Intervalo de discretização no espaço.
+  \vspace{-0.4cm}
+ \item Nptx = Número de pontos na distância.
+  \vspace{-0.4cm}
+ \item x01 = Borda $x1$
+  \vspace{-0.4cm}
+ \item x02 = Borda $x2$
+  \vspace{-0.4cm}
+ \item coef\underline{\hspace{.10in}}a = Coeficiente a da função ganho.
+  \vspace{-0.4cm}
+ \item coef\underline{\hspace{.10in}}b = Coeficiente b da função ganho.
+  \vspace{-0.4cm}
+\end{itemize}
+
+\lstinputlisting[language=bash,breaklines=true]{codes/section_add_head_mig_1.sh}
+
+\chapter{SHELL SCRIPT MIGRAÇÃO SUGAZMIG}
+\label{apendice_C}
+Este shell script foi escrito para utilizar a função \textit{sugazmig} do pacote Seismic Unix (SU). 
+O script gera as figuras da migração por deslocamaento-de-fase.
+Os parâmetros de entrada são os seguintes:
+
+
+
+\lstinputlisting[language=bash,breaklines=true]{codes/section_add_head_mig_phase_shift.sh}
+
+
+
