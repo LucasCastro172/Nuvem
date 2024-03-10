@@ -1,0 +1,71 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Latex tcc.aux
+The style file: plain.bst
+Database file #1: Bibliografia.bib
+Warning--to sort, need author, editor, or key in Ref1
+Warning--to sort, need author, editor, or key in Ref2
+Warning--to sort, need author, editor, or key in Ref3
+Warning--to sort, need author, editor, or key in dddd
+Warning--to sort, need author, editor, or key in Ref5
+Warning--to sort, need author, editor, or key in Ref6
+Warning--empty author and editor in Ref1
+Warning--empty title in Ref1
+Warning--empty publisher in Ref1
+Warning--empty author and editor in Ref6
+Warning--empty title in Ref6
+Warning--empty publisher in Ref6
+Warning--empty author and editor in Ref2
+Warning--empty title in Ref2
+Warning--empty publisher in Ref2
+Warning--empty author and editor in Ref5
+Warning--empty title in Ref5
+Warning--empty publisher in Ref5
+Warning--empty author and editor in dddd
+Warning--empty title in dddd
+Warning--empty publisher in dddd
+Warning--empty author and editor in Ref3
+Warning--empty title in Ref3
+Warning--empty publisher in Ref3
+You've used 6 entries,
+            2118 wiz_defined-function locations,
+            514 strings with 4975 characters,
+and the built_in function-call counts, 1058 in all, are:
+= -- 78
+> -- 6
+< -- 0
++ -- 6
+- -- 0
+* -- 86
+:= -- 117
+add.period$ -- 6
+call.type$ -- 6
+change.case$ -- 12
+chr.to.int$ -- 0
+cite$ -- 30
+duplicate$ -- 78
+empty$ -- 145
+format.name$ -- 0
+if$ -- 235
+int.to.chr$ -- 0
+int.to.str$ -- 6
+missing$ -- 6
+newline$ -- 21
+num.names$ -- 0
+pop$ -- 66
+preamble$ -- 1
+purify$ -- 12
+quote$ -- 0
+skip$ -- 36
+stack$ -- 0
+substring$ -- 30
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 12
+warning$ -- 24
+while$ -- 0
+width$ -- 7
+write$ -- 32
+(There were 24 warnings)

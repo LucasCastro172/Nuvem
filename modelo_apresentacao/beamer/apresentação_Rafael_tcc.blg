@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: apresentação_Rafael_tcc.aux
+The style file: plain.bst
+Database file #1: Bibliografia.bib
+Warning--to sort, need author, editor, or key in Ref1
+Warning--to sort, need author, editor, or key in Ref2
+Warning--to sort, need author, editor, or key in Ref3
+Warning--empty author and editor in Ref1
+Warning--empty title in Ref1
+Warning--empty publisher in Ref1
+Warning--empty author and editor in Ref2
+Warning--empty title in Ref2
+Warning--empty publisher in Ref2
+Warning--empty author and editor in Ref3
+Warning--empty title in Ref3
+Warning--empty publisher in Ref3
+You've used 3 entries,
+            2118 wiz_defined-function locations,
+            506 strings with 4633 characters,
+and the built_in function-call counts, 539 in all, are:
+= -- 39
+> -- 3
+< -- 0
++ -- 3
+- -- 0
+* -- 44
+:= -- 63
+add.period$ -- 3
+call.type$ -- 3
+change.case$ -- 6
+chr.to.int$ -- 0
+cite$ -- 15
+duplicate$ -- 39
+empty$ -- 73
+format.name$ -- 0
+if$ -- 118
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 3
+newline$ -- 12
+num.names$ -- 0
+pop$ -- 33
+preamble$ -- 1
+purify$ -- 6
+quote$ -- 0
+skip$ -- 18
+stack$ -- 0
+substring$ -- 15
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 6
+warning$ -- 12
+while$ -- 0
+width$ -- 4
+write$ -- 17
+(There were 12 warnings)

@@ -1,0 +1,337 @@
+This is e-TeX, Version 3.141592-2.1 (MiKTeX 2.4) (preloaded format=latex 2022.3.16)  1 DEC 2022 21:29
+entering extended mode
+**apresentação_Rafael.tex
+(apresentação_Rafael.tex
+LaTeX2e <2001/06/01>
+Babel <v3.7m> and hyphenation patterns for english, french, german, ngerman, du
+mylang, nohyphenation, loaded.
+(C:\texmf\tex\latex\beamer\base\beamer.cls
+Document Class: beamer 2004/02/19 v2.01 Class for Typesetting a Beamer Presenta
+tion
+\beamer@tempbox=\box26
+\beamer@version=\dimen102
+(C:\texmf\tex\latex\beamer\base\beamerbasemodes.sty
+Package: beamerbasemodes 2004/01/24 ver 1.30
+
+(C:\texmf\tex\latex\beamer\base\beamerbasedecode.sty
+Package: beamerbasedecode 2004/01/10 ver 1.30
+\beamer@slideinframe=\count79
+\beamer@minimum=\count80
+)
+\beamer@commentbox=\box27
+)
+\headheight=\dimen103
+\headdp=\dimen104
+\footheight=\dimen105
+\sidebarheight=\dimen106
+\beamer@tempdim=\dimen107
+\beamer@finalheight=\dimen108
+\beamer@animht=\dimen109
+\beamer@animdp=\dimen110
+\beamer@animwd=\dimen111
+\beamer@leftmargin=\dimen112
+\beamer@rightmargin=\dimen113
+\beamer@leftsidebar=\dimen114
+\beamer@rightsidebar=\dimen115
+\beamer@boxsize=\dimen116
+\beamer@vboxoffset=\dimen117
+\beamer@descdefault=\dimen118
+\beamer@descdefaulttemp=\dimen119
+\beamer@lastskip=\skip41
+\beamer@areabox=\box28
+\beamer@animcurrent=\box29
+\beamer@animshowbox=\box30
+\beamer@sectionbox=\box31
+\beamer@logobox=\box32
+\beamer@linebox=\box33
+\beamer@tempcount=\count81
+\beamer@sectioncount=\count82
+\beamer@subsectionmax=\count83
+\beamer@sectionmax=\count84
+\beamer@totalheads=\count85
+\beamer@headcounter=\count86
+\beamer@partstartpage=\count87
+\beamer@sectionstartpage=\count88
+\beamer@subsectionstartpage=\count89
+\beamer@pausecount=\count90
+\beamer@animationtempa=\count91
+\beamer@animationtempb=\count92
+\beamer@xpos=\count93
+\beamer@ypos=\count94
+\beamer@showpartnumber=\count95
+\beamer@currentsubsection=\count96
+\beamer@coveringdepth=\count97
+\beamer@sectionadjust=\count98
+\beamer@tocsectionnumber=\count99
+
+(C:\texmf\tex\latex\beamer\base\beamerbaseoptions.sty
+Package: beamerbaseoptions 2004/02/06 ver 1.30
+
+(C:\texmf\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)) (C:\texmf\tex\latex\pgf\pgf.sty
+Package: pgf 2003/12/02 ver 0.60
+\pgf@objectcount=\count100
+
+(C:\texmf\tex\latex\graphics\epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+(C:\texmf\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\texmf\tex\latex\graphics\graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+ (C:\texmf\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+) (C:\texmf\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2003/03/12 v1.1 MiKTeX 'graphics' configuration
+)
+Package graphics Info: Driver file: dvips.def on input line 80.
+
+(C:\texmf\tex\latex\graphics\dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen120
+\Gin@req@width=\dimen121
+)
+\epsfxsize=\dimen122
+\epsfysize=\dimen123
+)
+(C:\texmf\tex\latex\xcolor\xcolor.sty
+Package: xcolor 2004/02/16 v1.09 LaTeX color extensions (UK)
+ (C:\texmf\tex\latex\graphics\color.sty
+Package: color 1999/02/16 v1.0i Standard LaTeX Color (DPC)
+
+(C:\texmf\tex\latex\00miktex\color.cfg
+File: color.cfg 2003/03/08 v1.0 MiKTeX 'color' configuration
+)
+Package color Info: Driver file: dvips.def on input line 125.
+
+(C:\texmf\tex\latex\graphics\dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+Package xcolor Info: Color model `cmy' added on input line 681.
+Package xcolor Info: Color model `HTML' added on input line 709.
+Package xcolor Info: Color model `HSB' added on input line 715.
+Package xcolor Info: Color model `Gray' added on input line 721.
+\rownum=\count101
+Package xcolor Info: Starting to (re)define basic colors on input line 772.
+Package color Info: Redefining color red on input line 773.
+Package color Info: Redefining color green on input line 774.
+Package color Info: Redefining color blue on input line 775.
+Package color Info: Redefining color cyan on input line 776.
+Package color Info: Redefining color magenta on input line 777.
+Package color Info: Redefining color yellow on input line 778.
+Package color Info: Redefining color black on input line 783.
+Package color Info: Redefining color white on input line 784.
+)
+\pdfoutput=\count102
+\pgf@linewidth=\dimen124
+\pgfpic=\box34
+\pgf@hbox=\box35
+\pgf@tempbox=\box36
+\pgf@aax=\dimen125
+\pgf@aay=\dimen126
+\pgf@abx=\dimen127
+\pgf@aby=\dimen128
+\pgf@bax=\dimen129
+\pgf@bay=\dimen130
+\pgf@bbx=\dimen131
+\pgf@bby=\dimen132
+\pgf@x=\dimen133
+\pgf@y=\dimen134
+\pgf@xa=\dimen135
+\pgf@ya=\dimen136
+\pgf@xb=\dimen137
+\pgf@yb=\dimen138
+\pgf@xc=\dimen139
+\pgf@yc=\dimen140
+\pgfobjectbox=\box37
+\pgf@xx=\dimen141
+\pgf@xy=\dimen142
+\pgf@yx=\dimen143
+\pgf@yy=\dimen144
+\pgf@zx=\dimen145
+\pgf@zy=\dimen146
+\pgf@counta=\count103
+\pgf@countb=\count104
+)
+(C:\texmf\tex\latex\pgf\xxcolor.sty
+Package: xxcolor 2003/10/24 ver 0.1
+) (C:\texmf\tex\latex\amsfonts\amssymb.sty
+Package: amssymb 2002/01/22 v2.2d
+
+(C:\texmf\tex\latex\amsfonts\amsfonts.sty
+Package: amsfonts 2001/10/25 v2.2f
+\@emptytoks=\toks15
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
+))
+(C:\texmf\tex\latex\geometry\geometry.sty
+Package: geometry 2002/07/08 v3.2 Page Geometry
+\Gm@cnth=\count105
+\Gm@cntv=\count106
+\c@Gm@tempcnt=\count107
+\Gm@bindingoffset=\dimen147
+\Gm@wd@mp=\dimen148
+\Gm@odd@mp=\dimen149
+\Gm@even@mp=\dimen150
+\Gm@dimlist=\toks16
+
+(C:\texmf\tex\latex\geometry\geometry.cfg))
+(C:\texmf\tex\latex\hyperref\hyperref.sty
+Package: hyperref 2003/11/30 v6.74m Hypertext links for LaTeX
+\@linkdim=\dimen151
+\Hy@linkcounter=\count108
+\Hy@pagecounter=\count109
+
+(C:\texmf\tex\latex\hyperref\pd1enc.def
+File: pd1enc.def 2003/11/30 v6.74m Hyperref: PDFDocEncoding definition (HO)
+)
+(C:\texmf\tex\latex\00miktex\hyperref.cfg
+File: hyperref.cfg 2003/03/08 v1.0 MiKTeX 'hyperref' configuration
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 1830.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 1830.
+Package hyperref Info: Option `implicit' set `false' on input line 1830.
+Package hyperref Info: Hyper figures OFF on input line 1880.
+Package hyperref Info: Link nesting OFF on input line 1885.
+Package hyperref Info: Hyper index ON on input line 1888.
+Package hyperref Info: Plain pages ON on input line 1893.
+Package hyperref Info: Backreferencing OFF on input line 1900.
+
+Implicit mode OFF; no redefinition of LaTeX internals
+Package hyperref Info: Bookmarks ON on input line 2004.
+(C:\texmf\tex\latex\ltxmisc\url.sty
+\Urlmuskip=\muskip10
+Package: url 2003/11/24  ver 3.0  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 2143.
+\Fld@menulength=\count110
+\Field@Width=\dimen152
+\Fld@charsize=\dimen153
+\Choice@toks=\toks17
+\Field@toks=\toks18
+Package hyperref Info: Hyper figures OFF on input line 2618.
+Package hyperref Info: Link nesting OFF on input line 2623.
+Package hyperref Info: Hyper index ON on input line 2626.
+Package hyperref Info: backreferencing OFF on input line 2633.
+Package hyperref Info: Link coloring OFF on input line 2638.
+
+Hyperref stopped early
+)
+*hyperref using default driver hypertex*
+(C:\texmf\tex\latex\hyperref\hypertex.def
+File: hypertex.def 2003/11/30 v6.74m Hyperref driver for HyperTeX specials
+) (C:\texmf\tex\latex\base\size11.clo
+File: size11.clo 2001/04/21 v1.4e Standard LaTeX file (size option)
+) (C:\texmf\tex\latex\beamer\base\beamerbasecompatibility.sty
+Package: beamerbasecompatibility 2004/01/10 ver 1.20
+)
+(C:\texmf\tex\latex\beamer\base\beamerbasefont.sty
+Package: beamerbasefont 2004/01/10 ver 1.20
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 113.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 116.
+)
+(C:\texmf\tex\latex\beamer\base\beamerbasemisc.sty
+Package: beamerbasemisc 2004/01/10 ver 1.20
+
+No file apresentação_Rafael.nav.
+) (C:\texmf\tex\latex\beamer\base\beamerbaseoverlay.sty
+Package: beamerbaseoverlay 2004/01/10 ver 1.20
+\beamer@argscount=\count111
+\beamer@lastskipcover=\skip42
+\beamer@trivlistdepth=\count112
+)
+(C:\texmf\tex\latex\beamer\base\beamerbasetitle.sty
+Package: beamerbasetitle 2004/01/10 ver 1.20
+)
+(C:\texmf\tex\latex\beamer\base\beamerbasesection.sty
+Package: beamerbasesection 2004/01/10 ver 1.20
+\c@lecture=\count113
+\c@part=\count114
+\c@section=\count115
+\c@subsection=\count116
+)
+(C:\texmf\tex\latex\beamer\base\beamerbaseframe.sty
+Package: beamerbaseframe 2004/01/10 ver 1.20
+\beamer@framebox=\box38
+\c@subsectionslide=\count117
+\c@framenumber=\count118
+)
+(C:\texmf\tex\latex\beamer\base\beamerbaseframecomponents.sty
+Package: beamerbaseframecomponents 2004/01/10 ver 1.20
+)
+(C:\texmf\tex\latex\beamer\base\beamerbasecolor.sty
+Package: beamerbasecolor 2004/01/10 ver 1.20
+)
+(C:\texmf\tex\latex\beamer\base\beamerbasenotes.sty
+Package: beamerbasenotes 2004/02/05 ver 1.30
+\beamer@frameboxcopy=\box39
+)
+(C:\texmf\tex\latex\beamer\base\beamerbasetoc.sty
+Package: beamerbasetoc 2004/01/10 ver 1.20
+)
+(C:\texmf\tex\latex\beamer\base\beamerbasetemplates.sty
+Package: beamerbasetemplates 2004/02/24 ver 2.01
+
+(C:\texmf\tex\latex\pgf\pgfshade.sty
+Package: pgfshade 2003/08/20 ver 0.11
+\pgf@max=\dimen154
+)
+(C:\texmf\tex\latex\beamer\base\beamerbaseboxes.sty
+Package: beamerbaseboxes 2004/01/10 ver 1.20
+\bmb@box=\box40
+\bmb@temp=\dimen155
+\bmb@dima=\dimen156
+\bmb@dimb=\dimen157
+\bmb@prevheight=\dimen158
+)
+\beamer@dima=\dimen159
+\beamer@dimb=\dimen160
+\beamer@blockheadheight=\dimen161
+)
+(C:\texmf\tex\latex\beamer\base\beamerbaselocalstructure.sty
+Package: beamerbaselocalstructure 2004/01/10 ver 1.20
+
+(C:\texmf\tex\latex\tools\enumerate.sty
+Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
+\@enLab=\toks19
+)
+\c@figure=\count119
+\c@table=\count120
+\abovecaptionskip=\skip43
+\belowcaptionskip=\skip44
+)
+(C:\texmf\tex\latex\beamer\base\beamerbasenavigation.sty
+Package: beamerbasenavigation 2004/01/10 ver 1.20
+))
+
+! LaTeX Error: File `beamerseminar.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.5 \usepackage
+               [utf8]{inputenc}
+*** (cannot \read from terminal in nonstop modes)
+
+ 
+Here is how much of TeX's memory you used:
+ 4963 strings out of 95933
+ 75135 string characters out of 1195657
+ 150835 words of memory out of 1154899
+ 7777 multiletter control sequences out of 35000
+ 4545 words of font info for 17 fonts, out of 500000 for 1000
+ 14 hyphenation exceptions out of 607
+ 46i,5n,51p,255b,187s stack positions out of 1500i,500n,5000p,200000b,32768s
+No pages of output.

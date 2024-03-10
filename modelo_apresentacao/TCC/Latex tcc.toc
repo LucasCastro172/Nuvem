@@ -1,0 +1,17 @@
+\babel@toc {brazil}{}
+\contentsline {section}{\numberline {1}Introdu\c c\~ao}{10}%
+\contentsline {section}{\numberline {2}Equa\c c\~oes Diferenciais de Primeira Ordem}{11}%
+\contentsline {subsection}{\numberline {2.1}Equa\c c\~oes Diferenciais Lineares de Primeira Ordem}{11}%
+\contentsline {subsection}{\numberline {2.2}Equa\c c\~oes Separ\'aveis}{16}%
+\contentsline {section}{\numberline {3}Aplica\c c\~oes}{22}%
+\contentsline {subsection}{\numberline {3.1}Din\^amica de uma Popula\c c\~ao e No\c c\~oes de Estabilidade}{22}%
+\contentsline {subsubsection}{\numberline {3.1.1}O Modelo Malthusiano}{22}%
+\contentsline {subsubsection}{\numberline {3.1.2}O Modelo de Verhulst - A Log\IeC {\'\i }stica}{23}%
+\contentsline {subsection}{\numberline {3.2}Resfriamento de um Corpo}{26}%
+\contentsline {subsection}{\numberline {3.3}Dilui\c c\~ao de Solu\c c\~oes}{31}%
+\contentsline {subsection}{\numberline {3.4}Por que uma corda enrolada em um poste sustenta um barco?}{34}%
+\contentsline {subsection}{\numberline {3.5}A Tractriz}{40}%
+\contentsline {subsection}{\numberline {3.6}A Caten\'aria}{44}%
+\contentsline {subsection}{\numberline {3.7}Espelho Parab\'olico}{48}%
+\contentsline {subsection}{\numberline {3.8}As Curvas de Persegui\c c\~ao}{52}%
+\contentsline {section}{Refer\^encias}{57}%
